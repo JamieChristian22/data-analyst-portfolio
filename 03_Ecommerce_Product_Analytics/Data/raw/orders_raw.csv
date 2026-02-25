@@ -1,0 +1,3038 @@
+session_id,session_date,device,channel,sku,category,discount_applied,order_value,units
+16,2025-07-02,Desktop,Paid Social,SKU-0253,Apparel,0,38.82,3
+20,2025-10-03,Mobile,Organic,SKU-0047,Apparel,1,47.27,3
+23,2025-11-26,Mobile,Organic,SKU-0342,Apparel,1,65.95,3
+41,2025-04-15,Desktop,Email,SKU-0333,Apparel,0,83.87,1
+43,2025-08-27,Desktop,Organic,SKU-0136,Fitness,0,29.58,1
+51,2025-01-30,Desktop,Paid Search,SKU-0166,Apparel,1,63.91,2
+52,2025-12-06,Mobile,Organic,SKU-0291,Beauty,1,114.78,3
+54,2025-10-28,Desktop,Paid Social,SKU-0332,Electronics,0,20.9,1
+60,2025-03-18,Mobile,Paid Social,SKU-0021,Home,0,59.1,2
+75,2025-11-26,Desktop,Email,SKU-0257,Electronics,0,82.12,3
+80,2025-11-28,Mobile,Paid Search,SKU-0174,Home,1,45.55,2
+112,2025-05-10,Desktop,Organic,SKU-0067,Electronics,1,76.11,1
+117,2025-06-03,Mobile,Email,SKU-0249,Beauty,0,74.24,1
+122,2025-10-07,Desktop,Organic,SKU-0026,Beauty,0,87.91,1
+128,2025-11-19,Desktop,Paid Search,SKU-0358,Apparel,0,73.26,3
+131,2025-03-29,Mobile,Affiliate,SKU-0325,Home,0,72.13,2
+150,2025-08-30,Desktop,Organic,SKU-0367,Electronics,0,65.02,2
+162,2025-12-26,Mobile,Organic,SKU-0036,Home,1,32.26,2
+167,2025-12-15,Mobile,Organic,SKU-0108,Electronics,1,43.0,3
+186,2025-07-17,Desktop,Paid Search,SKU-0123,Home,1,43.36,3
+187,2025-12-16,Mobile,Affiliate,SKU-0123,Fitness,1,65.92,3
+189,2025-04-04,Mobile,Organic,SKU-0096,Electronics,0,109.68,3
+193,2025-01-30,Desktop,Affiliate,SKU-0157,Home,0,38.78,3
+215,2025-12-07,Desktop,Paid Social,SKU-0307,Electronics,1,67.73,3
+217,2025-10-22,Desktop,Paid Social,SKU-0364,Home,0,84.57,1
+228,2025-09-05,Desktop,Paid Search,SKU-0394,Home,0,106.71,2
+238,2025-04-27,Desktop,Organic,SKU-0253,Fitness,0,83.19,2
+242,2025-04-18,Mobile,Email,SKU-0004,Beauty,0,88.46,1
+250,2025-06-19,Desktop,Email,SKU-0097,Fitness,1,45.33,3
+252,2025-07-06,Mobile,Paid Search,SKU-0247,Apparel,1,57.13,2
+260,2025-12-14,Desktop,Organic,SKU-0323,Apparel,0,116.15,2
+282,2025-12-05,Desktop,Email,SKU-0182,Apparel,1,34.76,1
+286,2025-03-17,Desktop,Email,SKU-0072,Home,0,67.9,2
+292,2025-03-19,Desktop,Affiliate,SKU-0295,Fitness,1,75.63,1
+297,2025-08-22,Desktop,Organic,SKU-0030,Home,1,94.78,2
+302,2025-06-18,Desktop,Paid Search,SKU-0111,Home,0,69.39,1
+306,2025-12-11,Desktop,Affiliate,SKU-0182,Fitness,1,47.0,1
+309,2025-07-23,Desktop,Paid Search,SKU-0202,Home,1,54.25,3
+316,2025-10-24,Mobile,Paid Social,SKU-0063,Home,1,80.59,3
+317,2025-11-18,Desktop,Organic,SKU-0239,Beauty,0,69.99,3
+324,2025-06-05,Mobile,Paid Social,SKU-0092,Apparel,1,82.5,1
+343,2025-07-27,Desktop,Organic,SKU-0079,Fitness,1,68.52,2
+346,2025-01-29,Mobile,Affiliate,SKU-0234,Apparel,0,54.17,2
+351,2025-05-10,Mobile,Email,SKU-0285,Apparel,0,99.07,3
+374,2025-03-12,Desktop,Paid Search,SKU-0320,Electronics,1,83.0,2
+376,2025-03-14,Desktop,Paid Search,SKU-0161,Fitness,0,58.69,3
+377,2025-07-17,Desktop,Paid Social,SKU-0015,Electronics,1,63.6,2
+383,2025-09-01,Desktop,Affiliate,SKU-0221,Apparel,0,85.1,1
+385,2025-03-02,Desktop,Paid Social,SKU-0334,Apparel,0,79.07,3
+397,2025-11-11,Desktop,Email,SKU-0118,Beauty,0,36.05,1
+402,2025-11-14,Mobile,Paid Social,SKU-0119,Apparel,0,70.77,1
+403,2025-10-16,Desktop,Affiliate,SKU-0024,Home,1,35.85,3
+405,2025-05-18,Desktop,Paid Search,SKU-0327,Apparel,0,40.93,3
+414,2025-08-24,Mobile,Paid Search,SKU-0181,Electronics,0,57.33,2
+415,2025-02-11,Desktop,Organic,SKU-0122,Apparel,0,104.25,2
+426,2025-10-20,Mobile,Paid Search,SKU-0370,Apparel,1,13.63,3
+431,2025-12-02,Mobile,Paid Search,SKU-0029,Beauty,1,49.2,3
+439,2025-03-31,Desktop,Affiliate,SKU-0051,Apparel,0,121.72,2
+449,2025-11-11,Mobile,Affiliate,SKU-0122,Apparel,0,48.76,3
+452,2025-05-04,Mobile,Organic,SKU-0024,Apparel,1,44.14,2
+468,2025-06-29,Mobile,Affiliate,SKU-0318,Home,0,49.03,1
+491,2025-06-17,Mobile,Affiliate,SKU-0033,Home,0,80.44,1
+509,2025-04-12,Desktop,Paid Search,SKU-0134,Apparel,0,87.81,1
+521,2025-07-11,Mobile,Affiliate,SKU-0227,Fitness,1,83.23,1
+522,2025-02-17,Mobile,Organic,SKU-0360,Home,0,56.84,1
+554,2025-07-07,Desktop,Paid Search,SKU-0155,Fitness,1,57.72,3
+556,2025-04-04,Desktop,Email,SKU-0323,Beauty,0,65.59,2
+562,2025-11-14,Desktop,Organic,SKU-0333,Apparel,0,84.23,2
+568,2025-01-01,Desktop,Paid Social,SKU-0140,Apparel,1,61.48,1
+571,2025-06-15,Mobile,Paid Search,SKU-0201,Electronics,0,66.85,3
+574,2025-04-08,Mobile,Organic,SKU-0073,Apparel,1,110.89,2
+597,2025-10-27,Mobile,Organic,SKU-0068,Beauty,0,64.86,3
+605,2025-06-29,Mobile,Organic,SKU-0302,Fitness,0,81.01,2
+628,2025-04-25,Desktop,Paid Search,SKU-0155,Electronics,1,72.58,3
+635,2025-03-26,Desktop,Paid Search,SKU-0377,Fitness,0,97.12,3
+638,2025-05-01,Mobile,Paid Social,SKU-0369,Electronics,1,67.59,3
+643,2025-05-26,Desktop,Paid Search,SKU-0269,Beauty,1,97.24,1
+644,2025-08-30,Mobile,Organic,SKU-0190,Home,1,59.12,1
+645,2025-06-29,Desktop,Affiliate,SKU-0301,Home,0,68.52,2
+646,2025-12-22,Desktop,Paid Search,SKU-0276,Home,0,61.23,1
+649,2025-07-29,Mobile,Paid Search,SKU-0366,Apparel,1,31.76,2
+669,2025-01-20,Desktop,Email,SKU-0287,Apparel,0,75.14,1
+687,2025-05-18,Mobile,Paid Search,SKU-0146,Home,1,32.79,2
+707,2025-09-15,Desktop,Paid Search,SKU-0070,Home,0,136.28,3
+709,2025-06-22,Desktop,Paid Search,SKU-0145,Apparel,0,98.01,2
+715,2025-06-16,Mobile,Paid Social,SKU-0204,Home,0,82.35,1
+722,2025-06-11,Mobile,Affiliate,SKU-0055,Home,0,64.09,1
+723,2025-04-23,Desktop,Email,SKU-0289,Apparel,0,21.96,1
+735,2025-09-02,Desktop,Paid Search,SKU-0334,Apparel,1,55.2,2
+741,2025-06-30,Mobile,Affiliate,SKU-0389,Fitness,1,29.77,1
+753,2025-03-16,Desktop,Paid Social,SKU-0309,Beauty,0,64.45,2
+758,2025-02-21,Mobile,Paid Social,SKU-0134,Apparel,0,122.55,1
+760,2025-10-02,Desktop,Paid Social,SKU-0262,Home,0,63.84,2
+775,2025-06-14,Mobile,Organic,SKU-0194,Home,0,65.74,3
+782,2025-03-22,Mobile,Organic,SKU-0168,Apparel,0,71.44,2
+810,2025-03-01,Desktop,Paid Search,SKU-0126,Electronics,1,131.02,2
+813,2025-05-01,Mobile,Organic,SKU-0047,Fitness,0,68.34,3
+827,2025-02-08,Mobile,Email,SKU-0150,Beauty,0,46.02,3
+832,2025-11-19,Desktop,Paid Social,SKU-0373,Beauty,1,80.9,1
+835,2025-09-16,Desktop,Paid Search,SKU-0265,Electronics,0,102.48,2
+856,2025-07-26,Desktop,Paid Search,SKU-0297,Electronics,1,35.51,2
+860,2025-10-12,Desktop,Paid Social,SKU-0318,Home,0,88.89,2
+866,2025-01-17,Desktop,Organic,SKU-0126,Home,0,59.54,1
+868,2025-07-11,Desktop,Paid Search,SKU-0170,Home,0,64.68,2
+877,2025-10-17,Desktop,Email,SKU-0175,Apparel,1,72.65,3
+885,2025-08-30,Mobile,Email,SKU-0055,Home,1,84.77,2
+891,2025-01-14,Desktop,Paid Search,SKU-0147,Electronics,1,29.94,1
+900,2025-08-28,Mobile,Paid Search,SKU-0241,Beauty,0,88.62,1
+904,2025-10-02,Desktop,Paid Social,SKU-0241,Apparel,1,34.76,3
+909,2025-03-13,Desktop,Paid Search,SKU-0169,Home,0,89.63,2
+917,2025-11-21,Desktop,Organic,SKU-0192,Home,1,86.07,3
+926,2025-01-10,Mobile,Paid Search,SKU-0287,Beauty,0,79.42,1
+934,2025-02-08,Desktop,Organic,SKU-0383,Apparel,0,78.16,2
+971,2025-04-27,Mobile,Paid Search,SKU-0197,Apparel,0,77.44,3
+973,2025-04-24,Desktop,Paid Social,SKU-0318,Electronics,1,81.01,2
+991,2025-11-25,Desktop,Email,SKU-0202,Apparel,1,58.11,2
+992,2025-05-03,Mobile,Email,SKU-0326,Apparel,1,50.21,2
+994,2025-04-08,Desktop,Paid Search,SKU-0036,Apparel,1,66.46,1
+1001,2025-06-14,Mobile,Paid Social,SKU-0051,Apparel,0,72.29,2
+1012,2025-07-01,Desktop,Paid Social,SKU-0206,Fitness,1,54.74,2
+1020,2025-06-30,Desktop,Organic,SKU-0310,Electronics,1,46.54,1
+1022,2025-10-08,Desktop,Organic,SKU-0214,Fitness,0,21.52,3
+1028,2025-12-17,Desktop,Email,SKU-0247,Beauty,1,74.39,3
+1031,2025-03-08,Desktop,Paid Search,SKU-0254,Home,1,76.21,1
+1042,2025-02-13,Desktop,Paid Social,SKU-0301,Apparel,0,115.48,1
+1060,2025-03-08,Desktop,Email,SKU-0358,Apparel,1,80.33,2
+1068,2025-03-08,Desktop,Paid Search,SKU-0382,Beauty,1,56.54,1
+1073,2025-12-06,Desktop,Affiliate,SKU-0205,Electronics,0,92.21,3
+1076,2025-10-26,Desktop,Affiliate,SKU-0308,Beauty,1,64.16,3
+1078,2025-01-11,Desktop,Affiliate,SKU-0238,Home,0,59.37,1
+1079,2025-01-13,Mobile,Paid Search,SKU-0018,Beauty,0,103.88,2
+1080,2025-05-24,Desktop,Paid Search,SKU-0315,Home,0,69.56,1
+1082,2025-04-17,Desktop,Paid Social,SKU-0007,Fitness,1,97.72,2
+1094,2025-02-21,Mobile,Paid Search,SKU-0050,Fitness,0,84.64,2
+1112,2025-01-28,Desktop,Affiliate,SKU-0339,Beauty,0,71.88,1
+1113,2025-06-02,Mobile,Email,SKU-0097,Electronics,0,75.73,3
+1114,2025-11-03,Desktop,Paid Search,SKU-0100,Home,0,88.5,3
+1129,2025-03-21,Mobile,Paid Search,SKU-0205,Home,0,48.49,3
+1132,2025-01-19,Desktop,Affiliate,SKU-0258,Apparel,1,35.18,3
+1137,2025-01-05,Mobile,Paid Search,SKU-0361,Apparel,1,31.53,2
+1141,2025-02-18,Desktop,Email,SKU-0366,Beauty,1,65.8,3
+1143,2025-05-21,Desktop,Paid Social,SKU-0394,Fitness,0,121.1,2
+1144,2025-12-28,Mobile,Paid Search,SKU-0038,Home,0,31.67,3
+1163,2025-09-16,Mobile,Paid Search,SKU-0058,Beauty,1,33.91,1
+1176,2025-01-15,Desktop,Email,SKU-0351,Apparel,1,27.01,3
+1180,2025-10-04,Desktop,Paid Social,SKU-0267,Home,0,84.11,1
+1184,2025-09-16,Desktop,Paid Search,SKU-0289,Apparel,0,47.35,3
+1188,2025-01-15,Desktop,Email,SKU-0126,Home,0,10.0,2
+1193,2025-08-05,Desktop,Email,SKU-0073,Apparel,0,44.76,3
+1200,2025-04-22,Desktop,Affiliate,SKU-0268,Home,0,58.03,1
+1202,2025-04-08,Desktop,Affiliate,SKU-0030,Apparel,0,105.03,2
+1203,2025-07-27,Desktop,Organic,SKU-0011,Electronics,0,89.82,3
+1206,2025-06-27,Mobile,Paid Search,SKU-0079,Beauty,1,9.2,1
+1212,2025-11-13,Desktop,Affiliate,SKU-0180,Home,1,72.96,3
+1231,2025-04-02,Desktop,Organic,SKU-0021,Apparel,0,39.39,2
+1242,2025-12-30,Mobile,Paid Search,SKU-0080,Beauty,0,41.04,3
+1246,2025-03-19,Desktop,Paid Search,SKU-0055,Beauty,0,96.03,2
+1250,2025-12-28,Desktop,Organic,SKU-0004,Home,1,34.25,2
+1266,2025-01-11,Mobile,Organic,SKU-0147,Home,0,61.78,1
+1287,2025-07-19,Desktop,Paid Social,SKU-0240,Apparel,0,99.0,1
+1292,2025-06-26,Desktop,Organic,SKU-0262,Apparel,0,67.72,3
+1294,2025-12-01,Desktop,Paid Search,SKU-0055,Beauty,0,57.47,2
+1297,2025-01-05,Desktop,Email,SKU-0196,Apparel,0,42.42,2
+1302,2025-11-23,Desktop,Paid Search,SKU-0300,Electronics,0,31.56,2
+1310,2025-08-26,Mobile,Paid Social,SKU-0286,Electronics,1,54.96,1
+1311,2025-06-18,Desktop,Affiliate,SKU-0365,Apparel,0,88.25,1
+1316,2025-07-19,Desktop,Paid Social,SKU-0136,Beauty,1,37.05,3
+1320,2025-06-18,Desktop,Paid Search,SKU-0160,Fitness,0,84.85,3
+1341,2025-10-27,Mobile,Paid Search,SKU-0242,Fitness,0,80.41,3
+1344,2025-05-12,Desktop,Email,SKU-0103,Electronics,0,55.59,2
+1365,2025-05-03,Desktop,Organic,SKU-0371,Home,1,52.3,1
+1369,2025-12-16,Mobile,Organic,SKU-0126,Home,1,40.27,2
+1371,2025-07-13,Desktop,Paid Search,SKU-0197,Electronics,1,14.89,2
+1385,2025-03-18,Desktop,Email,SKU-0142,Fitness,1,73.01,2
+1386,2025-03-21,Mobile,Organic,SKU-0314,Electronics,1,79.22,2
+1389,2025-02-21,Desktop,Affiliate,SKU-0201,Home,0,99.68,1
+1392,2025-07-29,Desktop,Paid Social,SKU-0284,Beauty,0,61.7,3
+1393,2025-04-13,Desktop,Email,SKU-0338,Apparel,0,90.44,2
+1408,2025-07-16,Mobile,Affiliate,SKU-0233,Fitness,0,88.64,1
+1427,2025-01-27,Mobile,Paid Social,SKU-0345,Fitness,1,65.15,1
+1428,2025-02-18,Desktop,Paid Search,SKU-0072,Beauty,0,54.51,2
+1493,2025-08-09,Mobile,Organic,SKU-0021,Electronics,0,33.91,1
+1498,2025-02-02,Mobile,Affiliate,SKU-0091,Beauty,0,68.32,1
+1499,2025-10-08,Mobile,Organic,SKU-0067,Apparel,0,49.71,2
+1511,2025-12-31,Mobile,Organic,SKU-0075,Electronics,1,48.43,2
+1535,2025-08-09,Desktop,Paid Search,SKU-0061,Home,0,53.49,1
+1541,2025-09-27,Mobile,Paid Search,SKU-0379,Apparel,0,70.59,1
+1550,2025-05-18,Desktop,Organic,SKU-0230,Apparel,0,36.22,2
+1551,2025-03-29,Desktop,Paid Search,SKU-0085,Fitness,0,58.59,1
+1556,2025-04-29,Desktop,Paid Search,SKU-0397,Apparel,1,26.42,2
+1562,2025-07-31,Mobile,Paid Search,SKU-0275,Fitness,0,66.79,2
+1564,2025-06-12,Mobile,Organic,SKU-0188,Apparel,0,70.76,3
+1566,2025-02-23,Desktop,Paid Social,SKU-0373,Home,0,81.79,3
+1589,2025-09-19,Mobile,Organic,SKU-0301,Home,0,95.05,2
+1598,2025-12-18,Mobile,Paid Search,SKU-0094,Apparel,0,86.36,3
+1616,2025-07-07,Mobile,Affiliate,SKU-0025,Home,1,64.26,2
+1639,2025-12-24,Desktop,Organic,SKU-0243,Apparel,0,65.72,1
+1643,2025-09-26,Mobile,Affiliate,SKU-0021,Home,0,73.11,1
+1645,2025-10-29,Desktop,Affiliate,SKU-0227,Fitness,0,80.24,1
+1655,2025-03-15,Mobile,Organic,SKU-0394,Beauty,0,66.88,1
+1661,2025-06-21,Desktop,Email,SKU-0345,Fitness,1,100.11,2
+1668,2025-04-20,Desktop,Email,SKU-0035,Beauty,0,39.65,1
+1670,2025-11-17,Desktop,Email,SKU-0005,Apparel,0,72.07,2
+1679,2025-02-09,Mobile,Organic,SKU-0002,Home,0,62.51,1
+1682,2025-01-29,Desktop,Organic,SKU-0388,Home,1,69.1,2
+1690,2025-03-04,Mobile,Paid Social,SKU-0294,Electronics,0,85.27,1
+1694,2025-02-09,Mobile,Email,SKU-0384,Beauty,0,97.1,2
+1696,2025-02-06,Desktop,Organic,SKU-0344,Home,1,51.12,2
+1697,2025-07-03,Desktop,Affiliate,SKU-0223,Beauty,0,83.09,3
+1699,2025-12-23,Mobile,Paid Social,SKU-0383,Beauty,1,16.77,3
+1706,2025-04-11,Desktop,Paid Search,SKU-0155,Apparel,0,91.82,1
+1718,2025-08-15,Mobile,Paid Search,SKU-0036,Fitness,0,134.43,3
+1744,2025-06-01,Desktop,Paid Social,SKU-0056,Electronics,1,56.71,2
+1754,2025-08-26,Desktop,Paid Social,SKU-0006,Home,0,34.39,1
+1769,2025-11-08,Mobile,Paid Search,SKU-0258,Apparel,1,26.51,1
+1770,2025-11-10,Mobile,Email,SKU-0250,Electronics,1,35.0,2
+1771,2025-06-27,Desktop,Organic,SKU-0020,Beauty,1,141.6,3
+1777,2025-10-28,Mobile,Paid Search,SKU-0125,Home,0,25.54,3
+1782,2025-09-18,Desktop,Email,SKU-0368,Home,1,44.46,2
+1786,2025-03-24,Mobile,Organic,SKU-0316,Electronics,0,37.03,1
+1809,2025-09-24,Mobile,Paid Search,SKU-0360,Apparel,1,105.44,2
+1816,2025-05-21,Mobile,Organic,SKU-0391,Home,0,44.83,3
+1819,2025-05-14,Mobile,Paid Social,SKU-0080,Apparel,1,78.08,2
+1822,2025-03-21,Desktop,Paid Search,SKU-0137,Beauty,0,44.64,2
+1824,2025-12-30,Mobile,Organic,SKU-0292,Apparel,1,104.92,1
+1834,2025-05-05,Mobile,Organic,SKU-0360,Fitness,0,24.23,1
+1846,2025-08-23,Desktop,Paid Search,SKU-0389,Fitness,1,10.48,2
+1850,2025-12-27,Mobile,Email,SKU-0005,Apparel,0,62.69,3
+1851,2025-11-23,Mobile,Paid Search,SKU-0022,Apparel,0,58.55,2
+1859,2025-06-10,Desktop,Paid Search,SKU-0300,Apparel,0,18.04,2
+1887,2025-01-24,Desktop,Organic,SKU-0028,Beauty,0,51.56,2
+1896,2025-05-06,Mobile,Organic,SKU-0338,Apparel,0,76.7,1
+1913,2025-11-21,Desktop,Paid Search,SKU-0073,Apparel,0,16.64,1
+1915,2025-03-15,Mobile,Organic,SKU-0382,Apparel,0,28.81,3
+1921,2025-11-04,Mobile,Organic,SKU-0232,Beauty,0,53.13,2
+1928,2025-06-07,Mobile,Paid Search,SKU-0034,Home,0,10.0,3
+1939,2025-11-07,Desktop,Email,SKU-0042,Home,0,40.38,2
+1951,2025-03-22,Desktop,Email,SKU-0166,Apparel,0,63.93,2
+1966,2025-04-08,Desktop,Email,SKU-0072,Fitness,1,32.08,1
+1967,2025-09-01,Mobile,Organic,SKU-0210,Home,0,48.19,2
+1984,2025-12-10,Mobile,Organic,SKU-0286,Electronics,1,42.87,2
+1988,2025-08-13,Desktop,Affiliate,SKU-0080,Home,1,46.78,3
+1990,2025-03-16,Desktop,Organic,SKU-0196,Beauty,0,79.72,1
+1996,2025-07-13,Mobile,Organic,SKU-0209,Apparel,1,40.64,2
+2008,2025-09-21,Desktop,Paid Search,SKU-0025,Beauty,0,77.75,1
+2013,2025-03-29,Desktop,Paid Search,SKU-0101,Electronics,0,41.89,3
+2038,2025-06-25,Mobile,Paid Search,SKU-0291,Home,0,39.46,3
+2050,2025-01-26,Mobile,Paid Search,SKU-0021,Beauty,0,82.96,3
+2055,2025-09-01,Mobile,Paid Social,SKU-0303,Apparel,0,81.64,2
+2080,2025-10-19,Desktop,Affiliate,SKU-0250,Electronics,0,61.07,2
+2081,2025-09-01,Desktop,Paid Search,SKU-0208,Home,0,60.57,1
+2104,2025-02-16,Mobile,Paid Search,SKU-0333,Home,0,33.18,3
+2109,2025-11-25,Desktop,Paid Social,SKU-0335,Beauty,0,90.39,2
+2120,2025-02-22,Mobile,Paid Search,SKU-0216,Beauty,1,37.5,2
+2124,2025-02-25,Mobile,Affiliate,SKU-0068,Home,0,66.39,3
+2129,2025-06-27,Mobile,Paid Search,SKU-0230,Beauty,0,68.89,2
+2130,2025-02-06,Desktop,Paid Social,SKU-0291,Home,0,70.34,3
+2153,2025-11-27,Mobile,Paid Social,SKU-0231,Beauty,1,41.16,1
+2158,2025-02-22,Mobile,Paid Search,SKU-0055,Home,0,70.8,3
+2161,2025-06-06,Mobile,Organic,SKU-0272,Home,0,35.68,1
+2181,2025-05-27,Mobile,Email,SKU-0386,Fitness,1,105.31,3
+2194,2025-12-31,Mobile,Paid Social,SKU-0120,Fitness,0,49.6,1
+2199,2025-11-14,Desktop,Paid Social,SKU-0342,Apparel,0,95.13,3
+2202,2025-06-26,Desktop,Paid Social,SKU-0133,Apparel,0,119.9,2
+2206,2025-03-03,Desktop,Organic,SKU-0379,Beauty,0,92.16,2
+2209,2025-03-26,Desktop,Organic,SKU-0103,Apparel,0,55.81,2
+2217,2025-02-17,Mobile,Paid Social,SKU-0065,Fitness,0,69.94,3
+2220,2025-11-13,Desktop,Paid Social,SKU-0209,Electronics,1,78.2,1
+2234,2025-02-10,Mobile,Paid Search,SKU-0004,Apparel,1,68.73,2
+2263,2025-01-10,Desktop,Paid Social,SKU-0229,Electronics,0,25.55,2
+2286,2025-11-28,Mobile,Paid Search,SKU-0180,Apparel,1,50.27,2
+2291,2025-10-10,Desktop,Paid Social,SKU-0151,Home,0,43.63,3
+2297,2025-11-30,Desktop,Organic,SKU-0133,Apparel,1,41.37,1
+2307,2025-07-27,Desktop,Email,SKU-0236,Electronics,0,107.94,1
+2309,2025-11-18,Desktop,Affiliate,SKU-0372,Apparel,0,42.55,2
+2310,2025-12-04,Desktop,Organic,SKU-0316,Apparel,0,65.66,1
+2311,2025-05-25,Desktop,Paid Social,SKU-0037,Home,0,70.83,2
+2312,2025-12-20,Desktop,Organic,SKU-0290,Beauty,0,15.05,2
+2314,2025-10-27,Mobile,Paid Search,SKU-0057,Beauty,1,64.78,2
+2315,2025-12-12,Mobile,Organic,SKU-0299,Apparel,1,51.78,3
+2318,2025-05-01,Mobile,Paid Search,SKU-0125,Fitness,0,45.58,2
+2323,2025-03-21,Mobile,Organic,SKU-0380,Fitness,0,67.45,2
+2331,2025-09-02,Mobile,Affiliate,SKU-0268,Home,0,82.69,3
+2348,2025-07-21,Desktop,Organic,SKU-0166,Apparel,1,41.07,1
+2349,2025-10-08,Desktop,Paid Social,SKU-0018,Home,1,72.41,3
+2359,2025-03-23,Desktop,Paid Social,SKU-0124,Apparel,1,43.32,1
+2396,2025-06-28,Mobile,Paid Search,SKU-0011,Home,0,44.16,1
+2397,2025-01-25,Mobile,Email,SKU-0266,Apparel,0,31.58,3
+2400,2025-03-01,Desktop,Organic,SKU-0353,Apparel,0,78.89,3
+2403,2025-04-23,Desktop,Paid Search,SKU-0116,Home,1,40.56,1
+2404,2025-12-06,Desktop,Organic,SKU-0383,Home,0,56.15,3
+2405,2025-10-07,Desktop,Email,SKU-0346,Apparel,0,46.11,3
+2422,2025-11-15,Desktop,Paid Search,SKU-0390,Electronics,0,46.79,2
+2428,2025-05-13,Desktop,Paid Social,SKU-0387,Home,1,99.73,1
+2437,2025-12-02,Desktop,Organic,SKU-0371,Home,0,105.26,3
+2456,2025-04-12,Mobile,Affiliate,SKU-0076,Apparel,0,58.24,2
+2481,2025-11-16,Mobile,Organic,SKU-0381,Apparel,0,41.17,2
+2482,2025-01-01,Mobile,Paid Search,SKU-0148,Beauty,0,31.98,1
+2488,2025-06-20,Desktop,Paid Search,SKU-0120,Apparel,0,74.68,3
+2503,2025-08-24,Desktop,Email,SKU-0240,Beauty,0,87.34,2
+2507,2025-07-07,Desktop,Email,SKU-0082,Electronics,0,34.81,3
+2513,2025-10-27,Desktop,Affiliate,SKU-0108,Apparel,0,69.53,2
+2525,2025-03-03,Desktop,Affiliate,SKU-0331,Apparel,0,101.66,2
+2526,2025-09-28,Desktop,Paid Social,SKU-0304,Home,0,117.64,1
+2537,2025-04-08,Mobile,Paid Search,SKU-0340,Fitness,0,41.71,2
+2552,2025-03-04,Mobile,Paid Search,SKU-0106,Home,0,29.43,1
+2559,2025-05-30,Mobile,Affiliate,SKU-0331,Electronics,0,67.54,2
+2561,2025-11-08,Mobile,Affiliate,SKU-0380,Beauty,0,95.37,3
+2563,2025-04-27,Desktop,Affiliate,SKU-0075,Beauty,0,94.45,1
+2571,2025-09-19,Mobile,Organic,SKU-0086,Beauty,0,81.36,3
+2585,2025-09-30,Desktop,Paid Search,SKU-0207,Electronics,0,79.17,3
+2602,2025-01-21,Desktop,Paid Search,SKU-0176,Home,0,44.25,1
+2614,2025-09-23,Desktop,Paid Search,SKU-0234,Apparel,1,100.92,3
+2615,2025-04-10,Desktop,Email,SKU-0286,Beauty,0,129.16,2
+2629,2025-02-19,Desktop,Paid Social,SKU-0372,Electronics,1,94.45,3
+2645,2025-07-17,Mobile,Email,SKU-0143,Apparel,0,89.06,1
+2660,2025-03-16,Desktop,Paid Search,SKU-0387,Apparel,0,69.26,3
+2670,2025-11-20,Desktop,Paid Social,SKU-0242,Beauty,0,107.91,3
+2672,2025-04-18,Desktop,Paid Search,SKU-0363,Home,0,123.96,2
+2674,2025-03-15,Mobile,Paid Search,SKU-0319,Beauty,1,46.34,3
+2680,2025-09-16,Mobile,Organic,SKU-0359,Fitness,0,76.4,2
+2698,2025-10-10,Mobile,Email,SKU-0147,Electronics,0,54.41,2
+2707,2025-06-28,Desktop,Organic,SKU-0147,Fitness,0,74.22,3
+2710,2025-02-02,Mobile,Paid Social,SKU-0087,Home,0,94.65,3
+2725,2025-05-20,Desktop,Email,SKU-0192,Home,0,64.07,3
+2728,2025-07-01,Mobile,Organic,SKU-0238,Beauty,1,37.2,3
+2751,2025-02-21,Desktop,Paid Social,SKU-0137,Apparel,1,34.71,1
+2758,2025-08-02,Mobile,Email,SKU-0089,Home,0,68.27,3
+2770,2025-11-21,Mobile,Paid Search,SKU-0142,Apparel,1,70.09,2
+2784,2025-07-17,Desktop,Paid Search,SKU-0135,Apparel,0,107.12,3
+2791,2025-09-02,Mobile,Paid Search,SKU-0070,Apparel,1,122.71,1
+2800,2025-05-19,Desktop,Paid Social,SKU-0370,Home,0,81.05,2
+2814,2025-10-19,Mobile,Organic,SKU-0339,Apparel,0,112.19,1
+2821,2025-10-08,Mobile,Organic,SKU-0308,Apparel,1,60.98,1
+2828,2025-09-22,Desktop,Paid Search,SKU-0075,Beauty,1,16.01,1
+2842,2025-04-07,Mobile,Affiliate,SKU-0259,Home,0,73.96,2
+2843,2025-07-19,Mobile,Email,SKU-0038,Beauty,0,81.72,3
+2849,2025-01-12,Desktop,Organic,SKU-0072,Fitness,0,102.96,2
+2851,2025-07-25,Desktop,Paid Search,SKU-0379,Beauty,0,18.06,1
+2852,2025-10-31,Desktop,Paid Search,SKU-0216,Beauty,1,75.03,1
+2854,2025-08-17,Desktop,Affiliate,SKU-0135,Electronics,1,57.05,2
+2866,2025-05-26,Mobile,Affiliate,SKU-0124,Beauty,1,33.93,2
+2887,2025-05-25,Mobile,Paid Social,SKU-0341,Electronics,0,47.06,3
+2899,2025-09-02,Mobile,Paid Search,SKU-0400,Home,0,10.0,1
+2910,2025-12-05,Desktop,Organic,SKU-0106,Electronics,1,88.53,2
+2925,2025-07-05,Desktop,Organic,SKU-0245,Home,0,81.88,2
+2945,2025-06-10,Mobile,Email,SKU-0040,Apparel,1,74.68,1
+2963,2025-01-02,Mobile,Email,SKU-0020,Home,0,90.55,2
+2966,2025-06-25,Desktop,Email,SKU-0027,Electronics,1,17.95,2
+2968,2025-03-10,Mobile,Organic,SKU-0353,Fitness,1,85.28,3
+2970,2025-06-19,Desktop,Organic,SKU-0246,Apparel,1,83.34,1
+2980,2025-08-01,Mobile,Paid Search,SKU-0235,Beauty,0,32.11,3
+2986,2025-10-15,Mobile,Organic,SKU-0012,Apparel,1,106.23,1
+2992,2025-08-09,Mobile,Organic,SKU-0131,Apparel,1,33.39,2
+2999,2025-08-15,Mobile,Paid Search,SKU-0132,Beauty,0,82.09,1
+3007,2025-10-11,Desktop,Organic,SKU-0144,Beauty,1,57.13,1
+3022,2025-04-23,Desktop,Organic,SKU-0202,Fitness,0,75.83,1
+3030,2025-02-09,Desktop,Paid Search,SKU-0278,Beauty,1,104.61,1
+3034,2025-07-19,Desktop,Paid Search,SKU-0210,Electronics,1,53.47,2
+3036,2025-12-02,Mobile,Paid Social,SKU-0058,Apparel,0,35.69,1
+3042,2025-06-14,Mobile,Paid Search,SKU-0335,Electronics,0,42.12,3
+3054,2025-07-12,Desktop,Paid Social,SKU-0058,Beauty,0,83.78,3
+3069,2025-05-05,Desktop,Paid Search,SKU-0371,Apparel,0,68.31,2
+3075,2025-02-23,Desktop,Paid Search,SKU-0166,Electronics,0,50.92,2
+3081,2025-11-05,Desktop,Organic,SKU-0317,Beauty,0,25.74,1
+3092,2025-07-11,Desktop,Paid Search,SKU-0213,Apparel,0,119.87,3
+3093,2025-06-02,Desktop,Paid Search,SKU-0377,Fitness,0,42.44,1
+3098,2025-08-08,Desktop,Paid Search,SKU-0388,Apparel,1,51.27,3
+3115,2025-01-12,Desktop,Organic,SKU-0348,Fitness,0,17.57,3
+3117,2025-03-22,Desktop,Affiliate,SKU-0021,Apparel,0,78.06,1
+3123,2025-06-25,Desktop,Email,SKU-0341,Home,1,76.03,3
+3134,2025-01-11,Desktop,Organic,SKU-0086,Apparel,1,60.78,1
+3145,2025-02-06,Desktop,Organic,SKU-0124,Beauty,1,49.46,3
+3153,2025-09-18,Mobile,Paid Social,SKU-0174,Electronics,0,10.0,2
+3154,2025-02-22,Mobile,Paid Social,SKU-0390,Electronics,0,74.96,1
+3159,2025-08-02,Desktop,Paid Search,SKU-0143,Apparel,0,86.12,3
+3167,2025-02-27,Mobile,Paid Social,SKU-0369,Fitness,0,45.95,1
+3174,2025-12-21,Desktop,Organic,SKU-0258,Home,1,96.24,1
+3176,2025-02-23,Desktop,Email,SKU-0091,Beauty,1,91.71,1
+3225,2025-10-03,Desktop,Paid Search,SKU-0355,Beauty,0,10.0,3
+3247,2025-02-04,Mobile,Organic,SKU-0339,Beauty,0,62.83,2
+3250,2025-07-02,Desktop,Organic,SKU-0209,Home,0,20.0,2
+3265,2025-07-31,Mobile,Affiliate,SKU-0372,Fitness,0,88.17,2
+3267,2025-01-26,Desktop,Paid Search,SKU-0368,Home,0,97.55,3
+3271,2025-09-22,Mobile,Paid Search,SKU-0319,Beauty,0,90.72,2
+3272,2025-02-12,Desktop,Email,SKU-0360,Apparel,0,60.26,2
+3286,2025-09-26,Desktop,Paid Social,SKU-0276,Home,0,21.57,2
+3294,2025-11-23,Mobile,Organic,SKU-0128,Beauty,0,101.93,3
+3303,2025-09-12,Mobile,Paid Social,SKU-0396,Electronics,1,49.51,1
+3308,2025-09-02,Mobile,Paid Search,SKU-0216,Fitness,0,55.97,1
+3323,2025-04-24,Desktop,Paid Search,SKU-0044,Electronics,0,51.41,2
+3329,2025-01-06,Desktop,Organic,SKU-0359,Electronics,1,67.35,2
+3344,2025-11-28,Desktop,Affiliate,SKU-0371,Electronics,0,33.51,2
+3351,2025-08-21,Mobile,Paid Search,SKU-0364,Beauty,0,60.01,1
+3356,2025-01-08,Mobile,Paid Search,SKU-0392,Electronics,0,74.81,2
+3358,2025-04-02,Mobile,Organic,SKU-0327,Home,1,46.23,3
+3364,2025-04-06,Desktop,Email,SKU-0048,Apparel,0,48.44,1
+3366,2025-05-28,Mobile,Paid Search,SKU-0247,Electronics,0,63.59,2
+3371,2025-06-10,Mobile,Paid Social,SKU-0046,Home,1,34.86,3
+3385,2025-02-19,Desktop,Paid Social,SKU-0047,Apparel,0,77.85,3
+3397,2025-10-12,Desktop,Paid Search,SKU-0128,Beauty,0,54.33,1
+3407,2025-09-16,Desktop,Email,SKU-0326,Apparel,0,91.98,1
+3422,2025-04-09,Mobile,Organic,SKU-0199,Fitness,1,47.81,2
+3425,2025-06-26,Desktop,Paid Search,SKU-0084,Home,0,29.96,1
+3430,2025-05-24,Desktop,Affiliate,SKU-0084,Home,0,38.44,1
+3431,2025-12-14,Mobile,Paid Search,SKU-0165,Electronics,0,106.95,1
+3437,2025-07-05,Desktop,Email,SKU-0233,Beauty,0,115.57,3
+3439,2025-12-11,Mobile,Paid Search,SKU-0100,Electronics,1,43.18,2
+3443,2025-04-09,Desktop,Organic,SKU-0121,Fitness,1,114.73,1
+3446,2025-02-16,Mobile,Paid Social,SKU-0045,Beauty,1,47.46,2
+3449,2025-02-07,Desktop,Paid Search,SKU-0151,Fitness,0,107.59,3
+3450,2025-05-01,Desktop,Paid Social,SKU-0005,Home,0,110.25,3
+3456,2025-11-06,Mobile,Paid Search,SKU-0312,Beauty,1,49.28,3
+3458,2025-11-28,Mobile,Paid Search,SKU-0051,Home,0,57.97,2
+3479,2025-09-06,Desktop,Paid Search,SKU-0359,Beauty,0,114.09,2
+3480,2025-07-20,Desktop,Email,SKU-0213,Apparel,0,99.38,3
+3482,2025-11-02,Mobile,Organic,SKU-0074,Home,1,48.64,2
+3486,2025-11-18,Desktop,Paid Social,SKU-0367,Home,0,92.62,2
+3506,2025-03-24,Mobile,Email,SKU-0040,Fitness,0,53.98,1
+3516,2025-11-15,Mobile,Paid Social,SKU-0211,Apparel,0,51.13,2
+3522,2025-06-22,Desktop,Paid Search,SKU-0288,Apparel,1,36.99,1
+3531,2025-03-31,Desktop,Email,SKU-0059,Electronics,1,105.55,3
+3539,2025-04-16,Desktop,Organic,SKU-0050,Home,1,123.54,2
+3547,2025-01-20,Desktop,Organic,SKU-0064,Home,0,68.54,3
+3553,2025-12-31,Mobile,Paid Social,SKU-0105,Beauty,1,78.85,2
+3558,2025-09-29,Desktop,Affiliate,SKU-0209,Electronics,1,65.89,1
+3571,2025-11-06,Desktop,Paid Social,SKU-0034,Electronics,0,86.77,2
+3574,2025-06-18,Mobile,Organic,SKU-0281,Apparel,0,33.14,3
+3586,2025-06-07,Desktop,Paid Social,SKU-0365,Beauty,0,81.88,1
+3588,2025-11-29,Desktop,Paid Search,SKU-0199,Electronics,0,81.74,3
+3589,2025-05-22,Desktop,Paid Social,SKU-0122,Apparel,0,72.84,1
+3597,2025-03-26,Mobile,Paid Search,SKU-0365,Beauty,0,10.0,3
+3615,2025-08-30,Mobile,Organic,SKU-0171,Fitness,0,69.12,2
+3618,2025-06-08,Mobile,Paid Search,SKU-0124,Home,0,41.02,3
+3619,2025-05-22,Desktop,Email,SKU-0022,Apparel,1,75.07,2
+3627,2025-10-23,Mobile,Email,SKU-0033,Beauty,0,74.84,1
+3631,2025-06-22,Desktop,Email,SKU-0103,Apparel,1,76.81,3
+3634,2025-09-20,Desktop,Email,SKU-0345,Apparel,1,46.42,2
+3639,2025-08-08,Mobile,Email,SKU-0156,Electronics,0,104.23,2
+3645,2025-11-21,Desktop,Paid Search,SKU-0118,Apparel,0,87.73,2
+3648,2025-09-13,Desktop,Organic,SKU-0325,Apparel,1,55.36,3
+3658,2025-11-26,Desktop,Organic,SKU-0387,Electronics,1,38.06,1
+3661,2025-08-22,Desktop,Paid Search,SKU-0380,Electronics,1,77.29,3
+3670,2025-12-10,Desktop,Organic,SKU-0050,Electronics,0,104.88,2
+3672,2025-11-08,Desktop,Paid Social,SKU-0048,Beauty,1,34.48,3
+3673,2025-08-31,Mobile,Organic,SKU-0196,Apparel,0,51.14,3
+3680,2025-01-02,Mobile,Paid Social,SKU-0219,Electronics,0,44.4,1
+3686,2025-01-22,Desktop,Paid Search,SKU-0289,Beauty,1,73.19,3
+3690,2025-09-17,Mobile,Organic,SKU-0293,Apparel,1,53.67,2
+3691,2025-05-23,Mobile,Email,SKU-0302,Beauty,0,83.23,1
+3692,2025-02-20,Desktop,Paid Search,SKU-0223,Beauty,0,89.62,3
+3699,2025-05-23,Desktop,Affiliate,SKU-0384,Apparel,0,75.82,2
+3705,2025-09-04,Desktop,Organic,SKU-0360,Beauty,0,96.06,2
+3706,2025-07-23,Desktop,Paid Social,SKU-0233,Home,1,32.61,2
+3708,2025-07-27,Mobile,Email,SKU-0235,Home,1,60.82,2
+3711,2025-02-13,Mobile,Paid Search,SKU-0374,Home,1,34.81,3
+3723,2025-01-14,Desktop,Paid Social,SKU-0364,Electronics,0,21.15,2
+3734,2025-10-11,Desktop,Organic,SKU-0070,Electronics,0,44.95,1
+3749,2025-07-07,Desktop,Affiliate,SKU-0196,Beauty,0,61.07,3
+3760,2025-12-13,Mobile,Paid Search,SKU-0319,Electronics,1,85.14,1
+3767,2025-06-04,Desktop,Organic,SKU-0273,Electronics,0,54.1,2
+3772,2025-01-18,Mobile,Affiliate,SKU-0214,Apparel,0,92.86,3
+3807,2025-11-13,Desktop,Affiliate,SKU-0034,Fitness,1,41.64,2
+3823,2025-06-12,Desktop,Paid Search,SKU-0159,Electronics,1,84.78,2
+3841,2025-11-03,Desktop,Organic,SKU-0114,Fitness,1,40.52,1
+3845,2025-07-16,Mobile,Email,SKU-0173,Electronics,0,103.56,3
+3846,2025-01-31,Desktop,Paid Search,SKU-0294,Home,0,98.26,3
+3847,2025-11-20,Desktop,Organic,SKU-0371,Apparel,1,59.25,2
+3848,2025-06-17,Desktop,Paid Search,SKU-0196,Electronics,0,80.72,2
+3857,2025-03-03,Mobile,Paid Social,SKU-0183,Home,1,109.57,1
+3864,2025-06-13,Mobile,Organic,SKU-0147,Electronics,0,63.21,3
+3865,2025-02-20,Mobile,Paid Search,SKU-0212,Apparel,0,76.37,2
+3869,2025-01-07,Desktop,Paid Search,SKU-0292,Fitness,0,70.1,3
+3871,2025-11-14,Desktop,Paid Search,SKU-0264,Beauty,0,67.91,3
+3874,2025-07-16,Mobile,Organic,SKU-0117,Beauty,0,113.31,1
+3884,2025-05-28,Mobile,Email,SKU-0123,Apparel,0,79.52,3
+3893,2025-09-22,Desktop,Affiliate,SKU-0291,Home,1,48.07,2
+3914,2025-03-29,Mobile,Organic,SKU-0052,Apparel,1,30.39,3
+3917,2025-11-13,Desktop,Email,SKU-0288,Apparel,0,47.13,2
+3922,2025-05-11,Mobile,Paid Search,SKU-0253,Fitness,1,49.79,1
+3934,2025-03-01,Desktop,Paid Search,SKU-0099,Electronics,1,76.54,1
+3942,2025-06-05,Desktop,Paid Search,SKU-0265,Home,1,66.73,2
+3951,2025-01-02,Mobile,Paid Search,SKU-0302,Beauty,0,65.81,3
+3960,2025-10-21,Mobile,Affiliate,SKU-0075,Apparel,0,66.9,3
+3963,2025-05-18,Mobile,Organic,SKU-0262,Apparel,1,58.9,3
+3968,2025-08-11,Mobile,Paid Social,SKU-0348,Electronics,1,41.84,2
+3969,2025-08-12,Desktop,Affiliate,SKU-0028,Electronics,0,42.28,2
+3974,2025-04-05,Desktop,Paid Search,SKU-0031,Home,0,66.02,1
+3977,2025-02-28,Desktop,Paid Social,SKU-0228,Beauty,0,39.92,3
+3982,2025-02-13,Desktop,Paid Search,SKU-0320,Apparel,0,90.27,1
+3984,2025-05-18,Desktop,Email,SKU-0356,Beauty,0,88.75,1
+3992,2025-03-10,Desktop,Paid Search,SKU-0013,Beauty,0,19.43,3
+3995,2025-02-07,Mobile,Email,SKU-0242,Home,1,48.18,3
+4005,2025-09-27,Desktop,Organic,SKU-0239,Electronics,1,40.91,1
+4006,2025-04-26,Mobile,Email,SKU-0356,Fitness,1,57.87,1
+4013,2025-06-09,Mobile,Affiliate,SKU-0146,Beauty,1,90.87,2
+4016,2025-09-14,Desktop,Paid Social,SKU-0056,Home,0,84.95,3
+4029,2025-11-21,Desktop,Organic,SKU-0098,Beauty,1,50.6,1
+4040,2025-07-26,Desktop,Organic,SKU-0056,Beauty,0,98.01,3
+4049,2025-04-13,Mobile,Paid Search,SKU-0248,Home,0,58.3,1
+4055,2025-11-01,Desktop,Paid Search,SKU-0145,Fitness,1,73.15,2
+4056,2025-04-11,Mobile,Email,SKU-0218,Home,0,97.11,2
+4058,2025-02-27,Desktop,Organic,SKU-0339,Beauty,0,64.27,1
+4078,2025-10-26,Desktop,Organic,SKU-0214,Electronics,0,11.71,3
+4080,2025-10-23,Desktop,Email,SKU-0379,Apparel,1,66.36,3
+4089,2025-09-30,Mobile,Paid Search,SKU-0269,Home,0,54.21,2
+4094,2025-09-14,Mobile,Affiliate,SKU-0310,Electronics,0,60.14,3
+4101,2025-09-12,Mobile,Organic,SKU-0179,Beauty,0,30.08,1
+4103,2025-01-23,Mobile,Email,SKU-0022,Beauty,0,70.67,2
+4105,2025-08-05,Desktop,Affiliate,SKU-0173,Apparel,1,59.37,2
+4126,2025-05-18,Mobile,Paid Social,SKU-0143,Apparel,0,53.86,1
+4128,2025-03-28,Mobile,Organic,SKU-0006,Home,0,53.09,1
+4150,2025-03-06,Mobile,Organic,SKU-0390,Apparel,0,30.36,3
+4166,2025-03-10,Desktop,Paid Search,SKU-0346,Apparel,0,73.32,1
+4175,2025-08-17,Desktop,Organic,SKU-0322,Electronics,0,92.6,3
+4196,2025-05-25,Mobile,Affiliate,SKU-0036,Beauty,0,115.83,2
+4211,2025-06-18,Desktop,Paid Social,SKU-0222,Apparel,0,75.73,3
+4221,2025-07-22,Mobile,Paid Social,SKU-0090,Beauty,0,125.52,3
+4226,2025-12-31,Mobile,Paid Search,SKU-0033,Apparel,1,53.5,2
+4239,2025-12-08,Desktop,Paid Social,SKU-0339,Apparel,0,17.65,3
+4241,2025-12-28,Mobile,Paid Search,SKU-0178,Home,1,66.86,3
+4247,2025-10-03,Mobile,Organic,SKU-0265,Beauty,0,92.21,2
+4249,2025-07-31,Mobile,Paid Search,SKU-0041,Fitness,0,10.0,1
+4276,2025-04-22,Desktop,Paid Social,SKU-0197,Beauty,0,80.26,2
+4290,2025-08-14,Mobile,Organic,SKU-0143,Apparel,1,90.08,1
+4295,2025-09-17,Mobile,Paid Social,SKU-0379,Beauty,1,66.71,3
+4305,2025-04-30,Desktop,Organic,SKU-0249,Apparel,0,78.01,1
+4323,2025-04-17,Desktop,Organic,SKU-0255,Fitness,0,83.67,1
+4342,2025-01-02,Desktop,Organic,SKU-0057,Apparel,1,53.71,1
+4346,2025-07-20,Mobile,Email,SKU-0113,Fitness,1,13.56,3
+4368,2025-09-09,Desktop,Paid Social,SKU-0143,Electronics,0,153.17,3
+4373,2025-08-01,Desktop,Paid Social,SKU-0071,Home,0,48.4,2
+4375,2025-04-17,Desktop,Email,SKU-0035,Electronics,0,10.0,1
+4376,2025-04-30,Mobile,Paid Search,SKU-0301,Apparel,0,103.27,3
+4377,2025-07-01,Mobile,Email,SKU-0245,Electronics,0,59.49,1
+4381,2025-02-11,Desktop,Organic,SKU-0257,Apparel,1,69.7,1
+4384,2025-10-05,Desktop,Organic,SKU-0392,Home,0,55.97,1
+4389,2025-10-22,Mobile,Organic,SKU-0300,Apparel,0,98.69,1
+4390,2025-06-21,Mobile,Affiliate,SKU-0002,Apparel,1,56.64,2
+4391,2025-12-27,Desktop,Paid Search,SKU-0159,Beauty,0,100.89,3
+4406,2025-12-14,Desktop,Organic,SKU-0079,Home,0,120.53,3
+4409,2025-07-22,Mobile,Paid Social,SKU-0071,Fitness,1,54.48,3
+4434,2025-02-12,Desktop,Paid Social,SKU-0104,Apparel,0,89.59,2
+4438,2025-05-25,Desktop,Paid Search,SKU-0224,Electronics,1,105.88,3
+4461,2025-05-02,Desktop,Affiliate,SKU-0203,Apparel,1,70.55,2
+4463,2025-07-12,Desktop,Paid Search,SKU-0203,Fitness,0,42.35,2
+4464,2025-06-09,Desktop,Paid Social,SKU-0010,Home,1,29.63,1
+4469,2025-02-09,Desktop,Paid Social,SKU-0005,Apparel,0,60.09,2
+4472,2025-08-22,Mobile,Organic,SKU-0146,Beauty,1,20.66,3
+4482,2025-06-18,Desktop,Paid Social,SKU-0382,Apparel,0,63.43,1
+4501,2025-03-29,Mobile,Organic,SKU-0260,Electronics,0,66.14,2
+4503,2025-10-19,Desktop,Organic,SKU-0122,Apparel,1,65.83,2
+4514,2025-05-15,Desktop,Organic,SKU-0078,Fitness,0,61.55,1
+4517,2025-01-21,Desktop,Paid Social,SKU-0068,Electronics,0,46.4,2
+4523,2025-02-19,Mobile,Organic,SKU-0030,Electronics,1,118.55,3
+4540,2025-10-11,Desktop,Paid Social,SKU-0246,Apparel,0,65.88,1
+4541,2025-12-30,Desktop,Paid Social,SKU-0304,Apparel,0,97.33,1
+4559,2025-09-07,Desktop,Organic,SKU-0033,Apparel,1,100.0,3
+4569,2025-03-28,Desktop,Paid Search,SKU-0353,Apparel,0,88.31,1
+4586,2025-07-26,Mobile,Paid Social,SKU-0059,Apparel,0,72.62,1
+4589,2025-01-01,Mobile,Email,SKU-0134,Beauty,0,126.72,3
+4600,2025-01-12,Mobile,Email,SKU-0026,Electronics,1,57.84,2
+4602,2025-06-26,Desktop,Organic,SKU-0281,Electronics,0,72.73,1
+4610,2025-03-01,Mobile,Organic,SKU-0001,Apparel,0,73.69,2
+4612,2025-08-30,Desktop,Paid Social,SKU-0184,Apparel,0,46.1,2
+4642,2025-09-25,Desktop,Organic,SKU-0267,Apparel,1,50.19,1
+4644,2025-06-28,Desktop,Organic,SKU-0214,Home,0,74.2,1
+4648,2025-02-26,Mobile,Affiliate,SKU-0018,Apparel,0,71.62,3
+4649,2025-10-02,Desktop,Paid Search,SKU-0328,Electronics,1,20.77,1
+4652,2025-07-24,Desktop,Organic,SKU-0243,Fitness,1,85.67,3
+4678,2025-10-17,Mobile,Organic,SKU-0240,Apparel,0,22.74,2
+4697,2025-06-23,Desktop,Paid Search,SKU-0297,Electronics,0,116.2,3
+4706,2025-02-02,Desktop,Paid Search,SKU-0292,Home,0,46.9,1
+4712,2025-09-23,Desktop,Organic,SKU-0344,Apparel,0,58.04,1
+4723,2025-08-26,Desktop,Paid Search,SKU-0309,Apparel,1,85.58,3
+4739,2025-03-31,Mobile,Paid Search,SKU-0096,Apparel,1,80.35,2
+4758,2025-04-06,Mobile,Paid Social,SKU-0205,Apparel,1,42.21,1
+4770,2025-04-22,Mobile,Paid Search,SKU-0298,Apparel,1,70.0,1
+4771,2025-02-23,Mobile,Paid Search,SKU-0002,Electronics,0,70.61,1
+4789,2025-08-03,Desktop,Organic,SKU-0293,Apparel,1,54.3,3
+4802,2025-08-26,Desktop,Paid Social,SKU-0325,Home,0,52.36,2
+4804,2025-06-01,Mobile,Organic,SKU-0163,Fitness,0,100.51,3
+4809,2025-09-20,Desktop,Email,SKU-0211,Fitness,0,10.0,2
+4810,2025-12-09,Desktop,Paid Search,SKU-0240,Home,1,92.82,2
+4811,2025-01-28,Mobile,Affiliate,SKU-0273,Apparel,1,36.13,2
+4818,2025-01-20,Mobile,Paid Social,SKU-0390,Apparel,0,92.42,1
+4823,2025-12-24,Mobile,Paid Search,SKU-0052,Home,0,45.45,1
+4833,2025-12-10,Mobile,Paid Social,SKU-0177,Home,1,53.96,1
+4834,2025-01-17,Mobile,Paid Search,SKU-0127,Fitness,0,39.6,1
+4864,2025-09-27,Desktop,Organic,SKU-0248,Fitness,0,30.71,2
+4870,2025-06-09,Mobile,Affiliate,SKU-0018,Apparel,1,100.3,2
+4878,2025-01-19,Desktop,Paid Social,SKU-0073,Apparel,0,43.46,1
+4881,2025-06-23,Mobile,Paid Search,SKU-0056,Electronics,0,45.44,3
+4890,2025-06-16,Mobile,Organic,SKU-0110,Electronics,1,88.35,2
+4892,2025-03-16,Desktop,Affiliate,SKU-0366,Beauty,0,69.07,3
+4895,2025-04-16,Desktop,Paid Social,SKU-0320,Apparel,0,19.27,3
+4900,2025-06-23,Desktop,Paid Search,SKU-0063,Apparel,1,90.44,1
+4901,2025-05-28,Desktop,Organic,SKU-0196,Home,0,36.84,1
+4902,2025-05-29,Mobile,Paid Search,SKU-0181,Electronics,0,35.76,1
+4909,2025-10-30,Mobile,Affiliate,SKU-0071,Home,0,22.01,1
+4912,2025-08-26,Desktop,Paid Search,SKU-0134,Beauty,0,60.38,1
+4918,2025-04-20,Mobile,Paid Search,SKU-0170,Home,0,48.4,2
+4927,2025-08-15,Mobile,Paid Search,SKU-0247,Apparel,0,74.69,2
+4933,2025-01-01,Desktop,Email,SKU-0118,Home,1,69.55,3
+4935,2025-08-23,Desktop,Organic,SKU-0042,Electronics,1,81.45,3
+4936,2025-01-20,Mobile,Organic,SKU-0106,Home,1,80.56,2
+4940,2025-04-20,Mobile,Paid Search,SKU-0068,Home,0,78.53,3
+4963,2025-01-17,Desktop,Paid Social,SKU-0152,Beauty,0,23.69,2
+4979,2025-03-12,Mobile,Paid Social,SKU-0398,Fitness,0,81.67,2
+4981,2025-12-13,Mobile,Organic,SKU-0308,Electronics,1,50.71,3
+4987,2025-11-01,Desktop,Organic,SKU-0273,Home,1,45.93,2
+4989,2025-04-06,Desktop,Organic,SKU-0168,Beauty,0,52.4,3
+5003,2025-09-25,Mobile,Paid Search,SKU-0183,Apparel,1,59.05,3
+5033,2025-06-07,Mobile,Organic,SKU-0262,Electronics,0,68.03,2
+5034,2025-12-12,Mobile,Paid Social,SKU-0291,Apparel,0,97.21,1
+5038,2025-09-20,Desktop,Organic,SKU-0259,Beauty,0,72.48,3
+5043,2025-11-20,Mobile,Paid Search,SKU-0309,Apparel,0,91.27,2
+5059,2025-12-04,Desktop,Organic,SKU-0069,Home,0,39.55,3
+5078,2025-11-18,Desktop,Paid Search,SKU-0100,Electronics,1,90.56,1
+5091,2025-01-25,Desktop,Paid Search,SKU-0304,Electronics,0,118.17,1
+5094,2025-01-22,Desktop,Paid Social,SKU-0005,Electronics,1,56.72,1
+5097,2025-10-11,Desktop,Paid Search,SKU-0091,Electronics,0,69.38,1
+5098,2025-09-24,Mobile,Affiliate,SKU-0133,Home,0,22.41,3
+5103,2025-04-25,Desktop,Affiliate,SKU-0183,Electronics,0,100.47,1
+5111,2025-09-23,Mobile,Organic,SKU-0073,Beauty,0,61.43,2
+5116,2025-09-10,Mobile,Paid Social,SKU-0061,Apparel,0,77.1,1
+5121,2025-04-22,Mobile,Paid Search,SKU-0275,Apparel,0,37.72,3
+5128,2025-04-11,Desktop,Organic,SKU-0024,Apparel,1,57.71,2
+5138,2025-08-01,Mobile,Paid Search,SKU-0013,Electronics,0,61.24,3
+5157,2025-12-12,Mobile,Paid Search,SKU-0070,Fitness,0,71.13,1
+5176,2025-06-17,Desktop,Paid Search,SKU-0110,Home,0,41.79,2
+5178,2025-10-16,Desktop,Paid Search,SKU-0359,Home,0,70.0,2
+5182,2025-10-07,Desktop,Paid Social,SKU-0086,Apparel,0,69.02,1
+5184,2025-05-11,Desktop,Paid Social,SKU-0015,Electronics,1,35.29,1
+5185,2025-10-07,Desktop,Organic,SKU-0212,Beauty,0,65.31,2
+5186,2025-06-24,Mobile,Affiliate,SKU-0276,Home,0,83.27,3
+5188,2025-04-12,Mobile,Paid Social,SKU-0383,Fitness,0,91.08,3
+5200,2025-07-15,Mobile,Organic,SKU-0052,Apparel,0,55.71,1
+5207,2025-04-29,Desktop,Affiliate,SKU-0300,Home,1,39.85,1
+5215,2025-03-02,Desktop,Organic,SKU-0348,Electronics,1,77.14,3
+5221,2025-02-08,Desktop,Paid Search,SKU-0284,Electronics,0,95.06,2
+5246,2025-12-28,Mobile,Paid Social,SKU-0269,Apparel,0,52.71,3
+5258,2025-04-13,Mobile,Paid Search,SKU-0355,Fitness,0,103.01,2
+5269,2025-04-19,Desktop,Email,SKU-0045,Apparel,1,54.22,1
+5274,2025-02-01,Desktop,Paid Social,SKU-0123,Electronics,0,67.82,1
+5282,2025-07-14,Mobile,Email,SKU-0019,Electronics,1,93.92,2
+5283,2025-04-04,Desktop,Paid Social,SKU-0060,Home,1,99.05,2
+5292,2025-11-30,Mobile,Paid Search,SKU-0049,Home,1,58.26,1
+5318,2025-06-22,Desktop,Paid Search,SKU-0135,Apparel,0,84.98,2
+5330,2025-02-24,Mobile,Paid Search,SKU-0087,Fitness,1,63.19,2
+5334,2025-12-05,Desktop,Paid Social,SKU-0172,Apparel,1,55.1,1
+5347,2025-07-26,Mobile,Paid Search,SKU-0141,Home,1,85.85,1
+5353,2025-01-16,Mobile,Affiliate,SKU-0098,Apparel,1,62.55,1
+5354,2025-10-05,Desktop,Paid Search,SKU-0288,Home,0,98.85,1
+5364,2025-01-09,Desktop,Affiliate,SKU-0222,Electronics,1,61.06,2
+5374,2025-08-29,Mobile,Paid Search,SKU-0258,Fitness,0,42.59,1
+5383,2025-12-02,Desktop,Affiliate,SKU-0014,Apparel,0,65.73,2
+5390,2025-09-01,Desktop,Affiliate,SKU-0095,Beauty,0,10.0,2
+5396,2025-01-19,Desktop,Paid Search,SKU-0314,Apparel,0,96.39,2
+5405,2025-01-20,Mobile,Email,SKU-0127,Apparel,1,58.77,2
+5415,2025-03-04,Desktop,Paid Social,SKU-0103,Apparel,0,67.44,2
+5420,2025-06-09,Desktop,Affiliate,SKU-0313,Apparel,1,73.2,3
+5431,2025-03-23,Desktop,Paid Social,SKU-0381,Fitness,0,87.25,1
+5440,2025-08-05,Mobile,Paid Search,SKU-0243,Fitness,0,20.98,2
+5443,2025-12-09,Desktop,Paid Search,SKU-0120,Electronics,1,70.18,3
+5463,2025-03-17,Mobile,Affiliate,SKU-0198,Electronics,0,44.42,3
+5475,2025-12-26,Mobile,Paid Search,SKU-0181,Apparel,0,65.98,3
+5489,2025-10-02,Desktop,Email,SKU-0081,Beauty,0,77.04,2
+5492,2025-08-07,Desktop,Paid Search,SKU-0293,Beauty,1,120.23,3
+5495,2025-11-04,Mobile,Affiliate,SKU-0211,Home,0,53.96,2
+5503,2025-11-15,Desktop,Paid Social,SKU-0013,Home,1,52.69,2
+5518,2025-04-26,Mobile,Paid Search,SKU-0219,Apparel,1,24.76,3
+5519,2025-01-10,Desktop,Paid Search,SKU-0141,Electronics,1,45.18,1
+5529,2025-11-02,Desktop,Paid Social,SKU-0119,Apparel,0,61.08,2
+5541,2025-04-15,Desktop,Affiliate,SKU-0210,Beauty,0,97.82,3
+5557,2025-10-05,Desktop,Organic,SKU-0322,Home,0,68.98,2
+5558,2025-11-27,Mobile,Paid Search,SKU-0218,Electronics,0,91.34,3
+5561,2025-10-11,Desktop,Paid Search,SKU-0374,Apparel,0,63.57,3
+5566,2025-08-04,Desktop,Affiliate,SKU-0208,Home,0,41.13,2
+5576,2025-11-09,Desktop,Paid Search,SKU-0229,Beauty,0,39.16,3
+5610,2025-07-30,Desktop,Paid Search,SKU-0166,Apparel,0,59.01,2
+5611,2025-05-09,Desktop,Organic,SKU-0173,Electronics,1,70.23,3
+5622,2025-09-09,Desktop,Affiliate,SKU-0119,Beauty,0,47.29,3
+5634,2025-11-07,Desktop,Affiliate,SKU-0127,Electronics,0,60.18,3
+5643,2025-07-18,Desktop,Affiliate,SKU-0081,Fitness,0,106.11,3
+5645,2025-10-24,Desktop,Paid Search,SKU-0050,Home,0,80.3,1
+5656,2025-07-30,Mobile,Affiliate,SKU-0396,Electronics,0,52.29,3
+5660,2025-10-17,Desktop,Paid Social,SKU-0066,Apparel,0,51.62,1
+5673,2025-07-24,Desktop,Email,SKU-0289,Beauty,0,49.58,2
+5708,2025-10-19,Desktop,Email,SKU-0243,Beauty,1,81.28,1
+5709,2025-10-16,Mobile,Paid Social,SKU-0259,Electronics,0,31.55,2
+5714,2025-11-19,Mobile,Paid Search,SKU-0309,Apparel,1,119.44,3
+5730,2025-05-31,Mobile,Organic,SKU-0309,Home,0,62.76,2
+5766,2025-05-30,Mobile,Paid Search,SKU-0163,Apparel,1,61.01,1
+5781,2025-03-26,Mobile,Email,SKU-0323,Apparel,1,87.14,2
+5790,2025-02-07,Mobile,Paid Search,SKU-0272,Apparel,0,72.11,2
+5802,2025-01-23,Desktop,Organic,SKU-0250,Beauty,0,100.09,1
+5803,2025-01-09,Mobile,Email,SKU-0121,Beauty,0,59.54,1
+5806,2025-01-19,Desktop,Paid Social,SKU-0027,Beauty,0,36.15,3
+5817,2025-08-28,Mobile,Paid Search,SKU-0190,Home,1,28.06,3
+5822,2025-08-31,Mobile,Paid Search,SKU-0015,Apparel,0,81.03,1
+5824,2025-01-21,Mobile,Organic,SKU-0372,Fitness,0,92.28,1
+5825,2025-01-01,Desktop,Email,SKU-0067,Apparel,0,86.53,2
+5833,2025-05-24,Mobile,Paid Search,SKU-0179,Apparel,0,26.59,3
+5842,2025-03-15,Desktop,Paid Social,SKU-0392,Home,1,110.9,2
+5843,2025-01-24,Mobile,Paid Search,SKU-0302,Home,0,67.04,3
+5845,2025-06-16,Mobile,Organic,SKU-0297,Apparel,0,34.62,1
+5857,2025-04-05,Mobile,Email,SKU-0010,Home,1,126.82,1
+5861,2025-02-16,Mobile,Organic,SKU-0149,Electronics,0,89.98,2
+5873,2025-12-20,Desktop,Paid Social,SKU-0129,Beauty,0,41.95,1
+5880,2025-07-15,Mobile,Paid Search,SKU-0228,Electronics,1,15.36,3
+5889,2025-10-24,Mobile,Affiliate,SKU-0004,Beauty,0,99.8,3
+5894,2025-01-06,Mobile,Organic,SKU-0141,Fitness,0,68.78,2
+5904,2025-08-11,Mobile,Organic,SKU-0045,Beauty,1,63.8,2
+5911,2025-03-14,Mobile,Organic,SKU-0273,Apparel,0,78.1,3
+5918,2025-12-16,Mobile,Organic,SKU-0001,Fitness,1,41.92,3
+5923,2025-02-27,Mobile,Paid Search,SKU-0003,Apparel,0,72.94,3
+5924,2025-05-12,Mobile,Paid Social,SKU-0322,Apparel,0,66.67,2
+5928,2025-05-19,Desktop,Organic,SKU-0088,Beauty,0,59.8,3
+5932,2025-04-16,Desktop,Paid Social,SKU-0219,Beauty,0,62.13,3
+5942,2025-05-08,Mobile,Paid Social,SKU-0024,Apparel,1,72.96,2
+5949,2025-01-20,Mobile,Paid Search,SKU-0049,Electronics,0,77.42,2
+5954,2025-10-21,Desktop,Paid Search,SKU-0257,Electronics,0,28.33,3
+5957,2025-03-28,Desktop,Paid Social,SKU-0313,Apparel,0,74.09,2
+5978,2025-02-12,Mobile,Organic,SKU-0102,Beauty,1,25.49,3
+5995,2025-09-06,Desktop,Email,SKU-0198,Home,1,53.46,3
+6005,2025-07-04,Mobile,Paid Search,SKU-0349,Home,1,61.54,3
+6021,2025-08-09,Mobile,Paid Search,SKU-0295,Home,0,46.8,3
+6048,2025-08-06,Mobile,Paid Search,SKU-0099,Beauty,0,81.07,1
+6052,2025-04-06,Desktop,Paid Social,SKU-0352,Electronics,0,77.9,2
+6056,2025-04-10,Mobile,Email,SKU-0310,Beauty,0,76.29,1
+6064,2025-08-25,Desktop,Email,SKU-0396,Home,1,54.16,1
+6068,2025-12-11,Desktop,Paid Social,SKU-0128,Apparel,0,84.93,2
+6088,2025-02-11,Desktop,Email,SKU-0132,Electronics,1,32.95,1
+6089,2025-06-28,Desktop,Paid Social,SKU-0083,Apparel,1,120.07,3
+6110,2025-05-04,Mobile,Organic,SKU-0219,Apparel,0,76.34,2
+6113,2025-06-24,Desktop,Paid Search,SKU-0066,Electronics,0,77.49,3
+6127,2025-06-25,Desktop,Paid Social,SKU-0216,Fitness,1,49.39,2
+6136,2025-07-10,Desktop,Paid Social,SKU-0043,Home,0,67.24,1
+6138,2025-03-17,Desktop,Email,SKU-0096,Beauty,0,60.94,3
+6164,2025-06-12,Desktop,Paid Social,SKU-0283,Beauty,1,57.51,1
+6169,2025-04-27,Desktop,Email,SKU-0023,Beauty,0,67.97,1
+6194,2025-05-02,Mobile,Organic,SKU-0287,Apparel,0,95.54,1
+6215,2025-09-24,Mobile,Email,SKU-0234,Fitness,0,80.85,3
+6223,2025-07-01,Mobile,Organic,SKU-0349,Electronics,1,42.56,3
+6229,2025-06-20,Mobile,Paid Social,SKU-0173,Home,1,36.09,3
+6256,2025-01-26,Mobile,Organic,SKU-0160,Fitness,1,64.27,3
+6280,2025-01-08,Desktop,Paid Search,SKU-0105,Fitness,0,91.87,1
+6281,2025-04-24,Mobile,Paid Social,SKU-0340,Apparel,0,65.21,3
+6288,2025-07-29,Desktop,Paid Search,SKU-0078,Home,0,108.93,2
+6291,2025-03-28,Desktop,Paid Search,SKU-0003,Fitness,0,39.79,2
+6292,2025-10-15,Mobile,Organic,SKU-0261,Apparel,0,18.25,2
+6294,2025-11-11,Mobile,Paid Social,SKU-0075,Apparel,0,66.7,1
+6299,2025-01-27,Mobile,Organic,SKU-0302,Home,0,66.08,2
+6302,2025-04-08,Desktop,Paid Social,SKU-0258,Apparel,1,83.67,3
+6304,2025-07-19,Desktop,Organic,SKU-0205,Home,1,75.1,3
+6309,2025-06-07,Desktop,Affiliate,SKU-0171,Beauty,1,9.2,3
+6311,2025-06-25,Mobile,Affiliate,SKU-0050,Electronics,0,62.54,1
+6312,2025-02-06,Mobile,Email,SKU-0149,Beauty,0,94.59,3
+6317,2025-09-27,Mobile,Paid Search,SKU-0184,Home,1,95.77,2
+6322,2025-12-23,Desktop,Paid Search,SKU-0035,Home,1,92.34,3
+6331,2025-04-24,Desktop,Email,SKU-0115,Apparel,1,83.1,1
+6346,2025-03-25,Desktop,Paid Search,SKU-0033,Fitness,1,39.0,2
+6349,2025-06-09,Desktop,Organic,SKU-0233,Apparel,0,94.46,3
+6355,2025-04-28,Desktop,Organic,SKU-0154,Beauty,1,46.88,2
+6363,2025-01-20,Mobile,Paid Search,SKU-0114,Beauty,1,89.85,3
+6374,2025-08-08,Desktop,Email,SKU-0224,Electronics,0,96.24,2
+6375,2025-11-14,Desktop,Organic,SKU-0387,Beauty,1,42.78,3
+6376,2025-06-20,Mobile,Email,SKU-0353,Electronics,1,96.82,3
+6377,2025-03-20,Mobile,Organic,SKU-0293,Beauty,0,50.05,2
+6382,2025-11-14,Mobile,Affiliate,SKU-0198,Beauty,0,92.67,3
+6392,2025-12-17,Desktop,Paid Social,SKU-0292,Apparel,0,66.9,2
+6394,2025-06-23,Mobile,Email,SKU-0211,Beauty,0,93.69,3
+6399,2025-12-05,Mobile,Paid Search,SKU-0210,Apparel,1,43.12,2
+6401,2025-03-02,Mobile,Email,SKU-0329,Beauty,0,90.92,1
+6407,2025-02-10,Mobile,Paid Search,SKU-0337,Home,1,37.03,2
+6409,2025-09-28,Desktop,Email,SKU-0052,Home,0,85.81,3
+6422,2025-11-06,Desktop,Affiliate,SKU-0281,Apparel,1,44.66,3
+6423,2025-11-25,Mobile,Affiliate,SKU-0303,Fitness,1,48.63,1
+6430,2025-07-31,Mobile,Paid Search,SKU-0081,Electronics,0,78.3,3
+6431,2025-02-09,Mobile,Affiliate,SKU-0121,Apparel,0,89.99,3
+6434,2025-11-04,Desktop,Email,SKU-0188,Beauty,1,48.71,2
+6436,2025-07-08,Desktop,Paid Social,SKU-0046,Apparel,0,76.4,2
+6439,2025-05-29,Mobile,Paid Search,SKU-0281,Home,0,73.09,1
+6451,2025-04-25,Mobile,Organic,SKU-0295,Home,1,77.05,2
+6458,2025-10-21,Mobile,Paid Social,SKU-0108,Beauty,0,72.02,3
+6465,2025-01-23,Desktop,Organic,SKU-0070,Electronics,0,41.8,3
+6477,2025-07-06,Mobile,Paid Search,SKU-0195,Apparel,0,124.2,3
+6485,2025-11-05,Mobile,Paid Social,SKU-0308,Beauty,1,42.2,2
+6494,2025-01-31,Mobile,Organic,SKU-0192,Fitness,0,36.05,3
+6498,2025-10-08,Mobile,Organic,SKU-0025,Electronics,0,43.09,3
+6504,2025-02-10,Mobile,Paid Search,SKU-0174,Fitness,0,77.26,1
+6512,2025-02-20,Desktop,Organic,SKU-0146,Fitness,0,86.29,3
+6529,2025-06-09,Mobile,Affiliate,SKU-0293,Apparel,0,72.32,1
+6534,2025-06-25,Mobile,Affiliate,SKU-0070,Electronics,1,31.64,1
+6544,2025-08-13,Mobile,Affiliate,SKU-0137,Electronics,0,94.17,1
+6546,2025-07-19,Desktop,Organic,SKU-0185,Beauty,0,69.06,3
+6551,2025-04-27,Desktop,Paid Search,SKU-0276,Fitness,1,51.48,3
+6554,2025-12-22,Desktop,Email,SKU-0245,Apparel,1,87.97,2
+6567,2025-08-27,Mobile,Organic,SKU-0132,Home,0,59.48,3
+6568,2025-06-25,Desktop,Paid Social,SKU-0353,Home,1,32.64,3
+6572,2025-05-16,Desktop,Affiliate,SKU-0350,Electronics,0,68.82,2
+6573,2025-08-30,Desktop,Paid Search,SKU-0261,Beauty,0,76.61,2
+6597,2025-07-22,Mobile,Email,SKU-0249,Electronics,1,35.63,2
+6600,2025-09-11,Desktop,Organic,SKU-0073,Apparel,0,79.33,2
+6604,2025-10-08,Desktop,Organic,SKU-0132,Beauty,1,47.87,1
+6605,2025-05-24,Desktop,Email,SKU-0222,Home,1,69.91,1
+6612,2025-09-07,Desktop,Paid Search,SKU-0122,Home,0,126.86,3
+6614,2025-08-20,Desktop,Email,SKU-0313,Apparel,0,103.03,1
+6620,2025-10-11,Mobile,Paid Search,SKU-0231,Electronics,1,66.35,1
+6623,2025-09-02,Mobile,Affiliate,SKU-0010,Apparel,1,74.51,2
+6640,2025-02-09,Mobile,Paid Search,SKU-0028,Fitness,0,105.07,1
+6641,2025-03-04,Mobile,Paid Social,SKU-0254,Home,0,44.98,1
+6648,2025-03-13,Mobile,Paid Social,SKU-0244,Home,0,30.52,2
+6651,2025-10-06,Mobile,Paid Search,SKU-0224,Apparel,0,35.69,1
+6652,2025-12-12,Desktop,Organic,SKU-0096,Electronics,0,60.19,3
+6674,2025-06-23,Mobile,Affiliate,SKU-0093,Home,1,100.76,2
+6677,2025-11-09,Desktop,Paid Social,SKU-0247,Fitness,0,49.15,3
+6686,2025-03-10,Desktop,Affiliate,SKU-0308,Electronics,1,104.01,2
+6691,2025-06-23,Mobile,Email,SKU-0378,Fitness,1,85.95,1
+6692,2025-12-14,Mobile,Paid Search,SKU-0299,Fitness,0,92.54,3
+6702,2025-03-17,Mobile,Paid Social,SKU-0122,Apparel,0,54.65,1
+6703,2025-02-27,Mobile,Organic,SKU-0344,Apparel,0,49.3,3
+6718,2025-08-07,Mobile,Organic,SKU-0272,Electronics,1,93.28,3
+6720,2025-08-12,Mobile,Affiliate,SKU-0302,Apparel,1,17.24,1
+6728,2025-08-30,Desktop,Affiliate,SKU-0077,Apparel,0,108.44,2
+6758,2025-04-14,Desktop,Organic,SKU-0026,Apparel,0,40.78,1
+6781,2025-12-15,Mobile,Email,SKU-0052,Home,0,24.78,1
+6787,2025-12-07,Desktop,Paid Social,SKU-0128,Beauty,1,59.56,3
+6794,2025-01-15,Desktop,Email,SKU-0194,Apparel,0,61.48,3
+6808,2025-06-23,Mobile,Organic,SKU-0101,Apparel,0,37.12,1
+6812,2025-06-19,Desktop,Paid Search,SKU-0009,Apparel,0,40.06,3
+6820,2025-05-23,Mobile,Affiliate,SKU-0205,Apparel,0,44.27,3
+6828,2025-03-16,Mobile,Paid Search,SKU-0184,Home,0,51.25,1
+6842,2025-01-19,Desktop,Email,SKU-0299,Beauty,1,43.56,3
+6844,2025-10-03,Desktop,Paid Social,SKU-0339,Home,1,34.84,2
+6850,2025-07-01,Desktop,Email,SKU-0130,Apparel,0,82.45,3
+6856,2025-09-03,Desktop,Organic,SKU-0308,Electronics,1,81.54,3
+6877,2025-07-17,Desktop,Organic,SKU-0214,Apparel,1,65.91,2
+6880,2025-05-20,Mobile,Paid Social,SKU-0310,Apparel,0,63.4,3
+6888,2025-04-02,Desktop,Paid Search,SKU-0121,Home,1,49.33,2
+6905,2025-09-02,Mobile,Paid Social,SKU-0313,Fitness,1,39.67,2
+6922,2025-11-08,Desktop,Email,SKU-0172,Apparel,0,70.71,2
+6946,2025-06-11,Mobile,Paid Search,SKU-0141,Beauty,0,52.22,1
+6955,2025-01-11,Mobile,Paid Search,SKU-0111,Home,0,63.97,2
+6979,2025-11-09,Mobile,Paid Search,SKU-0263,Apparel,1,38.63,1
+6983,2025-04-10,Desktop,Paid Search,SKU-0059,Apparel,0,91.01,2
+6987,2025-11-18,Desktop,Organic,SKU-0152,Beauty,0,59.77,2
+6993,2025-04-14,Desktop,Paid Social,SKU-0314,Fitness,0,53.91,2
+7014,2025-04-11,Desktop,Affiliate,SKU-0259,Home,1,87.94,3
+7015,2025-10-20,Desktop,Email,SKU-0062,Beauty,1,75.07,2
+7016,2025-12-19,Desktop,Paid Social,SKU-0028,Home,1,62.65,3
+7022,2025-05-25,Desktop,Affiliate,SKU-0006,Home,0,88.33,3
+7040,2025-08-22,Desktop,Organic,SKU-0347,Electronics,0,59.26,1
+7047,2025-12-06,Mobile,Email,SKU-0345,Home,0,63.65,1
+7057,2025-06-02,Mobile,Paid Search,SKU-0139,Home,0,49.56,1
+7061,2025-01-04,Mobile,Email,SKU-0315,Beauty,0,68.29,2
+7064,2025-11-14,Mobile,Paid Search,SKU-0174,Home,0,69.51,2
+7065,2025-12-14,Mobile,Email,SKU-0104,Home,1,80.57,2
+7069,2025-02-03,Desktop,Paid Search,SKU-0300,Apparel,0,26.27,2
+7078,2025-02-02,Desktop,Paid Social,SKU-0129,Beauty,0,37.13,3
+7082,2025-10-30,Mobile,Affiliate,SKU-0077,Home,0,65.28,3
+7089,2025-02-09,Mobile,Paid Social,SKU-0185,Apparel,0,85.64,2
+7092,2025-07-10,Mobile,Organic,SKU-0011,Electronics,0,72.55,1
+7100,2025-08-03,Mobile,Organic,SKU-0337,Apparel,1,57.43,3
+7123,2025-04-12,Mobile,Email,SKU-0131,Apparel,1,95.09,3
+7149,2025-07-24,Desktop,Paid Search,SKU-0129,Home,1,110.22,1
+7154,2025-05-31,Desktop,Email,SKU-0344,Apparel,1,72.63,2
+7157,2025-02-15,Desktop,Paid Search,SKU-0223,Apparel,0,27.75,2
+7160,2025-05-17,Desktop,Organic,SKU-0303,Home,0,110.77,3
+7163,2025-10-10,Desktop,Paid Social,SKU-0113,Home,0,20.32,1
+7166,2025-07-16,Desktop,Organic,SKU-0032,Beauty,0,37.59,2
+7168,2025-12-26,Desktop,Organic,SKU-0112,Electronics,1,25.72,1
+7172,2025-09-20,Desktop,Paid Social,SKU-0381,Beauty,1,30.06,3
+7179,2025-10-25,Mobile,Organic,SKU-0258,Apparel,1,59.55,3
+7180,2025-03-24,Mobile,Paid Search,SKU-0312,Apparel,1,63.01,1
+7182,2025-01-16,Desktop,Paid Search,SKU-0276,Beauty,1,38.01,2
+7205,2025-08-27,Desktop,Email,SKU-0391,Apparel,1,62.88,1
+7208,2025-12-28,Desktop,Paid Social,SKU-0222,Electronics,0,81.64,1
+7210,2025-08-19,Mobile,Paid Search,SKU-0130,Electronics,1,69.89,3
+7220,2025-07-20,Desktop,Paid Social,SKU-0151,Home,1,31.62,2
+7221,2025-01-20,Desktop,Organic,SKU-0282,Apparel,0,62.93,2
+7236,2025-02-10,Desktop,Paid Search,SKU-0314,Home,1,37.03,1
+7241,2025-08-13,Mobile,Paid Social,SKU-0314,Home,0,32.18,3
+7261,2025-08-26,Desktop,Paid Search,SKU-0192,Apparel,1,43.51,3
+7263,2025-03-13,Desktop,Paid Search,SKU-0396,Apparel,0,32.81,1
+7273,2025-12-21,Desktop,Organic,SKU-0385,Beauty,1,87.5,1
+7279,2025-03-21,Desktop,Paid Search,SKU-0266,Beauty,1,46.85,2
+7281,2025-11-05,Desktop,Organic,SKU-0290,Electronics,1,51.41,1
+7293,2025-06-30,Desktop,Paid Search,SKU-0323,Fitness,0,52.03,3
+7297,2025-03-09,Mobile,Organic,SKU-0329,Home,0,73.94,3
+7305,2025-04-25,Desktop,Organic,SKU-0329,Beauty,1,69.18,1
+7308,2025-01-09,Desktop,Paid Social,SKU-0226,Electronics,0,83.92,1
+7311,2025-01-30,Mobile,Paid Search,SKU-0125,Beauty,0,67.07,2
+7312,2025-08-17,Mobile,Paid Search,SKU-0261,Fitness,0,26.01,3
+7332,2025-02-17,Desktop,Paid Social,SKU-0226,Beauty,0,44.25,3
+7349,2025-06-20,Desktop,Paid Search,SKU-0088,Beauty,0,87.79,2
+7355,2025-04-19,Desktop,Paid Search,SKU-0320,Home,1,81.01,1
+7363,2025-07-24,Mobile,Paid Search,SKU-0274,Electronics,1,18.27,2
+7364,2025-11-18,Mobile,Paid Search,SKU-0370,Home,0,59.44,3
+7383,2025-06-28,Mobile,Email,SKU-0038,Electronics,0,83.45,1
+7387,2025-06-16,Desktop,Organic,SKU-0039,Electronics,1,37.62,1
+7391,2025-08-21,Desktop,Organic,SKU-0216,Home,0,20.81,3
+7403,2025-12-23,Desktop,Paid Search,SKU-0015,Beauty,0,56.52,1
+7417,2025-12-29,Desktop,Paid Search,SKU-0371,Apparel,1,53.02,2
+7418,2025-10-18,Mobile,Paid Search,SKU-0100,Apparel,1,48.94,1
+7422,2025-05-01,Desktop,Email,SKU-0122,Apparel,0,68.61,3
+7425,2025-07-09,Mobile,Paid Social,SKU-0213,Fitness,1,60.85,1
+7430,2025-04-19,Desktop,Organic,SKU-0392,Apparel,0,47.44,3
+7436,2025-01-09,Mobile,Paid Social,SKU-0335,Electronics,1,33.25,1
+7443,2025-11-24,Mobile,Paid Social,SKU-0344,Beauty,1,58.3,2
+7447,2025-02-13,Desktop,Affiliate,SKU-0105,Home,0,73.86,2
+7453,2025-07-15,Desktop,Affiliate,SKU-0286,Apparel,0,36.51,3
+7457,2025-01-27,Desktop,Paid Social,SKU-0178,Home,0,78.7,1
+7459,2025-07-22,Desktop,Organic,SKU-0386,Fitness,0,43.53,3
+7498,2025-12-17,Mobile,Email,SKU-0285,Fitness,0,62.46,3
+7501,2025-11-23,Desktop,Paid Search,SKU-0136,Fitness,0,62.18,2
+7506,2025-09-27,Mobile,Affiliate,SKU-0301,Electronics,1,83.22,3
+7507,2025-10-16,Mobile,Paid Search,SKU-0310,Apparel,1,67.7,2
+7512,2025-03-01,Mobile,Paid Search,SKU-0197,Apparel,0,107.76,2
+7518,2025-05-01,Desktop,Paid Search,SKU-0367,Apparel,0,75.23,2
+7533,2025-09-10,Desktop,Paid Social,SKU-0020,Fitness,0,77.39,1
+7538,2025-10-13,Desktop,Affiliate,SKU-0015,Apparel,0,116.25,1
+7547,2025-01-14,Mobile,Paid Search,SKU-0097,Apparel,0,86.09,3
+7563,2025-11-19,Desktop,Email,SKU-0334,Apparel,0,57.74,3
+7567,2025-09-07,Desktop,Paid Social,SKU-0270,Electronics,0,77.87,2
+7573,2025-01-25,Desktop,Affiliate,SKU-0104,Home,0,19.39,2
+7588,2025-05-12,Desktop,Organic,SKU-0065,Apparel,0,68.41,1
+7605,2025-01-30,Mobile,Organic,SKU-0124,Apparel,0,61.36,2
+7609,2025-10-29,Mobile,Affiliate,SKU-0043,Beauty,0,14.68,2
+7621,2025-08-09,Mobile,Paid Search,SKU-0207,Home,0,81.92,1
+7624,2025-09-29,Mobile,Organic,SKU-0259,Electronics,0,70.46,3
+7640,2025-05-28,Mobile,Paid Search,SKU-0304,Electronics,0,72.7,3
+7643,2025-05-11,Desktop,Paid Search,SKU-0171,Beauty,1,57.22,2
+7647,2025-02-11,Desktop,Affiliate,SKU-0272,Apparel,0,84.3,3
+7651,2025-01-28,Mobile,Paid Search,SKU-0103,Home,1,110.12,1
+7652,2025-08-25,Desktop,Organic,SKU-0352,Home,1,105.94,1
+7679,2025-05-22,Mobile,Email,SKU-0204,Home,1,59.98,3
+7697,2025-05-15,Desktop,Paid Social,SKU-0105,Apparel,1,65.6,2
+7701,2025-09-20,Mobile,Organic,SKU-0259,Beauty,1,78.58,3
+7710,2025-01-02,Mobile,Email,SKU-0230,Apparel,0,77.87,1
+7726,2025-06-17,Desktop,Paid Search,SKU-0188,Home,1,84.9,2
+7729,2025-05-17,Mobile,Paid Search,SKU-0101,Beauty,0,38.36,2
+7734,2025-06-28,Mobile,Paid Social,SKU-0034,Apparel,0,73.29,3
+7756,2025-06-26,Mobile,Organic,SKU-0364,Electronics,0,25.26,3
+7763,2025-08-01,Mobile,Organic,SKU-0142,Apparel,1,74.96,2
+7767,2025-04-10,Desktop,Paid Search,SKU-0054,Home,0,51.48,1
+7778,2025-08-29,Desktop,Email,SKU-0201,Electronics,0,98.6,1
+7780,2025-03-10,Desktop,Email,SKU-0282,Home,0,53.99,1
+7800,2025-07-04,Desktop,Organic,SKU-0165,Beauty,0,81.02,2
+7820,2025-01-10,Mobile,Organic,SKU-0137,Electronics,0,84.88,2
+7842,2025-01-21,Mobile,Paid Search,SKU-0159,Beauty,0,82.51,3
+7851,2025-04-09,Mobile,Email,SKU-0253,Apparel,1,82.85,2
+7866,2025-01-16,Desktop,Email,SKU-0023,Beauty,1,78.82,1
+7877,2025-06-24,Mobile,Paid Social,SKU-0082,Fitness,0,29.91,2
+7881,2025-06-22,Mobile,Organic,SKU-0321,Apparel,1,36.76,2
+7889,2025-01-06,Mobile,Organic,SKU-0099,Electronics,0,61.62,2
+7893,2025-04-22,Mobile,Organic,SKU-0214,Home,0,10.0,1
+7894,2025-11-30,Mobile,Paid Social,SKU-0021,Home,1,32.89,3
+7895,2025-12-13,Desktop,Paid Social,SKU-0327,Beauty,0,92.86,3
+7915,2025-08-03,Mobile,Paid Social,SKU-0015,Apparel,0,76.08,2
+7953,2025-03-10,Desktop,Organic,SKU-0209,Home,1,62.19,1
+7956,2025-06-12,Mobile,Email,SKU-0029,Electronics,1,74.47,1
+7957,2025-12-08,Desktop,Organic,SKU-0250,Beauty,0,93.75,1
+7958,2025-02-22,Desktop,Paid Search,SKU-0300,Home,1,71.09,1
+7960,2025-10-02,Desktop,Affiliate,SKU-0202,Apparel,0,58.8,1
+7966,2025-03-19,Mobile,Paid Social,SKU-0233,Electronics,0,88.61,3
+7976,2025-03-27,Desktop,Affiliate,SKU-0037,Apparel,0,92.8,1
+7979,2025-06-09,Desktop,Organic,SKU-0075,Electronics,0,78.89,2
+7981,2025-01-30,Desktop,Email,SKU-0081,Electronics,0,65.38,3
+7984,2025-09-04,Desktop,Email,SKU-0320,Beauty,1,58.92,3
+7985,2025-08-18,Desktop,Paid Search,SKU-0235,Home,1,43.7,1
+7998,2025-11-30,Desktop,Organic,SKU-0022,Apparel,1,39.14,3
+8016,2025-12-03,Desktop,Paid Search,SKU-0306,Beauty,0,79.45,1
+8017,2025-06-29,Mobile,Paid Social,SKU-0162,Beauty,0,68.04,2
+8018,2025-03-08,Desktop,Affiliate,SKU-0042,Beauty,0,56.61,3
+8037,2025-10-15,Desktop,Paid Search,SKU-0366,Home,1,69.57,3
+8042,2025-08-30,Mobile,Paid Search,SKU-0089,Home,0,124.28,1
+8043,2025-08-11,Mobile,Paid Social,SKU-0034,Apparel,0,72.94,2
+8057,2025-11-11,Mobile,Organic,SKU-0231,Home,0,99.39,2
+8068,2025-07-14,Mobile,Organic,SKU-0275,Beauty,1,84.53,3
+8069,2025-01-20,Mobile,Paid Search,SKU-0347,Beauty,0,54.16,3
+8070,2025-05-06,Desktop,Organic,SKU-0377,Electronics,0,109.71,3
+8077,2025-06-28,Desktop,Organic,SKU-0379,Beauty,1,71.63,2
+8078,2025-08-11,Desktop,Paid Search,SKU-0065,Apparel,0,74.95,2
+8079,2025-03-30,Desktop,Email,SKU-0026,Home,0,64.16,1
+8098,2025-08-07,Mobile,Email,SKU-0344,Apparel,0,78.36,1
+8117,2025-08-01,Desktop,Organic,SKU-0211,Beauty,0,70.83,2
+8136,2025-09-26,Desktop,Paid Search,SKU-0084,Apparel,1,77.8,2
+8142,2025-01-22,Desktop,Paid Search,SKU-0364,Apparel,0,81.29,3
+8144,2025-09-20,Desktop,Email,SKU-0081,Apparel,1,45.37,1
+8149,2025-05-16,Desktop,Email,SKU-0023,Apparel,1,89.34,1
+8150,2025-04-27,Mobile,Organic,SKU-0306,Beauty,0,75.83,3
+8157,2025-11-28,Mobile,Paid Search,SKU-0362,Beauty,1,13.49,3
+8166,2025-08-19,Desktop,Paid Search,SKU-0136,Home,0,95.64,2
+8175,2025-03-16,Desktop,Affiliate,SKU-0115,Beauty,0,31.24,1
+8180,2025-12-23,Mobile,Organic,SKU-0005,Fitness,0,75.45,1
+8197,2025-11-29,Mobile,Paid Search,SKU-0177,Electronics,0,34.46,1
+8215,2025-01-30,Desktop,Paid Social,SKU-0171,Apparel,0,120.16,2
+8216,2025-07-02,Desktop,Affiliate,SKU-0200,Electronics,1,48.39,1
+8235,2025-12-05,Desktop,Affiliate,SKU-0391,Apparel,0,89.31,2
+8239,2025-11-21,Mobile,Email,SKU-0111,Electronics,0,52.34,2
+8240,2025-02-11,Desktop,Paid Search,SKU-0187,Apparel,1,21.97,1
+8269,2025-09-30,Mobile,Email,SKU-0335,Apparel,1,26.63,3
+8273,2025-02-15,Mobile,Organic,SKU-0374,Beauty,1,67.71,2
+8289,2025-01-25,Mobile,Organic,SKU-0389,Home,0,107.81,1
+8299,2025-12-20,Desktop,Paid Search,SKU-0375,Electronics,1,61.05,3
+8305,2025-02-09,Desktop,Paid Search,SKU-0259,Home,1,59.05,2
+8322,2025-09-16,Desktop,Paid Search,SKU-0076,Apparel,1,57.04,3
+8343,2025-06-10,Mobile,Email,SKU-0298,Electronics,1,85.8,3
+8344,2025-09-28,Desktop,Paid Social,SKU-0182,Electronics,0,136.88,1
+8355,2025-11-07,Mobile,Paid Search,SKU-0037,Apparel,0,83.55,1
+8372,2025-02-12,Desktop,Organic,SKU-0039,Apparel,0,59.69,3
+8373,2025-08-20,Desktop,Paid Search,SKU-0057,Home,0,57.44,3
+8377,2025-09-27,Desktop,Paid Social,SKU-0188,Beauty,1,67.33,1
+8385,2025-12-23,Desktop,Email,SKU-0024,Apparel,1,84.62,2
+8390,2025-08-25,Mobile,Organic,SKU-0197,Home,1,27.49,2
+8405,2025-06-10,Desktop,Organic,SKU-0330,Home,0,68.31,1
+8438,2025-11-24,Mobile,Affiliate,SKU-0164,Electronics,0,49.04,3
+8441,2025-06-21,Mobile,Organic,SKU-0229,Apparel,0,78.54,3
+8458,2025-01-27,Mobile,Email,SKU-0305,Home,0,55.52,3
+8459,2025-03-05,Desktop,Organic,SKU-0258,Apparel,0,10.0,3
+8470,2025-12-30,Desktop,Email,SKU-0095,Home,0,76.49,3
+8478,2025-03-23,Mobile,Organic,SKU-0091,Home,0,41.56,2
+8480,2025-12-25,Desktop,Affiliate,SKU-0334,Beauty,0,76.14,1
+8481,2025-08-09,Mobile,Paid Social,SKU-0254,Electronics,0,68.7,1
+8489,2025-02-18,Desktop,Paid Search,SKU-0364,Home,1,89.19,1
+8491,2025-09-24,Mobile,Organic,SKU-0306,Fitness,0,50.06,2
+8494,2025-08-27,Mobile,Email,SKU-0067,Beauty,1,105.61,3
+8497,2025-01-03,Mobile,Organic,SKU-0291,Apparel,1,74.27,3
+8516,2025-05-12,Desktop,Organic,SKU-0179,Home,0,48.19,3
+8523,2025-05-15,Desktop,Paid Search,SKU-0199,Home,0,30.65,3
+8527,2025-12-08,Desktop,Paid Search,SKU-0248,Home,1,35.9,3
+8539,2025-05-12,Desktop,Email,SKU-0031,Beauty,0,100.57,1
+8577,2025-02-08,Desktop,Paid Search,SKU-0299,Electronics,0,67.87,3
+8580,2025-02-09,Mobile,Paid Social,SKU-0307,Electronics,1,81.32,1
+8594,2025-05-15,Mobile,Paid Search,SKU-0013,Apparel,0,104.22,2
+8609,2025-06-23,Desktop,Email,SKU-0135,Home,1,67.47,2
+8624,2025-01-26,Desktop,Paid Social,SKU-0366,Apparel,1,76.94,1
+8626,2025-01-14,Desktop,Affiliate,SKU-0110,Electronics,0,86.68,1
+8633,2025-06-11,Mobile,Organic,SKU-0363,Apparel,1,105.64,3
+8635,2025-04-20,Desktop,Paid Social,SKU-0354,Apparel,1,35.09,3
+8637,2025-06-09,Mobile,Organic,SKU-0338,Electronics,1,45.85,3
+8640,2025-11-29,Mobile,Organic,SKU-0177,Electronics,0,84.03,1
+8644,2025-08-21,Desktop,Organic,SKU-0348,Fitness,0,84.3,3
+8649,2025-06-28,Desktop,Email,SKU-0025,Apparel,0,60.36,1
+8650,2025-07-12,Mobile,Organic,SKU-0386,Electronics,0,113.33,1
+8655,2025-09-07,Desktop,Paid Search,SKU-0289,Apparel,0,60.6,1
+8658,2025-10-04,Mobile,Paid Social,SKU-0028,Apparel,0,75.0,3
+8668,2025-12-23,Desktop,Paid Search,SKU-0113,Electronics,1,16.8,2
+8673,2025-04-09,Desktop,Email,SKU-0272,Beauty,0,78.71,2
+8674,2025-03-26,Desktop,Paid Search,SKU-0100,Apparel,0,62.11,3
+8675,2025-05-24,Mobile,Paid Social,SKU-0224,Apparel,0,53.93,1
+8676,2025-03-18,Mobile,Paid Search,SKU-0165,Electronics,0,82.38,1
+8683,2025-10-10,Mobile,Email,SKU-0249,Fitness,0,42.11,3
+8698,2025-08-04,Mobile,Paid Search,SKU-0310,Apparel,1,58.91,2
+8704,2025-06-16,Mobile,Paid Search,SKU-0253,Electronics,0,106.23,3
+8706,2025-01-16,Mobile,Paid Search,SKU-0311,Fitness,0,95.01,3
+8712,2025-10-23,Desktop,Organic,SKU-0100,Fitness,0,14.08,1
+8713,2025-11-24,Desktop,Paid Search,SKU-0008,Electronics,0,111.52,2
+8718,2025-04-25,Mobile,Affiliate,SKU-0193,Beauty,1,42.7,1
+8720,2025-07-17,Mobile,Paid Social,SKU-0152,Apparel,1,53.93,1
+8721,2025-11-09,Mobile,Email,SKU-0051,Electronics,0,48.65,1
+8727,2025-04-01,Mobile,Paid Search,SKU-0103,Fitness,0,72.63,1
+8729,2025-06-17,Mobile,Organic,SKU-0062,Fitness,0,103.81,2
+8737,2025-12-14,Desktop,Paid Social,SKU-0229,Beauty,0,10.0,1
+8741,2025-10-12,Desktop,Paid Social,SKU-0158,Beauty,0,11.92,2
+8743,2025-09-23,Desktop,Paid Social,SKU-0060,Home,0,94.45,2
+8746,2025-09-10,Desktop,Organic,SKU-0335,Apparel,1,68.48,3
+8765,2025-04-25,Desktop,Paid Search,SKU-0344,Beauty,1,36.62,1
+8766,2025-02-24,Desktop,Organic,SKU-0276,Apparel,0,79.68,2
+8776,2025-06-03,Mobile,Organic,SKU-0341,Beauty,0,69.25,2
+8779,2025-04-16,Desktop,Organic,SKU-0146,Home,0,68.87,1
+8783,2025-08-22,Desktop,Paid Search,SKU-0348,Beauty,0,76.04,1
+8800,2025-06-10,Mobile,Organic,SKU-0034,Apparel,0,99.04,2
+8811,2025-08-06,Mobile,Email,SKU-0077,Beauty,0,91.46,1
+8815,2025-09-11,Mobile,Paid Search,SKU-0011,Beauty,0,50.68,2
+8819,2025-08-28,Desktop,Paid Search,SKU-0092,Electronics,0,72.47,1
+8820,2025-11-25,Mobile,Organic,SKU-0354,Home,1,29.16,2
+8831,2025-09-06,Desktop,Paid Social,SKU-0260,Beauty,0,121.87,2
+8838,2025-02-17,Mobile,Organic,SKU-0379,Apparel,0,47.19,1
+8851,2025-12-11,Mobile,Paid Search,SKU-0348,Fitness,1,77.17,3
+8866,2025-03-22,Mobile,Paid Search,SKU-0045,Beauty,0,10.0,2
+8867,2025-02-16,Desktop,Affiliate,SKU-0216,Home,0,63.32,1
+8872,2025-08-17,Desktop,Paid Social,SKU-0085,Apparel,0,17.26,3
+8882,2025-09-15,Mobile,Paid Social,SKU-0225,Electronics,0,106.82,3
+8885,2025-11-16,Desktop,Paid Search,SKU-0148,Fitness,1,47.38,2
+8893,2025-06-20,Desktop,Paid Social,SKU-0160,Apparel,0,73.35,3
+8910,2025-03-13,Mobile,Organic,SKU-0288,Electronics,0,28.65,1
+8913,2025-05-21,Desktop,Paid Search,SKU-0211,Apparel,1,24.13,2
+8918,2025-04-23,Mobile,Paid Social,SKU-0006,Apparel,1,53.38,3
+8921,2025-03-17,Mobile,Affiliate,SKU-0148,Home,0,47.64,1
+8923,2025-02-07,Desktop,Organic,SKU-0166,Home,1,66.74,1
+8924,2025-10-20,Desktop,Paid Search,SKU-0042,Apparel,1,63.69,2
+8951,2025-11-02,Desktop,Email,SKU-0234,Home,0,64.95,1
+8962,2025-12-16,Mobile,Affiliate,SKU-0396,Electronics,1,76.3,1
+8981,2025-05-15,Mobile,Paid Search,SKU-0072,Home,1,104.74,3
+8990,2025-04-23,Desktop,Organic,SKU-0240,Electronics,0,60.29,1
+8999,2025-12-09,Mobile,Organic,SKU-0076,Home,1,41.45,1
+9006,2025-05-22,Desktop,Organic,SKU-0093,Apparel,0,53.31,3
+9031,2025-10-08,Mobile,Affiliate,SKU-0245,Apparel,0,92.38,2
+9033,2025-04-03,Desktop,Affiliate,SKU-0090,Electronics,0,32.9,2
+9034,2025-03-31,Desktop,Paid Search,SKU-0146,Apparel,1,76.43,1
+9037,2025-08-12,Desktop,Paid Search,SKU-0367,Home,0,62.18,3
+9038,2025-05-29,Desktop,Paid Search,SKU-0128,Beauty,1,90.88,1
+9047,2025-05-22,Desktop,Organic,SKU-0224,Electronics,0,91.99,1
+9052,2025-06-13,Desktop,Organic,SKU-0116,Fitness,1,81.68,1
+9069,2025-08-06,Desktop,Paid Social,SKU-0191,Electronics,1,47.72,3
+9076,2025-03-25,Mobile,Email,SKU-0077,Home,1,61.97,3
+9088,2025-08-09,Mobile,Paid Social,SKU-0156,Apparel,1,57.24,2
+9098,2025-06-16,Desktop,Email,SKU-0303,Electronics,0,69.37,1
+9101,2025-08-26,Mobile,Organic,SKU-0239,Electronics,1,70.96,3
+9112,2025-04-11,Desktop,Email,SKU-0130,Apparel,1,77.22,3
+9117,2025-08-23,Desktop,Affiliate,SKU-0334,Home,0,59.86,2
+9120,2025-07-11,Desktop,Paid Search,SKU-0105,Beauty,0,37.45,3
+9128,2025-04-30,Mobile,Paid Search,SKU-0238,Fitness,1,65.14,3
+9152,2025-07-26,Mobile,Paid Search,SKU-0007,Electronics,1,35.51,3
+9164,2025-02-20,Mobile,Email,SKU-0324,Electronics,0,64.01,1
+9168,2025-04-04,Mobile,Paid Search,SKU-0365,Beauty,0,38.41,3
+9172,2025-07-20,Desktop,Paid Social,SKU-0267,Beauty,1,74.08,2
+9188,2025-10-24,Mobile,Organic,SKU-0069,Apparel,1,29.33,3
+9192,2025-01-19,Desktop,Affiliate,SKU-0308,Apparel,0,72.63,2
+9200,2025-02-13,Desktop,Organic,SKU-0207,Apparel,0,80.91,3
+9209,2025-11-16,Mobile,Organic,SKU-0212,Apparel,1,68.53,3
+9223,2025-05-30,Mobile,Organic,SKU-0275,Electronics,1,37.72,3
+9234,2025-07-16,Mobile,Organic,SKU-0101,Apparel,0,123.22,1
+9242,2025-09-12,Mobile,Paid Search,SKU-0112,Apparel,0,96.36,1
+9249,2025-06-13,Mobile,Affiliate,SKU-0153,Apparel,0,147.82,3
+9253,2025-08-22,Mobile,Paid Social,SKU-0377,Apparel,0,32.7,3
+9274,2025-04-30,Desktop,Organic,SKU-0025,Apparel,0,82.55,3
+9290,2025-07-04,Desktop,Organic,SKU-0331,Apparel,1,70.21,2
+9301,2025-06-07,Desktop,Paid Search,SKU-0064,Electronics,1,97.58,2
+9304,2025-06-02,Mobile,Paid Search,SKU-0156,Apparel,1,109.57,1
+9312,2025-12-04,Desktop,Paid Search,SKU-0390,Beauty,0,83.02,1
+9314,2025-06-11,Mobile,Affiliate,SKU-0008,Apparel,0,98.21,1
+9317,2025-01-08,Mobile,Organic,SKU-0319,Electronics,1,61.0,1
+9318,2025-05-05,Desktop,Paid Search,SKU-0031,Electronics,1,45.96,1
+9321,2025-06-05,Mobile,Organic,SKU-0265,Beauty,0,90.3,2
+9327,2025-10-13,Mobile,Paid Search,SKU-0169,Apparel,1,73.3,3
+9342,2025-08-19,Mobile,Paid Search,SKU-0207,Fitness,1,19.33,2
+9348,2025-05-19,Mobile,Email,SKU-0230,Beauty,0,65.82,2
+9352,2025-09-04,Desktop,Paid Social,SKU-0311,Home,0,21.37,2
+9354,2025-08-29,Mobile,Organic,SKU-0042,Electronics,0,72.08,1
+9361,2025-12-07,Desktop,Paid Search,SKU-0137,Electronics,0,76.38,3
+9368,2025-01-28,Mobile,Organic,SKU-0016,Home,0,95.58,2
+9371,2025-12-15,Mobile,Affiliate,SKU-0324,Electronics,0,108.83,1
+9391,2025-04-02,Desktop,Paid Social,SKU-0324,Electronics,0,68.69,3
+9402,2025-11-13,Mobile,Paid Social,SKU-0253,Fitness,0,30.35,1
+9405,2025-11-29,Desktop,Paid Social,SKU-0057,Apparel,0,56.48,1
+9408,2025-06-07,Mobile,Affiliate,SKU-0078,Apparel,0,88.67,3
+9412,2025-08-09,Mobile,Paid Search,SKU-0041,Home,1,55.09,1
+9414,2025-06-15,Desktop,Paid Search,SKU-0371,Apparel,1,83.27,1
+9419,2025-02-13,Desktop,Organic,SKU-0210,Beauty,0,61.85,1
+9420,2025-09-12,Desktop,Paid Search,SKU-0334,Beauty,0,84.88,3
+9422,2025-08-01,Mobile,Organic,SKU-0371,Electronics,0,44.54,3
+9424,2025-08-24,Mobile,Paid Search,SKU-0166,Apparel,0,60.39,2
+9441,2025-06-10,Mobile,Email,SKU-0249,Fitness,0,52.01,3
+9445,2025-04-15,Mobile,Paid Search,SKU-0329,Apparel,0,67.65,1
+9449,2025-08-23,Mobile,Paid Social,SKU-0216,Apparel,0,28.64,1
+9454,2025-07-18,Desktop,Organic,SKU-0296,Home,0,52.27,2
+9473,2025-05-04,Desktop,Affiliate,SKU-0175,Beauty,0,99.65,3
+9475,2025-06-25,Mobile,Paid Search,SKU-0241,Apparel,0,54.16,3
+9491,2025-10-31,Mobile,Email,SKU-0041,Apparel,1,50.16,3
+9498,2025-01-02,Desktop,Paid Social,SKU-0318,Beauty,0,32.35,1
+9519,2025-08-20,Desktop,Organic,SKU-0307,Fitness,0,120.27,1
+9529,2025-03-23,Mobile,Email,SKU-0273,Home,0,106.12,1
+9552,2025-05-31,Desktop,Affiliate,SKU-0307,Home,0,118.84,3
+9554,2025-11-18,Mobile,Organic,SKU-0183,Apparel,1,73.24,3
+9582,2025-09-17,Mobile,Paid Search,SKU-0042,Beauty,1,50.29,1
+9599,2025-12-12,Desktop,Email,SKU-0198,Apparel,1,91.99,1
+9603,2025-03-01,Desktop,Paid Search,SKU-0045,Home,0,83.43,3
+9604,2025-07-27,Mobile,Organic,SKU-0206,Home,0,81.99,1
+9629,2025-07-04,Desktop,Organic,SKU-0061,Electronics,1,64.08,2
+9643,2025-06-07,Desktop,Email,SKU-0079,Apparel,0,60.09,1
+9649,2025-07-11,Desktop,Organic,SKU-0392,Home,0,42.44,1
+9683,2025-01-04,Mobile,Affiliate,SKU-0145,Electronics,1,122.44,1
+9685,2025-07-18,Desktop,Affiliate,SKU-0185,Apparel,1,36.29,2
+9700,2025-12-24,Mobile,Organic,SKU-0120,Beauty,0,109.37,3
+9714,2025-04-16,Desktop,Email,SKU-0266,Apparel,1,101.76,2
+9716,2025-02-08,Desktop,Paid Search,SKU-0151,Home,0,84.9,3
+9723,2025-01-10,Mobile,Organic,SKU-0079,Fitness,1,70.01,3
+9727,2025-07-18,Desktop,Email,SKU-0168,Electronics,0,78.69,3
+9735,2025-05-13,Mobile,Paid Search,SKU-0211,Apparel,0,110.0,2
+9743,2025-05-11,Mobile,Paid Search,SKU-0296,Apparel,1,43.44,3
+9748,2025-11-28,Desktop,Affiliate,SKU-0121,Apparel,1,83.93,1
+9750,2025-06-03,Desktop,Paid Social,SKU-0317,Fitness,1,32.05,2
+9757,2025-02-03,Desktop,Email,SKU-0173,Home,1,28.38,3
+9760,2025-08-30,Desktop,Paid Social,SKU-0042,Fitness,0,64.6,1
+9765,2025-12-04,Desktop,Paid Search,SKU-0079,Beauty,0,75.82,3
+9780,2025-06-06,Mobile,Paid Search,SKU-0183,Beauty,1,57.57,2
+9795,2025-04-05,Desktop,Organic,SKU-0399,Beauty,0,42.02,3
+9804,2025-11-02,Mobile,Paid Search,SKU-0041,Apparel,1,74.93,1
+9808,2025-10-17,Mobile,Organic,SKU-0007,Home,1,81.95,3
+9815,2025-12-15,Mobile,Affiliate,SKU-0261,Home,0,67.05,1
+9816,2025-04-05,Mobile,Email,SKU-0244,Apparel,1,58.39,1
+9818,2025-02-18,Desktop,Email,SKU-0162,Apparel,1,73.21,1
+9820,2025-11-17,Desktop,Paid Search,SKU-0082,Beauty,1,34.91,2
+9824,2025-11-30,Desktop,Paid Search,SKU-0354,Electronics,0,76.14,3
+9836,2025-08-16,Mobile,Paid Social,SKU-0025,Home,0,80.29,1
+9866,2025-02-16,Mobile,Paid Search,SKU-0273,Apparel,1,44.89,2
+9915,2025-10-28,Desktop,Email,SKU-0246,Electronics,0,39.18,2
+9933,2025-12-22,Mobile,Organic,SKU-0027,Beauty,0,38.7,1
+9958,2025-12-03,Mobile,Organic,SKU-0252,Beauty,1,30.21,3
+9962,2025-06-23,Mobile,Paid Search,SKU-0339,Beauty,1,53.57,1
+9972,2025-12-30,Desktop,Paid Social,SKU-0298,Electronics,1,50.45,1
+9979,2025-03-02,Desktop,Paid Search,SKU-0221,Electronics,0,87.28,1
+9985,2025-09-06,Desktop,Email,SKU-0006,Home,0,72.98,1
+9997,2025-06-01,Desktop,Paid Social,SKU-0002,Beauty,0,90.45,2
+9998,2025-10-13,Mobile,Organic,SKU-0264,Fitness,0,17.62,3
+10008,2025-07-18,Desktop,Paid Search,SKU-0367,Beauty,0,67.83,1
+10013,2025-10-14,Mobile,Paid Search,SKU-0368,Beauty,0,28.27,3
+10019,2025-04-06,Mobile,Organic,SKU-0097,Beauty,0,64.13,1
+10028,2025-12-20,Mobile,Organic,SKU-0281,Beauty,1,37.31,3
+10039,2025-05-20,Mobile,Paid Search,SKU-0291,Beauty,0,50.59,3
+10044,2025-07-18,Mobile,Affiliate,SKU-0161,Electronics,0,75.9,2
+10049,2025-01-16,Mobile,Paid Search,SKU-0319,Apparel,1,97.91,2
+10080,2025-10-20,Mobile,Paid Social,SKU-0209,Fitness,0,103.81,3
+10082,2025-09-12,Mobile,Paid Search,SKU-0288,Home,1,61.78,2
+10090,2025-10-02,Desktop,Organic,SKU-0155,Apparel,0,73.82,2
+10091,2025-07-26,Mobile,Email,SKU-0341,Fitness,0,84.15,3
+10097,2025-08-18,Mobile,Organic,SKU-0269,Apparel,0,76.03,1
+10108,2025-02-27,Desktop,Organic,SKU-0314,Beauty,1,83.48,3
+10109,2025-12-12,Desktop,Organic,SKU-0261,Home,0,96.87,2
+10115,2025-09-22,Desktop,Email,SKU-0226,Home,0,41.44,3
+10119,2025-07-08,Desktop,Paid Search,SKU-0028,Beauty,1,81.21,2
+10122,2025-04-14,Desktop,Organic,SKU-0030,Fitness,0,36.77,3
+10133,2025-12-11,Desktop,Paid Search,SKU-0171,Fitness,1,77.03,1
+10135,2025-04-14,Desktop,Email,SKU-0119,Electronics,0,123.5,2
+10145,2025-07-12,Mobile,Paid Search,SKU-0390,Apparel,0,42.54,1
+10149,2025-12-29,Desktop,Paid Social,SKU-0124,Electronics,0,79.8,2
+10153,2025-12-30,Desktop,Paid Social,SKU-0106,Electronics,0,99.31,3
+10157,2025-05-08,Desktop,Email,SKU-0108,Fitness,1,71.33,2
+10165,2025-01-29,Mobile,Affiliate,SKU-0398,Apparel,1,112.27,3
+10171,2025-01-03,Mobile,Paid Search,SKU-0113,Fitness,1,114.14,2
+10176,2025-02-10,Desktop,Paid Social,SKU-0208,Beauty,0,85.84,3
+10177,2025-09-07,Desktop,Paid Social,SKU-0371,Apparel,0,86.92,1
+10186,2025-04-09,Desktop,Paid Search,SKU-0397,Electronics,0,69.41,1
+10189,2025-01-17,Mobile,Organic,SKU-0072,Fitness,0,138.12,3
+10205,2025-09-22,Desktop,Paid Social,SKU-0237,Fitness,1,58.51,3
+10210,2025-09-11,Desktop,Organic,SKU-0136,Electronics,0,56.88,2
+10214,2025-06-23,Desktop,Affiliate,SKU-0071,Apparel,0,67.31,3
+10238,2025-10-23,Mobile,Paid Social,SKU-0198,Home,0,101.97,2
+10242,2025-09-25,Desktop,Affiliate,SKU-0198,Electronics,0,116.69,3
+10247,2025-06-24,Mobile,Paid Social,SKU-0246,Apparel,0,136.26,2
+10265,2025-03-19,Mobile,Organic,SKU-0374,Beauty,0,46.64,2
+10276,2025-07-09,Mobile,Email,SKU-0294,Home,0,67.64,2
+10280,2025-08-19,Desktop,Affiliate,SKU-0097,Electronics,0,10.65,3
+10288,2025-07-28,Mobile,Email,SKU-0335,Apparel,0,96.55,1
+10292,2025-12-09,Desktop,Organic,SKU-0007,Electronics,0,69.52,2
+10302,2025-11-19,Mobile,Paid Search,SKU-0235,Home,0,49.51,3
+10322,2025-10-17,Desktop,Email,SKU-0273,Fitness,0,75.01,2
+10338,2025-07-14,Desktop,Paid Search,SKU-0307,Electronics,0,83.3,1
+10343,2025-12-13,Mobile,Paid Search,SKU-0158,Home,0,79.29,2
+10345,2025-09-28,Desktop,Email,SKU-0172,Apparel,0,56.73,1
+10350,2025-08-06,Desktop,Paid Search,SKU-0254,Home,1,81.64,2
+10367,2025-10-03,Mobile,Organic,SKU-0242,Electronics,1,74.12,2
+10383,2025-08-15,Mobile,Organic,SKU-0055,Beauty,1,82.44,3
+10405,2025-03-07,Desktop,Paid Social,SKU-0372,Electronics,0,22.17,2
+10416,2025-05-23,Desktop,Organic,SKU-0235,Apparel,1,55.44,1
+10420,2025-10-04,Mobile,Paid Search,SKU-0283,Home,0,10.0,3
+10424,2025-07-04,Mobile,Paid Search,SKU-0236,Home,0,72.77,3
+10429,2025-01-16,Desktop,Paid Social,SKU-0009,Beauty,0,68.67,2
+10430,2025-05-10,Mobile,Paid Search,SKU-0018,Apparel,1,67.85,1
+10437,2025-10-12,Mobile,Paid Social,SKU-0008,Home,1,72.85,3
+10456,2025-03-17,Desktop,Paid Social,SKU-0001,Apparel,0,47.75,2
+10463,2025-06-10,Desktop,Paid Social,SKU-0288,Home,0,111.64,3
+10471,2025-05-30,Desktop,Paid Search,SKU-0189,Fitness,0,64.93,1
+10476,2025-02-21,Mobile,Organic,SKU-0043,Home,1,92.87,2
+10481,2025-11-12,Desktop,Organic,SKU-0108,Apparel,1,76.33,3
+10499,2025-03-09,Desktop,Paid Search,SKU-0142,Electronics,0,85.94,1
+10500,2025-08-24,Desktop,Email,SKU-0321,Apparel,0,58.22,2
+10505,2025-01-27,Mobile,Paid Search,SKU-0014,Fitness,0,81.79,1
+10514,2025-11-27,Mobile,Organic,SKU-0045,Beauty,0,51.22,1
+10515,2025-04-05,Desktop,Organic,SKU-0162,Electronics,0,67.77,1
+10517,2025-07-09,Mobile,Paid Search,SKU-0002,Apparel,0,26.25,2
+10529,2025-05-28,Mobile,Paid Search,SKU-0245,Fitness,0,28.86,1
+10536,2025-04-17,Mobile,Organic,SKU-0163,Apparel,0,27.49,3
+10539,2025-11-13,Desktop,Paid Search,SKU-0063,Home,1,65.87,1
+10543,2025-01-31,Desktop,Email,SKU-0258,Apparel,0,68.14,3
+10548,2025-09-10,Mobile,Paid Search,SKU-0386,Fitness,0,59.63,2
+10557,2025-10-31,Desktop,Organic,SKU-0325,Beauty,0,80.54,3
+10565,2025-12-06,Desktop,Paid Search,SKU-0230,Home,1,97.91,3
+10578,2025-12-04,Desktop,Email,SKU-0376,Beauty,1,59.41,3
+10581,2025-09-16,Desktop,Organic,SKU-0368,Apparel,1,67.49,1
+10584,2025-07-27,Mobile,Paid Search,SKU-0092,Electronics,0,22.38,1
+10585,2025-12-17,Desktop,Email,SKU-0169,Electronics,0,75.11,1
+10601,2025-12-06,Mobile,Organic,SKU-0086,Home,1,78.51,1
+10612,2025-01-15,Desktop,Organic,SKU-0250,Beauty,1,72.57,1
+10616,2025-09-16,Desktop,Email,SKU-0303,Fitness,0,93.06,1
+10618,2025-11-05,Desktop,Paid Search,SKU-0385,Electronics,1,94.06,1
+10628,2025-11-13,Desktop,Paid Social,SKU-0021,Apparel,0,85.24,2
+10642,2025-09-06,Mobile,Organic,SKU-0004,Apparel,0,62.59,2
+10655,2025-05-28,Desktop,Email,SKU-0259,Home,0,64.25,2
+10688,2025-07-12,Desktop,Email,SKU-0299,Apparel,1,77.03,1
+10691,2025-09-13,Mobile,Email,SKU-0266,Apparel,1,12.06,3
+10693,2025-09-02,Desktop,Email,SKU-0380,Apparel,1,63.55,2
+10695,2025-12-24,Mobile,Email,SKU-0394,Electronics,1,76.67,2
+10698,2025-08-21,Desktop,Affiliate,SKU-0081,Beauty,0,79.2,2
+10700,2025-05-29,Desktop,Organic,SKU-0055,Home,0,66.92,1
+10707,2025-04-27,Mobile,Email,SKU-0250,Fitness,0,66.35,2
+10709,2025-04-13,Desktop,Email,SKU-0011,Fitness,0,97.83,1
+10711,2025-08-23,Mobile,Paid Social,SKU-0147,Home,0,110.68,2
+10715,2025-02-02,Desktop,Organic,SKU-0201,Electronics,0,10.0,3
+10717,2025-09-15,Mobile,Paid Search,SKU-0054,Apparel,0,60.76,2
+10718,2025-05-21,Desktop,Paid Search,SKU-0271,Apparel,1,81.75,3
+10719,2025-03-30,Desktop,Paid Search,SKU-0062,Fitness,0,105.57,2
+10721,2025-12-30,Desktop,Organic,SKU-0100,Fitness,0,47.09,2
+10728,2025-12-11,Mobile,Organic,SKU-0081,Apparel,0,113.05,1
+10729,2025-04-24,Desktop,Paid Search,SKU-0260,Apparel,1,72.47,1
+10731,2025-03-17,Mobile,Paid Search,SKU-0386,Apparel,0,55.05,1
+10732,2025-03-17,Desktop,Paid Social,SKU-0295,Home,0,29.54,1
+10734,2025-06-23,Desktop,Paid Social,SKU-0155,Beauty,1,14.15,2
+10739,2025-11-20,Mobile,Email,SKU-0088,Beauty,1,45.75,3
+10740,2025-01-09,Mobile,Organic,SKU-0239,Apparel,0,129.42,1
+10749,2025-10-11,Mobile,Organic,SKU-0159,Electronics,1,37.91,2
+10756,2025-04-09,Mobile,Organic,SKU-0320,Apparel,0,31.13,3
+10758,2025-07-21,Desktop,Paid Search,SKU-0289,Home,1,43.24,2
+10764,2025-06-14,Desktop,Organic,SKU-0300,Beauty,1,24.96,2
+10771,2025-02-22,Mobile,Paid Social,SKU-0064,Home,0,89.75,3
+10779,2025-02-09,Desktop,Affiliate,SKU-0022,Electronics,0,57.38,2
+10785,2025-02-23,Mobile,Organic,SKU-0328,Home,1,117.2,3
+10795,2025-03-31,Mobile,Paid Social,SKU-0119,Electronics,1,81.75,1
+10816,2025-03-10,Desktop,Email,SKU-0204,Electronics,0,54.62,1
+10826,2025-08-20,Mobile,Organic,SKU-0377,Apparel,0,10.0,2
+10827,2025-03-13,Desktop,Paid Social,SKU-0133,Electronics,0,62.75,2
+10829,2025-05-13,Mobile,Paid Search,SKU-0076,Electronics,1,72.11,2
+10834,2025-06-17,Mobile,Paid Social,SKU-0170,Beauty,1,112.29,3
+10836,2025-08-03,Desktop,Organic,SKU-0397,Electronics,1,25.96,1
+10838,2025-09-18,Desktop,Organic,SKU-0272,Electronics,0,104.65,1
+10851,2025-06-06,Desktop,Paid Social,SKU-0221,Electronics,0,80.39,2
+10863,2025-12-27,Mobile,Paid Social,SKU-0313,Apparel,0,52.12,3
+10865,2025-07-21,Mobile,Affiliate,SKU-0049,Electronics,1,75.89,2
+10876,2025-06-07,Desktop,Email,SKU-0255,Fitness,1,57.87,2
+10884,2025-03-31,Mobile,Paid Search,SKU-0123,Apparel,1,75.64,2
+10886,2025-01-24,Mobile,Affiliate,SKU-0346,Apparel,0,47.12,1
+10896,2025-02-17,Desktop,Organic,SKU-0222,Electronics,0,78.74,3
+10898,2025-02-23,Desktop,Paid Search,SKU-0362,Fitness,1,52.24,3
+10902,2025-05-19,Mobile,Email,SKU-0004,Beauty,1,38.74,1
+10911,2025-09-18,Desktop,Paid Search,SKU-0320,Fitness,0,92.97,1
+10920,2025-05-03,Desktop,Paid Social,SKU-0386,Home,0,174.39,1
+10945,2025-08-06,Desktop,Affiliate,SKU-0357,Beauty,0,51.71,3
+10962,2025-07-30,Desktop,Email,SKU-0198,Home,1,33.88,1
+10964,2025-10-01,Mobile,Paid Social,SKU-0057,Fitness,1,64.44,2
+10965,2025-11-29,Mobile,Paid Social,SKU-0152,Apparel,0,33.55,3
+10966,2025-08-12,Desktop,Organic,SKU-0341,Electronics,0,36.27,2
+10969,2025-09-08,Mobile,Email,SKU-0329,Apparel,1,59.63,1
+10971,2025-05-07,Mobile,Paid Search,SKU-0326,Apparel,0,66.25,2
+10993,2025-05-01,Desktop,Affiliate,SKU-0224,Home,0,37.26,3
+10998,2025-03-30,Desktop,Affiliate,SKU-0226,Electronics,0,65.29,2
+11003,2025-06-03,Mobile,Paid Social,SKU-0335,Apparel,1,51.84,1
+11009,2025-03-29,Desktop,Organic,SKU-0290,Electronics,0,101.42,2
+11019,2025-07-27,Desktop,Paid Search,SKU-0119,Apparel,0,73.94,2
+11023,2025-04-27,Mobile,Paid Search,SKU-0034,Electronics,0,58.99,2
+11057,2025-02-22,Mobile,Paid Search,SKU-0099,Electronics,1,66.59,1
+11059,2025-01-21,Mobile,Paid Social,SKU-0275,Home,0,75.39,1
+11064,2025-11-28,Mobile,Email,SKU-0289,Fitness,0,23.27,3
+11066,2025-07-21,Desktop,Paid Search,SKU-0255,Fitness,0,94.33,2
+11076,2025-10-14,Desktop,Organic,SKU-0144,Home,1,67.33,3
+11084,2025-08-04,Mobile,Paid Social,SKU-0173,Fitness,0,77.0,2
+11086,2025-11-16,Desktop,Paid Search,SKU-0100,Apparel,0,48.36,2
+11090,2025-01-03,Desktop,Paid Social,SKU-0381,Fitness,0,37.59,3
+11102,2025-04-03,Desktop,Email,SKU-0226,Beauty,1,56.33,2
+11103,2025-10-11,Desktop,Paid Search,SKU-0049,Apparel,0,85.71,2
+11104,2025-12-27,Desktop,Paid Search,SKU-0036,Apparel,0,104.27,1
+11106,2025-10-21,Mobile,Email,SKU-0095,Apparel,0,77.74,1
+11108,2025-01-25,Desktop,Paid Search,SKU-0151,Beauty,0,61.93,1
+11118,2025-05-25,Desktop,Paid Search,SKU-0011,Home,1,22.2,1
+11120,2025-04-21,Mobile,Paid Social,SKU-0387,Electronics,0,83.72,3
+11123,2025-07-29,Desktop,Organic,SKU-0107,Beauty,0,106.51,3
+11124,2025-09-03,Desktop,Paid Search,SKU-0273,Electronics,1,85.19,1
+11125,2025-08-14,Mobile,Paid Social,SKU-0058,Apparel,0,70.18,1
+11126,2025-05-16,Mobile,Paid Search,SKU-0215,Electronics,1,102.77,3
+11141,2025-12-19,Desktop,Email,SKU-0115,Electronics,0,71.38,1
+11143,2025-12-22,Desktop,Paid Social,SKU-0387,Beauty,0,53.53,1
+11159,2025-11-19,Mobile,Organic,SKU-0326,Apparel,0,68.8,3
+11168,2025-07-08,Desktop,Email,SKU-0289,Electronics,0,52.51,1
+11173,2025-11-27,Desktop,Paid Search,SKU-0255,Electronics,1,81.78,3
+11183,2025-02-14,Mobile,Paid Search,SKU-0092,Beauty,0,67.72,3
+11199,2025-02-05,Mobile,Email,SKU-0157,Fitness,1,66.21,2
+11202,2025-12-21,Mobile,Organic,SKU-0282,Apparel,0,46.53,2
+11203,2025-09-07,Mobile,Organic,SKU-0172,Beauty,1,43.16,1
+11210,2025-08-15,Desktop,Affiliate,SKU-0327,Apparel,0,101.5,1
+11213,2025-09-27,Mobile,Paid Search,SKU-0385,Beauty,1,33.16,1
+11230,2025-04-20,Mobile,Paid Search,SKU-0362,Apparel,1,45.21,3
+11235,2025-10-29,Mobile,Paid Search,SKU-0381,Apparel,1,42.03,2
+11251,2025-09-29,Mobile,Email,SKU-0104,Home,0,67.71,3
+11254,2025-02-01,Mobile,Organic,SKU-0144,Beauty,1,63.25,2
+11257,2025-03-10,Desktop,Email,SKU-0395,Apparel,1,46.85,3
+11268,2025-07-23,Desktop,Affiliate,SKU-0024,Fitness,1,36.37,3
+11269,2025-02-12,Desktop,Email,SKU-0220,Electronics,1,86.58,3
+11291,2025-11-14,Mobile,Affiliate,SKU-0316,Home,1,87.7,2
+11293,2025-04-11,Desktop,Paid Search,SKU-0212,Fitness,0,93.8,2
+11295,2025-12-08,Mobile,Paid Search,SKU-0202,Apparel,0,57.41,3
+11301,2025-01-01,Desktop,Email,SKU-0231,Electronics,1,67.86,3
+11307,2025-01-19,Desktop,Paid Social,SKU-0081,Electronics,0,68.51,3
+11314,2025-08-01,Mobile,Paid Social,SKU-0038,Apparel,1,64.79,2
+11321,2025-09-14,Mobile,Paid Search,SKU-0382,Apparel,0,26.43,1
+11329,2025-11-12,Desktop,Email,SKU-0202,Fitness,0,79.15,2
+11342,2025-03-24,Mobile,Paid Search,SKU-0197,Beauty,1,63.92,1
+11348,2025-01-12,Desktop,Email,SKU-0266,Electronics,0,90.21,2
+11350,2025-01-31,Desktop,Email,SKU-0334,Electronics,0,67.32,2
+11367,2025-11-06,Desktop,Email,SKU-0154,Home,1,70.3,2
+11373,2025-12-25,Desktop,Paid Search,SKU-0111,Electronics,0,74.25,3
+11393,2025-08-28,Mobile,Organic,SKU-0072,Fitness,0,89.51,3
+11395,2025-10-04,Mobile,Organic,SKU-0017,Apparel,0,36.6,3
+11400,2025-01-23,Desktop,Organic,SKU-0277,Electronics,0,69.5,3
+11430,2025-01-04,Desktop,Paid Search,SKU-0167,Apparel,0,16.81,2
+11437,2025-07-22,Desktop,Paid Search,SKU-0209,Apparel,1,58.93,3
+11441,2025-07-03,Mobile,Paid Search,SKU-0339,Beauty,0,85.39,2
+11459,2025-07-08,Mobile,Affiliate,SKU-0232,Beauty,0,87.61,2
+11463,2025-01-10,Desktop,Organic,SKU-0168,Electronics,0,50.54,3
+11508,2025-03-05,Desktop,Paid Search,SKU-0203,Fitness,0,57.36,1
+11511,2025-05-14,Mobile,Affiliate,SKU-0313,Home,0,84.82,3
+11512,2025-05-12,Desktop,Paid Search,SKU-0279,Apparel,1,64.11,1
+11514,2025-12-07,Desktop,Paid Social,SKU-0084,Beauty,0,46.63,3
+11526,2025-04-10,Desktop,Email,SKU-0183,Apparel,1,43.26,3
+11527,2025-02-25,Desktop,Organic,SKU-0228,Home,0,88.04,2
+11540,2025-11-22,Desktop,Paid Search,SKU-0013,Fitness,1,48.95,1
+11559,2025-03-06,Desktop,Email,SKU-0130,Fitness,0,58.37,1
+11563,2025-09-13,Desktop,Organic,SKU-0206,Electronics,0,89.64,2
+11572,2025-06-10,Mobile,Paid Social,SKU-0258,Electronics,1,58.54,3
+11585,2025-06-12,Desktop,Paid Search,SKU-0114,Electronics,0,45.63,2
+11588,2025-02-28,Desktop,Organic,SKU-0357,Apparel,0,32.19,1
+11596,2025-12-03,Desktop,Email,SKU-0179,Apparel,0,48.57,2
+11597,2025-12-24,Mobile,Paid Social,SKU-0210,Home,0,51.76,3
+11602,2025-08-21,Mobile,Affiliate,SKU-0201,Apparel,1,52.25,1
+11609,2025-09-13,Desktop,Paid Search,SKU-0204,Fitness,1,62.59,3
+11631,2025-11-07,Desktop,Organic,SKU-0129,Beauty,0,98.44,2
+11633,2025-08-17,Desktop,Organic,SKU-0187,Beauty,0,91.39,2
+11653,2025-12-19,Desktop,Paid Search,SKU-0001,Beauty,0,45.62,1
+11671,2025-11-02,Desktop,Paid Search,SKU-0068,Apparel,0,46.95,1
+11679,2025-12-09,Desktop,Paid Social,SKU-0265,Beauty,0,87.02,2
+11684,2025-02-16,Desktop,Affiliate,SKU-0028,Home,0,85.97,3
+11722,2025-10-07,Mobile,Organic,SKU-0199,Electronics,1,30.66,2
+11723,2025-06-02,Mobile,Affiliate,SKU-0072,Fitness,1,58.36,1
+11729,2025-12-09,Desktop,Paid Social,SKU-0064,Beauty,0,49.25,2
+11752,2025-09-04,Desktop,Paid Social,SKU-0143,Electronics,0,101.12,3
+11762,2025-07-11,Mobile,Affiliate,SKU-0386,Electronics,0,73.68,2
+11767,2025-02-19,Desktop,Organic,SKU-0210,Beauty,1,78.2,1
+11777,2025-09-17,Desktop,Organic,SKU-0224,Home,0,53.05,1
+11787,2025-04-06,Mobile,Affiliate,SKU-0130,Fitness,0,39.9,3
+11793,2025-03-08,Mobile,Paid Search,SKU-0224,Fitness,0,17.35,2
+11818,2025-02-18,Mobile,Paid Search,SKU-0133,Fitness,0,77.99,2
+11822,2025-06-13,Desktop,Paid Social,SKU-0251,Beauty,0,69.86,1
+11832,2025-12-21,Desktop,Email,SKU-0351,Beauty,0,115.99,2
+11833,2025-11-03,Desktop,Organic,SKU-0177,Electronics,1,67.09,2
+11841,2025-04-09,Desktop,Paid Search,SKU-0113,Fitness,1,42.47,1
+11845,2025-02-24,Mobile,Paid Search,SKU-0058,Beauty,0,56.72,3
+11846,2025-10-02,Mobile,Paid Search,SKU-0334,Apparel,1,78.69,2
+11860,2025-02-10,Desktop,Organic,SKU-0232,Fitness,0,53.09,1
+11900,2025-06-16,Mobile,Organic,SKU-0226,Apparel,0,69.75,1
+11911,2025-05-11,Mobile,Paid Search,SKU-0068,Apparel,1,47.73,3
+11912,2025-05-22,Desktop,Organic,SKU-0180,Fitness,1,62.75,2
+11925,2025-01-15,Mobile,Paid Search,SKU-0183,Fitness,1,44.55,1
+11932,2025-01-24,Desktop,Email,SKU-0122,Home,1,91.99,1
+11937,2025-08-05,Desktop,Organic,SKU-0010,Fitness,1,53.74,3
+11946,2025-10-09,Mobile,Paid Search,SKU-0028,Electronics,1,111.67,2
+11956,2025-06-15,Desktop,Paid Social,SKU-0289,Beauty,1,47.93,1
+11958,2025-05-26,Mobile,Paid Search,SKU-0238,Electronics,1,37.94,3
+11961,2025-04-05,Mobile,Organic,SKU-0041,Electronics,1,19.69,3
+11963,2025-07-19,Mobile,Email,SKU-0398,Fitness,0,67.46,2
+11964,2025-02-20,Desktop,Email,SKU-0392,Apparel,1,68.67,2
+11980,2025-11-29,Mobile,Email,SKU-0275,Fitness,0,72.31,2
+11985,2025-01-11,Desktop,Organic,SKU-0199,Home,1,60.74,2
+11986,2025-06-28,Desktop,Paid Search,SKU-0024,Beauty,0,57.89,2
+11998,2025-01-17,Mobile,Paid Search,SKU-0197,Home,1,49.39,2
+12000,2025-12-22,Mobile,Affiliate,SKU-0355,Beauty,1,58.97,1
+12006,2025-09-26,Mobile,Paid Search,SKU-0031,Apparel,0,36.24,1
+12009,2025-03-23,Desktop,Paid Search,SKU-0390,Beauty,0,87.2,2
+12012,2025-08-09,Mobile,Paid Search,SKU-0348,Home,1,35.35,3
+12015,2025-07-20,Mobile,Email,SKU-0096,Apparel,1,93.45,2
+12022,2025-08-04,Desktop,Paid Search,SKU-0144,Beauty,1,77.11,3
+12034,2025-08-05,Mobile,Paid Search,SKU-0270,Apparel,0,12.1,2
+12042,2025-06-29,Desktop,Organic,SKU-0205,Apparel,1,35.66,1
+12045,2025-12-07,Mobile,Paid Social,SKU-0253,Fitness,1,40.13,3
+12055,2025-02-12,Desktop,Organic,SKU-0245,Apparel,0,64.3,2
+12065,2025-12-24,Mobile,Paid Social,SKU-0400,Beauty,1,12.11,3
+12066,2025-05-23,Desktop,Organic,SKU-0017,Apparel,0,35.02,1
+12099,2025-09-02,Desktop,Affiliate,SKU-0162,Apparel,1,58.2,2
+12114,2025-05-31,Desktop,Paid Social,SKU-0357,Home,0,32.06,1
+12125,2025-11-08,Desktop,Organic,SKU-0236,Apparel,1,72.83,1
+12131,2025-03-25,Mobile,Paid Social,SKU-0284,Electronics,1,23.06,2
+12133,2025-06-22,Mobile,Organic,SKU-0132,Home,0,10.0,1
+12152,2025-11-08,Mobile,Organic,SKU-0242,Apparel,0,65.39,2
+12163,2025-11-11,Desktop,Organic,SKU-0021,Home,0,52.02,3
+12169,2025-03-02,Mobile,Affiliate,SKU-0320,Apparel,1,51.92,1
+12194,2025-06-25,Mobile,Organic,SKU-0320,Fitness,0,58.8,3
+12232,2025-08-15,Desktop,Organic,SKU-0224,Beauty,0,39.19,3
+12233,2025-05-13,Desktop,Organic,SKU-0327,Apparel,1,25.91,2
+12234,2025-07-25,Mobile,Affiliate,SKU-0169,Beauty,0,29.36,2
+12238,2025-05-22,Mobile,Paid Social,SKU-0213,Apparel,1,50.22,1
+12240,2025-08-16,Mobile,Organic,SKU-0263,Fitness,0,25.99,1
+12244,2025-10-31,Mobile,Email,SKU-0013,Beauty,0,39.01,3
+12245,2025-10-21,Mobile,Paid Social,SKU-0316,Apparel,0,44.68,1
+12250,2025-03-01,Mobile,Paid Social,SKU-0161,Electronics,0,44.98,1
+12257,2025-09-06,Mobile,Organic,SKU-0006,Home,1,67.02,3
+12264,2025-10-05,Mobile,Affiliate,SKU-0230,Home,0,10.0,2
+12278,2025-01-02,Desktop,Paid Social,SKU-0356,Apparel,0,106.75,3
+12287,2025-08-04,Mobile,Organic,SKU-0376,Home,0,115.98,1
+12288,2025-07-07,Desktop,Paid Search,SKU-0377,Fitness,0,55.12,1
+12291,2025-07-14,Desktop,Paid Social,SKU-0151,Beauty,1,83.68,2
+12296,2025-06-21,Desktop,Organic,SKU-0378,Home,0,20.11,1
+12317,2025-02-13,Mobile,Paid Search,SKU-0013,Beauty,0,100.76,2
+12319,2025-11-13,Desktop,Paid Social,SKU-0376,Apparel,0,87.27,2
+12328,2025-02-10,Desktop,Paid Search,SKU-0266,Electronics,0,30.09,1
+12330,2025-09-01,Desktop,Paid Social,SKU-0211,Beauty,0,66.12,3
+12361,2025-03-10,Desktop,Organic,SKU-0259,Apparel,0,40.66,3
+12365,2025-07-27,Desktop,Paid Search,SKU-0360,Apparel,1,34.53,1
+12375,2025-05-09,Mobile,Paid Search,SKU-0368,Beauty,0,10.0,3
+12407,2025-09-22,Mobile,Organic,SKU-0342,Beauty,1,70.71,2
+12411,2025-08-11,Mobile,Paid Social,SKU-0095,Beauty,1,56.44,2
+12417,2025-11-13,Desktop,Paid Search,SKU-0127,Home,0,26.82,1
+12420,2025-04-15,Mobile,Paid Social,SKU-0371,Fitness,0,56.18,1
+12421,2025-10-16,Mobile,Paid Search,SKU-0384,Beauty,0,95.76,2
+12429,2025-09-25,Desktop,Affiliate,SKU-0293,Home,0,34.11,1
+12435,2025-10-31,Desktop,Paid Search,SKU-0273,Home,1,92.66,1
+12439,2025-04-13,Mobile,Paid Search,SKU-0273,Electronics,0,51.0,1
+12442,2025-11-13,Desktop,Paid Social,SKU-0324,Home,0,52.42,3
+12465,2025-02-02,Desktop,Paid Search,SKU-0330,Fitness,0,97.3,3
+12469,2025-05-04,Desktop,Organic,SKU-0040,Beauty,0,32.54,2
+12474,2025-02-11,Desktop,Organic,SKU-0292,Electronics,0,44.97,1
+12479,2025-12-17,Mobile,Paid Search,SKU-0260,Beauty,0,37.94,3
+12482,2025-01-26,Mobile,Organic,SKU-0309,Electronics,1,90.55,1
+12494,2025-05-03,Mobile,Paid Social,SKU-0236,Fitness,1,57.42,3
+12507,2025-10-15,Mobile,Organic,SKU-0225,Beauty,0,10.0,3
+12515,2025-10-04,Desktop,Organic,SKU-0321,Home,0,99.08,1
+12548,2025-11-19,Desktop,Paid Search,SKU-0066,Electronics,1,59.15,1
+12552,2025-01-21,Mobile,Paid Social,SKU-0306,Fitness,0,63.34,2
+12553,2025-01-21,Mobile,Paid Search,SKU-0047,Home,0,55.56,3
+12566,2025-02-21,Mobile,Organic,SKU-0236,Home,0,35.11,2
+12575,2025-06-02,Desktop,Organic,SKU-0358,Beauty,1,69.42,1
+12583,2025-12-24,Desktop,Email,SKU-0027,Electronics,1,41.38,3
+12584,2025-08-14,Mobile,Organic,SKU-0308,Home,1,92.77,2
+12609,2025-10-02,Mobile,Paid Search,SKU-0328,Fitness,0,99.03,1
+12614,2025-11-18,Desktop,Paid Search,SKU-0063,Home,0,56.85,2
+12626,2025-02-06,Desktop,Paid Social,SKU-0166,Home,1,99.25,2
+12642,2025-05-08,Mobile,Paid Search,SKU-0011,Apparel,0,27.98,1
+12647,2025-12-20,Desktop,Paid Search,SKU-0102,Home,0,67.56,2
+12648,2025-09-28,Desktop,Organic,SKU-0215,Electronics,0,32.36,2
+12656,2025-01-15,Desktop,Email,SKU-0164,Fitness,0,13.43,1
+12658,2025-10-14,Desktop,Organic,SKU-0150,Apparel,0,98.35,3
+12662,2025-04-26,Desktop,Paid Social,SKU-0294,Home,0,79.6,2
+12670,2025-09-06,Mobile,Paid Search,SKU-0175,Electronics,0,73.58,2
+12671,2025-05-15,Mobile,Paid Search,SKU-0267,Home,0,102.19,1
+12679,2025-04-25,Mobile,Organic,SKU-0016,Electronics,0,45.17,1
+12682,2025-04-18,Mobile,Paid Search,SKU-0332,Home,0,54.85,2
+12687,2025-04-16,Desktop,Affiliate,SKU-0278,Electronics,0,89.77,1
+12690,2025-10-07,Mobile,Email,SKU-0183,Apparel,0,58.89,1
+12693,2025-07-24,Desktop,Organic,SKU-0232,Home,0,104.62,3
+12699,2025-01-24,Desktop,Paid Search,SKU-0370,Home,0,65.43,2
+12715,2025-10-25,Mobile,Paid Social,SKU-0347,Fitness,0,32.88,2
+12718,2025-05-04,Mobile,Paid Social,SKU-0330,Home,0,64.82,1
+12728,2025-11-26,Mobile,Organic,SKU-0130,Electronics,1,108.3,2
+12742,2025-04-14,Desktop,Organic,SKU-0270,Apparel,0,78.12,2
+12744,2025-06-07,Mobile,Paid Search,SKU-0312,Electronics,0,108.63,1
+12756,2025-01-08,Desktop,Organic,SKU-0078,Electronics,1,40.4,3
+12822,2025-11-19,Mobile,Organic,SKU-0290,Apparel,0,77.4,2
+12840,2025-01-08,Desktop,Paid Social,SKU-0067,Electronics,1,67.85,3
+12842,2025-07-07,Desktop,Paid Search,SKU-0350,Electronics,0,82.47,2
+12849,2025-03-15,Desktop,Paid Search,SKU-0251,Home,1,80.45,2
+12864,2025-05-23,Mobile,Affiliate,SKU-0369,Home,1,11.98,2
+12871,2025-09-23,Desktop,Email,SKU-0027,Electronics,0,93.82,2
+12877,2025-11-07,Mobile,Paid Search,SKU-0084,Beauty,0,75.17,3
+12895,2025-10-08,Mobile,Affiliate,SKU-0114,Apparel,1,114.57,2
+12896,2025-02-04,Mobile,Organic,SKU-0123,Electronics,0,99.47,1
+12900,2025-04-25,Desktop,Organic,SKU-0279,Electronics,1,84.51,1
+12903,2025-04-03,Desktop,Organic,SKU-0108,Electronics,1,56.3,3
+12911,2025-09-20,Desktop,Email,SKU-0025,Beauty,1,44.16,3
+12926,2025-01-13,Mobile,Affiliate,SKU-0376,Beauty,0,56.84,2
+12959,2025-10-24,Mobile,Organic,SKU-0259,Apparel,1,59.04,2
+12973,2025-08-08,Mobile,Email,SKU-0188,Apparel,0,105.15,2
+12982,2025-11-24,Mobile,Affiliate,SKU-0329,Apparel,0,41.5,3
+12998,2025-10-21,Desktop,Email,SKU-0188,Fitness,0,46.28,2
+13002,2025-12-31,Mobile,Paid Social,SKU-0021,Apparel,1,44.23,2
+13039,2025-01-10,Mobile,Organic,SKU-0135,Apparel,1,87.94,3
+13043,2025-12-10,Mobile,Affiliate,SKU-0335,Apparel,1,96.84,3
+13057,2025-09-24,Desktop,Organic,SKU-0356,Home,1,61.44,1
+13058,2025-12-27,Desktop,Paid Search,SKU-0021,Apparel,1,74.65,1
+13069,2025-04-29,Mobile,Organic,SKU-0014,Beauty,0,46.22,1
+13070,2025-03-26,Desktop,Paid Social,SKU-0245,Electronics,1,51.31,3
+13072,2025-02-13,Desktop,Paid Social,SKU-0332,Electronics,0,72.31,1
+13075,2025-05-17,Desktop,Organic,SKU-0062,Home,1,87.62,1
+13079,2025-03-26,Mobile,Paid Search,SKU-0085,Fitness,1,76.76,1
+13082,2025-12-31,Desktop,Organic,SKU-0198,Home,0,102.89,2
+13111,2025-09-05,Mobile,Organic,SKU-0026,Apparel,1,54.79,3
+13116,2025-06-22,Mobile,Organic,SKU-0372,Apparel,0,41.04,2
+13120,2025-02-22,Desktop,Organic,SKU-0102,Apparel,0,104.02,3
+13128,2025-10-27,Desktop,Organic,SKU-0077,Beauty,0,100.25,3
+13146,2025-05-09,Mobile,Paid Search,SKU-0056,Home,1,22.94,3
+13153,2025-01-28,Mobile,Paid Social,SKU-0375,Home,1,46.04,3
+13155,2025-01-11,Mobile,Affiliate,SKU-0152,Fitness,0,100.18,1
+13176,2025-11-07,Desktop,Paid Search,SKU-0078,Apparel,0,56.24,1
+13186,2025-10-26,Mobile,Organic,SKU-0265,Apparel,0,65.33,1
+13193,2025-10-26,Mobile,Affiliate,SKU-0066,Beauty,0,58.89,3
+13201,2025-11-26,Desktop,Email,SKU-0237,Electronics,1,71.49,2
+13218,2025-03-01,Desktop,Organic,SKU-0293,Beauty,1,86.07,2
+13221,2025-06-07,Mobile,Email,SKU-0057,Apparel,1,46.83,2
+13233,2025-01-02,Mobile,Paid Social,SKU-0325,Home,0,80.36,1
+13234,2025-05-01,Desktop,Email,SKU-0237,Electronics,0,45.31,3
+13244,2025-08-29,Mobile,Email,SKU-0039,Fitness,1,96.86,1
+13276,2025-10-02,Desktop,Paid Search,SKU-0203,Beauty,1,70.56,3
+13277,2025-03-14,Mobile,Paid Search,SKU-0213,Apparel,0,104.95,3
+13278,2025-11-04,Desktop,Paid Social,SKU-0326,Home,0,72.14,1
+13280,2025-01-26,Mobile,Organic,SKU-0276,Electronics,0,118.85,2
+13281,2025-09-07,Mobile,Paid Social,SKU-0047,Fitness,0,58.83,2
+13294,2025-04-11,Mobile,Organic,SKU-0278,Fitness,0,77.64,1
+13303,2025-09-16,Desktop,Organic,SKU-0352,Beauty,1,92.59,3
+13315,2025-08-29,Desktop,Organic,SKU-0214,Home,1,31.21,1
+13339,2025-05-30,Desktop,Organic,SKU-0304,Fitness,1,40.03,3
+13340,2025-07-20,Desktop,Organic,SKU-0372,Fitness,0,99.27,1
+13343,2025-05-19,Desktop,Paid Social,SKU-0106,Electronics,0,68.64,2
+13347,2025-01-09,Mobile,Email,SKU-0310,Apparel,0,64.94,1
+13349,2025-09-05,Desktop,Paid Social,SKU-0376,Fitness,0,72.73,3
+13350,2025-03-23,Desktop,Paid Search,SKU-0043,Beauty,1,9.2,3
+13353,2025-03-14,Desktop,Paid Social,SKU-0364,Fitness,0,24.42,3
+13358,2025-03-16,Desktop,Email,SKU-0131,Beauty,0,58.72,1
+13359,2025-05-21,Desktop,Email,SKU-0134,Home,0,40.81,1
+13372,2025-05-11,Mobile,Email,SKU-0131,Beauty,1,48.78,3
+13373,2025-04-05,Desktop,Paid Search,SKU-0368,Electronics,1,64.99,2
+13385,2025-09-29,Mobile,Email,SKU-0394,Apparel,1,17.07,1
+13410,2025-11-15,Mobile,Organic,SKU-0068,Electronics,0,10.0,1
+13417,2025-12-15,Desktop,Email,SKU-0375,Beauty,0,69.29,3
+13423,2025-05-15,Mobile,Email,SKU-0367,Home,0,51.82,2
+13425,2025-04-02,Mobile,Affiliate,SKU-0064,Home,0,32.2,2
+13433,2025-05-04,Desktop,Organic,SKU-0300,Beauty,0,44.66,2
+13440,2025-08-31,Desktop,Affiliate,SKU-0225,Home,0,97.62,3
+13442,2025-03-27,Mobile,Email,SKU-0218,Apparel,0,58.6,2
+13445,2025-01-29,Desktop,Organic,SKU-0123,Home,0,50.31,2
+13458,2025-02-15,Mobile,Paid Social,SKU-0061,Fitness,1,89.16,1
+13466,2025-06-10,Desktop,Email,SKU-0081,Beauty,1,65.91,2
+13482,2025-07-05,Mobile,Paid Social,SKU-0251,Apparel,1,91.02,1
+13484,2025-07-24,Desktop,Email,SKU-0034,Fitness,1,64.49,3
+13487,2025-01-18,Desktop,Organic,SKU-0114,Home,0,107.75,3
+13493,2025-04-24,Desktop,Organic,SKU-0318,Beauty,1,45.22,1
+13495,2025-07-15,Mobile,Paid Social,SKU-0190,Home,0,72.38,1
+13524,2025-03-10,Mobile,Email,SKU-0303,Electronics,1,22.41,2
+13525,2025-05-04,Desktop,Paid Search,SKU-0314,Apparel,0,87.95,2
+13548,2025-07-23,Desktop,Affiliate,SKU-0073,Beauty,0,10.0,2
+13558,2025-01-12,Desktop,Affiliate,SKU-0359,Home,0,142.29,1
+13577,2025-10-26,Mobile,Paid Search,SKU-0316,Electronics,0,78.72,2
+13581,2025-02-04,Desktop,Affiliate,SKU-0378,Electronics,0,10.0,1
+13587,2025-07-17,Mobile,Organic,SKU-0294,Home,1,9.2,2
+13589,2025-10-26,Desktop,Paid Social,SKU-0080,Beauty,0,80.83,1
+13607,2025-10-14,Desktop,Organic,SKU-0313,Fitness,0,47.55,1
+13613,2025-05-08,Mobile,Paid Search,SKU-0108,Beauty,0,61.19,2
+13614,2025-04-07,Mobile,Paid Search,SKU-0375,Home,0,52.3,1
+13630,2025-01-18,Mobile,Paid Social,SKU-0320,Fitness,0,41.47,1
+13636,2025-01-30,Mobile,Paid Social,SKU-0332,Home,0,96.94,3
+13641,2025-07-26,Desktop,Affiliate,SKU-0309,Electronics,1,42.58,3
+13643,2025-02-22,Desktop,Organic,SKU-0337,Apparel,0,34.25,3
+13644,2025-04-22,Desktop,Paid Search,SKU-0341,Electronics,1,67.8,3
+13658,2025-11-29,Desktop,Paid Search,SKU-0086,Electronics,0,52.24,1
+13674,2025-02-17,Mobile,Email,SKU-0373,Electronics,0,65.23,2
+13681,2025-03-30,Mobile,Paid Social,SKU-0062,Apparel,1,56.36,2
+13689,2025-09-16,Desktop,Paid Social,SKU-0383,Apparel,1,92.61,2
+13692,2025-09-05,Desktop,Email,SKU-0238,Apparel,0,44.63,1
+13695,2025-06-25,Mobile,Paid Search,SKU-0253,Electronics,0,56.93,3
+13697,2025-07-13,Desktop,Paid Search,SKU-0228,Electronics,1,22.37,3
+13700,2025-03-25,Mobile,Paid Search,SKU-0380,Beauty,0,28.72,3
+13707,2025-11-23,Mobile,Paid Search,SKU-0016,Apparel,0,98.61,3
+13710,2025-06-18,Mobile,Paid Social,SKU-0283,Beauty,0,62.16,2
+13718,2025-09-25,Mobile,Paid Search,SKU-0115,Beauty,1,64.98,3
+13728,2025-11-28,Mobile,Organic,SKU-0297,Beauty,0,55.69,2
+13734,2025-08-01,Mobile,Affiliate,SKU-0118,Beauty,0,64.82,2
+13742,2025-11-07,Mobile,Affiliate,SKU-0056,Electronics,1,55.84,1
+13745,2025-12-10,Desktop,Paid Search,SKU-0007,Electronics,0,93.89,1
+13763,2025-10-14,Mobile,Organic,SKU-0116,Beauty,1,41.43,1
+13765,2025-03-14,Desktop,Organic,SKU-0244,Home,0,86.69,3
+13776,2025-02-08,Desktop,Paid Social,SKU-0082,Apparel,1,24.82,1
+13787,2025-10-22,Mobile,Organic,SKU-0258,Fitness,0,64.42,1
+13788,2025-02-27,Desktop,Paid Social,SKU-0074,Apparel,0,26.98,3
+13791,2025-07-31,Desktop,Paid Social,SKU-0044,Home,0,18.66,2
+13822,2025-08-06,Mobile,Paid Search,SKU-0159,Home,0,66.79,3
+13840,2025-03-07,Desktop,Paid Social,SKU-0266,Electronics,1,41.38,2
+13858,2025-08-17,Desktop,Paid Social,SKU-0258,Fitness,0,46.91,1
+13861,2025-02-09,Mobile,Organic,SKU-0109,Electronics,0,35.31,1
+13864,2025-10-14,Mobile,Paid Search,SKU-0285,Apparel,0,93.26,3
+13867,2025-07-03,Mobile,Paid Search,SKU-0073,Electronics,0,84.55,3
+13878,2025-07-01,Mobile,Organic,SKU-0162,Home,0,78.28,1
+13883,2025-08-20,Mobile,Organic,SKU-0350,Apparel,1,98.8,1
+13886,2025-02-08,Mobile,Organic,SKU-0335,Electronics,0,67.65,2
+13917,2025-12-31,Desktop,Paid Search,SKU-0184,Beauty,0,17.46,3
+13920,2025-07-31,Desktop,Paid Social,SKU-0311,Beauty,0,80.44,2
+13932,2025-03-26,Mobile,Paid Search,SKU-0256,Apparel,0,76.44,1
+13948,2025-07-25,Mobile,Paid Search,SKU-0173,Apparel,1,68.75,2
+13949,2025-07-08,Mobile,Paid Search,SKU-0217,Electronics,1,35.39,1
+13958,2025-03-15,Mobile,Organic,SKU-0214,Home,0,83.7,2
+13972,2025-01-01,Mobile,Paid Social,SKU-0352,Apparel,1,75.64,1
+13974,2025-03-27,Mobile,Affiliate,SKU-0392,Fitness,1,95.66,1
+13985,2025-07-17,Desktop,Paid Social,SKU-0076,Apparel,0,35.26,1
+13996,2025-03-08,Desktop,Paid Search,SKU-0049,Fitness,0,76.58,2
+14004,2025-11-01,Mobile,Paid Search,SKU-0084,Beauty,1,94.15,3
+14021,2025-07-16,Mobile,Paid Search,SKU-0180,Apparel,0,55.71,2
+14028,2025-12-17,Mobile,Email,SKU-0056,Apparel,1,77.92,3
+14035,2025-12-24,Desktop,Paid Social,SKU-0271,Apparel,0,22.07,3
+14050,2025-12-17,Mobile,Email,SKU-0285,Fitness,0,38.89,3
+14060,2025-11-03,Mobile,Paid Search,SKU-0140,Apparel,1,42.58,3
+14064,2025-01-13,Desktop,Email,SKU-0362,Home,1,47.99,1
+14077,2025-12-26,Mobile,Organic,SKU-0130,Beauty,1,55.7,2
+14085,2025-10-01,Desktop,Paid Search,SKU-0178,Electronics,0,41.27,1
+14093,2025-07-24,Desktop,Organic,SKU-0205,Home,0,46.82,1
+14123,2025-05-07,Mobile,Email,SKU-0268,Electronics,0,23.85,1
+14147,2025-09-29,Desktop,Email,SKU-0361,Fitness,1,84.41,1
+14150,2025-12-02,Mobile,Email,SKU-0176,Apparel,0,89.92,2
+14152,2025-12-12,Mobile,Paid Search,SKU-0342,Home,0,77.7,1
+14155,2025-11-28,Mobile,Organic,SKU-0097,Apparel,0,121.0,3
+14156,2025-01-31,Desktop,Paid Search,SKU-0102,Beauty,0,74.26,2
+14168,2025-09-03,Desktop,Organic,SKU-0359,Home,0,68.02,2
+14171,2025-07-10,Desktop,Organic,SKU-0108,Beauty,0,50.36,2
+14198,2025-02-28,Mobile,Organic,SKU-0185,Electronics,0,24.96,1
+14204,2025-12-13,Mobile,Email,SKU-0084,Beauty,0,51.67,3
+14211,2025-04-15,Mobile,Email,SKU-0358,Home,0,73.5,3
+14215,2025-10-07,Desktop,Email,SKU-0181,Electronics,0,87.8,2
+14220,2025-04-01,Mobile,Organic,SKU-0213,Beauty,0,102.42,1
+14226,2025-12-08,Desktop,Organic,SKU-0009,Fitness,1,64.25,3
+14228,2025-04-09,Mobile,Organic,SKU-0074,Apparel,1,56.4,3
+14237,2025-10-13,Desktop,Organic,SKU-0143,Electronics,0,39.37,2
+14260,2025-06-21,Desktop,Paid Search,SKU-0306,Beauty,1,75.23,1
+14261,2025-06-09,Desktop,Paid Social,SKU-0190,Apparel,0,82.7,2
+14265,2025-09-07,Desktop,Paid Search,SKU-0045,Apparel,0,79.39,1
+14269,2025-05-25,Desktop,Organic,SKU-0266,Home,0,97.22,1
+14278,2025-01-24,Desktop,Paid Social,SKU-0398,Home,0,10.0,1
+14284,2025-06-28,Desktop,Paid Search,SKU-0163,Beauty,0,39.39,1
+14286,2025-01-15,Mobile,Email,SKU-0237,Beauty,0,64.62,2
+14289,2025-07-16,Mobile,Paid Search,SKU-0001,Home,1,9.2,2
+14293,2025-06-09,Mobile,Paid Social,SKU-0184,Beauty,1,62.58,2
+14299,2025-07-03,Desktop,Paid Search,SKU-0245,Electronics,1,39.75,2
+14305,2025-08-13,Desktop,Organic,SKU-0088,Beauty,1,61.31,2
+14311,2025-10-16,Desktop,Organic,SKU-0091,Home,0,69.31,3
+14316,2025-02-22,Mobile,Paid Search,SKU-0315,Home,0,32.63,3
+14319,2025-07-30,Mobile,Email,SKU-0295,Apparel,0,53.27,2
+14323,2025-06-11,Mobile,Organic,SKU-0246,Electronics,1,88.5,2
+14329,2025-10-12,Desktop,Organic,SKU-0220,Apparel,1,47.66,3
+14340,2025-03-27,Desktop,Organic,SKU-0123,Home,0,55.47,1
+14345,2025-06-02,Desktop,Organic,SKU-0290,Beauty,0,95.58,3
+14348,2025-01-15,Desktop,Organic,SKU-0320,Apparel,1,35.09,1
+14349,2025-09-21,Desktop,Paid Search,SKU-0161,Electronics,1,68.26,2
+14358,2025-03-27,Desktop,Organic,SKU-0394,Apparel,1,73.75,3
+14365,2025-10-27,Mobile,Paid Search,SKU-0146,Home,1,68.31,3
+14379,2025-08-02,Desktop,Paid Social,SKU-0298,Apparel,0,57.17,3
+14382,2025-11-15,Mobile,Organic,SKU-0368,Home,1,26.42,2
+14383,2025-05-10,Desktop,Paid Social,SKU-0010,Beauty,0,85.88,3
+14400,2025-06-14,Mobile,Paid Social,SKU-0046,Electronics,1,73.6,3
+14429,2025-01-24,Desktop,Organic,SKU-0220,Beauty,0,95.67,3
+14432,2025-03-01,Mobile,Paid Social,SKU-0369,Apparel,1,20.15,3
+14440,2025-02-09,Mobile,Paid Search,SKU-0074,Home,0,25.79,1
+14442,2025-01-17,Desktop,Paid Search,SKU-0119,Home,1,99.89,2
+14445,2025-08-30,Desktop,Paid Search,SKU-0184,Fitness,1,84.94,2
+14449,2025-11-21,Mobile,Paid Social,SKU-0172,Apparel,0,79.98,2
+14462,2025-11-07,Desktop,Paid Search,SKU-0140,Beauty,1,109.08,2
+14464,2025-09-21,Mobile,Affiliate,SKU-0036,Apparel,0,38.04,3
+14482,2025-03-03,Desktop,Paid Search,SKU-0246,Apparel,0,47.79,3
+14487,2025-02-12,Desktop,Email,SKU-0294,Apparel,0,58.96,1
+14493,2025-03-29,Mobile,Paid Social,SKU-0012,Electronics,0,10.0,3
+14497,2025-02-19,Desktop,Affiliate,SKU-0077,Apparel,0,53.29,1
+14498,2025-05-13,Mobile,Paid Social,SKU-0265,Apparel,1,63.19,2
+14506,2025-11-26,Mobile,Email,SKU-0266,Home,0,91.79,3
+14520,2025-07-27,Mobile,Email,SKU-0383,Beauty,0,74.9,3
+14521,2025-06-28,Mobile,Paid Social,SKU-0361,Beauty,0,87.91,2
+14526,2025-07-07,Desktop,Organic,SKU-0231,Apparel,1,12.41,1
+14531,2025-12-20,Desktop,Paid Search,SKU-0364,Electronics,1,47.6,2
+14537,2025-12-16,Desktop,Paid Social,SKU-0160,Beauty,0,43.79,2
+14544,2025-03-22,Desktop,Paid Search,SKU-0308,Apparel,1,69.9,2
+14548,2025-05-06,Desktop,Email,SKU-0255,Apparel,0,43.57,1
+14555,2025-11-09,Desktop,Email,SKU-0005,Apparel,0,65.86,3
+14556,2025-04-30,Desktop,Paid Search,SKU-0356,Beauty,0,76.41,2
+14563,2025-09-02,Mobile,Organic,SKU-0249,Fitness,0,82.35,3
+14567,2025-12-19,Desktop,Paid Search,SKU-0327,Apparel,0,81.91,1
+14580,2025-09-25,Mobile,Paid Search,SKU-0031,Apparel,0,81.63,2
+14586,2025-01-03,Mobile,Organic,SKU-0051,Home,0,70.14,1
+14588,2025-03-12,Desktop,Affiliate,SKU-0151,Electronics,0,52.01,1
+14595,2025-07-05,Mobile,Organic,SKU-0096,Apparel,0,38.72,2
+14630,2025-08-12,Desktop,Organic,SKU-0322,Apparel,1,57.54,1
+14636,2025-11-10,Desktop,Organic,SKU-0006,Home,1,36.57,1
+14638,2025-12-04,Mobile,Affiliate,SKU-0065,Apparel,1,72.69,3
+14652,2025-02-03,Mobile,Affiliate,SKU-0295,Beauty,0,47.01,2
+14662,2025-02-25,Desktop,Organic,SKU-0324,Fitness,0,146.33,3
+14680,2025-01-28,Mobile,Paid Social,SKU-0246,Electronics,0,71.27,1
+14681,2025-09-22,Mobile,Organic,SKU-0250,Electronics,1,92.11,2
+14704,2025-05-16,Desktop,Paid Social,SKU-0020,Home,0,99.58,1
+14711,2025-06-11,Mobile,Paid Social,SKU-0339,Home,1,63.57,1
+14720,2025-07-19,Mobile,Paid Search,SKU-0372,Beauty,1,63.22,2
+14726,2025-01-31,Desktop,Organic,SKU-0329,Electronics,0,89.98,1
+14769,2025-01-08,Desktop,Paid Search,SKU-0140,Home,1,28.02,2
+14770,2025-09-29,Mobile,Organic,SKU-0274,Apparel,0,21.28,1
+14780,2025-07-26,Mobile,Affiliate,SKU-0039,Beauty,1,40.71,1
+14798,2025-01-12,Desktop,Email,SKU-0088,Home,1,91.64,1
+14808,2025-08-05,Desktop,Email,SKU-0036,Home,0,123.81,2
+14831,2025-06-11,Mobile,Organic,SKU-0104,Electronics,0,138.33,3
+14834,2025-07-08,Mobile,Organic,SKU-0205,Electronics,1,116.82,1
+14839,2025-04-05,Mobile,Paid Social,SKU-0144,Beauty,0,98.83,1
+14842,2025-08-06,Desktop,Organic,SKU-0196,Fitness,0,75.54,3
+14852,2025-06-05,Desktop,Paid Social,SKU-0195,Apparel,1,28.66,3
+14860,2025-05-03,Desktop,Paid Social,SKU-0127,Apparel,0,52.42,1
+14862,2025-06-08,Mobile,Organic,SKU-0077,Electronics,0,79.78,1
+14868,2025-10-17,Desktop,Paid Search,SKU-0269,Apparel,0,46.89,2
+14875,2025-04-02,Mobile,Paid Social,SKU-0340,Fitness,0,90.96,2
+14880,2025-10-13,Desktop,Email,SKU-0106,Home,0,45.27,1
+14882,2025-03-21,Desktop,Paid Social,SKU-0168,Home,0,23.32,3
+14900,2025-02-01,Mobile,Paid Search,SKU-0290,Electronics,0,50.46,3
+14903,2025-07-02,Desktop,Paid Social,SKU-0071,Apparel,0,68.87,1
+14910,2025-02-08,Mobile,Paid Search,SKU-0393,Fitness,0,54.83,3
+14918,2025-11-19,Mobile,Paid Search,SKU-0123,Home,0,65.44,1
+14929,2025-01-28,Mobile,Organic,SKU-0219,Home,0,52.02,1
+14938,2025-04-23,Mobile,Organic,SKU-0258,Fitness,0,55.74,1
+14940,2025-02-03,Desktop,Paid Social,SKU-0023,Electronics,1,143.07,1
+14965,2025-11-21,Desktop,Paid Social,SKU-0167,Home,0,24.84,1
+14972,2025-08-15,Desktop,Organic,SKU-0002,Home,0,60.37,3
+14981,2025-01-31,Desktop,Organic,SKU-0305,Apparel,0,32.68,3
+14983,2025-08-31,Mobile,Organic,SKU-0307,Electronics,0,102.22,3
+14984,2025-01-02,Mobile,Paid Search,SKU-0023,Apparel,1,43.79,3
+14987,2025-08-10,Desktop,Organic,SKU-0066,Electronics,0,36.75,3
+14999,2025-10-24,Desktop,Affiliate,SKU-0395,Home,1,70.26,1
+15021,2025-06-13,Desktop,Paid Search,SKU-0131,Home,0,64.4,3
+15027,2025-01-31,Desktop,Email,SKU-0238,Home,1,38.78,3
+15034,2025-11-09,Mobile,Affiliate,SKU-0057,Beauty,1,47.4,2
+15044,2025-02-04,Desktop,Paid Search,SKU-0210,Apparel,0,11.43,3
+15045,2025-08-04,Desktop,Organic,SKU-0277,Beauty,0,44.69,2
+15054,2025-03-02,Mobile,Organic,SKU-0392,Fitness,0,13.7,1
+15070,2025-08-11,Desktop,Organic,SKU-0015,Home,1,55.9,2
+15074,2025-05-20,Mobile,Paid Social,SKU-0270,Home,1,41.42,3
+15096,2025-04-04,Desktop,Organic,SKU-0395,Apparel,1,52.51,3
+15098,2025-04-01,Desktop,Paid Search,SKU-0345,Home,1,29.17,2
+15111,2025-02-10,Mobile,Paid Social,SKU-0295,Beauty,0,59.24,2
+15113,2025-09-21,Desktop,Affiliate,SKU-0244,Apparel,1,51.14,2
+15122,2025-12-11,Mobile,Affiliate,SKU-0304,Home,0,85.74,1
+15123,2025-02-14,Mobile,Organic,SKU-0170,Electronics,0,58.52,1
+15153,2025-04-07,Desktop,Paid Social,SKU-0073,Electronics,0,50.87,1
+15154,2025-12-17,Mobile,Paid Search,SKU-0307,Apparel,0,66.39,2
+15163,2025-02-06,Mobile,Organic,SKU-0223,Apparel,0,67.25,2
+15167,2025-01-10,Desktop,Paid Social,SKU-0361,Electronics,0,107.97,1
+15181,2025-10-13,Desktop,Organic,SKU-0013,Apparel,0,15.08,1
+15200,2025-03-29,Mobile,Organic,SKU-0332,Electronics,0,48.16,2
+15202,2025-02-05,Mobile,Email,SKU-0227,Beauty,0,76.71,1
+15207,2025-11-26,Mobile,Organic,SKU-0040,Fitness,0,70.91,2
+15208,2025-09-27,Mobile,Organic,SKU-0393,Beauty,1,123.07,1
+15217,2025-05-03,Mobile,Affiliate,SKU-0008,Apparel,0,75.78,2
+15218,2025-04-23,Desktop,Paid Search,SKU-0107,Beauty,0,30.08,2
+15222,2025-07-03,Desktop,Affiliate,SKU-0311,Fitness,0,134.63,1
+15232,2025-12-05,Mobile,Paid Social,SKU-0298,Fitness,1,83.56,1
+15248,2025-09-30,Mobile,Paid Search,SKU-0364,Fitness,1,120.42,2
+15255,2025-03-23,Desktop,Paid Social,SKU-0251,Home,1,65.47,2
+15275,2025-10-29,Desktop,Paid Social,SKU-0245,Fitness,0,25.13,1
+15283,2025-04-20,Desktop,Organic,SKU-0253,Beauty,1,92.33,1
+15293,2025-10-21,Mobile,Paid Search,SKU-0400,Electronics,0,64.26,2
+15295,2025-11-18,Desktop,Affiliate,SKU-0343,Electronics,0,68.1,3
+15299,2025-08-15,Mobile,Paid Social,SKU-0091,Home,1,58.68,1
+15301,2025-02-09,Desktop,Affiliate,SKU-0094,Beauty,0,62.22,3
+15305,2025-08-04,Mobile,Organic,SKU-0094,Apparel,1,93.8,3
+15309,2025-01-18,Desktop,Paid Search,SKU-0292,Beauty,0,49.42,1
+15316,2025-12-13,Mobile,Organic,SKU-0399,Apparel,0,80.16,3
+15319,2025-03-04,Mobile,Email,SKU-0031,Electronics,0,83.09,3
+15324,2025-07-03,Mobile,Organic,SKU-0275,Apparel,0,27.11,1
+15326,2025-07-11,Mobile,Paid Social,SKU-0152,Apparel,1,47.41,1
+15331,2025-08-09,Desktop,Organic,SKU-0271,Fitness,1,15.93,2
+15342,2025-07-11,Desktop,Affiliate,SKU-0398,Apparel,1,61.04,3
+15346,2025-04-20,Desktop,Paid Search,SKU-0247,Apparel,1,71.48,3
+15349,2025-03-06,Mobile,Organic,SKU-0297,Apparel,0,96.78,1
+15359,2025-06-24,Mobile,Organic,SKU-0233,Apparel,1,35.41,2
+15366,2025-03-09,Desktop,Paid Search,SKU-0056,Apparel,0,49.22,1
+15369,2025-06-22,Desktop,Paid Search,SKU-0004,Apparel,0,76.12,3
+15370,2025-11-11,Mobile,Organic,SKU-0104,Beauty,1,16.85,1
+15372,2025-02-01,Mobile,Paid Search,SKU-0299,Electronics,1,36.8,1
+15379,2025-07-07,Mobile,Paid Social,SKU-0303,Fitness,1,84.26,3
+15384,2025-01-30,Desktop,Paid Social,SKU-0166,Electronics,1,54.55,1
+15399,2025-12-25,Desktop,Organic,SKU-0035,Beauty,1,54.8,1
+15401,2025-01-03,Mobile,Email,SKU-0003,Apparel,1,23.17,2
+15406,2025-05-01,Mobile,Paid Search,SKU-0244,Home,1,70.08,3
+15411,2025-12-15,Desktop,Email,SKU-0171,Electronics,0,57.24,1
+15415,2025-07-12,Desktop,Organic,SKU-0266,Home,0,70.07,2
+15416,2025-04-04,Mobile,Organic,SKU-0310,Electronics,0,89.66,1
+15419,2025-08-31,Mobile,Organic,SKU-0091,Home,1,34.0,3
+15423,2025-07-30,Mobile,Email,SKU-0234,Home,0,23.38,3
+15424,2025-06-24,Desktop,Paid Search,SKU-0281,Beauty,0,95.32,1
+15432,2025-05-01,Desktop,Organic,SKU-0240,Home,1,39.62,3
+15456,2025-10-11,Desktop,Paid Search,SKU-0078,Apparel,0,114.32,1
+15461,2025-07-12,Desktop,Email,SKU-0178,Electronics,0,43.2,1
+15463,2025-11-24,Mobile,Organic,SKU-0133,Home,0,42.86,3
+15464,2025-12-08,Mobile,Paid Social,SKU-0216,Fitness,0,109.54,1
+15473,2025-01-01,Desktop,Affiliate,SKU-0103,Apparel,1,9.2,3
+15477,2025-03-10,Mobile,Affiliate,SKU-0091,Home,0,55.13,2
+15484,2025-02-06,Desktop,Paid Search,SKU-0001,Apparel,0,73.89,3
+15491,2025-03-10,Mobile,Paid Search,SKU-0058,Home,0,75.68,3
+15493,2025-11-28,Desktop,Email,SKU-0152,Electronics,1,96.7,3
+15509,2025-09-09,Mobile,Organic,SKU-0097,Apparel,1,42.98,2
+15519,2025-08-29,Mobile,Organic,SKU-0137,Apparel,0,110.32,1
+15531,2025-11-27,Desktop,Organic,SKU-0268,Apparel,1,9.2,2
+15532,2025-06-05,Desktop,Email,SKU-0327,Beauty,0,47.46,3
+15546,2025-07-29,Desktop,Paid Social,SKU-0380,Electronics,1,102.26,1
+15562,2025-05-02,Desktop,Paid Social,SKU-0152,Home,0,32.62,1
+15582,2025-12-06,Desktop,Paid Search,SKU-0390,Apparel,0,74.62,2
+15597,2025-06-30,Mobile,Paid Search,SKU-0172,Beauty,0,159.76,1
+15600,2025-07-30,Mobile,Organic,SKU-0115,Electronics,0,95.89,1
+15605,2025-07-28,Desktop,Affiliate,SKU-0384,Home,0,89.34,2
+15617,2025-03-31,Desktop,Affiliate,SKU-0357,Apparel,1,62.51,2
+15631,2025-05-05,Mobile,Paid Search,SKU-0010,Fitness,1,96.02,3
+15634,2025-03-06,Desktop,Paid Search,SKU-0360,Beauty,0,47.27,2
+15648,2025-06-07,Mobile,Email,SKU-0166,Beauty,0,41.86,2
+15676,2025-12-15,Mobile,Organic,SKU-0237,Beauty,0,66.14,2
+15687,2025-12-24,Mobile,Paid Social,SKU-0355,Apparel,1,55.83,1
+15689,2025-01-03,Mobile,Organic,SKU-0286,Apparel,0,10.0,3
+15692,2025-01-19,Desktop,Email,SKU-0217,Apparel,1,113.43,3
+15707,2025-07-31,Mobile,Organic,SKU-0147,Beauty,0,55.12,2
+15711,2025-03-11,Mobile,Paid Social,SKU-0276,Home,0,66.48,2
+15714,2025-08-20,Mobile,Paid Search,SKU-0089,Fitness,0,49.73,3
+15724,2025-07-26,Desktop,Organic,SKU-0129,Apparel,0,63.24,1
+15731,2025-02-28,Mobile,Paid Search,SKU-0031,Electronics,0,107.36,3
+15751,2025-09-09,Desktop,Organic,SKU-0042,Home,0,70.78,3
+15752,2025-06-14,Desktop,Paid Social,SKU-0347,Home,0,71.1,3
+15753,2025-04-25,Mobile,Organic,SKU-0046,Electronics,0,72.0,1
+15757,2025-09-14,Mobile,Organic,SKU-0199,Apparel,1,94.39,3
+15762,2025-05-05,Desktop,Organic,SKU-0182,Fitness,0,98.8,1
+15763,2025-05-12,Desktop,Paid Social,SKU-0354,Apparel,0,86.03,1
+15764,2025-10-25,Desktop,Paid Social,SKU-0154,Electronics,1,84.7,1
+15808,2025-08-21,Mobile,Affiliate,SKU-0223,Home,0,53.59,3
+15809,2025-07-13,Desktop,Paid Social,SKU-0070,Fitness,1,65.82,1
+15815,2025-05-28,Desktop,Paid Search,SKU-0392,Home,0,36.31,2
+15851,2025-01-30,Desktop,Paid Search,SKU-0071,Electronics,0,98.47,2
+15855,2025-05-23,Desktop,Organic,SKU-0234,Home,0,69.04,1
+15884,2025-06-03,Mobile,Email,SKU-0251,Beauty,1,43.19,1
+15889,2025-02-07,Desktop,Organic,SKU-0110,Electronics,1,67.8,3
+15892,2025-05-25,Mobile,Paid Search,SKU-0063,Electronics,0,90.39,3
+15893,2025-03-30,Desktop,Organic,SKU-0052,Fitness,1,9.2,3
+15909,2025-05-14,Desktop,Paid Social,SKU-0165,Home,0,83.49,2
+15917,2025-02-13,Mobile,Organic,SKU-0253,Apparel,0,70.92,1
+15919,2025-04-05,Mobile,Paid Search,SKU-0223,Home,0,129.86,2
+15921,2025-08-08,Desktop,Paid Search,SKU-0230,Beauty,0,67.86,1
+15923,2025-04-17,Mobile,Email,SKU-0247,Electronics,0,58.93,1
+15927,2025-08-01,Mobile,Affiliate,SKU-0201,Apparel,1,67.9,3
+15929,2025-02-21,Desktop,Paid Search,SKU-0180,Home,1,64.71,1
+15931,2025-11-18,Desktop,Paid Search,SKU-0234,Electronics,1,49.4,2
+15939,2025-09-12,Desktop,Paid Search,SKU-0097,Apparel,0,61.34,2
+15943,2025-07-31,Desktop,Organic,SKU-0227,Beauty,0,58.17,1
+15956,2025-08-15,Mobile,Affiliate,SKU-0388,Apparel,1,61.44,3
+15958,2025-05-30,Desktop,Email,SKU-0236,Home,0,85.78,3
+15959,2025-09-16,Mobile,Paid Social,SKU-0232,Apparel,0,112.27,2
+15972,2025-03-12,Mobile,Paid Search,SKU-0213,Beauty,1,84.4,2
+15990,2025-05-17,Mobile,Email,SKU-0381,Electronics,1,31.4,3
+15998,2025-12-23,Desktop,Paid Search,SKU-0052,Electronics,1,36.28,1
+16008,2025-09-16,Mobile,Paid Search,SKU-0193,Apparel,1,81.92,3
+16026,2025-04-26,Mobile,Paid Search,SKU-0396,Apparel,1,79.6,2
+16035,2025-09-02,Desktop,Paid Social,SKU-0264,Electronics,1,50.79,3
+16038,2025-08-08,Desktop,Paid Search,SKU-0226,Electronics,1,46.08,2
+16061,2025-05-28,Mobile,Email,SKU-0072,Electronics,0,55.91,3
+16075,2025-08-05,Mobile,Organic,SKU-0343,Fitness,1,80.99,1
+16084,2025-04-25,Desktop,Organic,SKU-0031,Beauty,0,51.23,2
+16087,2025-06-04,Mobile,Organic,SKU-0034,Fitness,1,9.2,3
+16103,2025-10-28,Desktop,Organic,SKU-0063,Beauty,0,72.76,3
+16105,2025-12-09,Desktop,Organic,SKU-0046,Electronics,0,48.62,1
+16107,2025-12-19,Mobile,Email,SKU-0355,Beauty,0,81.7,3
+16111,2025-07-28,Mobile,Paid Search,SKU-0008,Fitness,0,52.07,1
+16119,2025-01-03,Desktop,Paid Social,SKU-0104,Fitness,0,56.19,1
+16125,2025-01-25,Mobile,Organic,SKU-0362,Apparel,0,112.17,3
+16129,2025-02-18,Desktop,Affiliate,SKU-0055,Beauty,1,113.19,2
+16130,2025-09-13,Mobile,Paid Social,SKU-0049,Home,0,56.48,2
+16131,2025-08-23,Mobile,Organic,SKU-0017,Apparel,1,51.13,1
+16142,2025-11-23,Mobile,Affiliate,SKU-0273,Apparel,0,85.39,2
+16150,2025-10-28,Desktop,Paid Social,SKU-0114,Apparel,0,87.61,3
+16159,2025-09-21,Desktop,Organic,SKU-0326,Home,1,22.12,1
+16161,2025-03-04,Mobile,Paid Search,SKU-0304,Beauty,1,53.45,1
+16164,2025-05-29,Desktop,Organic,SKU-0387,Electronics,1,35.89,1
+16165,2025-08-05,Desktop,Paid Search,SKU-0281,Apparel,1,68.25,3
+16174,2025-11-20,Desktop,Email,SKU-0047,Electronics,0,60.14,1
+16178,2025-02-28,Mobile,Paid Search,SKU-0141,Electronics,0,71.1,3
+16181,2025-03-14,Desktop,Organic,SKU-0271,Apparel,1,90.5,2
+16188,2025-11-24,Mobile,Organic,SKU-0201,Apparel,1,9.2,1
+16197,2025-09-27,Mobile,Paid Search,SKU-0129,Electronics,0,75.12,1
+16219,2025-05-09,Mobile,Affiliate,SKU-0242,Fitness,1,93.4,3
+16228,2025-07-17,Desktop,Paid Search,SKU-0248,Electronics,1,75.18,2
+16238,2025-10-11,Desktop,Paid Search,SKU-0271,Home,0,108.01,1
+16242,2025-08-29,Mobile,Affiliate,SKU-0236,Home,0,43.16,2
+16243,2025-09-20,Desktop,Paid Social,SKU-0092,Home,0,56.89,2
+16246,2025-08-17,Desktop,Paid Search,SKU-0274,Electronics,1,60.98,1
+16261,2025-03-24,Desktop,Paid Search,SKU-0172,Fitness,0,125.86,1
+16266,2025-10-27,Desktop,Organic,SKU-0300,Apparel,0,81.01,3
+16269,2025-12-13,Mobile,Affiliate,SKU-0369,Electronics,1,105.3,1
+16277,2025-04-04,Mobile,Paid Search,SKU-0040,Apparel,0,84.26,1
+16282,2025-09-13,Desktop,Organic,SKU-0025,Apparel,1,62.67,2
+16286,2025-01-23,Mobile,Paid Social,SKU-0063,Home,1,58.28,1
+16294,2025-02-21,Desktop,Email,SKU-0054,Apparel,0,108.91,1
+16303,2025-11-13,Desktop,Paid Search,SKU-0254,Fitness,0,91.61,3
+16304,2025-11-26,Desktop,Paid Search,SKU-0081,Home,0,74.37,3
+16310,2025-10-01,Mobile,Organic,SKU-0339,Beauty,0,44.24,2
+16316,2025-05-12,Mobile,Paid Search,SKU-0229,Electronics,0,69.81,2
+16326,2025-01-26,Desktop,Paid Search,SKU-0377,Apparel,0,56.87,2
+16328,2025-08-19,Mobile,Paid Search,SKU-0280,Beauty,0,26.48,1
+16331,2025-10-03,Desktop,Paid Social,SKU-0186,Apparel,1,68.36,3
+16332,2025-11-11,Desktop,Email,SKU-0267,Beauty,0,82.12,2
+16348,2025-04-30,Desktop,Paid Search,SKU-0324,Electronics,0,30.17,1
+16369,2025-03-16,Mobile,Email,SKU-0100,Home,0,35.01,3
+16370,2025-10-05,Desktop,Organic,SKU-0381,Fitness,0,149.99,1
+16373,2025-11-14,Desktop,Email,SKU-0191,Fitness,0,82.73,3
+16387,2025-05-28,Mobile,Email,SKU-0391,Fitness,1,79.44,1
+16390,2025-03-08,Mobile,Paid Search,SKU-0327,Apparel,0,43.91,3
+16408,2025-11-01,Desktop,Email,SKU-0045,Apparel,1,73.98,3
+16411,2025-04-21,Desktop,Organic,SKU-0231,Apparel,0,53.7,1
+16412,2025-09-13,Mobile,Paid Search,SKU-0268,Electronics,0,62.19,3
+16418,2025-07-08,Mobile,Organic,SKU-0222,Home,0,100.54,3
+16428,2025-12-23,Mobile,Paid Social,SKU-0186,Apparel,0,26.16,2
+16431,2025-08-16,Desktop,Paid Social,SKU-0134,Electronics,0,89.69,2
+16432,2025-10-14,Mobile,Paid Search,SKU-0042,Home,1,50.71,1
+16433,2025-10-11,Mobile,Organic,SKU-0171,Beauty,0,91.51,3
+16458,2025-01-28,Mobile,Email,SKU-0011,Apparel,1,95.7,1
+16467,2025-03-31,Mobile,Paid Search,SKU-0296,Home,1,74.35,3
+16468,2025-10-20,Desktop,Paid Search,SKU-0015,Beauty,1,81.1,3
+16470,2025-05-22,Desktop,Paid Search,SKU-0216,Apparel,0,62.09,1
+16476,2025-06-08,Mobile,Affiliate,SKU-0248,Fitness,1,40.96,2
+16496,2025-12-25,Desktop,Affiliate,SKU-0247,Beauty,0,73.91,1
+16512,2025-12-08,Desktop,Organic,SKU-0187,Fitness,0,69.41,3
+16518,2025-01-21,Mobile,Organic,SKU-0090,Apparel,0,84.52,2
+16528,2025-06-06,Desktop,Paid Social,SKU-0329,Fitness,0,91.86,1
+16534,2025-05-11,Mobile,Paid Social,SKU-0339,Apparel,1,68.13,1
+16545,2025-01-20,Mobile,Organic,SKU-0285,Beauty,1,66.37,3
+16561,2025-05-30,Desktop,Organic,SKU-0345,Apparel,1,102.27,3
+16566,2025-11-06,Desktop,Paid Search,SKU-0310,Home,0,10.0,3
+16569,2025-10-16,Mobile,Paid Search,SKU-0204,Fitness,0,86.06,3
+16574,2025-09-07,Mobile,Paid Social,SKU-0052,Fitness,0,95.92,1
+16587,2025-06-27,Desktop,Organic,SKU-0183,Apparel,0,98.54,2
+16595,2025-03-03,Desktop,Organic,SKU-0212,Beauty,0,51.84,1
+16604,2025-10-16,Mobile,Paid Social,SKU-0369,Apparel,1,22.98,2
+16613,2025-08-26,Desktop,Paid Social,SKU-0012,Electronics,0,38.04,2
+16624,2025-03-23,Mobile,Organic,SKU-0163,Apparel,0,81.45,3
+16625,2025-01-03,Desktop,Affiliate,SKU-0176,Apparel,0,20.04,3
+16627,2025-08-17,Mobile,Email,SKU-0156,Fitness,0,107.5,2
+16645,2025-12-23,Desktop,Paid Search,SKU-0047,Apparel,0,58.55,2
+16653,2025-05-31,Desktop,Organic,SKU-0093,Electronics,0,17.39,2
+16659,2025-09-21,Mobile,Paid Social,SKU-0225,Electronics,0,48.81,3
+16662,2025-11-16,Desktop,Paid Search,SKU-0088,Apparel,0,140.53,2
+16665,2025-12-07,Desktop,Email,SKU-0011,Apparel,0,35.1,3
+16670,2025-04-15,Mobile,Paid Search,SKU-0284,Fitness,0,42.03,1
+16681,2025-10-31,Mobile,Affiliate,SKU-0238,Apparel,1,82.53,2
+16683,2025-06-11,Desktop,Paid Social,SKU-0185,Electronics,1,9.2,2
+16688,2025-11-27,Desktop,Email,SKU-0365,Fitness,0,71.85,1
+16689,2025-10-25,Desktop,Email,SKU-0280,Fitness,0,78.91,1
+16690,2025-02-09,Mobile,Paid Search,SKU-0077,Home,1,42.3,3
+16694,2025-06-05,Mobile,Organic,SKU-0307,Apparel,0,80.04,2
+16695,2025-10-28,Desktop,Email,SKU-0344,Beauty,1,61.0,1
+16698,2025-07-18,Mobile,Organic,SKU-0240,Beauty,1,41.43,3
+16704,2025-12-24,Desktop,Paid Search,SKU-0042,Home,1,24.58,1
+16705,2025-06-13,Mobile,Organic,SKU-0222,Apparel,0,41.56,2
+16706,2025-11-17,Desktop,Paid Social,SKU-0213,Apparel,1,48.48,2
+16709,2025-04-15,Desktop,Paid Social,SKU-0230,Beauty,0,82.31,2
+16758,2025-08-24,Mobile,Affiliate,SKU-0352,Fitness,0,52.43,2
+16762,2025-10-11,Desktop,Organic,SKU-0264,Home,1,39.38,3
+16769,2025-11-25,Mobile,Paid Search,SKU-0356,Apparel,1,58.85,1
+16778,2025-09-12,Mobile,Organic,SKU-0314,Apparel,0,35.19,2
+16786,2025-12-29,Mobile,Email,SKU-0331,Beauty,0,20.71,3
+16806,2025-08-20,Desktop,Paid Social,SKU-0104,Apparel,0,93.58,2
+16812,2025-11-11,Desktop,Email,SKU-0339,Home,0,74.77,3
+16818,2025-08-20,Desktop,Paid Search,SKU-0216,Beauty,1,67.12,1
+16828,2025-08-24,Desktop,Paid Search,SKU-0148,Apparel,0,62.19,3
+16833,2025-10-30,Desktop,Organic,SKU-0243,Home,1,77.22,2
+16834,2025-08-15,Desktop,Organic,SKU-0348,Beauty,0,93.53,3
+16849,2025-04-29,Desktop,Paid Social,SKU-0361,Home,1,74.66,2
+16868,2025-11-08,Mobile,Email,SKU-0366,Beauty,1,46.28,3
+16872,2025-05-20,Mobile,Email,SKU-0324,Home,1,72.98,1
+16874,2025-06-08,Mobile,Paid Search,SKU-0137,Home,0,26.1,2
+16878,2025-10-20,Mobile,Paid Social,SKU-0147,Electronics,1,70.42,3
+16879,2025-12-17,Mobile,Organic,SKU-0190,Apparel,0,61.65,2
+16883,2025-12-10,Desktop,Email,SKU-0317,Home,1,38.32,3
+16903,2025-05-31,Mobile,Organic,SKU-0339,Beauty,1,25.57,3
+16908,2025-10-24,Desktop,Paid Social,SKU-0056,Beauty,0,95.24,1
+16929,2025-01-24,Desktop,Paid Social,SKU-0062,Beauty,1,70.83,3
+16937,2025-03-11,Desktop,Email,SKU-0348,Fitness,0,115.81,1
+16947,2025-11-20,Mobile,Paid Social,SKU-0321,Fitness,0,61.0,1
+16951,2025-06-17,Mobile,Email,SKU-0032,Home,1,53.07,2
+16952,2025-10-14,Desktop,Paid Search,SKU-0263,Fitness,0,71.47,3
+16953,2025-04-18,Desktop,Organic,SKU-0306,Beauty,0,104.23,3
+16992,2025-08-13,Desktop,Paid Social,SKU-0231,Beauty,0,78.09,1
+16993,2025-01-15,Desktop,Organic,SKU-0360,Apparel,0,41.84,2
+17009,2025-08-07,Desktop,Organic,SKU-0043,Home,0,51.81,3
+17023,2025-06-30,Desktop,Paid Social,SKU-0338,Electronics,0,64.41,2
+17031,2025-01-30,Mobile,Email,SKU-0389,Electronics,0,117.02,3
+17044,2025-05-29,Mobile,Email,SKU-0062,Fitness,0,54.62,1
+17050,2025-02-18,Desktop,Paid Search,SKU-0168,Electronics,1,62.33,3
+17052,2025-10-31,Desktop,Paid Search,SKU-0220,Apparel,0,30.08,2
+17060,2025-04-21,Mobile,Email,SKU-0115,Home,1,106.35,2
+17062,2025-04-12,Desktop,Organic,SKU-0302,Beauty,1,42.93,3
+17067,2025-08-22,Desktop,Organic,SKU-0363,Fitness,1,76.73,2
+17071,2025-11-13,Desktop,Paid Search,SKU-0012,Home,0,109.51,1
+17080,2025-09-14,Mobile,Organic,SKU-0292,Home,1,78.38,3
+17102,2025-06-23,Mobile,Organic,SKU-0035,Apparel,1,32.23,2
+17109,2025-07-30,Mobile,Paid Search,SKU-0172,Electronics,0,103.72,3
+17121,2025-12-23,Desktop,Paid Search,SKU-0322,Apparel,0,96.74,3
+17125,2025-03-08,Mobile,Organic,SKU-0197,Apparel,1,58.26,3
+17128,2025-07-01,Mobile,Affiliate,SKU-0348,Fitness,0,39.01,3
+17133,2025-05-26,Mobile,Email,SKU-0389,Beauty,0,83.12,1
+17136,2025-05-21,Desktop,Paid Search,SKU-0230,Home,1,61.9,3
+17146,2025-06-23,Mobile,Organic,SKU-0072,Beauty,1,68.17,3
+17150,2025-06-18,Mobile,Organic,SKU-0235,Apparel,1,42.12,3
+17153,2025-05-10,Desktop,Organic,SKU-0214,Beauty,0,33.46,2
+17162,2025-05-10,Mobile,Paid Search,SKU-0397,Electronics,0,75.67,3
+17170,2025-10-21,Desktop,Organic,SKU-0082,Apparel,0,100.14,3
+17205,2025-06-21,Mobile,Paid Social,SKU-0377,Apparel,1,115.78,2
+17220,2025-03-10,Desktop,Email,SKU-0174,Home,0,86.25,3
+17228,2025-04-17,Mobile,Paid Search,SKU-0341,Apparel,0,66.17,1
+17232,2025-06-27,Mobile,Paid Social,SKU-0086,Electronics,1,65.81,3
+17238,2025-10-09,Desktop,Paid Social,SKU-0305,Fitness,1,61.48,3
+17243,2025-09-30,Desktop,Organic,SKU-0177,Apparel,0,71.18,3
+17261,2025-01-22,Mobile,Organic,SKU-0080,Home,1,48.98,3
+17266,2025-10-19,Mobile,Email,SKU-0340,Home,0,96.73,2
+17272,2025-05-09,Desktop,Paid Search,SKU-0270,Fitness,1,20.92,3
+17281,2025-10-18,Mobile,Paid Search,SKU-0328,Beauty,1,94.83,2
+17308,2025-06-08,Mobile,Paid Social,SKU-0294,Apparel,0,99.37,2
+17315,2025-05-12,Mobile,Paid Search,SKU-0157,Apparel,1,98.72,2
+17321,2025-04-16,Desktop,Organic,SKU-0295,Fitness,1,76.91,1
+17328,2025-06-07,Mobile,Organic,SKU-0177,Apparel,0,63.9,2
+17334,2025-06-15,Mobile,Paid Social,SKU-0024,Home,0,77.19,3
+17342,2025-02-15,Desktop,Paid Search,SKU-0119,Home,1,44.11,1
+17347,2025-07-29,Desktop,Paid Search,SKU-0239,Fitness,1,73.56,3
+17361,2025-08-07,Mobile,Paid Social,SKU-0256,Apparel,0,50.69,1
+17377,2025-01-22,Mobile,Paid Social,SKU-0303,Home,0,79.29,3
+17378,2025-10-20,Mobile,Organic,SKU-0237,Apparel,0,41.38,3
+17383,2025-08-22,Desktop,Paid Search,SKU-0219,Electronics,1,55.99,2
+17390,2025-04-15,Desktop,Email,SKU-0027,Home,0,10.0,3
+17393,2025-09-12,Desktop,Paid Search,SKU-0022,Home,1,100.65,1
+17401,2025-03-10,Mobile,Paid Search,SKU-0115,Apparel,0,10.6,3
+17406,2025-11-05,Desktop,Paid Search,SKU-0109,Electronics,0,67.55,2
+17411,2025-06-12,Desktop,Paid Search,SKU-0342,Electronics,0,23.86,2
+17413,2025-02-11,Desktop,Email,SKU-0353,Electronics,0,58.2,2
+17434,2025-04-08,Desktop,Paid Search,SKU-0325,Apparel,0,15.74,1
+17438,2025-05-25,Desktop,Organic,SKU-0312,Home,0,69.73,2
+17443,2025-11-16,Desktop,Email,SKU-0305,Beauty,1,90.77,2
+17448,2025-06-16,Desktop,Paid Social,SKU-0151,Beauty,1,97.2,3
+17454,2025-09-25,Mobile,Paid Social,SKU-0286,Fitness,0,70.43,1
+17456,2025-09-29,Mobile,Email,SKU-0234,Electronics,0,55.27,3
+17459,2025-07-23,Mobile,Organic,SKU-0067,Beauty,0,70.19,2
+17470,2025-01-22,Desktop,Paid Search,SKU-0017,Electronics,0,26.27,3
+17504,2025-01-31,Desktop,Paid Search,SKU-0181,Electronics,1,55.97,3
+17510,2025-12-07,Desktop,Organic,SKU-0167,Apparel,1,20.45,1
+17517,2025-03-05,Desktop,Paid Search,SKU-0123,Home,1,67.67,1
+17536,2025-07-09,Desktop,Paid Social,SKU-0343,Home,0,39.43,1
+17542,2025-04-01,Desktop,Paid Search,SKU-0047,Home,0,94.4,3
+17549,2025-05-27,Mobile,Organic,SKU-0321,Electronics,0,69.72,1
+17562,2025-10-08,Mobile,Affiliate,SKU-0226,Home,0,29.28,2
+17566,2025-07-22,Desktop,Paid Search,SKU-0124,Home,1,100.53,1
+17581,2025-04-25,Desktop,Paid Social,SKU-0349,Apparel,1,72.19,2
+17585,2025-08-29,Mobile,Paid Search,SKU-0337,Apparel,0,119.99,2
+17587,2025-10-27,Mobile,Email,SKU-0307,Electronics,0,54.99,1
+17607,2025-08-22,Desktop,Paid Social,SKU-0212,Apparel,0,59.78,2
+17609,2025-03-30,Desktop,Organic,SKU-0036,Apparel,0,88.55,3
+17612,2025-03-26,Mobile,Paid Search,SKU-0080,Apparel,1,26.56,3
+17632,2025-01-26,Desktop,Affiliate,SKU-0109,Home,0,75.65,2
+17638,2025-06-25,Desktop,Paid Search,SKU-0210,Home,0,41.18,1
+17649,2025-01-15,Mobile,Email,SKU-0388,Beauty,0,45.52,3
+17650,2025-11-12,Desktop,Email,SKU-0255,Fitness,0,22.71,2
+17660,2025-10-11,Mobile,Paid Social,SKU-0233,Apparel,1,42.68,1
+17661,2025-10-20,Desktop,Affiliate,SKU-0209,Electronics,1,96.32,3
+17662,2025-05-14,Mobile,Organic,SKU-0062,Home,0,113.15,1
+17664,2025-04-16,Mobile,Email,SKU-0393,Electronics,0,60.16,3
+17689,2025-01-13,Mobile,Paid Social,SKU-0149,Home,1,139.07,3
+17690,2025-10-24,Desktop,Paid Search,SKU-0207,Electronics,0,45.97,1
+17693,2025-06-25,Mobile,Organic,SKU-0171,Fitness,0,67.9,2
+17702,2025-02-14,Desktop,Organic,SKU-0175,Apparel,0,37.64,2
+17703,2025-06-30,Mobile,Organic,SKU-0324,Fitness,0,27.04,1
+17711,2025-01-03,Desktop,Email,SKU-0236,Beauty,1,78.42,3
+17739,2025-06-22,Desktop,Organic,SKU-0320,Beauty,1,81.67,1
+17763,2025-08-04,Desktop,Paid Search,SKU-0304,Apparel,0,80.85,3
+17768,2025-09-19,Desktop,Affiliate,SKU-0179,Beauty,0,51.87,3
+17793,2025-06-16,Mobile,Paid Social,SKU-0013,Beauty,0,38.5,2
+17796,2025-05-29,Desktop,Affiliate,SKU-0019,Apparel,1,76.77,3
+17809,2025-04-02,Desktop,Paid Search,SKU-0008,Electronics,1,53.39,1
+17825,2025-01-14,Mobile,Paid Search,SKU-0182,Home,1,63.62,3
+17833,2025-03-29,Desktop,Affiliate,SKU-0078,Electronics,1,62.89,1
+17848,2025-02-22,Mobile,Email,SKU-0163,Apparel,1,9.2,1
+17860,2025-11-04,Desktop,Email,SKU-0053,Home,1,55.6,2
+17879,2025-03-04,Mobile,Paid Search,SKU-0122,Apparel,0,109.85,2
+17893,2025-12-16,Desktop,Affiliate,SKU-0324,Apparel,0,60.44,3
+17895,2025-07-16,Mobile,Paid Search,SKU-0200,Apparel,1,61.8,3
+17908,2025-11-23,Desktop,Paid Search,SKU-0334,Home,1,80.31,3
+17923,2025-09-17,Mobile,Organic,SKU-0040,Apparel,0,62.9,3
+17924,2025-08-10,Mobile,Organic,SKU-0324,Apparel,0,40.09,3
+17927,2025-09-16,Desktop,Paid Social,SKU-0030,Apparel,1,111.79,2
+17931,2025-03-27,Mobile,Paid Social,SKU-0161,Beauty,0,52.2,2
+17934,2025-10-23,Desktop,Affiliate,SKU-0394,Apparel,1,37.68,1
+17939,2025-05-20,Mobile,Paid Search,SKU-0143,Home,1,66.78,1
+17953,2025-05-31,Desktop,Paid Search,SKU-0306,Home,0,46.62,3
+17966,2025-03-16,Desktop,Affiliate,SKU-0382,Electronics,1,81.8,1
+17974,2025-05-07,Desktop,Paid Search,SKU-0107,Fitness,0,61.84,3
+17976,2025-06-29,Desktop,Paid Search,SKU-0378,Home,0,74.11,3
+17984,2025-06-21,Desktop,Paid Search,SKU-0101,Apparel,0,104.96,3
+17986,2025-11-26,Desktop,Paid Search,SKU-0274,Electronics,0,85.92,3
+17994,2025-01-26,Mobile,Paid Search,SKU-0039,Home,0,83.23,3
+18003,2025-10-23,Desktop,Affiliate,SKU-0319,Apparel,0,27.55,3
+18004,2025-12-28,Desktop,Email,SKU-0331,Fitness,1,89.56,2
+18021,2025-07-31,Mobile,Paid Social,SKU-0100,Electronics,0,41.44,1
+18035,2025-11-16,Mobile,Organic,SKU-0028,Fitness,0,69.91,2
+18038,2025-01-16,Desktop,Paid Search,SKU-0080,Electronics,0,68.34,2
+18049,2025-12-28,Desktop,Paid Social,SKU-0205,Home,0,43.98,2
+18052,2025-11-12,Desktop,Paid Search,SKU-0165,Electronics,0,114.04,2
+18058,2025-11-04,Mobile,Affiliate,SKU-0370,Fitness,0,53.86,3
+18069,2025-01-30,Mobile,Organic,SKU-0288,Apparel,0,46.65,2
+18071,2025-06-19,Mobile,Email,SKU-0232,Electronics,1,68.42,2
+18084,2025-08-24,Mobile,Organic,SKU-0037,Electronics,0,70.18,3
+18091,2025-06-25,Desktop,Email,SKU-0153,Beauty,0,56.94,2
+18093,2025-01-16,Desktop,Organic,SKU-0117,Beauty,0,107.56,3
+18101,2025-02-25,Mobile,Organic,SKU-0320,Apparel,0,57.09,3
+18104,2025-10-30,Mobile,Paid Social,SKU-0006,Beauty,0,45.09,3
+18107,2025-09-04,Mobile,Email,SKU-0087,Electronics,0,36.87,2
+18123,2025-06-17,Mobile,Paid Search,SKU-0291,Electronics,1,28.79,1
+18127,2025-06-17,Mobile,Paid Social,SKU-0207,Beauty,0,97.01,1
+18129,2025-03-27,Desktop,Affiliate,SKU-0003,Apparel,0,21.7,2
+18137,2025-08-18,Mobile,Affiliate,SKU-0104,Fitness,0,46.61,3
+18141,2025-03-28,Desktop,Paid Social,SKU-0349,Electronics,0,46.66,2
+18148,2025-12-13,Mobile,Paid Search,SKU-0277,Apparel,1,61.41,1
+18152,2025-04-17,Desktop,Organic,SKU-0054,Beauty,0,115.16,2
+18156,2025-02-20,Desktop,Paid Search,SKU-0377,Electronics,0,67.5,1
+18186,2025-07-24,Mobile,Paid Social,SKU-0349,Apparel,0,73.86,2
+18187,2025-03-04,Mobile,Affiliate,SKU-0017,Home,0,95.92,1
+18195,2025-01-08,Mobile,Paid Search,SKU-0058,Fitness,0,95.85,1
+18196,2025-05-26,Mobile,Email,SKU-0390,Beauty,0,48.15,2
+18216,2025-09-20,Desktop,Affiliate,SKU-0028,Apparel,0,84.96,2
+18229,2025-10-12,Mobile,Organic,SKU-0011,Beauty,0,83.8,3
+18235,2025-09-28,Desktop,Paid Social,SKU-0093,Fitness,1,65.44,1
+18252,2025-05-22,Mobile,Organic,SKU-0319,Beauty,0,32.15,3
+18271,2025-07-15,Mobile,Email,SKU-0092,Apparel,0,54.56,3
+18283,2025-09-03,Desktop,Organic,SKU-0206,Beauty,0,53.4,1
+18286,2025-09-08,Desktop,Email,SKU-0111,Home,0,95.24,2
+18287,2025-02-01,Desktop,Organic,SKU-0238,Home,1,71.03,3
+18291,2025-11-30,Desktop,Organic,SKU-0248,Home,0,78.8,3
+18298,2025-07-01,Mobile,Paid Social,SKU-0281,Apparel,0,104.99,2
+18303,2025-09-01,Desktop,Paid Search,SKU-0384,Electronics,0,15.67,2
+18305,2025-07-29,Desktop,Paid Social,SKU-0028,Fitness,0,112.57,3
+18307,2025-12-29,Mobile,Organic,SKU-0087,Electronics,0,120.86,2
+18319,2025-02-02,Mobile,Paid Social,SKU-0072,Beauty,0,56.01,1
+18322,2025-04-27,Desktop,Organic,SKU-0101,Home,0,59.48,3
+18324,2025-09-26,Mobile,Paid Search,SKU-0348,Apparel,1,43.52,1
+18333,2025-11-30,Desktop,Organic,SKU-0116,Electronics,0,25.13,3
+18338,2025-03-05,Mobile,Paid Search,SKU-0354,Home,1,99.57,1
+18364,2025-03-11,Mobile,Organic,SKU-0025,Home,0,73.29,1
+18368,2025-11-17,Mobile,Paid Social,SKU-0035,Electronics,0,66.86,2
+18371,2025-01-31,Mobile,Email,SKU-0183,Electronics,1,64.26,3
+18379,2025-05-25,Desktop,Paid Search,SKU-0004,Beauty,0,58.29,3
+18383,2025-10-02,Mobile,Paid Search,SKU-0028,Apparel,0,49.09,2
+18387,2025-10-25,Mobile,Paid Social,SKU-0278,Apparel,1,43.37,3
+18391,2025-03-20,Desktop,Paid Social,SKU-0231,Home,0,105.6,1
+18395,2025-11-12,Mobile,Organic,SKU-0231,Home,1,54.33,2
+18396,2025-06-08,Desktop,Organic,SKU-0084,Beauty,0,66.94,2
+18397,2025-04-10,Desktop,Affiliate,SKU-0046,Apparel,1,65.35,2
+18422,2025-10-25,Mobile,Paid Social,SKU-0007,Apparel,0,71.91,3
+18424,2025-05-04,Desktop,Paid Search,SKU-0354,Electronics,0,71.16,3
+18425,2025-07-30,Mobile,Organic,SKU-0241,Home,1,16.97,3
+18429,2025-04-11,Desktop,Email,SKU-0174,Home,1,20.3,3
+18435,2025-08-21,Mobile,Affiliate,SKU-0241,Apparel,0,85.59,2
+18438,2025-03-18,Mobile,Email,SKU-0303,Fitness,1,82.22,1
+18443,2025-05-19,Desktop,Paid Search,SKU-0033,Home,0,103.6,2
+18447,2025-05-08,Desktop,Email,SKU-0312,Beauty,0,98.48,1
+18452,2025-11-16,Desktop,Email,SKU-0160,Home,0,99.18,1
+18453,2025-03-23,Desktop,Paid Search,SKU-0061,Home,0,70.25,3
+18458,2025-01-15,Mobile,Organic,SKU-0322,Apparel,1,47.37,1
+18460,2025-05-22,Mobile,Email,SKU-0126,Electronics,0,45.15,2
+18473,2025-05-26,Mobile,Email,SKU-0036,Home,1,46.93,1
+18487,2025-02-24,Desktop,Affiliate,SKU-0106,Electronics,1,57.16,1
+18503,2025-05-19,Desktop,Paid Search,SKU-0274,Apparel,1,38.47,2
+18506,2025-10-21,Desktop,Email,SKU-0011,Fitness,1,58.88,3
+18509,2025-06-08,Desktop,Paid Search,SKU-0119,Apparel,0,52.53,2
+18521,2025-11-25,Mobile,Paid Search,SKU-0275,Fitness,0,97.4,1
+18537,2025-01-24,Desktop,Organic,SKU-0153,Home,1,87.29,1
+18551,2025-09-23,Desktop,Email,SKU-0378,Electronics,0,135.57,3
+18553,2025-09-08,Desktop,Paid Social,SKU-0008,Apparel,1,86.28,1
+18556,2025-10-03,Desktop,Paid Search,SKU-0011,Electronics,1,36.92,2
+18558,2025-08-13,Mobile,Paid Social,SKU-0049,Home,0,37.12,3
+18572,2025-01-17,Mobile,Email,SKU-0380,Apparel,1,21.78,3
+18590,2025-07-03,Mobile,Paid Social,SKU-0147,Home,0,67.47,2
+18608,2025-11-14,Desktop,Paid Search,SKU-0344,Apparel,0,53.13,2
+18611,2025-12-25,Desktop,Organic,SKU-0170,Apparel,1,78.44,1
+18614,2025-11-12,Desktop,Paid Social,SKU-0376,Apparel,1,109.22,3
+18629,2025-08-07,Mobile,Organic,SKU-0154,Fitness,0,31.53,1
+18645,2025-04-15,Desktop,Organic,SKU-0066,Beauty,0,70.96,2
+18657,2025-12-16,Mobile,Organic,SKU-0307,Home,0,40.93,2
+18664,2025-11-16,Mobile,Paid Search,SKU-0148,Electronics,0,78.81,1
+18671,2025-06-15,Mobile,Affiliate,SKU-0321,Electronics,0,121.71,3
+18685,2025-08-02,Desktop,Organic,SKU-0241,Apparel,0,53.25,3
+18696,2025-07-11,Desktop,Affiliate,SKU-0339,Home,0,31.45,2
+18699,2025-04-28,Desktop,Paid Social,SKU-0065,Electronics,0,30.68,3
+18701,2025-08-12,Mobile,Paid Search,SKU-0022,Beauty,1,76.65,1
+18702,2025-10-03,Mobile,Organic,SKU-0396,Apparel,0,43.01,3
+18727,2025-02-07,Desktop,Paid Search,SKU-0156,Apparel,0,65.1,2
+18737,2025-03-17,Desktop,Organic,SKU-0016,Home,1,111.59,2
+18744,2025-10-31,Desktop,Email,SKU-0383,Electronics,0,87.31,2
+18748,2025-02-09,Mobile,Paid Social,SKU-0005,Apparel,0,43.08,3
+18754,2025-04-05,Desktop,Paid Search,SKU-0276,Beauty,0,64.55,1
+18756,2025-02-19,Desktop,Paid Social,SKU-0020,Electronics,0,78.75,1
+18761,2025-10-24,Desktop,Organic,SKU-0268,Fitness,0,52.59,3
+18771,2025-05-06,Desktop,Paid Search,SKU-0069,Home,1,76.23,2
+18779,2025-08-14,Mobile,Paid Search,SKU-0377,Apparel,1,42.55,3
+18787,2025-05-25,Mobile,Affiliate,SKU-0183,Electronics,0,76.13,2
+18789,2025-04-06,Mobile,Email,SKU-0081,Home,0,110.6,1
+18793,2025-09-21,Desktop,Paid Search,SKU-0239,Fitness,0,66.83,1
+18804,2025-09-04,Desktop,Organic,SKU-0314,Beauty,0,42.86,2
+18807,2025-12-12,Desktop,Organic,SKU-0126,Fitness,0,101.26,1
+18809,2025-12-09,Mobile,Paid Social,SKU-0326,Electronics,1,64.23,2
+18810,2025-11-30,Desktop,Paid Search,SKU-0055,Apparel,0,48.77,1
+18837,2025-01-02,Desktop,Affiliate,SKU-0019,Home,0,68.7,3
+18846,2025-02-21,Mobile,Organic,SKU-0112,Beauty,0,47.68,3
+18848,2025-11-15,Desktop,Email,SKU-0132,Beauty,0,93.36,1
+18873,2025-07-26,Mobile,Organic,SKU-0338,Beauty,0,54.0,1
+18918,2025-03-24,Mobile,Paid Search,SKU-0122,Beauty,0,86.47,1
+18935,2025-01-21,Mobile,Organic,SKU-0104,Beauty,0,84.27,3
+18937,2025-10-18,Desktop,Email,SKU-0292,Fitness,1,65.42,1
+18939,2025-11-28,Desktop,Paid Search,SKU-0158,Electronics,1,106.78,1
+18943,2025-11-22,Desktop,Organic,SKU-0094,Apparel,1,79.83,3
+18962,2025-04-23,Mobile,Paid Search,SKU-0049,Apparel,0,87.94,1
+18965,2025-03-20,Mobile,Organic,SKU-0016,Apparel,0,50.48,3
+18972,2025-04-20,Mobile,Affiliate,SKU-0146,Home,1,33.19,3
+18976,2025-07-11,Desktop,Paid Social,SKU-0050,Apparel,1,16.6,2
+18995,2025-05-08,Desktop,Paid Social,SKU-0301,Fitness,1,65.75,3
+19000,2025-02-24,Desktop,Paid Social,SKU-0085,Apparel,0,90.34,3
+19007,2025-05-31,Desktop,Paid Search,SKU-0149,Apparel,0,34.95,3
+19022,2025-04-02,Desktop,Organic,SKU-0104,Apparel,0,80.16,3
+19034,2025-04-06,Desktop,Organic,SKU-0028,Apparel,0,97.43,2
+19042,2025-03-02,Desktop,Organic,SKU-0074,Beauty,0,80.86,3
+19047,2025-06-14,Desktop,Paid Social,SKU-0233,Apparel,0,118.78,1
+19052,2025-03-01,Mobile,Paid Search,SKU-0090,Home,0,61.35,1
+19055,2025-02-19,Mobile,Email,SKU-0014,Home,1,38.05,3
+19062,2025-09-12,Mobile,Organic,SKU-0018,Beauty,0,45.58,1
+19063,2025-11-17,Desktop,Email,SKU-0335,Beauty,1,63.55,1
+19068,2025-02-08,Desktop,Email,SKU-0105,Fitness,0,82.32,1
+19070,2025-12-21,Mobile,Email,SKU-0140,Home,0,45.52,2
+19075,2025-12-04,Mobile,Organic,SKU-0372,Fitness,0,89.47,3
+19087,2025-01-14,Desktop,Paid Social,SKU-0232,Beauty,1,36.91,2
+19093,2025-01-22,Mobile,Paid Search,SKU-0086,Apparel,1,121.63,2
+19113,2025-09-23,Mobile,Paid Search,SKU-0325,Electronics,0,70.62,3
+19117,2025-05-10,Mobile,Paid Search,SKU-0305,Home,0,56.66,1
+19120,2025-04-14,Mobile,Organic,SKU-0350,Apparel,1,45.8,1
+19126,2025-12-17,Desktop,Paid Search,SKU-0052,Home,0,84.65,1
+19127,2025-02-21,Desktop,Organic,SKU-0373,Home,1,94.08,3
+19128,2025-06-24,Desktop,Organic,SKU-0108,Home,0,108.6,2
+19144,2025-05-31,Mobile,Paid Search,SKU-0112,Electronics,0,12.77,2
+19156,2025-08-27,Mobile,Organic,SKU-0099,Home,1,50.48,1
+19160,2025-04-02,Mobile,Organic,SKU-0385,Fitness,1,63.84,1
+19161,2025-01-13,Desktop,Paid Search,SKU-0289,Home,1,111.51,2
+19165,2025-02-07,Mobile,Organic,SKU-0252,Apparel,0,80.57,3
+19166,2025-07-06,Mobile,Email,SKU-0257,Electronics,1,118.34,1
+19178,2025-05-07,Mobile,Email,SKU-0167,Beauty,0,35.3,2
+19204,2025-11-19,Mobile,Paid Search,SKU-0063,Home,0,58.74,1
+19214,2025-09-24,Mobile,Organic,SKU-0226,Apparel,0,65.35,2
+19220,2025-02-18,Mobile,Affiliate,SKU-0023,Electronics,1,67.45,3
+19222,2025-07-29,Mobile,Organic,SKU-0158,Electronics,1,66.8,2
+19233,2025-03-31,Desktop,Paid Search,SKU-0025,Fitness,0,56.22,1
+19242,2025-07-29,Desktop,Paid Search,SKU-0283,Electronics,0,41.29,1
+19245,2025-10-07,Desktop,Paid Search,SKU-0062,Beauty,0,53.11,1
+19252,2025-09-05,Desktop,Organic,SKU-0041,Beauty,0,39.63,2
+19264,2025-02-11,Desktop,Organic,SKU-0069,Home,1,94.23,3
+19277,2025-04-10,Desktop,Paid Social,SKU-0399,Apparel,0,72.04,3
+19284,2025-05-19,Desktop,Paid Social,SKU-0189,Apparel,1,25.14,1
+19296,2025-10-23,Desktop,Paid Search,SKU-0247,Beauty,0,101.36,3
+19321,2025-01-09,Mobile,Paid Search,SKU-0348,Electronics,0,39.97,1
+19326,2025-09-30,Mobile,Paid Search,SKU-0181,Home,0,85.01,3
+19333,2025-12-13,Mobile,Organic,SKU-0384,Apparel,0,95.22,3
+19339,2025-01-20,Desktop,Paid Social,SKU-0104,Fitness,1,15.38,2
+19341,2025-03-02,Mobile,Organic,SKU-0093,Beauty,1,9.2,2
+19344,2025-01-04,Mobile,Organic,SKU-0396,Beauty,1,57.39,3
+19358,2025-08-30,Mobile,Affiliate,SKU-0275,Home,1,68.19,2
+19363,2025-02-20,Desktop,Organic,SKU-0175,Apparel,1,78.33,3
+19380,2025-08-15,Mobile,Paid Search,SKU-0291,Apparel,0,19.47,3
+19384,2025-08-13,Mobile,Email,SKU-0120,Beauty,1,41.2,1
+19405,2025-07-18,Desktop,Paid Social,SKU-0184,Apparel,0,38.1,1
+19407,2025-11-24,Desktop,Paid Search,SKU-0085,Apparel,1,40.44,3
+19413,2025-01-26,Mobile,Paid Search,SKU-0395,Apparel,1,92.74,3
+19422,2025-09-12,Mobile,Email,SKU-0210,Apparel,0,35.58,1
+19435,2025-01-13,Mobile,Paid Social,SKU-0321,Apparel,1,81.48,2
+19467,2025-10-10,Desktop,Paid Social,SKU-0270,Beauty,0,84.79,1
+19469,2025-07-26,Mobile,Paid Social,SKU-0196,Home,0,74.41,1
+19473,2025-01-26,Mobile,Organic,SKU-0176,Electronics,0,106.2,2
+19474,2025-02-07,Mobile,Paid Social,SKU-0242,Beauty,0,28.85,2
+19479,2025-08-07,Mobile,Paid Search,SKU-0323,Electronics,0,104.57,1
+19482,2025-10-31,Desktop,Affiliate,SKU-0101,Electronics,1,29.76,3
+19505,2025-08-11,Mobile,Paid Search,SKU-0013,Apparel,1,72.39,1
+19507,2025-05-27,Desktop,Paid Search,SKU-0389,Apparel,1,71.98,1
+19527,2025-05-25,Desktop,Organic,SKU-0322,Fitness,0,72.49,2
+19534,2025-01-27,Mobile,Email,SKU-0163,Electronics,0,51.04,1
+19536,2025-10-27,Mobile,Organic,SKU-0353,Beauty,1,32.6,2
+19540,2025-02-27,Mobile,Organic,SKU-0275,Beauty,1,53.54,2
+19565,2025-06-27,Desktop,Paid Search,SKU-0319,Electronics,1,58.09,3
+19566,2025-04-11,Desktop,Paid Search,SKU-0393,Electronics,0,88.41,2
+19567,2025-12-07,Desktop,Email,SKU-0393,Beauty,1,30.81,2
+19584,2025-05-15,Mobile,Organic,SKU-0286,Apparel,1,71.42,2
+19590,2025-05-24,Mobile,Paid Search,SKU-0105,Beauty,1,55.56,3
+19593,2025-12-02,Mobile,Email,SKU-0230,Electronics,0,92.13,2
+19596,2025-08-29,Mobile,Affiliate,SKU-0046,Beauty,0,34.34,1
+19605,2025-12-19,Desktop,Paid Search,SKU-0310,Home,1,69.49,3
+19610,2025-11-16,Mobile,Affiliate,SKU-0047,Fitness,0,49.49,1
+19628,2025-04-13,Mobile,Organic,SKU-0247,Electronics,1,95.85,3
+19632,2025-10-15,Mobile,Paid Search,SKU-0385,Apparel,1,67.1,1
+19633,2025-11-08,Desktop,Organic,SKU-0269,Apparel,0,99.37,2
+19641,2025-01-24,Mobile,Email,SKU-0152,Electronics,0,52.86,3
+19645,2025-02-04,Desktop,Organic,SKU-0323,Home,0,72.79,1
+19657,2025-03-16,Desktop,Organic,SKU-0352,Apparel,0,73.96,1
+19671,2025-10-05,Mobile,Organic,SKU-0239,Home,0,38.26,3
+19673,2025-04-23,Mobile,Email,SKU-0166,Apparel,0,112.19,3
+19681,2025-01-04,Desktop,Organic,SKU-0099,Home,1,60.33,2
+19689,2025-05-07,Desktop,Organic,SKU-0110,Apparel,0,50.41,3
+19704,2025-11-06,Desktop,Organic,SKU-0263,Electronics,1,97.74,3
+19711,2025-02-18,Desktop,Paid Social,SKU-0385,Apparel,0,94.51,1
+19718,2025-10-10,Mobile,Organic,SKU-0232,Fitness,0,31.35,1
+19726,2025-12-02,Mobile,Email,SKU-0092,Electronics,1,66.18,1
+19727,2025-07-13,Desktop,Organic,SKU-0139,Electronics,0,98.79,3
+19729,2025-07-26,Desktop,Paid Search,SKU-0349,Beauty,0,77.55,2
+19733,2025-12-08,Mobile,Paid Social,SKU-0143,Beauty,1,51.29,1
+19742,2025-06-03,Mobile,Paid Social,SKU-0340,Apparel,0,72.48,3
+19745,2025-05-18,Desktop,Email,SKU-0108,Home,0,30.36,1
+19749,2025-05-20,Desktop,Organic,SKU-0324,Apparel,0,60.93,3
+19757,2025-10-28,Desktop,Organic,SKU-0376,Apparel,1,57.93,1
+19759,2025-01-23,Mobile,Paid Social,SKU-0022,Home,0,77.67,3
+19760,2025-06-21,Mobile,Paid Search,SKU-0143,Apparel,0,100.36,2
+19763,2025-11-07,Mobile,Paid Search,SKU-0209,Beauty,1,64.89,3
+19767,2025-04-01,Desktop,Organic,SKU-0278,Apparel,0,90.98,3
+19782,2025-10-26,Mobile,Affiliate,SKU-0346,Home,1,42.79,2
+19785,2025-07-10,Desktop,Organic,SKU-0029,Electronics,1,9.2,1
+19789,2025-07-26,Mobile,Email,SKU-0032,Home,1,67.42,1
+19791,2025-06-23,Desktop,Paid Search,SKU-0085,Electronics,0,93.95,3
+19807,2025-06-28,Desktop,Organic,SKU-0022,Home,0,71.46,2
+19818,2025-07-07,Desktop,Affiliate,SKU-0120,Home,0,62.75,2
+19831,2025-09-02,Desktop,Paid Search,SKU-0013,Apparel,0,94.24,2
+19836,2025-12-02,Mobile,Organic,SKU-0371,Electronics,0,73.13,1
+19841,2025-10-22,Desktop,Paid Social,SKU-0321,Apparel,0,88.73,3
+19853,2025-07-25,Mobile,Paid Search,SKU-0178,Electronics,0,68.62,1
+19858,2025-04-30,Mobile,Paid Search,SKU-0331,Home,0,63.54,2
+19873,2025-06-14,Mobile,Organic,SKU-0049,Apparel,0,45.72,1
+19887,2025-05-07,Desktop,Organic,SKU-0264,Apparel,0,75.33,1
+19892,2025-02-07,Mobile,Organic,SKU-0247,Apparel,0,103.03,3
+19895,2025-09-23,Desktop,Paid Search,SKU-0202,Home,1,54.62,3
+19903,2025-07-30,Mobile,Organic,SKU-0107,Beauty,0,53.12,1
+19926,2025-08-08,Mobile,Paid Search,SKU-0261,Home,0,68.55,1
+19928,2025-04-05,Mobile,Email,SKU-0083,Electronics,1,95.3,1
+19931,2025-01-16,Desktop,Affiliate,SKU-0206,Apparel,0,67.69,3
+19932,2025-01-24,Mobile,Organic,SKU-0226,Apparel,0,26.81,3
+19948,2025-02-19,Desktop,Paid Search,SKU-0354,Electronics,0,72.59,2
+19951,2025-10-16,Desktop,Organic,SKU-0381,Apparel,1,77.91,2
+19959,2025-04-29,Mobile,Paid Search,SKU-0344,Apparel,1,107.6,3
+19973,2025-07-27,Desktop,Paid Search,SKU-0155,Beauty,0,20.25,1
+19980,2025-08-22,Desktop,Organic,SKU-0348,Fitness,0,66.55,1
+19982,2025-10-10,Desktop,Paid Social,SKU-0315,Home,0,77.68,3
+19990,2025-06-16,Desktop,Organic,SKU-0246,Beauty,0,104.9,3
+19995,2025-11-08,Desktop,Email,SKU-0332,Electronics,1,69.31,3
+19998,2025-05-06,Desktop,Paid Search,SKU-0176,Beauty,0,63.07,1
+20014,2025-05-07,Desktop,Organic,SKU-0132,Apparel,0,28.83,1
+20015,2025-02-05,Desktop,Paid Search,SKU-0305,Electronics,1,72.23,2
+20018,2025-04-19,Desktop,Email,SKU-0232,Apparel,1,84.29,2
+20030,2025-06-19,Mobile,Paid Social,SKU-0150,Beauty,0,37.23,1
+20032,2025-08-23,Desktop,Paid Social,SKU-0395,Fitness,0,29.13,1
+20035,2025-12-26,Desktop,Paid Social,SKU-0237,Home,1,88.51,2
+20036,2025-04-24,Desktop,Paid Search,SKU-0031,Beauty,0,75.81,1
+20051,2025-12-27,Mobile,Affiliate,SKU-0241,Electronics,1,64.81,2
+20081,2025-09-20,Desktop,Paid Social,SKU-0264,Beauty,1,63.36,2
+20102,2025-07-31,Mobile,Paid Search,SKU-0037,Beauty,1,88.74,2
+20123,2025-01-23,Desktop,Organic,SKU-0309,Electronics,0,108.97,3
+20147,2025-05-22,Desktop,Paid Search,SKU-0102,Apparel,1,83.39,1
+20148,2025-01-08,Desktop,Paid Social,SKU-0138,Home,1,48.95,1
+20153,2025-09-13,Desktop,Paid Social,SKU-0242,Home,1,45.23,2
+20169,2025-11-08,Mobile,Organic,SKU-0187,Apparel,0,25.68,2
+20170,2025-03-10,Mobile,Paid Search,SKU-0097,Home,0,73.6,3
+20205,2025-04-09,Mobile,Organic,SKU-0184,Apparel,0,55.97,2
+20210,2025-03-09,Desktop,Organic,SKU-0260,Home,0,73.51,1
+20211,2025-02-25,Desktop,Organic,SKU-0055,Home,0,98.78,1
+20222,2025-06-25,Mobile,Paid Social,SKU-0041,Apparel,0,84.97,2
+20229,2025-05-26,Desktop,Organic,SKU-0294,Apparel,0,51.26,2
+20237,2025-04-29,Desktop,Organic,SKU-0346,Home,1,51.24,2
+20251,2025-12-18,Mobile,Paid Search,SKU-0145,Home,0,28.91,2
+20261,2025-05-08,Desktop,Paid Search,SKU-0043,Apparel,0,32.46,1
+20263,2025-04-03,Desktop,Paid Social,SKU-0028,Beauty,1,31.33,1
+20270,2025-04-01,Desktop,Email,SKU-0002,Fitness,1,90.84,3
+20275,2025-02-28,Desktop,Organic,SKU-0186,Beauty,0,32.4,2
+20277,2025-09-14,Mobile,Organic,SKU-0090,Apparel,1,45.26,1
+20290,2025-05-13,Desktop,Paid Social,SKU-0060,Apparel,0,38.43,3
+20293,2025-11-30,Desktop,Organic,SKU-0378,Electronics,0,99.29,1
+20297,2025-11-27,Mobile,Organic,SKU-0214,Apparel,1,53.88,2
+20299,2025-03-28,Desktop,Affiliate,SKU-0396,Beauty,0,50.46,1
+20300,2025-12-10,Mobile,Organic,SKU-0006,Home,0,42.8,3
+20306,2025-06-14,Mobile,Email,SKU-0143,Fitness,0,60.52,2
+20318,2025-10-10,Mobile,Paid Search,SKU-0229,Apparel,0,70.27,3
+20319,2025-04-15,Desktop,Paid Search,SKU-0389,Electronics,0,118.97,3
+20323,2025-10-23,Mobile,Paid Search,SKU-0390,Electronics,0,106.33,2
+20343,2025-05-07,Desktop,Organic,SKU-0273,Fitness,1,81.57,1
+20344,2025-05-17,Desktop,Paid Search,SKU-0343,Apparel,0,23.47,2
+20357,2025-05-02,Desktop,Paid Search,SKU-0100,Apparel,0,53.24,1
+20359,2025-12-09,Mobile,Affiliate,SKU-0059,Electronics,1,83.45,1
+20362,2025-10-14,Mobile,Affiliate,SKU-0316,Fitness,1,50.57,1
+20365,2025-02-12,Desktop,Organic,SKU-0142,Home,0,66.71,1
+20369,2025-08-10,Desktop,Paid Search,SKU-0293,Apparel,0,97.39,2
+20376,2025-08-16,Desktop,Paid Search,SKU-0069,Beauty,1,57.12,2
+20391,2025-02-07,Desktop,Organic,SKU-0010,Home,0,58.04,3
+20398,2025-06-20,Desktop,Email,SKU-0385,Home,0,75.62,3
+20399,2025-02-12,Desktop,Paid Social,SKU-0001,Beauty,0,36.04,1
+20401,2025-12-09,Desktop,Paid Social,SKU-0216,Electronics,1,9.42,1
+20407,2025-10-08,Mobile,Affiliate,SKU-0381,Home,0,71.05,3
+20412,2025-03-27,Desktop,Paid Search,SKU-0335,Home,0,50.82,1
+20417,2025-02-10,Mobile,Paid Search,SKU-0306,Home,0,48.56,1
+20419,2025-02-25,Mobile,Paid Social,SKU-0115,Beauty,0,76.45,1
+20426,2025-03-18,Desktop,Affiliate,SKU-0157,Electronics,0,55.04,2
+20433,2025-05-31,Desktop,Affiliate,SKU-0141,Apparel,0,27.14,1
+20441,2025-02-19,Mobile,Paid Social,SKU-0399,Electronics,0,53.27,1
+20444,2025-01-22,Mobile,Email,SKU-0143,Apparel,0,100.92,1
+20445,2025-05-13,Mobile,Paid Search,SKU-0277,Electronics,1,99.33,2
+20446,2025-01-22,Mobile,Affiliate,SKU-0159,Beauty,0,99.41,1
+20451,2025-02-19,Desktop,Paid Search,SKU-0197,Beauty,1,22.36,1
+20463,2025-03-24,Desktop,Organic,SKU-0266,Electronics,0,93.81,2
+20477,2025-09-08,Desktop,Paid Search,SKU-0319,Electronics,0,48.5,3
+20481,2025-11-14,Mobile,Organic,SKU-0364,Apparel,0,82.46,3
+20483,2025-05-09,Mobile,Paid Social,SKU-0224,Electronics,1,61.48,1
+20487,2025-11-22,Mobile,Organic,SKU-0095,Electronics,0,54.26,1
+20490,2025-04-25,Desktop,Paid Social,SKU-0013,Electronics,0,66.64,1
+20491,2025-08-23,Desktop,Organic,SKU-0232,Apparel,0,88.56,1
+20495,2025-11-26,Mobile,Email,SKU-0047,Electronics,0,78.4,1
+20499,2025-05-21,Desktop,Paid Social,SKU-0013,Apparel,1,53.75,3
+20505,2025-10-29,Desktop,Paid Search,SKU-0211,Electronics,0,107.79,2
+20513,2025-04-22,Desktop,Paid Social,SKU-0115,Beauty,1,47.93,1
+20522,2025-10-03,Mobile,Paid Social,SKU-0186,Home,1,78.61,1
+20525,2025-11-23,Desktop,Organic,SKU-0211,Beauty,0,58.24,1
+20533,2025-03-18,Mobile,Organic,SKU-0065,Electronics,0,68.86,2
+20534,2025-12-05,Desktop,Paid Social,SKU-0039,Apparel,0,71.38,2
+20540,2025-12-17,Mobile,Paid Search,SKU-0339,Electronics,1,55.61,1
+20556,2025-12-02,Mobile,Paid Search,SKU-0150,Apparel,0,90.65,1
+20573,2025-04-10,Mobile,Paid Search,SKU-0023,Beauty,0,37.81,1
+20579,2025-11-12,Mobile,Paid Search,SKU-0354,Fitness,0,22.64,1
+20580,2025-08-24,Mobile,Organic,SKU-0384,Apparel,0,56.63,1
+20585,2025-02-20,Desktop,Paid Social,SKU-0030,Beauty,0,77.5,2
+20595,2025-08-06,Mobile,Paid Social,SKU-0179,Electronics,0,61.31,1
+20612,2025-02-27,Desktop,Email,SKU-0110,Apparel,0,124.27,3
+20615,2025-11-19,Desktop,Paid Search,SKU-0108,Home,0,58.48,2
+20626,2025-04-17,Mobile,Organic,SKU-0137,Fitness,0,62.98,1
+20628,2025-05-18,Desktop,Paid Search,SKU-0302,Fitness,0,105.32,1
+20643,2025-07-13,Desktop,Paid Search,SKU-0365,Beauty,0,68.09,3
+20672,2025-11-06,Desktop,Paid Social,SKU-0185,Electronics,0,119.9,1
+20673,2025-10-12,Mobile,Paid Search,SKU-0022,Apparel,1,107.64,1
+20675,2025-11-03,Desktop,Paid Search,SKU-0053,Electronics,0,95.69,1
+20677,2025-08-17,Desktop,Paid Social,SKU-0014,Fitness,0,88.38,2
+20693,2025-08-12,Mobile,Affiliate,SKU-0246,Apparel,0,34.33,3
+20694,2025-12-28,Mobile,Email,SKU-0224,Beauty,1,73.57,1
+20699,2025-03-21,Mobile,Organic,SKU-0332,Fitness,1,70.74,3
+20709,2025-04-07,Desktop,Organic,SKU-0386,Home,1,87.79,2
+20714,2025-12-25,Mobile,Paid Search,SKU-0336,Electronics,1,42.95,1
+20720,2025-06-27,Desktop,Paid Social,SKU-0209,Apparel,1,12.89,2
+20741,2025-08-12,Mobile,Paid Search,SKU-0373,Apparel,1,96.3,3
+20742,2025-06-21,Desktop,Email,SKU-0387,Home,1,76.25,2
+20743,2025-07-15,Desktop,Email,SKU-0352,Electronics,1,53.82,1
+20744,2025-07-19,Mobile,Organic,SKU-0381,Home,1,80.48,2
+20762,2025-10-27,Desktop,Paid Social,SKU-0002,Home,0,32.41,2
+20767,2025-03-20,Mobile,Affiliate,SKU-0250,Electronics,1,68.46,2
+20777,2025-04-07,Desktop,Paid Search,SKU-0115,Fitness,0,97.02,3
+20785,2025-12-22,Desktop,Affiliate,SKU-0069,Home,0,68.29,2
+20798,2025-04-26,Desktop,Organic,SKU-0384,Apparel,1,78.02,1
+20801,2025-10-12,Mobile,Affiliate,SKU-0117,Electronics,0,65.87,1
+20802,2025-04-13,Mobile,Paid Social,SKU-0296,Fitness,0,77.87,1
+20811,2025-12-04,Desktop,Paid Social,SKU-0057,Apparel,1,94.34,2
+20813,2025-03-12,Desktop,Paid Social,SKU-0231,Apparel,1,43.22,3
+20841,2025-05-16,Mobile,Organic,SKU-0001,Home,1,87.45,1
+20842,2025-10-01,Desktop,Paid Social,SKU-0262,Fitness,0,63.54,3
+20844,2025-06-12,Mobile,Paid Search,SKU-0351,Apparel,0,102.56,2
+20846,2025-07-08,Mobile,Organic,SKU-0251,Fitness,0,78.32,1
+20854,2025-08-05,Desktop,Paid Search,SKU-0260,Fitness,0,76.52,2
+20859,2025-01-07,Desktop,Organic,SKU-0021,Electronics,0,45.77,1
+20862,2025-01-21,Mobile,Paid Social,SKU-0124,Home,1,54.69,1
+20863,2025-07-11,Mobile,Organic,SKU-0107,Electronics,0,100.5,2
+20873,2025-05-11,Desktop,Email,SKU-0265,Home,0,79.57,3
+20885,2025-01-19,Mobile,Paid Search,SKU-0349,Apparel,1,27.14,1
+20888,2025-01-11,Desktop,Organic,SKU-0137,Home,0,57.19,1
+20897,2025-11-06,Desktop,Paid Search,SKU-0155,Beauty,1,9.2,3
+20904,2025-11-22,Mobile,Paid Social,SKU-0219,Home,0,137.21,3
+20909,2025-04-06,Desktop,Paid Search,SKU-0111,Electronics,0,79.75,3
+20911,2025-06-07,Desktop,Paid Search,SKU-0184,Beauty,0,85.8,2
+20922,2025-09-29,Desktop,Organic,SKU-0211,Home,0,84.14,1
+20942,2025-11-09,Desktop,Organic,SKU-0381,Home,0,109.05,1
+20943,2025-11-28,Desktop,Paid Search,SKU-0012,Beauty,0,91.9,3
+20947,2025-04-24,Desktop,Email,SKU-0313,Home,0,88.21,2
+20948,2025-11-19,Desktop,Email,SKU-0172,Apparel,1,37.59,3
+20958,2025-05-20,Desktop,Organic,SKU-0057,Home,1,65.18,1
+20962,2025-05-14,Desktop,Paid Search,SKU-0315,Beauty,1,61.38,2
+20968,2025-03-25,Desktop,Organic,SKU-0038,Beauty,0,41.71,3
+20971,2025-09-21,Mobile,Paid Search,SKU-0395,Apparel,1,117.04,3
+20990,2025-12-12,Desktop,Organic,SKU-0240,Fitness,0,60.9,3
+20999,2025-05-17,Mobile,Paid Search,SKU-0007,Home,0,64.78,3
+21001,2025-08-24,Desktop,Paid Search,SKU-0205,Electronics,0,81.09,1
+21004,2025-01-26,Mobile,Paid Social,SKU-0323,Electronics,1,60.71,2
+21032,2025-01-09,Mobile,Affiliate,SKU-0229,Beauty,1,74.16,3
+21035,2025-05-20,Desktop,Paid Search,SKU-0376,Fitness,0,67.09,3
+21040,2025-09-28,Desktop,Paid Social,SKU-0388,Apparel,1,74.69,1
+21050,2025-12-07,Desktop,Organic,SKU-0347,Electronics,0,75.24,3
+21057,2025-08-17,Mobile,Email,SKU-0359,Electronics,1,76.18,2
+21067,2025-05-10,Mobile,Paid Social,SKU-0351,Beauty,0,101.73,3
+21070,2025-06-30,Mobile,Paid Search,SKU-0382,Apparel,0,117.38,3
+21078,2025-04-29,Mobile,Paid Search,SKU-0084,Apparel,0,85.81,2
+21100,2025-01-17,Desktop,Paid Search,SKU-0044,Fitness,0,80.99,3
+21106,2025-12-14,Desktop,Organic,SKU-0234,Electronics,0,83.13,3
+21123,2025-12-27,Mobile,Email,SKU-0245,Home,0,82.96,2
+21126,2025-09-08,Desktop,Email,SKU-0058,Electronics,0,101.23,1
+21142,2025-02-26,Mobile,Organic,SKU-0311,Electronics,1,68.12,1
+21143,2025-10-27,Desktop,Paid Search,SKU-0298,Home,0,76.24,3
+21147,2025-05-31,Desktop,Organic,SKU-0093,Electronics,0,65.12,2
+21194,2025-10-29,Desktop,Organic,SKU-0306,Electronics,0,58.87,1
+21195,2025-11-04,Desktop,Affiliate,SKU-0025,Fitness,0,43.38,1
+21205,2025-04-16,Desktop,Paid Social,SKU-0023,Fitness,0,70.64,3
+21208,2025-09-07,Mobile,Organic,SKU-0274,Beauty,0,43.75,3
+21246,2025-03-22,Desktop,Paid Search,SKU-0016,Home,0,71.12,1
+21250,2025-10-11,Desktop,Paid Social,SKU-0340,Apparel,0,59.77,2
+21263,2025-09-10,Desktop,Email,SKU-0175,Apparel,0,34.49,3
+21267,2025-09-17,Mobile,Paid Search,SKU-0006,Apparel,0,24.78,2
+21275,2025-04-28,Desktop,Paid Social,SKU-0117,Electronics,1,81.18,1
+21290,2025-01-01,Mobile,Email,SKU-0374,Apparel,1,64.35,2
+21299,2025-08-03,Desktop,Affiliate,SKU-0003,Electronics,0,76.62,3
+21306,2025-07-06,Desktop,Organic,SKU-0101,Apparel,0,80.93,1
+21307,2025-01-24,Mobile,Organic,SKU-0152,Beauty,1,53.16,1
+21320,2025-06-20,Desktop,Organic,SKU-0092,Electronics,0,62.78,2
+21326,2025-03-15,Desktop,Paid Search,SKU-0047,Apparel,1,65.13,2
+21337,2025-03-06,Desktop,Organic,SKU-0236,Home,1,70.77,2
+21341,2025-04-12,Desktop,Paid Social,SKU-0366,Fitness,1,54.47,3
+21343,2025-04-10,Desktop,Paid Search,SKU-0318,Home,1,34.71,3
+21349,2025-12-17,Mobile,Paid Search,SKU-0155,Electronics,1,58.39,2
+21350,2025-10-14,Desktop,Paid Search,SKU-0058,Electronics,0,41.38,3
+21367,2025-03-29,Desktop,Paid Search,SKU-0177,Electronics,1,95.88,1
+21378,2025-05-03,Desktop,Affiliate,SKU-0007,Home,0,64.18,3
+21385,2025-03-30,Desktop,Paid Social,SKU-0242,Home,0,95.5,2
+21391,2025-02-22,Mobile,Paid Social,SKU-0114,Electronics,1,20.83,2
+21407,2025-06-02,Desktop,Paid Search,SKU-0094,Apparel,1,51.38,3
+21429,2025-01-23,Desktop,Paid Search,SKU-0366,Beauty,1,46.4,2
+21432,2025-08-15,Mobile,Organic,SKU-0017,Beauty,1,53.71,2
+21441,2025-02-25,Mobile,Paid Search,SKU-0263,Beauty,0,112.71,3
+21445,2025-08-13,Desktop,Paid Social,SKU-0349,Beauty,0,66.45,1
+21462,2025-08-05,Desktop,Paid Search,SKU-0280,Apparel,1,55.37,2
+21469,2025-07-03,Mobile,Paid Social,SKU-0051,Electronics,1,63.42,3
+21490,2025-05-03,Desktop,Organic,SKU-0005,Beauty,0,89.36,1
+21492,2025-10-09,Mobile,Paid Social,SKU-0204,Fitness,0,40.77,3
+21519,2025-02-24,Desktop,Organic,SKU-0103,Fitness,0,61.44,3
+21520,2025-07-13,Desktop,Email,SKU-0341,Home,0,32.1,3
+21521,2025-08-30,Mobile,Affiliate,SKU-0160,Electronics,0,83.6,2
+21537,2025-10-10,Mobile,Paid Social,SKU-0229,Apparel,0,65.43,1
+21543,2025-02-07,Desktop,Paid Social,SKU-0109,Apparel,0,104.24,1
+21578,2025-11-07,Desktop,Email,SKU-0055,Fitness,0,36.01,3
+21582,2025-12-26,Mobile,Paid Social,SKU-0225,Apparel,1,83.09,1
+21596,2025-10-19,Desktop,Email,SKU-0299,Apparel,1,92.16,2
+21601,2025-08-07,Mobile,Organic,SKU-0084,Electronics,0,77.74,2
+21607,2025-12-19,Desktop,Paid Search,SKU-0172,Home,0,110.86,1
+21609,2025-05-05,Desktop,Paid Social,SKU-0259,Home,1,57.74,1
+21612,2025-11-26,Desktop,Organic,SKU-0365,Apparel,1,68.84,2
+21617,2025-01-11,Desktop,Organic,SKU-0045,Home,0,32.76,1
+21621,2025-11-18,Mobile,Organic,SKU-0365,Apparel,0,79.05,3
+21622,2025-01-24,Desktop,Paid Search,SKU-0068,Electronics,0,80.65,1
+21651,2025-09-01,Mobile,Paid Social,SKU-0141,Fitness,1,68.71,1
+21655,2025-10-24,Desktop,Email,SKU-0386,Apparel,1,61.95,1
+21663,2025-07-26,Desktop,Organic,SKU-0176,Electronics,1,53.01,3
+21677,2025-02-16,Desktop,Affiliate,SKU-0380,Fitness,1,84.63,2
+21680,2025-12-09,Mobile,Organic,SKU-0302,Home,0,62.31,2
+21685,2025-02-11,Desktop,Paid Search,SKU-0152,Fitness,1,84.55,2
+21724,2025-04-01,Mobile,Organic,SKU-0166,Home,1,67.7,1
+21738,2025-01-23,Desktop,Paid Search,SKU-0184,Fitness,1,75.92,3
+21742,2025-09-28,Desktop,Paid Social,SKU-0350,Home,1,101.24,3
+21748,2025-08-27,Desktop,Paid Search,SKU-0214,Apparel,0,72.07,1
+21760,2025-08-03,Mobile,Paid Search,SKU-0380,Apparel,1,57.46,2
+21777,2025-01-17,Desktop,Paid Search,SKU-0202,Apparel,0,56.56,3
+21779,2025-08-29,Mobile,Email,SKU-0254,Electronics,1,37.51,1
+21780,2025-07-04,Desktop,Paid Social,SKU-0067,Fitness,1,90.92,1
+21796,2025-09-28,Mobile,Paid Search,SKU-0394,Home,0,38.2,1
+21804,2025-10-15,Mobile,Paid Social,SKU-0168,Beauty,0,85.51,3
+21807,2025-02-15,Desktop,Paid Search,SKU-0359,Apparel,0,79.63,1
+21828,2025-02-09,Desktop,Organic,SKU-0161,Beauty,0,25.69,2
+21833,2025-04-15,Mobile,Affiliate,SKU-0039,Apparel,1,84.87,3
+21840,2025-06-21,Mobile,Organic,SKU-0366,Electronics,0,20.14,3
+21841,2025-12-10,Desktop,Paid Search,SKU-0273,Home,1,53.01,2
+21853,2025-10-17,Mobile,Paid Search,SKU-0142,Home,0,50.64,3
+21858,2025-10-29,Desktop,Organic,SKU-0120,Electronics,0,84.88,2
+21863,2025-07-23,Mobile,Paid Search,SKU-0361,Apparel,1,77.52,3
+21867,2025-09-14,Mobile,Organic,SKU-0278,Home,1,48.68,2
+21879,2025-01-17,Desktop,Affiliate,SKU-0272,Fitness,0,75.94,1
+21885,2025-01-22,Desktop,Affiliate,SKU-0065,Fitness,0,64.11,1
+21892,2025-02-28,Desktop,Email,SKU-0183,Beauty,1,64.98,1
+21896,2025-07-01,Mobile,Affiliate,SKU-0043,Electronics,0,98.35,2
+21902,2025-03-23,Desktop,Paid Social,SKU-0243,Apparel,1,73.53,3
+21904,2025-04-28,Desktop,Organic,SKU-0150,Home,0,27.77,3
+21912,2025-08-30,Desktop,Email,SKU-0250,Beauty,0,67.88,3
+21936,2025-05-08,Mobile,Paid Search,SKU-0396,Home,0,49.63,3
+21970,2025-01-10,Mobile,Affiliate,SKU-0036,Beauty,0,93.38,3
+21976,2025-08-22,Mobile,Paid Social,SKU-0037,Apparel,0,10.0,1
+21982,2025-11-14,Desktop,Organic,SKU-0395,Fitness,0,76.07,2
+21992,2025-04-09,Mobile,Email,SKU-0100,Apparel,0,63.63,3
+21997,2025-04-07,Mobile,Email,SKU-0175,Home,0,84.16,1
+22000,2025-10-29,Desktop,Email,SKU-0368,Electronics,0,13.81,3
+22030,2025-05-02,Mobile,Paid Search,SKU-0315,Beauty,1,22.09,3
+22033,2025-09-29,Desktop,Paid Search,SKU-0136,Home,0,43.44,3
+22042,2025-01-01,Mobile,Organic,SKU-0147,Apparel,0,102.51,1
+22043,2025-06-19,Mobile,Organic,SKU-0070,Electronics,0,50.24,2
+22054,2025-05-15,Desktop,Affiliate,SKU-0034,Beauty,1,66.81,2
+22059,2025-11-08,Desktop,Paid Search,SKU-0295,Beauty,0,48.92,3
+22069,2025-03-04,Desktop,Organic,SKU-0027,Electronics,0,39.79,1
+22072,2025-03-18,Desktop,Paid Search,SKU-0317,Electronics,1,56.58,1
+22088,2025-08-22,Mobile,Email,SKU-0332,Beauty,0,65.15,1
+22097,2025-01-28,Mobile,Paid Social,SKU-0253,Home,0,38.05,2
+22119,2025-05-06,Desktop,Organic,SKU-0155,Apparel,0,67.37,2
+22122,2025-02-04,Mobile,Paid Search,SKU-0239,Electronics,0,57.9,2
+22132,2025-02-18,Desktop,Organic,SKU-0100,Beauty,1,58.09,3
+22145,2025-06-20,Desktop,Organic,SKU-0050,Electronics,0,48.93,1
+22148,2025-11-09,Desktop,Paid Search,SKU-0089,Beauty,0,74.02,2
+22193,2025-02-14,Mobile,Paid Social,SKU-0211,Apparel,1,65.37,2
+22208,2025-04-22,Desktop,Email,SKU-0335,Electronics,0,75.06,1
+22214,2025-08-27,Desktop,Paid Search,SKU-0012,Beauty,1,37.61,3
+22229,2025-02-28,Desktop,Paid Social,SKU-0223,Electronics,0,101.98,2
+22234,2025-12-12,Mobile,Paid Social,SKU-0219,Fitness,0,50.39,3
+22241,2025-11-17,Desktop,Paid Search,SKU-0077,Home,0,33.5,3
+22248,2025-02-26,Desktop,Paid Social,SKU-0067,Home,1,50.99,2
+22251,2025-10-06,Mobile,Organic,SKU-0292,Electronics,1,26.92,1
+22255,2025-11-15,Desktop,Paid Search,SKU-0106,Beauty,0,77.96,2
+22256,2025-10-19,Desktop,Paid Search,SKU-0014,Beauty,0,48.09,3
+22262,2025-03-15,Mobile,Paid Social,SKU-0012,Fitness,0,80.29,2
+22277,2025-04-22,Desktop,Organic,SKU-0153,Electronics,1,63.34,2
+22292,2025-04-15,Mobile,Paid Search,SKU-0029,Beauty,1,64.01,2
+22303,2025-04-13,Desktop,Paid Social,SKU-0182,Home,0,15.76,3
+22304,2025-02-27,Desktop,Email,SKU-0034,Fitness,1,65.84,1
+22309,2025-11-30,Mobile,Affiliate,SKU-0264,Beauty,0,72.94,3
+22317,2025-12-17,Mobile,Paid Search,SKU-0154,Electronics,0,106.47,1
+22326,2025-07-31,Desktop,Organic,SKU-0389,Electronics,0,123.83,3
+22344,2025-05-15,Mobile,Email,SKU-0080,Apparel,1,23.99,3
+22347,2025-04-03,Desktop,Paid Search,SKU-0114,Home,0,55.16,1
+22389,2025-04-14,Desktop,Email,SKU-0028,Electronics,0,73.13,3
+22398,2025-01-15,Mobile,Email,SKU-0232,Home,1,27.48,2
+22399,2025-11-09,Mobile,Paid Social,SKU-0335,Apparel,0,47.58,2
+22402,2025-06-18,Desktop,Affiliate,SKU-0321,Apparel,0,72.04,1
+22404,2025-04-20,Mobile,Email,SKU-0290,Fitness,0,123.06,1
+22431,2025-03-31,Desktop,Email,SKU-0028,Apparel,1,87.92,1
+22437,2025-03-10,Desktop,Paid Social,SKU-0104,Electronics,1,57.0,3
+22439,2025-04-30,Desktop,Organic,SKU-0321,Apparel,0,50.61,2
+22440,2025-10-30,Desktop,Organic,SKU-0096,Home,0,76.42,1
+22441,2025-08-05,Mobile,Affiliate,SKU-0346,Beauty,0,77.97,2
+22447,2025-03-16,Mobile,Email,SKU-0241,Apparel,0,65.66,1
+22454,2025-05-04,Mobile,Paid Search,SKU-0178,Fitness,0,63.07,3
+22455,2025-05-30,Desktop,Paid Search,SKU-0386,Electronics,1,28.1,2
+22458,2025-11-19,Desktop,Paid Search,SKU-0030,Electronics,0,66.43,2
+22466,2025-11-15,Desktop,Paid Search,SKU-0237,Apparel,0,104.48,2
+22480,2025-11-27,Desktop,Organic,SKU-0231,Apparel,0,51.95,3
+22481,2025-03-03,Desktop,Paid Search,SKU-0180,Fitness,0,65.28,1
+22513,2025-06-03,Mobile,Organic,SKU-0042,Electronics,0,61.46,3
+22514,2025-12-06,Mobile,Paid Search,SKU-0148,Beauty,0,71.33,1
+22519,2025-05-30,Mobile,Paid Social,SKU-0282,Fitness,0,76.04,2
+22520,2025-09-10,Mobile,Affiliate,SKU-0398,Home,0,54.98,3
+22522,2025-02-15,Desktop,Paid Social,SKU-0382,Apparel,0,52.34,2
+22523,2025-06-15,Desktop,Paid Social,SKU-0201,Electronics,0,32.78,1
+22524,2025-03-19,Mobile,Paid Social,SKU-0169,Apparel,1,78.25,1
+22532,2025-11-15,Desktop,Paid Social,SKU-0099,Beauty,0,78.16,3
+22533,2025-10-11,Mobile,Affiliate,SKU-0389,Beauty,1,46.85,3
+22543,2025-04-12,Mobile,Organic,SKU-0023,Apparel,0,55.01,3
+22546,2025-01-04,Mobile,Paid Search,SKU-0193,Electronics,1,11.42,1
+22550,2025-06-21,Desktop,Organic,SKU-0179,Electronics,0,83.89,1
+22554,2025-10-15,Mobile,Email,SKU-0095,Beauty,1,32.39,1
+22559,2025-08-29,Mobile,Email,SKU-0232,Apparel,0,56.6,3
+22582,2025-02-11,Desktop,Organic,SKU-0237,Electronics,0,68.45,3
+22594,2025-10-05,Mobile,Organic,SKU-0044,Apparel,0,77.83,3
+22601,2025-01-02,Mobile,Organic,SKU-0395,Home,0,82.73,3
+22613,2025-01-02,Desktop,Affiliate,SKU-0379,Electronics,0,82.04,1
+22616,2025-12-26,Desktop,Email,SKU-0231,Apparel,0,19.93,2
+22631,2025-03-06,Mobile,Paid Social,SKU-0237,Fitness,0,51.44,2
+22638,2025-07-04,Mobile,Paid Search,SKU-0077,Fitness,0,59.61,1
+22645,2025-06-21,Desktop,Paid Search,SKU-0169,Beauty,0,109.76,1
+22672,2025-12-11,Desktop,Paid Search,SKU-0190,Electronics,0,111.9,3
+22679,2025-12-29,Desktop,Paid Social,SKU-0165,Fitness,0,88.64,1
+22694,2025-07-22,Desktop,Organic,SKU-0041,Beauty,0,27.12,1
+22702,2025-05-01,Desktop,Organic,SKU-0227,Beauty,0,110.67,3
+22703,2025-05-13,Mobile,Organic,SKU-0080,Apparel,0,48.21,3
+22716,2025-05-31,Desktop,Paid Search,SKU-0216,Electronics,0,64.07,2
+22722,2025-10-14,Mobile,Paid Search,SKU-0280,Home,1,54.32,2
+22727,2025-01-28,Desktop,Organic,SKU-0136,Electronics,1,70.46,1
+22728,2025-08-13,Mobile,Paid Search,SKU-0070,Home,1,60.77,1
+22744,2025-05-13,Mobile,Paid Search,SKU-0045,Fitness,0,30.64,2
+22755,2025-04-21,Mobile,Organic,SKU-0239,Apparel,0,98.23,3
+22762,2025-11-29,Desktop,Organic,SKU-0383,Fitness,0,125.42,3
+22763,2025-12-07,Desktop,Email,SKU-0151,Beauty,1,32.87,1
+22774,2025-03-31,Mobile,Organic,SKU-0293,Home,1,64.87,1
+22780,2025-07-10,Mobile,Paid Search,SKU-0201,Home,1,18.51,2
+22783,2025-10-24,Desktop,Paid Social,SKU-0295,Electronics,1,66.13,2
+22786,2025-06-14,Mobile,Paid Social,SKU-0001,Home,0,115.59,1
+22790,2025-05-24,Desktop,Organic,SKU-0182,Home,1,77.34,2
+22791,2025-08-13,Mobile,Organic,SKU-0080,Home,0,79.11,3
+22795,2025-01-21,Mobile,Paid Social,SKU-0181,Apparel,1,60.59,2
+22804,2025-12-09,Mobile,Email,SKU-0184,Apparel,0,65.32,3
+22811,2025-11-28,Mobile,Organic,SKU-0028,Home,1,28.24,2
+22813,2025-04-06,Desktop,Paid Search,SKU-0315,Electronics,0,56.87,1
+22824,2025-07-22,Desktop,Paid Social,SKU-0296,Beauty,0,82.31,3
+22827,2025-02-27,Mobile,Organic,SKU-0230,Electronics,0,60.0,2
+22829,2025-01-23,Mobile,Paid Search,SKU-0381,Home,1,39.6,2
+22836,2025-05-13,Mobile,Organic,SKU-0148,Home,0,105.53,1
+22837,2025-07-16,Mobile,Organic,SKU-0103,Apparel,0,83.52,1
+22842,2025-06-24,Mobile,Affiliate,SKU-0344,Electronics,0,84.14,3
+22853,2025-01-21,Desktop,Paid Social,SKU-0213,Apparel,1,57.41,3
+22858,2025-07-15,Mobile,Paid Search,SKU-0030,Electronics,1,66.55,1
+22871,2025-05-01,Mobile,Paid Search,SKU-0383,Electronics,1,48.69,3
+22913,2025-11-20,Mobile,Paid Search,SKU-0231,Beauty,0,66.78,2
+22925,2025-05-20,Mobile,Organic,SKU-0173,Apparel,0,80.87,3
+22928,2025-12-14,Desktop,Paid Social,SKU-0379,Apparel,1,83.27,1
+22933,2025-12-05,Desktop,Affiliate,SKU-0049,Apparel,0,71.83,1
+22935,2025-05-26,Mobile,Affiliate,SKU-0047,Home,1,112.02,3
+22936,2025-04-11,Mobile,Paid Search,SKU-0320,Beauty,0,89.47,2
+22945,2025-08-19,Mobile,Affiliate,SKU-0312,Apparel,1,14.12,2
+22947,2025-08-01,Mobile,Paid Search,SKU-0298,Apparel,0,89.88,3
+22965,2025-03-11,Mobile,Paid Search,SKU-0082,Apparel,1,65.56,2
+22972,2025-11-30,Desktop,Paid Search,SKU-0229,Home,1,60.9,2
+22978,2025-03-01,Desktop,Paid Search,SKU-0111,Fitness,0,95.69,2
+22997,2025-01-02,Desktop,Organic,SKU-0383,Electronics,1,68.75,2
+23001,2025-09-09,Mobile,Organic,SKU-0333,Home,1,30.66,3
+23005,2025-03-29,Desktop,Paid Search,SKU-0095,Home,0,62.41,2
+23015,2025-09-29,Desktop,Affiliate,SKU-0332,Electronics,0,18.95,2
+23016,2025-03-19,Mobile,Organic,SKU-0115,Home,1,93.55,2
+23018,2025-11-15,Mobile,Email,SKU-0201,Apparel,1,78.11,3
+23031,2025-11-06,Mobile,Email,SKU-0231,Electronics,0,88.58,2
+23045,2025-01-26,Mobile,Organic,SKU-0228,Apparel,0,91.05,1
+23048,2025-04-20,Mobile,Paid Social,SKU-0007,Apparel,1,90.94,3
+23050,2025-08-15,Mobile,Email,SKU-0299,Beauty,1,44.89,3
+23054,2025-11-11,Mobile,Email,SKU-0139,Fitness,0,102.66,1
+23065,2025-11-28,Desktop,Paid Social,SKU-0254,Apparel,0,102.25,2
+23079,2025-09-06,Mobile,Organic,SKU-0040,Beauty,0,23.11,2
+23099,2025-06-21,Desktop,Paid Social,SKU-0239,Beauty,0,50.27,3
+23103,2025-12-29,Desktop,Organic,SKU-0069,Electronics,0,35.23,2
+23104,2025-06-22,Desktop,Organic,SKU-0234,Electronics,1,75.0,2
+23132,2025-04-23,Mobile,Affiliate,SKU-0395,Apparel,0,68.83,3
+23142,2025-09-11,Desktop,Paid Social,SKU-0278,Home,1,63.27,3
+23150,2025-12-25,Desktop,Paid Social,SKU-0111,Home,0,109.13,2
+23153,2025-03-16,Desktop,Affiliate,SKU-0202,Electronics,1,48.19,3
+23188,2025-02-12,Desktop,Affiliate,SKU-0384,Beauty,0,88.12,2
+23199,2025-01-19,Mobile,Paid Search,SKU-0059,Home,0,90.04,2
+23209,2025-05-21,Mobile,Organic,SKU-0194,Home,1,71.71,2
+23214,2025-09-19,Desktop,Email,SKU-0193,Apparel,1,81.63,2
+23228,2025-09-10,Desktop,Paid Search,SKU-0247,Electronics,0,30.86,2
+23264,2025-03-22,Desktop,Paid Social,SKU-0246,Apparel,0,49.11,3
+23273,2025-11-06,Desktop,Email,SKU-0200,Home,0,31.89,3
+23295,2025-10-28,Mobile,Paid Search,SKU-0082,Fitness,1,24.04,1
+23300,2025-04-13,Mobile,Email,SKU-0134,Electronics,0,83.51,1
+23308,2025-05-08,Mobile,Paid Search,SKU-0083,Home,0,80.11,1
+23321,2025-04-19,Desktop,Paid Search,SKU-0223,Apparel,1,14.69,3
+23322,2025-02-12,Mobile,Paid Search,SKU-0045,Beauty,0,78.71,2
+23330,2025-09-01,Mobile,Paid Search,SKU-0258,Home,0,98.57,2
+23335,2025-02-11,Mobile,Affiliate,SKU-0035,Home,1,53.16,1
+23338,2025-09-22,Mobile,Paid Search,SKU-0197,Apparel,1,86.0,3
+23361,2025-12-17,Desktop,Paid Social,SKU-0314,Apparel,0,71.58,3
+23378,2025-04-23,Desktop,Email,SKU-0022,Beauty,1,79.99,2
+23379,2025-01-13,Desktop,Organic,SKU-0157,Apparel,0,84.0,1
+23380,2025-01-30,Desktop,Organic,SKU-0258,Electronics,0,47.75,3
+23383,2025-08-12,Mobile,Paid Search,SKU-0309,Apparel,1,24.9,3
+23386,2025-02-10,Mobile,Paid Social,SKU-0050,Apparel,1,88.1,3
+23398,2025-03-25,Desktop,Email,SKU-0113,Apparel,0,68.9,3
+23399,2025-01-18,Mobile,Paid Search,SKU-0104,Home,0,75.01,3
+23402,2025-10-30,Mobile,Email,SKU-0393,Fitness,1,102.01,1
+23405,2025-11-03,Desktop,Organic,SKU-0063,Home,0,96.83,3
+23413,2025-12-15,Mobile,Paid Search,SKU-0285,Home,1,17.48,1
+23429,2025-07-31,Mobile,Email,SKU-0140,Apparel,1,99.82,1
+23432,2025-09-17,Mobile,Organic,SKU-0234,Fitness,0,54.98,1
+23437,2025-02-08,Mobile,Paid Social,SKU-0242,Home,0,56.28,1
+23459,2025-09-18,Desktop,Paid Search,SKU-0329,Beauty,1,44.3,3
+23469,2025-09-30,Mobile,Email,SKU-0359,Home,0,87.99,2
+23476,2025-07-05,Mobile,Organic,SKU-0340,Apparel,0,79.31,1
+23477,2025-03-08,Mobile,Affiliate,SKU-0370,Home,1,75.05,3
+23480,2025-02-08,Desktop,Paid Social,SKU-0058,Beauty,1,73.44,3
+23481,2025-08-29,Desktop,Paid Search,SKU-0025,Home,0,70.04,1
+23488,2025-03-25,Desktop,Email,SKU-0152,Electronics,0,107.98,1
+23494,2025-11-16,Mobile,Paid Search,SKU-0018,Beauty,0,97.27,1
+23501,2025-12-09,Mobile,Paid Search,SKU-0344,Fitness,1,71.8,1
+23504,2025-11-16,Mobile,Email,SKU-0080,Electronics,0,137.84,2
+23507,2025-08-16,Desktop,Email,SKU-0181,Home,1,43.01,3
+23531,2025-06-10,Mobile,Paid Social,SKU-0358,Electronics,0,60.78,3
+23541,2025-07-03,Mobile,Paid Search,SKU-0344,Electronics,0,75.76,1
+23544,2025-01-24,Mobile,Paid Search,SKU-0158,Apparel,0,35.35,1
+23549,2025-07-01,Mobile,Paid Search,SKU-0057,Apparel,0,71.01,1
+23552,2025-09-21,Mobile,Paid Search,SKU-0399,Home,0,104.26,2
+23568,2025-02-22,Desktop,Organic,SKU-0019,Apparel,0,61.68,2
+23569,2025-06-02,Desktop,Email,SKU-0052,Beauty,0,66.27,1
+23582,2025-02-28,Desktop,Organic,SKU-0147,Home,1,65.11,3
+23583,2025-04-08,Mobile,Organic,SKU-0157,Beauty,0,68.26,3
+23588,2025-12-18,Desktop,Paid Search,SKU-0365,Fitness,1,49.42,2
+23596,2025-04-24,Mobile,Paid Social,SKU-0081,Beauty,0,64.67,2
+23598,2025-05-20,Mobile,Affiliate,SKU-0082,Electronics,1,64.81,3
+23606,2025-01-13,Mobile,Paid Social,SKU-0365,Fitness,0,129.42,2
+23624,2025-01-02,Mobile,Paid Social,SKU-0145,Fitness,0,43.88,3
+23631,2025-07-08,Desktop,Paid Social,SKU-0195,Apparel,1,9.2,3
+23635,2025-10-10,Desktop,Paid Search,SKU-0087,Fitness,0,38.4,2
+23659,2025-05-18,Desktop,Organic,SKU-0026,Electronics,0,39.97,2
+23666,2025-08-07,Desktop,Paid Search,SKU-0300,Fitness,0,82.58,1
+23682,2025-12-12,Desktop,Paid Search,SKU-0234,Home,0,109.53,1
+23693,2025-10-25,Mobile,Paid Search,SKU-0391,Apparel,1,82.16,3
+23694,2025-07-15,Mobile,Paid Social,SKU-0269,Home,0,90.99,1
+23710,2025-12-04,Desktop,Paid Social,SKU-0080,Apparel,1,109.83,3
+23714,2025-01-12,Mobile,Paid Social,SKU-0193,Beauty,0,74.94,3
+23723,2025-07-04,Desktop,Paid Search,SKU-0379,Beauty,0,59.52,3
+23724,2025-03-28,Mobile,Organic,SKU-0112,Beauty,0,94.1,1
+23730,2025-02-21,Mobile,Paid Search,SKU-0185,Electronics,0,32.56,3
+23753,2025-07-18,Desktop,Organic,SKU-0025,Apparel,0,47.21,1
+23758,2025-06-11,Mobile,Email,SKU-0112,Apparel,1,63.41,2
+23760,2025-06-02,Mobile,Affiliate,SKU-0187,Electronics,0,87.05,3
+23767,2025-05-09,Desktop,Organic,SKU-0011,Electronics,0,59.66,2
+23773,2025-10-16,Desktop,Affiliate,SKU-0400,Fitness,0,54.64,3
+23776,2025-01-27,Desktop,Paid Search,SKU-0315,Home,0,79.47,3
+23780,2025-07-17,Desktop,Paid Search,SKU-0221,Apparel,0,56.78,3
+23794,2025-09-14,Mobile,Affiliate,SKU-0212,Apparel,1,18.59,1
+23833,2025-11-15,Mobile,Email,SKU-0216,Apparel,0,83.41,1
+23836,2025-07-12,Mobile,Organic,SKU-0391,Home,1,67.37,2
+23840,2025-09-03,Desktop,Organic,SKU-0395,Apparel,0,73.7,2
+23841,2025-01-22,Mobile,Affiliate,SKU-0209,Apparel,1,61.38,3
+23862,2025-02-23,Desktop,Paid Search,SKU-0202,Apparel,1,27.68,1
+23870,2025-05-06,Mobile,Email,SKU-0114,Beauty,0,54.04,3
+23874,2025-06-02,Mobile,Organic,SKU-0270,Beauty,0,54.37,3
+23890,2025-12-31,Mobile,Email,SKU-0156,Apparel,0,67.17,2
+23898,2025-11-30,Desktop,Paid Search,SKU-0269,Apparel,0,30.99,3
+23900,2025-11-20,Mobile,Organic,SKU-0354,Apparel,1,66.34,3
+23910,2025-12-22,Mobile,Paid Social,SKU-0137,Electronics,0,39.19,2
+23916,2025-10-14,Desktop,Organic,SKU-0137,Apparel,1,87.72,2
+23917,2025-05-03,Mobile,Organic,SKU-0302,Apparel,1,54.68,3
+23927,2025-07-25,Mobile,Organic,SKU-0282,Electronics,0,69.67,2
+23937,2025-12-28,Mobile,Email,SKU-0226,Beauty,0,30.69,2
+23938,2025-12-12,Mobile,Organic,SKU-0295,Apparel,0,65.75,2
+23944,2025-09-01,Mobile,Paid Search,SKU-0367,Fitness,1,23.08,3
+23977,2025-08-14,Desktop,Organic,SKU-0138,Electronics,1,99.15,3
+23978,2025-12-08,Mobile,Paid Search,SKU-0304,Home,1,87.36,3
+23995,2025-07-03,Mobile,Paid Search,SKU-0353,Electronics,0,91.63,3
+24006,2025-08-09,Desktop,Paid Social,SKU-0344,Electronics,1,46.01,3
+24009,2025-07-05,Mobile,Organic,SKU-0332,Beauty,0,113.88,3
+24029,2025-12-12,Desktop,Paid Social,SKU-0221,Apparel,0,104.91,3
+24030,2025-03-03,Desktop,Paid Social,SKU-0116,Fitness,0,61.01,2
+24044,2025-02-20,Mobile,Organic,SKU-0208,Home,0,74.89,3
+24054,2025-03-22,Mobile,Organic,SKU-0383,Electronics,0,24.3,2
+24067,2025-11-29,Desktop,Organic,SKU-0353,Fitness,1,28.6,1
+24073,2025-06-05,Desktop,Organic,SKU-0387,Electronics,0,78.95,1
+24088,2025-10-04,Desktop,Paid Search,SKU-0117,Beauty,1,58.58,3
+24098,2025-02-21,Desktop,Paid Search,SKU-0343,Electronics,1,39.42,3
+24112,2025-08-10,Desktop,Organic,SKU-0220,Home,1,15.05,2
+24113,2025-04-13,Desktop,Organic,SKU-0009,Electronics,0,40.15,3
+24118,2025-08-12,Mobile,Paid Search,SKU-0240,Apparel,1,23.64,1
+24121,2025-09-02,Mobile,Paid Social,SKU-0399,Beauty,0,125.42,1
+24133,2025-06-17,Desktop,Organic,SKU-0031,Electronics,0,62.47,3
+24145,2025-12-11,Desktop,Affiliate,SKU-0011,Apparel,0,84.54,1
+24146,2025-04-19,Desktop,Affiliate,SKU-0219,Electronics,1,60.97,2
+24164,2025-10-31,Mobile,Email,SKU-0008,Electronics,0,53.42,3
+24166,2025-10-04,Desktop,Organic,SKU-0238,Fitness,0,61.54,2
+24168,2025-02-11,Mobile,Organic,SKU-0248,Beauty,0,99.49,2
+24175,2025-10-18,Mobile,Paid Search,SKU-0212,Apparel,1,78.67,2
+24181,2025-11-10,Desktop,Email,SKU-0118,Apparel,0,68.68,3
+24199,2025-12-24,Desktop,Paid Search,SKU-0060,Home,0,50.84,1
+24203,2025-01-08,Mobile,Affiliate,SKU-0184,Beauty,0,50.65,3
+24219,2025-01-23,Desktop,Paid Social,SKU-0255,Apparel,1,93.16,2
+24223,2025-09-08,Desktop,Paid Social,SKU-0191,Home,0,70.78,1
+24229,2025-03-18,Mobile,Organic,SKU-0034,Electronics,0,62.4,1
+24231,2025-10-13,Desktop,Organic,SKU-0134,Home,1,9.2,3
+24232,2025-05-28,Desktop,Paid Search,SKU-0191,Electronics,0,10.0,3
+24233,2025-03-02,Mobile,Email,SKU-0129,Electronics,0,60.03,1
+24251,2025-10-29,Mobile,Organic,SKU-0398,Apparel,1,28.3,2
+24256,2025-08-23,Desktop,Paid Social,SKU-0306,Fitness,0,89.42,2
+24268,2025-06-29,Mobile,Organic,SKU-0122,Electronics,0,66.75,1
+24276,2025-08-23,Mobile,Paid Search,SKU-0371,Beauty,1,9.2,3
+24284,2025-02-14,Mobile,Organic,SKU-0224,Electronics,0,54.49,3
+24298,2025-11-11,Mobile,Organic,SKU-0237,Electronics,0,92.75,1
+24315,2025-12-17,Desktop,Paid Search,SKU-0368,Apparel,0,68.64,2
+24324,2025-05-13,Mobile,Paid Social,SKU-0263,Electronics,0,98.84,3
+24338,2025-05-12,Desktop,Email,SKU-0057,Home,0,131.13,2
+24361,2025-04-11,Desktop,Paid Social,SKU-0168,Fitness,1,77.49,3
+24362,2025-12-17,Desktop,Organic,SKU-0056,Beauty,0,39.17,1
+24365,2025-06-02,Desktop,Paid Search,SKU-0314,Fitness,0,78.78,2
+24371,2025-12-16,Mobile,Paid Search,SKU-0124,Fitness,1,93.13,3
+24373,2025-12-21,Desktop,Paid Search,SKU-0350,Home,0,73.05,3
+24374,2025-03-04,Mobile,Paid Search,SKU-0386,Beauty,0,31.16,3
+24377,2025-04-20,Mobile,Email,SKU-0074,Fitness,1,44.93,1
+24387,2025-08-08,Desktop,Paid Social,SKU-0032,Home,0,67.46,2
+24399,2025-08-21,Desktop,Email,SKU-0180,Electronics,0,68.78,1
+24406,2025-08-03,Mobile,Paid Social,SKU-0107,Home,1,67.52,2
+24438,2025-11-25,Desktop,Paid Search,SKU-0233,Apparel,1,58.78,2
+24440,2025-04-22,Desktop,Organic,SKU-0392,Apparel,0,113.08,2
+24453,2025-08-04,Desktop,Paid Search,SKU-0006,Apparel,1,73.3,2
+24466,2025-04-14,Desktop,Paid Social,SKU-0121,Apparel,1,39.62,1
+24468,2025-04-28,Mobile,Email,SKU-0268,Apparel,0,62.92,1
+24470,2025-06-04,Mobile,Paid Social,SKU-0144,Beauty,0,34.98,2
+24476,2025-09-03,Desktop,Email,SKU-0038,Beauty,1,85.73,2
+24505,2025-04-30,Desktop,Organic,SKU-0262,Fitness,0,79.01,3
+24510,2025-10-25,Mobile,Paid Search,SKU-0365,Electronics,0,96.86,2
+24515,2025-04-16,Desktop,Affiliate,SKU-0279,Beauty,0,62.33,1
+24520,2025-08-14,Mobile,Organic,SKU-0005,Electronics,1,66.98,3
+24521,2025-03-10,Desktop,Organic,SKU-0255,Apparel,0,107.71,3
+24524,2025-04-28,Desktop,Paid Social,SKU-0193,Home,1,86.13,1
+24525,2025-03-03,Desktop,Email,SKU-0066,Beauty,1,89.4,1
+24527,2025-11-01,Mobile,Affiliate,SKU-0043,Fitness,1,67.45,1
+24544,2025-12-01,Desktop,Organic,SKU-0178,Fitness,1,40.64,1
+24552,2025-03-19,Mobile,Organic,SKU-0186,Home,0,13.92,2
+24560,2025-10-30,Desktop,Paid Search,SKU-0339,Apparel,0,64.74,2
+24573,2025-08-31,Desktop,Email,SKU-0055,Fitness,0,27.92,3
+24586,2025-12-24,Desktop,Paid Search,SKU-0091,Apparel,0,26.95,2
+24600,2025-12-26,Desktop,Paid Social,SKU-0373,Beauty,0,46.65,1
+24604,2025-10-21,Desktop,Organic,SKU-0375,Fitness,0,82.52,3
+24616,2025-11-25,Mobile,Paid Search,SKU-0397,Beauty,1,16.63,2
+24620,2025-12-11,Mobile,Affiliate,SKU-0034,Apparel,0,93.2,2
+24623,2025-03-30,Mobile,Paid Search,SKU-0336,Apparel,0,36.85,3
+24628,2025-08-18,Mobile,Organic,SKU-0008,Home,0,54.46,2
+24633,2025-12-11,Desktop,Email,SKU-0167,Apparel,0,84.14,3
+24642,2025-10-10,Desktop,Paid Social,SKU-0333,Electronics,1,64.32,2
+24645,2025-12-28,Mobile,Paid Search,SKU-0296,Electronics,0,32.06,1
+24646,2025-10-16,Mobile,Organic,SKU-0005,Beauty,0,68.53,1
+24649,2025-08-13,Desktop,Paid Search,SKU-0310,Electronics,0,55.17,3
+24652,2025-03-13,Mobile,Affiliate,SKU-0303,Home,1,51.38,3
+24654,2025-10-25,Mobile,Paid Search,SKU-0127,Home,0,96.55,1
+24657,2025-11-15,Mobile,Paid Search,SKU-0047,Home,0,50.03,2
+24666,2025-11-06,Mobile,Affiliate,SKU-0234,Fitness,0,58.58,2
+24693,2025-01-11,Desktop,Paid Search,SKU-0302,Electronics,0,54.65,2
+24697,2025-06-02,Desktop,Paid Search,SKU-0051,Home,0,49.88,2
+24699,2025-04-26,Desktop,Affiliate,SKU-0016,Fitness,0,55.27,2
+24705,2025-06-19,Mobile,Paid Search,SKU-0253,Beauty,0,70.49,1
+24713,2025-06-14,Desktop,Organic,SKU-0387,Home,0,44.3,2
+24721,2025-03-05,Mobile,Email,SKU-0019,Apparel,0,41.86,2
+24729,2025-01-18,Mobile,Paid Social,SKU-0358,Apparel,1,72.45,1
+24732,2025-08-21,Desktop,Organic,SKU-0334,Beauty,0,67.71,1
+24745,2025-03-14,Mobile,Organic,SKU-0220,Home,0,63.61,2
+24746,2025-03-10,Desktop,Paid Social,SKU-0069,Apparel,0,29.05,2
+24762,2025-01-11,Desktop,Affiliate,SKU-0182,Electronics,0,50.2,1
+24763,2025-08-05,Mobile,Paid Social,SKU-0015,Electronics,0,42.19,2
+24766,2025-02-22,Desktop,Paid Search,SKU-0048,Apparel,0,75.07,2
+24779,2025-10-04,Mobile,Organic,SKU-0288,Electronics,0,73.16,3
+24791,2025-10-06,Desktop,Paid Search,SKU-0292,Home,0,84.97,1
+24803,2025-08-07,Mobile,Organic,SKU-0009,Apparel,0,73.75,3
+24811,2025-04-14,Desktop,Organic,SKU-0062,Fitness,0,84.56,2
+24819,2025-03-03,Desktop,Paid Search,SKU-0235,Apparel,0,123.81,1
+24840,2025-06-27,Desktop,Paid Social,SKU-0347,Fitness,0,55.04,3
+24841,2025-07-17,Desktop,Affiliate,SKU-0165,Apparel,1,22.26,1
+24843,2025-09-23,Mobile,Paid Search,SKU-0226,Home,0,73.78,2
+24851,2025-09-20,Mobile,Paid Social,SKU-0130,Home,1,95.78,2
+24857,2025-04-22,Mobile,Paid Search,SKU-0261,Electronics,0,38.31,2
+24862,2025-06-21,Mobile,Organic,SKU-0191,Beauty,1,79.35,3
+24872,2025-10-17,Desktop,Paid Social,SKU-0033,Home,1,42.37,1
+24883,2025-07-25,Mobile,Paid Search,SKU-0017,Home,1,99.59,3
+24893,2025-10-23,Mobile,Paid Social,SKU-0051,Home,0,62.3,1
+24896,2025-12-08,Desktop,Affiliate,SKU-0313,Apparel,0,19.73,2
+24907,2025-08-10,Mobile,Organic,SKU-0396,Apparel,0,63.73,2
+24920,2025-12-17,Mobile,Organic,SKU-0375,Beauty,0,34.98,3
+24921,2025-10-17,Mobile,Paid Social,SKU-0256,Apparel,1,77.41,2
+24926,2025-02-16,Mobile,Paid Search,SKU-0252,Apparel,0,31.53,2
+24928,2025-04-09,Desktop,Organic,SKU-0192,Apparel,0,51.58,2
+24938,2025-04-28,Desktop,Paid Search,SKU-0007,Home,0,10.0,1
+24939,2025-06-17,Mobile,Organic,SKU-0287,Beauty,1,52.55,1
+24942,2025-07-11,Mobile,Paid Search,SKU-0394,Apparel,0,68.76,2
+24956,2025-05-17,Mobile,Paid Search,SKU-0058,Electronics,0,61.8,1
+24962,2025-03-23,Desktop,Paid Search,SKU-0367,Beauty,0,97.02,3
+24965,2025-09-09,Mobile,Organic,SKU-0383,Beauty,0,46.31,2
+24975,2025-07-07,Desktop,Paid Social,SKU-0061,Electronics,0,102.16,2
+24979,2025-12-27,Mobile,Organic,SKU-0184,Fitness,0,91.36,2
+24983,2025-08-15,Desktop,Organic,SKU-0068,Home,0,21.94,3
+24995,2025-05-27,Desktop,Email,SKU-0292,Home,1,53.65,2
+24996,2025-02-15,Mobile,Paid Search,SKU-0276,Electronics,0,52.15,3
+24998,2025-03-12,Mobile,Paid Social,SKU-0331,Home,1,42.97,3
