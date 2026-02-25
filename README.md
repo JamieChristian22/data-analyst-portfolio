@@ -10,9 +10,9 @@ End-to-end data analytics portfolio demonstrating **production-level workflows**
 
 Data Analyst with a strong foundation in **business analysis, data analytics, and BI tools**, focused on transforming raw data into actionable insights that drive decision-making.
 
-* 🔗 [[LinkedIn](https://www.linkedin.com/](https://www.linkedin.com/in/jamiechristian2/))
-* 💻 [GitHub](https://github.com/JamieChristian22)
-* 📧 [Jamiechristian331@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/)
+💻 [GitHub](https://github.com/JamieChristian22)
+📧 [Jamiechristian331@gmail.com](mailto:Jamiechristian331@gmail.com)
 
 ---
 
@@ -51,21 +51,13 @@ High churn and low onboarding conversion impacting SaaS growth.
 
 * 42% drop-off at onboarding Step 2
 * Enterprise users generate majority of revenue
-* Power users retain 3.4x more than average users
+* Power users retain **3.4x higher** than average users
 
 **Impact:**
 
-* Reduced churn (projected): 18% → 12%
-* Increased conversion: +15–20%
-* Revenue growth opportunity identified
-
-**What’s Included:**
-
-* Tableau Dashboard (.twbx)
-* Raw + Cleaned Data (CSV)
-* Advanced SQL (Funnel + Churn Analysis)
-* Excel KPI Model
-* Data Dictionary & Mapping Docs
+* Reduced churn (projected): **18% → 12%**
+* Increased conversion: **+15–20%**
+* Identified key revenue growth opportunities
 
 ---
 
@@ -78,21 +70,14 @@ Determine whether a new feature improves conversion.
 
 **Key Insights:**
 
-* Variant B improved conversion by 17%
-* Engagement increased by 21%
-* Bounce rate decreased by 12%
+* Variant B improved conversion by **17%**
+* Engagement increased by **21%**
+* Bounce rate decreased by **12%**
 
 **Impact:**
 
-* Feature rollout recommendation
-* Estimated revenue increase: +$85K/quarter
-
-**What’s Included:**
-
-* Tableau Dashboard
-* Experimental Dataset
-* Advanced SQL (Lift + Segmentation Analysis)
-* Excel Model
+* Data-driven feature rollout decision
+* Estimated revenue increase: **+$85K/quarter**
 
 ---
 
@@ -105,21 +90,14 @@ Low conversion and high cart abandonment.
 
 **Key Insights:**
 
-* 64% cart abandonment rate
-* Top 20% SKUs generate 68% of revenue
-* Mobile conversion significantly lower
+* **64% cart abandonment rate**
+* Top **20% of SKUs generate 68% of revenue**
+* Mobile conversion significantly lower than desktop
 
 **Impact:**
 
-* Conversion improvement: +12–18%
-* Revenue growth opportunity: +$150K
-
-**What’s Included:**
-
-* Power BI Dashboard
-* Raw + Cleaned Data
-* SQL (Pareto + Funnel Analysis)
-* Excel KPI Dashboard
+* Conversion improvement: **+12–18%**
+* Revenue growth opportunity: **+$150K**
 
 ---
 
@@ -128,25 +106,28 @@ Low conversion and high cart abandonment.
 📁 `04_Amazon_Marketplace_Analytics`
 
 **Business Problem:**
-Inconsistent seller performance and revenue.
+Inconsistent seller performance and revenue growth.
 
-**Key Insights:**
+## 📊 Dashboard Preview
 
-* High-rated products (4.5+) generate 2.8x more sales
-* Stockouts reduce revenue significantly
-* Top sellers dominate marketplace revenue
+![Amazon Marketplace Dashboard](Images/amazon_marketplace_dashboard.png)
+
+*(Dashboard built in Power BI analyzing GMV, revenue, seller tiers, and product performance)*
+
+**Key Insights (from dashboard):**
+
+* Total GMV: **$58.3M**
+* Marketplace Revenue: **$7.57M**
+* AOV: **$685.45**
+* Prime members generate **~63% of GMV**
+* Top categories: Sports, Electronics, Beauty
+* Small sellers generate the highest revenue contribution
 
 **Impact:**
 
-* Revenue increase opportunity: +$200K
-* Pricing and inventory optimization strategy
-
-**What’s Included:**
-
-* Power BI Dashboard
-* SQL (Revenue + Seller Analysis)
-* Excel Model
-* Data Documentation
+* Identified **seller concentration risk**
+* Highlighted **inventory & pricing optimization opportunities**
+* Improved revenue strategy through **tier-based insights**
 
 ---
 
@@ -161,24 +142,12 @@ Low conversion due to user journey friction.
 
 * 38% drop-off at signup
 * 47% drop-off at checkout
-* Returning users convert 2.5x higher
+* Returning users convert **2.5x higher**
 
 **Impact:**
 
-* Conversion improvement: +20%
+* Conversion improvement: **+20%**
 * UX optimization recommendations
-
-**What’s Included:**
-
-* Tableau Dashboard
-* SQL (Funnel + Journey Analysis)
-* Excel KPI Model
-
----
-
-# 📊 Dashboard Preview
-
-*(Add screenshots here for maximum impact)*
 
 ---
 
@@ -199,7 +168,7 @@ This portfolio demonstrates the ability to:
 * Build **complete analytics solutions**
 * Translate data into **business decisions**
 * Work across **multiple tools and data environments**
-* Communicate insights clearly and effectively
+* Communicate insights **clearly and effectively**
 
 ---
 
