@@ -110,24 +110,30 @@ Inconsistent seller performance and revenue growth.
 
 ## 📊 Dashboard Preview
 
-![Amazon Marketplace Dashboard](Images/amazon_marketplace_dashboard.png)
+![Amazon Marketplace Dashboard](04_Amazon_Marketplace_Analytics/Images/amazon_marketplace_dashboard.png)
 
-*(Dashboard built in Power BI analyzing GMV, revenue, seller tiers, and product performance)*
+*(Power BI dashboard analyzing GMV, revenue, AOV, seller tiers, and product performance)*
 
-**Key Insights (from dashboard):**
+**Key Metrics:**
 
-* Total GMV: **$58.3M**
-* Marketplace Revenue: **$7.57M**
+* GMV: **$58.3M**
+* Orders: **85K**
 * AOV: **$685.45**
-* Prime members generate **~63% of GMV**
+* Marketplace Revenue: **$7.57M**
+* Take Rate: **13%**
+* GMV YoY Growth: **33%**
+
+**Key Insights:**
+
+* Prime members generate ~63% of GMV
 * Top categories: Sports, Electronics, Beauty
-* Small sellers generate the highest revenue contribution
+* Small sellers contribute the highest marketplace revenue
 
 **Impact:**
 
 * Identified **seller concentration risk**
 * Highlighted **inventory & pricing optimization opportunities**
-* Improved revenue strategy through **tier-based insights**
+* Improved revenue strategy using **seller tier segmentation**
 
 ---
 
