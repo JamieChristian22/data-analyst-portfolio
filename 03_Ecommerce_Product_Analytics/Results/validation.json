@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "check": "web_sessions: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "orders: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "purchase requires cart",
+      "passed": true
+    },
+    {
+      "check": "one order per purchased session",
+      "passed": true
+    },
+    {
+      "check": "order/session session_date agrees",
+      "passed": true
+    },
+    {
+      "check": "order/session device agrees",
+      "passed": true
+    },
+    {
+      "check": "order/session channel agrees",
+      "passed": true
+    },
+    {
+      "check": "foreign key checks completed",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: summary",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: funnel_by_segment",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: sku_pareto",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: discount_association",
+      "passed": true
+    },
+    {
+      "check": "sessions",
+      "passed": true
+    },
+    {
+      "check": "cart_sessions",
+      "passed": true
+    },
+    {
+      "check": "purchases",
+      "passed": true
+    },
+    {
+      "check": "conversion_rate",
+      "passed": true
+    },
+    {
+      "check": "cart_abandonment_rate",
+      "passed": true
+    },
+    {
+      "check": "revenue",
+      "passed": true
+    },
+    {
+      "check": "average_order_value",
+      "passed": true
+    },
+    {
+      "check": "top 20 percent SKU share",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

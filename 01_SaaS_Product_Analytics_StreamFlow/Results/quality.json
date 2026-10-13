@@ -1,0 +1,51 @@
+{
+  "semantic_issues": [
+    {
+      "affected_rows": 0,
+      "interpretation": "Retained in source; excluded by ordered funnels and 90-day activity windows.",
+      "issue": "events_before_signup"
+    },
+    {
+      "affected_rows": 0,
+      "interpretation": "Source flag and event presence are distinct signals; no silent overwrite.",
+      "issue": "step2_flag_disagreement"
+    },
+    {
+      "affected_rows": 218,
+      "interpretation": "Exclude free accounts from paying-user churn rate. Label timing is not independently verified.",
+      "issue": "free_accounts_with_churn_label"
+    }
+  ],
+  "tables": {
+    "events": {
+      "clean_sha256": "b849abce4339950e38daecaf5f44c9a4694e5e45038126a0cc4d7a9de79aa333",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 481,
+      "input_rows": 29175,
+      "null_cells": 0,
+      "output_rows": 29175,
+      "primary_key": null,
+      "source_sha256": "b849abce4339950e38daecaf5f44c9a4694e5e45038126a0cc4d7a9de79aa333"
+    },
+    "subscriptions": {
+      "clean_sha256": "b6132bacd5c8acf6d0cfaa9b672222ec7061b70cb03ee58bc6dbfe67521a14e7",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 1500,
+      "null_cells": 0,
+      "output_rows": 1500,
+      "primary_key": "user_id",
+      "source_sha256": "973c805e7ffc90a07dd64846c17f1a697e2782bddc23cf8ba8b4ca2617efea3a"
+    },
+    "users": {
+      "clean_sha256": "5ca6d5b172af0d774ce5c296590f1a3e548648106603c5a6cc6846642e0733fc",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 1500,
+      "null_cells": 0,
+      "output_rows": 1500,
+      "primary_key": "user_id",
+      "source_sha256": "5ca6d5b172af0d774ce5c296590f1a3e548648106603c5a6cc6846642e0733fc"
+    }
+  }
+}

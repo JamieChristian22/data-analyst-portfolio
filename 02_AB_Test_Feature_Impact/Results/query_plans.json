@@ -1,0 +1,44 @@
+{
+  "daily_assignment": [
+    [
+      7,
+      0,
+      216,
+      "SCAN ab_sessions_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ]
+  ],
+  "segment_conversion": [
+    [
+      7,
+      0,
+      216,
+      "SCAN ab_sessions_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ]
+  ],
+  "variant_summary": [
+    [
+      7,
+      0,
+      216,
+      "SCAN ab_sessions_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ]
+  ]
+}

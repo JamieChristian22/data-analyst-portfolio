@@ -1,0 +1,109 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SaaS activation and revenue quality</title><style>
+body{margin:0;background:#f1f5f9;color:#17283d;font:16px/1.6 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:36px 24px}header{background:#102f47;color:white;padding:32px;border-radius:16px}h1{line-height:1.15;font-size:36px}h2{font-size:23px}section{background:white;padding:24px;margin:22px 0;border-radius:12px;border:1px solid #dce4ea}.tag{color:#8ee8d1;text-transform:uppercase;letter-spacing:.1em;font-size:13px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:right;border-bottom:1px solid #e2e8f0}th{background:#edf4f8}td:first-child,th:first-child{text-align:left}.scroll{overflow:auto}a{color:#075985}pre{overflow:auto;white-space:pre-wrap}.note{border-left:5px solid #b7791f}li{margin:10px 0}@media print{body{background:white}main{padding:0}section{break-inside:avoid}header{color:#102f47;background:white}}
+</style><main><header><div class="tag">Jamie Christian · Reproducible analysis</div><h1>SaaS activation and revenue quality</h1><p>Where does onboarding lose users, and how do observed activity and churn labels differ?</p><p>Simulated data · SQL + Python reconciliation · 19 passed checks</p></header><section><h2>What the data support</h2><p>The supplied subscription snapshot totals 189,975.00 MRR across 698 paying users. The paying-user churn label rate is 21.06%. Ordered Step 1-to-Step 2 loss is 62.59%; this is a descriptive funnel result, not a measured intervention outcome.</p><svg viewBox="0 0 1000 280" role="img" aria-labelledby="chartTitle"><title id="chartTitle">Ordered onboarding reach (users)</title><text x="0" y="24" font-size="19" fill="#17283d">Ordered onboarding reach (users)</text><text x="0" y="64" font-size="14" fill="#17283d">Step 1: Account</text><rect x="290" y="46" width="520.000" height="26" rx="3" fill="#087f8c"/><text x="820.000" y="64" font-size="14" fill="#17283d">1,088</text><text x="0" y="107" font-size="14" fill="#17283d">Step 2: Workspace</text><rect x="290" y="89" width="194.522" height="26" rx="3" fill="#087f8c"/><text x="494.522" y="107" font-size="14" fill="#17283d">407</text><text x="0" y="150" font-size="14" fill="#17283d">Step 3: Integration</text><rect x="290" y="132" width="58.787" height="26" rx="3" fill="#087f8c"/><text x="358.787" y="150" font-size="14" fill="#17283d">123</text><text x="0" y="193" font-size="14" fill="#17283d">Step 4: First Workflow</text><rect x="290" y="175" width="16.250" height="26" rx="3" fill="#087f8c"/><text x="316.250" y="193" font-size="14" fill="#17283d">34</text><text x="0" y="236" font-size="14" fill="#17283d">Step 5: Invite Team</text><rect x="290" y="218" width="4.301" height="26" rx="3" fill="#087f8c"/><text x="304.301" y="236" font-size="14" fill="#17283d">9</text></svg></section><section><h2>Summary</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>users</th>
+      <th>paying_users</th>
+      <th>snapshot_mrr</th>
+      <th>snapshot_arr</th>
+      <th>paying_churn_label_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1500</td>
+      <td>698</td>
+      <td>189,975.0000</td>
+      <td>2,279,700.0000</td>
+      <td>0.2106</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/summary.csv">Download complete result</a></p></section><section><h2>Revenue By Tier</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>plan_tier</th>
+      <th>users</th>
+      <th>snapshot_mrr</th>
+      <th>mrr_share</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Enterprise</td>
+      <td>92</td>
+      <td>159,201.0000</td>
+      <td>0.8380</td>
+    </tr>
+    <tr>
+      <td>Pro</td>
+      <td>264</td>
+      <td>20,856.0000</td>
+      <td>0.1098</td>
+    </tr>
+    <tr>
+      <td>Starter</td>
+      <td>342</td>
+      <td>9,918.0000</td>
+      <td>0.0522</td>
+    </tr>
+    <tr>
+      <td>Free</td>
+      <td>802</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/revenue_by_tier.csv">Download complete result</a></p></section><section><h2>Onboarding Funnel</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>step</th>
+      <th>stage</th>
+      <th>users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Step 1: Account</td>
+      <td>1088</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Step 2: Workspace</td>
+      <td>407</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Step 3: Integration</td>
+      <td>123</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Step 4: First Workflow</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Step 5: Invite Team</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/onboarding_funnel.csv">Download complete result</a></p></section><section><h2>Power User Association</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>activity_group</th>
+      <th>paying_users</th>
+      <th>churn_label_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Under 20 runs</td>
+      <td>698</td>
+      <td>0.2106</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/power_user_association.csv">Download complete result</a></p></section><section><h2>Statistical and supplementary results</h2><pre>{
+  &quot;onboarding_step2_conditional_dropoff&quot;: 0.6259191176470589
+}</pre></section><section><h2>Recommended next decision</h2><p>Investigate the largest ordered onboarding drop-off with usability research. Treat activity/churn comparisons as associations; propose a randomized onboarding experiment before claiming retention impact.</p></section><section class="note"><h2>Interpretation limits</h2><p>MRR/ARR are supplied snapshots, not recognized revenue or verified active run rates. Churn is a supplied 90-day label, not an independently reconstructed cohort outcome. Free users are excluded from paying churn. Repeated daily events are retained because event IDs are absent. Activity uses [signup, signup + 90 days); incomplete follow-up and reverse causality limit interpretation.</p><ul><li><b>events_before_signup</b>: 0 rows. Retained in source; excluded by ordered funnels and 90-day activity windows.</li><li><b>step2_flag_disagreement</b>: 0 rows. Source flag and event presence are distinct signals; no silent overwrite.</li><li><b>free_accounts_with_churn_label</b>: 218 rows. Exclude free accounts from paying-user churn rate. Label timing is not independently verified.</li></ul></section><p>Generated from supplied CSVs. Legacy BI source mismatch documented; corrected Excel and replacement Hyper sources have separate verification evidence. <a href="README.md">Full case study</a></p></main></html>

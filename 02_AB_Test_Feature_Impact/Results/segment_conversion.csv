@@ -1,0 +1,25 @@
+device,source,variant,sessions,conversions,conversion_rate
+Desktop,Email,Control,426,79,0.18544600939
+Desktop,Email,Variant B,409,90,0.220048899756
+Desktop,Organic,Control,1072,228,0.212686567164
+Desktop,Organic,Variant B,1109,272,0.24526600541
+Desktop,Paid,Control,917,169,0.184296619411
+Desktop,Paid,Variant B,963,230,0.238836967809
+Desktop,Referral,Control,290,58,0.2
+Desktop,Referral,Variant B,279,69,0.247311827957
+Mobile,Email,Control,427,84,0.196721311475
+Mobile,Email,Variant B,428,100,0.233644859813
+Mobile,Organic,Control,1039,204,0.196342637151
+Mobile,Organic,Variant B,1076,237,0.220260223048
+Mobile,Paid,Control,1039,209,0.201154956689
+Mobile,Paid,Variant B,1040,240,0.230769230769
+Mobile,Referral,Control,286,56,0.195804195804
+Mobile,Referral,Variant B,261,57,0.218390804598
+Tablet,Email,Control,73,13,0.178082191781
+Tablet,Email,Variant B,64,11,0.171875
+Tablet,Organic,Control,195,38,0.194871794872
+Tablet,Organic,Variant B,187,44,0.235294117647
+Tablet,Paid,Control,171,38,0.222222222222
+Tablet,Paid,Variant B,141,29,0.205673758865
+Tablet,Referral,Control,52,12,0.230769230769
+Tablet,Referral,Variant B,56,9,0.160714285714

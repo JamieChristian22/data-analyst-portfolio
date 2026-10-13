@@ -1,0 +1,21 @@
+{
+  "semantic_issues": [
+    {
+      "affected_rows": 12000,
+      "interpretation": "No user ID or assignment metadata. Session independence and 50:50 allocation are assumptions; inference is provisional.",
+      "issue": "unknown_randomization_unit"
+    }
+  ],
+  "tables": {
+    "ab_sessions": {
+      "clean_sha256": "8ecd8c08437426aab53e90bc7b46ae7803e2fd155d4dc390c584f46fa03b83fc",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 12000,
+      "null_cells": 0,
+      "output_rows": 12000,
+      "primary_key": "session_id",
+      "source_sha256": "8ecd8c08437426aab53e90bc7b46ae7803e2fd155d4dc390c584f46fa03b83fc"
+    }
+  }
+}

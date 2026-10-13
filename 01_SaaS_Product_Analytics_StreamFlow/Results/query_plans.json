@@ -1,0 +1,604 @@
+{
+  "onboarding_funnel": [
+    [
+      1,
+      0,
+      0,
+      "MERGE (UNION ALL)"
+    ],
+    [
+      3,
+      1,
+      0,
+      "LEFT"
+    ],
+    [
+      4,
+      3,
+      0,
+      "MERGE (UNION ALL)"
+    ],
+    [
+      6,
+      4,
+      0,
+      "LEFT"
+    ],
+    [
+      10,
+      6,
+      216,
+      "SCAN users_clean"
+    ],
+    [
+      15,
+      6,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      21,
+      15,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      52,
+      4,
+      0,
+      "RIGHT"
+    ],
+    [
+      56,
+      52,
+      216,
+      "SCAN users_clean"
+    ],
+    [
+      61,
+      52,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      67,
+      61,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      89,
+      52,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      95,
+      89,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      106,
+      89,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      112,
+      106,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      175,
+      1,
+      0,
+      "RIGHT"
+    ],
+    [
+      176,
+      175,
+      0,
+      "MERGE (UNION ALL)"
+    ],
+    [
+      178,
+      176,
+      0,
+      "LEFT"
+    ],
+    [
+      179,
+      178,
+      0,
+      "MERGE (UNION ALL)"
+    ],
+    [
+      181,
+      179,
+      0,
+      "LEFT"
+    ],
+    [
+      185,
+      181,
+      216,
+      "SCAN users_clean"
+    ],
+    [
+      190,
+      181,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      196,
+      190,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      218,
+      181,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      224,
+      218,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      235,
+      218,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      241,
+      235,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      272,
+      181,
+      0,
+      "CORRELATED SCALAR SUBQUERY 6"
+    ],
+    [
+      278,
+      272,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      289,
+      272,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      295,
+      289,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      306,
+      289,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      312,
+      306,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      361,
+      179,
+      0,
+      "RIGHT"
+    ],
+    [
+      365,
+      361,
+      216,
+      "SCAN users_clean"
+    ],
+    [
+      370,
+      361,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      376,
+      370,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      398,
+      361,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      404,
+      398,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      415,
+      398,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      421,
+      415,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      452,
+      361,
+      0,
+      "CORRELATED SCALAR SUBQUERY 6"
+    ],
+    [
+      458,
+      452,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      469,
+      452,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      475,
+      469,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      486,
+      469,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      492,
+      486,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      532,
+      361,
+      0,
+      "CORRELATED SCALAR SUBQUERY 8"
+    ],
+    [
+      538,
+      532,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      549,
+      532,
+      0,
+      "CORRELATED SCALAR SUBQUERY 6"
+    ],
+    [
+      555,
+      549,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      566,
+      549,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      572,
+      566,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      583,
+      566,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      589,
+      583,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      670,
+      176,
+      0,
+      "RIGHT"
+    ],
+    [
+      674,
+      670,
+      216,
+      "SCAN users_clean"
+    ],
+    [
+      679,
+      670,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      685,
+      679,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      707,
+      670,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      713,
+      707,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      724,
+      707,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      730,
+      724,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      761,
+      670,
+      0,
+      "CORRELATED SCALAR SUBQUERY 6"
+    ],
+    [
+      767,
+      761,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      778,
+      761,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      784,
+      778,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      795,
+      778,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      801,
+      795,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      841,
+      670,
+      0,
+      "CORRELATED SCALAR SUBQUERY 8"
+    ],
+    [
+      847,
+      841,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      858,
+      841,
+      0,
+      "CORRELATED SCALAR SUBQUERY 6"
+    ],
+    [
+      864,
+      858,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      875,
+      858,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      881,
+      875,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      892,
+      875,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      898,
+      892,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      947,
+      670,
+      0,
+      "CORRELATED SCALAR SUBQUERY 10"
+    ],
+    [
+      953,
+      947,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      964,
+      947,
+      0,
+      "CORRELATED SCALAR SUBQUERY 8"
+    ],
+    [
+      970,
+      964,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      981,
+      964,
+      0,
+      "CORRELATED SCALAR SUBQUERY 6"
+    ],
+    [
+      987,
+      981,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      998,
+      981,
+      0,
+      "CORRELATED SCALAR SUBQUERY 4"
+    ],
+    [
+      1004,
+      998,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ],
+    [
+      1015,
+      998,
+      0,
+      "CORRELATED SCALAR SUBQUERY 2"
+    ],
+    [
+      1021,
+      1015,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?)"
+    ]
+  ],
+  "power_user_association": [
+    [
+      2,
+      0,
+      0,
+      "CO-ROUTINE activity"
+    ],
+    [
+      11,
+      2,
+      207,
+      "SCAN u USING INDEX ix_users_user_id"
+    ],
+    [
+      14,
+      2,
+      61,
+      "SEARCH e USING INDEX ix_events_user_id (user_id=?) LEFT-JOIN"
+    ],
+    [
+      76,
+      0,
+      82,
+      "SCAN a"
+    ],
+    [
+      79,
+      0,
+      46,
+      "SEARCH s USING INDEX idx_subscriptions_user_id (user_id=?)"
+    ],
+    [
+      89,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ]
+  ],
+  "revenue_by_tier": [
+    [
+      7,
+      0,
+      216,
+      "SCAN subscriptions_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ],
+    [
+      48,
+      0,
+      0,
+      "SCALAR SUBQUERY 1"
+    ],
+    [
+      53,
+      48,
+      216,
+      "SCAN subscriptions_clean"
+    ],
+    [
+      76,
+      0,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  ],
+  "summary": [
+    [
+      3,
+      0,
+      216,
+      "SCAN subscriptions_clean"
+    ]
+  ]
+}

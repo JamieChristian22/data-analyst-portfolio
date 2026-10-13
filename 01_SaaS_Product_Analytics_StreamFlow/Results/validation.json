@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "check": "users: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "subscriptions: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "events: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "subscription coverage",
+      "passed": true
+    },
+    {
+      "check": "plan tiers agree",
+      "passed": true
+    },
+    {
+      "check": "valid plan tier",
+      "passed": true
+    },
+    {
+      "check": "foreign key checks completed",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: summary",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: revenue_by_tier",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: onboarding_funnel",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: power_user_association",
+      "passed": true
+    },
+    {
+      "check": "users",
+      "passed": true
+    },
+    {
+      "check": "paying_users",
+      "passed": true
+    },
+    {
+      "check": "snapshot_mrr",
+      "passed": true
+    },
+    {
+      "check": "snapshot_arr",
+      "passed": true
+    },
+    {
+      "check": "paying_churn_label_rate",
+      "passed": true
+    },
+    {
+      "check": "ordered onboarding SQL/Python",
+      "passed": true
+    },
+    {
+      "check": "power user count Under 20 runs",
+      "passed": true
+    },
+    {
+      "check": "power user churn Under 20 runs",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

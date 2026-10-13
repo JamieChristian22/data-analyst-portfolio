@@ -1,0 +1,142 @@
+{
+  "discount_association": [
+    [
+      7,
+      0,
+      216,
+      "SCAN orders_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ]
+  ],
+  "funnel_by_segment": [
+    [
+      7,
+      0,
+      216,
+      "SCAN web_sessions_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ],
+    [
+      69,
+      0,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  ],
+  "sku_pareto": [
+    [
+      2,
+      0,
+      0,
+      "CO-ROUTINE ranked"
+    ],
+    [
+      6,
+      2,
+      0,
+      "CO-ROUTINE (subquery-4)"
+    ],
+    [
+      10,
+      6,
+      0,
+      "CO-ROUTINE (subquery-5)"
+    ],
+    [
+      12,
+      10,
+      0,
+      "CO-ROUTINE revenue"
+    ],
+    [
+      18,
+      12,
+      216,
+      "SCAN orders_clean"
+    ],
+    [
+      20,
+      12,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ],
+    [
+      59,
+      10,
+      82,
+      "SCAN revenue"
+    ],
+    [
+      74,
+      6,
+      82,
+      "SCAN (subquery-5)"
+    ],
+    [
+      131,
+      6,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    [
+      150,
+      2,
+      82,
+      "SCAN (subquery-4)"
+    ],
+    [
+      203,
+      0,
+      82,
+      "SCAN ranked"
+    ],
+    [
+      227,
+      0,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  ],
+  "summary": [
+    [
+      3,
+      0,
+      216,
+      "SCAN web_sessions_clean"
+    ],
+    [
+      30,
+      0,
+      0,
+      "SCALAR SUBQUERY 1"
+    ],
+    [
+      35,
+      30,
+      216,
+      "SCAN orders_clean"
+    ],
+    [
+      48,
+      0,
+      0,
+      "SCALAR SUBQUERY 2"
+    ],
+    [
+      53,
+      48,
+      216,
+      "SCAN orders_clean"
+    ]
+  ]
+}

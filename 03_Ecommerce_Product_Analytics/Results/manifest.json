@@ -1,0 +1,39 @@
+{
+  "check_count": 20,
+  "code": {
+    "03_Ecommerce_Product_Analytics/SQL/analysis.sql": "6efc7fa15b205b842db9210b19159218f7feba1fca440b41d5dfe74524378a2e",
+    "portfolio/__init__.py": "4ca7e47e5fe8508d1e1000e51607cab8f025d7cb77fd79b3aa51d1614c327971",
+    "portfolio/contracts.py": "17f23896dc2bebae93742f85b0b4e8106850d8ad5fbaa71e759e9d307eca8e50",
+    "portfolio/metrics.py": "e574cc969a05e03358ae51d7098be0932a5350a12a2eac6d803a9e7028aacef2",
+    "portfolio/quality.py": "97bc47bd4587f87af3b731ec06740e0b5a3c9def2b5a6ceb8614988504c80892",
+    "portfolio/run.py": "28c87969b5367f6c739d6561c98a2b9a8865dba6ddb135afa34481c03feb7533",
+    "requirements.txt": "62d48d32dd5feaa173e323a301f6b0d8a965e9b9ec653e1dc5be58f6a222eb69"
+  },
+  "data_kind": "supplied simulated data",
+  "outputs": {
+    "03_Ecommerce_Product_Analytics/Data/clean/orders_clean.csv": "cc9fba4cdfbdaf73b172b3207391c35dc68efad9f0add1ec9d2759f5f04b9839",
+    "03_Ecommerce_Product_Analytics/Data/clean/web_sessions_clean.csv": "6c8433bcd4239e3a4c8a0e8be471a570e81fa0978cb6d84814a8a8a3357ebfab",
+    "03_Ecommerce_Product_Analytics/README.md": "e888171acdf5ffc9d4cc93e4ba9f79b65cc16e68bb8eae225507d3785501862f",
+    "03_Ecommerce_Product_Analytics/REPORT.html": "61a225dc259d7fb266d830386d799fc677e13e89fda2f41bd0a5cfc99dd526a4",
+    "03_Ecommerce_Product_Analytics/Results/additional_metrics.json": "a283ce6771f2691bff9e8a441a6802b3eb9633aa14c46721fd5c9dbc8d173483",
+    "03_Ecommerce_Product_Analytics/Results/discount_association.csv": "3bc25a8f6848de59afdb555be3b4e0484368ad258525cdac0ac97e4ccc85b4a7",
+    "03_Ecommerce_Product_Analytics/Results/funnel_by_segment.csv": "e5ac1e16ebbbfbe24b95f155ec9bf5d88bb258d3abe99653a4c716eb4f989a0e",
+    "03_Ecommerce_Product_Analytics/Results/quality.json": "04c40ead3321ba4a9ca61c9f7583df0c3f97c4fb4a0db6ac1d82f3e430a2674c",
+    "03_Ecommerce_Product_Analytics/Results/query_plans.json": "f320cafee78e6d9081fcf030af7edce037d6fe4fa22f1ebf317e0d35f98cc36a",
+    "03_Ecommerce_Product_Analytics/Results/sku_pareto.csv": "d33aaf866cbcfb0e12cdb18f2d679d9d5b1fe2b07f5c38bd0a974238f7915abb",
+    "03_Ecommerce_Product_Analytics/Results/summary.csv": "181414bb6b5b81bf5b498dc5561f01f97b69ac5076670e7b22df29b31a158a62",
+    "03_Ecommerce_Product_Analytics/Results/validation.json": "0188da57d09b74647cd19483d5bd64f11e63323c8e6fd8ea9685c7fb2b39ec85"
+  },
+  "project": "03_Ecommerce_Product_Analytics",
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sqlite": "3.53.1"
+  },
+  "sources": {
+    "03_Ecommerce_Product_Analytics/Data/raw/orders_raw.csv": "cc9fba4cdfbdaf73b172b3207391c35dc68efad9f0add1ec9d2759f5f04b9839",
+    "03_Ecommerce_Product_Analytics/Data/raw/web_sessions_raw.csv": "6c8433bcd4239e3a4c8a0e8be471a570e81fa0978cb6d84814a8a8a3357ebfab"
+  }
+}

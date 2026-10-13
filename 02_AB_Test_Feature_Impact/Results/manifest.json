@@ -1,0 +1,36 @@
+{
+  "check_count": 20,
+  "code": {
+    "02_AB_Test_Feature_Impact/SQL/analysis.sql": "584c5858348c9e1c42ea25da3da7cd52842222cc0f159aacca419acd17d071c4",
+    "portfolio/__init__.py": "4ca7e47e5fe8508d1e1000e51607cab8f025d7cb77fd79b3aa51d1614c327971",
+    "portfolio/contracts.py": "17f23896dc2bebae93742f85b0b4e8106850d8ad5fbaa71e759e9d307eca8e50",
+    "portfolio/metrics.py": "e574cc969a05e03358ae51d7098be0932a5350a12a2eac6d803a9e7028aacef2",
+    "portfolio/quality.py": "97bc47bd4587f87af3b731ec06740e0b5a3c9def2b5a6ceb8614988504c80892",
+    "portfolio/run.py": "28c87969b5367f6c739d6561c98a2b9a8865dba6ddb135afa34481c03feb7533",
+    "requirements.txt": "62d48d32dd5feaa173e323a301f6b0d8a965e9b9ec653e1dc5be58f6a222eb69"
+  },
+  "data_kind": "supplied simulated data",
+  "outputs": {
+    "02_AB_Test_Feature_Impact/Data/clean/ab_sessions_clean.csv": "8ecd8c08437426aab53e90bc7b46ae7803e2fd155d4dc390c584f46fa03b83fc",
+    "02_AB_Test_Feature_Impact/README.md": "c5652a6d4af7c80c338f76368c91e82ead04c3942439ccb69c40755b960946cd",
+    "02_AB_Test_Feature_Impact/REPORT.html": "2e1a815c63eb8d14ade08e8e5d8860aacddfec6fd366ef1994422976a4eb5ad9",
+    "02_AB_Test_Feature_Impact/Results/additional_metrics.json": "ecaa5063f2da01c6b3f828b8d6f0786c6932dcfb313ffb085df48fbb170cee81",
+    "02_AB_Test_Feature_Impact/Results/daily_assignment.csv": "a18cbbe69eaa25ba265de0a0e0b113ab5a0896a3168bd2a33be78fb97c275948",
+    "02_AB_Test_Feature_Impact/Results/quality.json": "a0e5173a44b902a01d6c555fea7f846e234107026bc64753fdf3fc1c72a8a171",
+    "02_AB_Test_Feature_Impact/Results/query_plans.json": "7604845a34877d978abb187cec7eb82943523e272315b36f0b09bb61504b275d",
+    "02_AB_Test_Feature_Impact/Results/segment_conversion.csv": "aa351b5aeb826a5fc5e1859a2609a1a9435cf9324e882d41630f8cd4bca8ded3",
+    "02_AB_Test_Feature_Impact/Results/validation.json": "723dcf3838c29c13ce87056f59aba07217f0d0cdc853bb57bd11a1306b4dda92",
+    "02_AB_Test_Feature_Impact/Results/variant_summary.csv": "0a64c4fcc5ffc9d2b3c8849b7c15ec8fc85e29391435f02a641e3c0a695d77fb"
+  },
+  "project": "02_AB_Test_Feature_Impact",
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sqlite": "3.53.1"
+  },
+  "sources": {
+    "02_AB_Test_Feature_Impact/Data/raw/ab_sessions_raw.csv": "8ecd8c08437426aab53e90bc7b46ae7803e2fd155d4dc390c584f46fa03b83fc"
+  }
+}

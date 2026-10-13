@@ -1,0 +1,25 @@
+{
+  "semantic_issues": [],
+  "tables": {
+    "orders": {
+      "clean_sha256": "cc9fba4cdfbdaf73b172b3207391c35dc68efad9f0add1ec9d2759f5f04b9839",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 3037,
+      "null_cells": 0,
+      "output_rows": 3037,
+      "primary_key": "session_id",
+      "source_sha256": "cc9fba4cdfbdaf73b172b3207391c35dc68efad9f0add1ec9d2759f5f04b9839"
+    },
+    "web_sessions": {
+      "clean_sha256": "6c8433bcd4239e3a4c8a0e8be471a570e81fa0978cb6d84814a8a8a3357ebfab",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 25000,
+      "null_cells": 0,
+      "output_rows": 25000,
+      "primary_key": "session_id",
+      "source_sha256": "6c8433bcd4239e3a4c8a0e8be471a570e81fa0978cb6d84814a8a8a3357ebfab"
+    }
+  }
+}

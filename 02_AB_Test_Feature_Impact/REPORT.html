@@ -1,0 +1,357 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Experiment measurement and rollout judgment</title><style>
+body{margin:0;background:#f1f5f9;color:#17283d;font:16px/1.6 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:36px 24px}header{background:#102f47;color:white;padding:32px;border-radius:16px}h1{line-height:1.15;font-size:36px}h2{font-size:23px}section{background:white;padding:24px;margin:22px 0;border-radius:12px;border:1px solid #dce4ea}.tag{color:#8ee8d1;text-transform:uppercase;letter-spacing:.1em;font-size:13px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:right;border-bottom:1px solid #e2e8f0}th{background:#edf4f8}td:first-child,th:first-child{text-align:left}.scroll{overflow:auto}a{color:#075985}pre{overflow:auto;white-space:pre-wrap}.note{border-left:5px solid #b7791f}li{margin:10px 0}@media print{body{background:white}main{padding:0}section{break-inside:avoid}header{color:#102f47;background:white}}
+</style><main><header><div class="tag">Jamie Christian · Reproducible analysis</div><h1>Experiment measurement and rollout judgment</h1><p>Does Variant B show higher session conversion, and how uncertain is the estimated difference?</p><p>Simulated data · SQL + Python reconciliation · 20 passed checks</p></header><section><h2>What the data support</h2><p>Control converts at 19.84% and Variant B at 23.08%: +3.24 percentage points, or 16.33% relative lift. The unadjusted 95% difference interval is 1.77 to 4.71 percentage points. Statistical inference remains conditional on unverified session independence.</p><svg viewBox="0 0 1000 151" role="img" aria-labelledby="chartTitle"><title id="chartTitle">Observed conversion rate (proportion)</title><text x="0" y="24" font-size="19" fill="#17283d">Observed conversion rate (proportion)</text><text x="0" y="64" font-size="14" fill="#17283d">Control</text><rect x="290" y="46" width="447.005" height="26" rx="3" fill="#087f8c"/><text x="747.005" y="64" font-size="14" fill="#17283d">0.1984</text><text x="0" y="107" font-size="14" fill="#17283d">Variant B</text><rect x="290" y="89" width="520.000" height="26" rx="3" fill="#087f8c"/><text x="820.000" y="107" font-size="14" fill="#17283d">0.2308</text></svg></section><section><h2>Variant Summary</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variant</th>
+      <th>sessions</th>
+      <th>conversions</th>
+      <th>conversion_rate</th>
+      <th>bounce_rate</th>
+      <th>mean_engagement</th>
+      <th>revenue</th>
+      <th>revenue_per_session</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control</td>
+      <td>5987</td>
+      <td>1188</td>
+      <td>0.1984</td>
+      <td>0.4333</td>
+      <td>52.9966</td>
+      <td>49,719.7400</td>
+      <td>8.3046</td>
+    </tr>
+    <tr>
+      <td>Variant B</td>
+      <td>6013</td>
+      <td>1388</td>
+      <td>0.2308</td>
+      <td>0.3818</td>
+      <td>60.2906</td>
+      <td>58,527.4800</td>
+      <td>9.7335</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/variant_summary.csv">Download complete result</a></p></section><section><h2>Segment Conversion</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>device</th>
+      <th>source</th>
+      <th>variant</th>
+      <th>sessions</th>
+      <th>conversions</th>
+      <th>conversion_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Desktop</td>
+      <td>Email</td>
+      <td>Control</td>
+      <td>426</td>
+      <td>79</td>
+      <td>0.1854</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Email</td>
+      <td>Variant B</td>
+      <td>409</td>
+      <td>90</td>
+      <td>0.2200</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Organic</td>
+      <td>Control</td>
+      <td>1072</td>
+      <td>228</td>
+      <td>0.2127</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Organic</td>
+      <td>Variant B</td>
+      <td>1109</td>
+      <td>272</td>
+      <td>0.2453</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Paid</td>
+      <td>Control</td>
+      <td>917</td>
+      <td>169</td>
+      <td>0.1843</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Paid</td>
+      <td>Variant B</td>
+      <td>963</td>
+      <td>230</td>
+      <td>0.2388</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Referral</td>
+      <td>Control</td>
+      <td>290</td>
+      <td>58</td>
+      <td>0.2000</td>
+    </tr>
+    <tr>
+      <td>Desktop</td>
+      <td>Referral</td>
+      <td>Variant B</td>
+      <td>279</td>
+      <td>69</td>
+      <td>0.2473</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Email</td>
+      <td>Control</td>
+      <td>427</td>
+      <td>84</td>
+      <td>0.1967</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Email</td>
+      <td>Variant B</td>
+      <td>428</td>
+      <td>100</td>
+      <td>0.2336</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Organic</td>
+      <td>Control</td>
+      <td>1039</td>
+      <td>204</td>
+      <td>0.1963</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Organic</td>
+      <td>Variant B</td>
+      <td>1076</td>
+      <td>237</td>
+      <td>0.2203</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Paid</td>
+      <td>Control</td>
+      <td>1039</td>
+      <td>209</td>
+      <td>0.2012</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Paid</td>
+      <td>Variant B</td>
+      <td>1040</td>
+      <td>240</td>
+      <td>0.2308</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Referral</td>
+      <td>Control</td>
+      <td>286</td>
+      <td>56</td>
+      <td>0.1958</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Referral</td>
+      <td>Variant B</td>
+      <td>261</td>
+      <td>57</td>
+      <td>0.2184</td>
+    </tr>
+    <tr>
+      <td>Tablet</td>
+      <td>Email</td>
+      <td>Control</td>
+      <td>73</td>
+      <td>13</td>
+      <td>0.1781</td>
+    </tr>
+    <tr>
+      <td>Tablet</td>
+      <td>Email</td>
+      <td>Variant B</td>
+      <td>64</td>
+      <td>11</td>
+      <td>0.1719</td>
+    </tr>
+    <tr>
+      <td>Tablet</td>
+      <td>Organic</td>
+      <td>Control</td>
+      <td>195</td>
+      <td>38</td>
+      <td>0.1949</td>
+    </tr>
+    <tr>
+      <td>Tablet</td>
+      <td>Organic</td>
+      <td>Variant B</td>
+      <td>187</td>
+      <td>44</td>
+      <td>0.2353</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/segment_conversion.csv">Download complete result</a></p></section><section><h2>Daily Assignment</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>session_date</th>
+      <th>variant</th>
+      <th>sessions</th>
+      <th>conversions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-06-01</td>
+      <td>Control</td>
+      <td>107</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>2025-06-01</td>
+      <td>Variant B</td>
+      <td>96</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>2025-06-02</td>
+      <td>Control</td>
+      <td>96</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>2025-06-02</td>
+      <td>Variant B</td>
+      <td>84</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>Control</td>
+      <td>99</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>Variant B</td>
+      <td>109</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>2025-06-04</td>
+      <td>Control</td>
+      <td>103</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>2025-06-04</td>
+      <td>Variant B</td>
+      <td>113</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>2025-06-05</td>
+      <td>Control</td>
+      <td>99</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>2025-06-05</td>
+      <td>Variant B</td>
+      <td>79</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>2025-06-06</td>
+      <td>Control</td>
+      <td>81</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2025-06-06</td>
+      <td>Variant B</td>
+      <td>94</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>2025-06-07</td>
+      <td>Control</td>
+      <td>103</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>2025-06-07</td>
+      <td>Variant B</td>
+      <td>121</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>2025-06-08</td>
+      <td>Control</td>
+      <td>103</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2025-06-08</td>
+      <td>Variant B</td>
+      <td>97</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>2025-06-09</td>
+      <td>Control</td>
+      <td>91</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>2025-06-09</td>
+      <td>Variant B</td>
+      <td>89</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2025-06-10</td>
+      <td>Control</td>
+      <td>93</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>2025-06-10</td>
+      <td>Variant B</td>
+      <td>106</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/daily_assignment.csv">Download complete result</a></p></section><section><h2>Statistical and supplementary results</h2><pre>{
+  &quot;experiment&quot;: {
+    &quot;control_n&quot;: 5987,
+    &quot;treatment_n&quot;: 6013,
+    &quot;control_rate&quot;: 0.19842993151828964,
+    &quot;treatment_rate&quot;: 0.23083319474471978,
+    &quot;absolute_lift&quot;: 0.03240326322643014,
+    &quot;relative_lift&quot;: 0.16329826341467782,
+    &quot;difference_ci_low&quot;: 0.01771561966720977,
+    &quot;difference_ci_high&quot;: 0.04707410353407348,
+    &quot;p_value&quot;: 1.5424301091656673e-05,
+    &quot;srm_p_value_50_50&quot;: 0.8123880360341355,
+    &quot;confidence_level&quot;: 0.95,
+    &quot;decision&quot;: &quot;Do not authorize rollout from simulated session-level evidence; verify randomization, user independence and business guardrails.&quot;
+  }
+}</pre></section><section><h2>Recommended next decision</h2><p>Use conversion as the primary metric; investigate bounce, revenue per session and engagement as guardrails. Verify assignment unit, exposure, intended allocation and experiment duration before a real rollout. Segment results are exploratory.</p></section><section class="note"><h2>Interpretation limits</h2><p>Simulated session observations lack stable user IDs and assignment logs. The two-sided pooled z-test and Newcombe-Wilson interval assume independent trials. The sample-ratio test assumes 50:50 allocation. No claim of actual causal business impact is made; repeated peeking and multiple comparisons are not corrected.</p><ul><li><b>unknown_randomization_unit</b>: 12,000 rows. No user ID or assignment metadata. Session independence and 50:50 allocation are assumptions; inference is provisional.</li></ul></section><p>Generated from supplied CSVs. Legacy BI source mismatch documented; corrected Excel and replacement Hyper sources have separate verification evidence. <a href="README.md">Full case study</a></p></main></html>

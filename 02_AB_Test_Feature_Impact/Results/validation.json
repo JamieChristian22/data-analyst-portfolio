@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "check": "ab_sessions: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "exactly two experiment arms",
+      "passed": true
+    },
+    {
+      "check": "foreign key checks completed",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: variant_summary",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: segment_conversion",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: daily_assignment",
+      "passed": true
+    },
+    {
+      "check": "Control sessions",
+      "passed": true
+    },
+    {
+      "check": "Control conversions",
+      "passed": true
+    },
+    {
+      "check": "Control conversion_rate",
+      "passed": true
+    },
+    {
+      "check": "Control bounce_rate",
+      "passed": true
+    },
+    {
+      "check": "Control mean_engagement",
+      "passed": true
+    },
+    {
+      "check": "Control revenue",
+      "passed": true
+    },
+    {
+      "check": "Control revenue_per_session",
+      "passed": true
+    },
+    {
+      "check": "Variant B sessions",
+      "passed": true
+    },
+    {
+      "check": "Variant B conversions",
+      "passed": true
+    },
+    {
+      "check": "Variant B conversion_rate",
+      "passed": true
+    },
+    {
+      "check": "Variant B bounce_rate",
+      "passed": true
+    },
+    {
+      "check": "Variant B mean_engagement",
+      "passed": true
+    },
+    {
+      "check": "Variant B revenue",
+      "passed": true
+    },
+    {
+      "check": "Variant B revenue_per_session",
+      "passed": true
+    }
+  ],
+  "passed": true
+}
