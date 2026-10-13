@@ -1,0 +1,29 @@
+TableName,Expression
+fact_orders,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\Amazon_Marketplace_PowerBI_Dataset\fact_orders.csv""),[Delimiter="","", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""OrderID"", type text}, {""Date"", type date}, {""CustomerID"", type text}, {""SellerID"", type text}, {""ProductID"", type text}, {""Units"", Int64.Type}, {""GrossRevenue"", type number}, {""MarketplaceFee"", type number}, {""FulfillmentCost"", type number}, {""NetSellerRevenue"", type number}})
+in
+    #""Changed Type"""
+dim_seller,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\Amazon_Marketplace_PowerBI_Dataset\dim_seller.csv""),[Delimiter="","", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Changed Type"" = Table.TransformColumnTypes(Source,{{""Column1"", type text}, {""Column2"", type text}, {""Column3"", type text}})
+in
+    #""Changed Type"""
+dim_product,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\Amazon_Marketplace_PowerBI_Dataset\dim_product.csv""),[Delimiter="","", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""ProductID"", type text}, {""Category"", type text}, {""Price"", type number}, {""Rating"", type number}})
+in
+    #""Changed Type"""
+dim_customer,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\Amazon_Marketplace_PowerBI_Dataset\dim_customer.csv""),[Delimiter="","", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Changed Type"" = Table.TransformColumnTypes(Source,{{""Column1"", type text}, {""Column2"", type text}, {""Column3"", type text}, {""Column4"", type text}})
+in
+    #""Changed Type"""
+dim_calendar,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\Amazon_Marketplace_PowerBI_Dataset\dim_calendar.csv""),[Delimiter="","", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""Date"", type date}, {""Year"", Int64.Type}, {""Month"", Int64.Type}, {""MonthName"", type text}, {""Quarter"", type text}, {""YearMonth"", type date}})
+in
+    #""Changed Type"""

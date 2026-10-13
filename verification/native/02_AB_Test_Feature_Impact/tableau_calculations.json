@@ -1,0 +1,6 @@
+{
+  "Conversion Rate": "SUM([Conversions]) / SUM([Users_Exposed])",
+  "Revenue per User": "SUM([Revenue]) / SUM([Users_Exposed])",
+  "Bounce %": "AVG([Bounce_Rate])",
+  "30-Day Retention %": "AVG([Retention_30Day])"
+}

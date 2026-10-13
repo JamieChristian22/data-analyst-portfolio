@@ -1,0 +1,586 @@
+[
+  {
+    "file": "01_SaaS_Product_Analytics_StreamFlow/Dashboard/Product Analytics Dashboard | StreamFlow (Simulated SaaS).twbx",
+    "sha256": "3ceae99aa7b814b88a9f06c913f748ba1d6a8eb2ba7ba2d1f294a0acde5be6c2",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [],
+    "canonical_source_schemas": {
+      "users_clean": [
+        "user_id",
+        "signup_date",
+        "country",
+        "acquisition_channel",
+        "plan_tier"
+      ],
+      "subscriptions_clean": [
+        "user_id",
+        "plan_tier",
+        "mrr",
+        "seats",
+        "completed_step2",
+        "churned_within_90d",
+        "first_payment_date"
+      ],
+      "events_clean": [
+        "user_id",
+        "event_date",
+        "event_group",
+        "event_name"
+      ]
+    },
+    "zip_crc_pass": true,
+    "tableau_version": "18.1",
+    "worksheets": [
+      "Activation Funnel (User Conversion)",
+      "Current MRR",
+      "DAU",
+      "DAU Trend (StreamFlow)",
+      "MRR Trend",
+      "Paid Conversions",
+      "Paid Users (30d)",
+      "Revenue Over Time",
+      "Revenue by Channel",
+      "Revenue by Plan",
+      "Total Revenue"
+    ],
+    "connection_types": [
+      "federated",
+      "hyper",
+      "textscan"
+    ],
+    "embedded_csvs": [
+      {
+        "file": "Data/1rjcpe01y87juh10935id0qxfbdw/streamflow_product_analytics_events.csv",
+        "rows": 25000,
+        "columns": [
+          "company",
+          "event_timestamp",
+          "event_date",
+          "user_id",
+          "session_id",
+          "event_name",
+          "feature_area",
+          "page_name",
+          "device_type",
+          "os",
+          "browser",
+          "country",
+          "region",
+          "segment",
+          "acquisition_channel",
+          "campaign",
+          "experiment_variant",
+          "plan_at_event",
+          "feature_flag_new_ui",
+          "video_length_sec",
+          "play_time_sec",
+          "load_time_ms",
+          "error_flag",
+          "error_code",
+          "order_id",
+          "billing_cycle",
+          "discount_pct",
+          "mrr_delta_usd",
+          "revenue_usd",
+          "churn_reason",
+          "nps_score",
+          "ticket_priority",
+          "ticket_topic"
+        ]
+      }
+    ],
+    "hyper_engine_read": "FAILED",
+    "hyper_error": "open: Operation not permitted [system:1 at external/+http_archive+boost/boost/asio/detail/reactive_socket_service.hpp:133:33 in function 'boost::system::error_code boost::asio::detail::reactive_socket_service<boost::asio::local::stream_protocol>::open(implementation_type &, const protocol_type &, boost::system::error_code &) [Protocol = boost::asio::local::stream_protocol]']\nContext: 0x627469d0",
+    "canonical_schema_matches": {
+      "users_clean": false,
+      "subscriptions_clean": false,
+      "events_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "01_SaaS_Product_Analytics_StreamFlow/Excel/01_SaaS_Product_Analytics_StreamFlow_Model.xlsx",
+    "sha256": "511c1270c704b5658e775cd663fb33113d7298f982170aeee9526a30e34ef710",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUM('subscriptions_clean'!C2:C1501)*12",
+        "cached_value": null
+      },
+      {
+        "cell": "B5",
+        "formula": "=AVERAGE('subscriptions_clean'!F2:F1501)",
+        "cached_value": null
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "users_clean",
+        "rows": 1500,
+        "pass": true
+      },
+      {
+        "table": "subscriptions_clean",
+        "rows": 1500,
+        "pass": true
+      },
+      {
+        "table": "events_clean",
+        "rows": 29175,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "02_AB_Test_Feature_Impact/Dashboard/Experiment _ A-B Test _ Feature Impact Dashboard.twbx",
+    "sha256": "1142007ac813e1feb8699ef976389921aa7747fdea5a2e49dab7c854b3770a2d",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [],
+    "canonical_source_schemas": {
+      "ab_sessions_clean": [
+        "session_id",
+        "session_date",
+        "variant",
+        "device",
+        "source",
+        "converted",
+        "engagement_score",
+        "bounce",
+        "revenue"
+      ]
+    },
+    "zip_crc_pass": true,
+    "tableau_version": "18.1",
+    "worksheets": [
+      "30-Day Retention",
+      "A/B Conversion Comparison",
+      "Avg Session Time (Min)",
+      "Conversion Rate",
+      "Retention by Region",
+      "Revenue Impact Over Time",
+      "Revenue per User",
+      "User Engagement Quality"
+    ],
+    "connection_types": [
+      "federated",
+      "hyper",
+      "textscan"
+    ],
+    "embedded_csvs": [
+      {
+        "file": "Data/1bn922d19tlcve11hnmtr0reuxnn/ab_feature_experiment_data.csv",
+        "rows": 12,
+        "columns": [
+          "Experiment_ID",
+          "Feature_Name",
+          "Variant",
+          "Date",
+          "Users_Exposed",
+          "Conversions",
+          "Revenue",
+          "Session_Time_Minutes",
+          "Bounce_Rate",
+          "Retention_7Day",
+          "Retention_30Day",
+          "Region",
+          "Device"
+        ]
+      }
+    ],
+    "hyper_engine_read": "FAILED",
+    "hyper_error": "open: Operation not permitted [system:1 at external/+http_archive+boost/boost/asio/detail/reactive_socket_service.hpp:133:33 in function 'boost::system::error_code boost::asio::detail::reactive_socket_service<boost::asio::local::stream_protocol>::open(implementation_type &, const protocol_type &, boost::system::error_code &) [Protocol = boost::asio::local::stream_protocol]']\nContext: 0x627469d0",
+    "canonical_schema_matches": {
+      "ab_sessions_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "02_AB_Test_Feature_Impact/Excel/02_AB_Test_Feature_Impact_Model.xlsx",
+    "sha256": "d7385946ef7560b18cf3a47b24f6607d3b66db85c9d1dfcf18056b24bf4f8480",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUMIFS('ab_sessions_clean'!F2:F12001, 'ab_sessions_clean'!C2:C12001, \"Control\") / COUNTIF('ab_sessions_clean'!C2:C12001, \"Control\")",
+        "cached_value": null
+      },
+      {
+        "cell": "B5",
+        "formula": "=SUMIFS('ab_sessions_clean'!F2:F12001, 'ab_sessions_clean'!C2:C12001, \"Variant B\") / COUNTIF('ab_sessions_clean'!C2:C12001, \"Variant B\")",
+        "cached_value": null
+      },
+      {
+        "cell": "B6",
+        "formula": "=SUM('ab_sessions_clean'!I2:I12001)",
+        "cached_value": null
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "ab_sessions_clean",
+        "rows": 12000,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "03_Ecommerce_Product_Analytics/Dashboard/Ecommerce_Product_Analytics.pbix",
+    "sha256": "c868648e23ec60e677c32342a8bc854aa9f3b99f8cb7f157f2079613c0d64f85",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "Date",
+        "rows": 1220,
+        "columns": [
+          "Date",
+          "Year",
+          "MonthNum",
+          "Month",
+          "YearMonth",
+          "Quarter"
+        ]
+      },
+      {
+        "table": "Funnel",
+        "rows": 4,
+        "columns": [
+          "Stage",
+          "Sort"
+        ]
+      },
+      {
+        "table": "customers",
+        "rows": 6000,
+        "columns": [
+          "customer_id",
+          "signup_date",
+          "country",
+          "acquisition_channel",
+          "device_type"
+        ]
+      },
+      {
+        "table": "orders",
+        "rows": 18073,
+        "columns": [
+          "order_id",
+          "customer_id",
+          "product_id",
+          "order_date",
+          "quantity"
+        ],
+        "direct_column_sums": {
+          "quantity": 36147.0
+        }
+      },
+      {
+        "table": "payments",
+        "rows": 18073,
+        "columns": [
+          "order_id",
+          "customer_id",
+          "payment_date",
+          "revenue_usd"
+        ],
+        "direct_column_sums": {
+          "revenue_usd": 4522872.28
+        }
+      },
+      {
+        "table": "products",
+        "rows": 200,
+        "columns": [
+          "product_id",
+          "category",
+          "price_usd",
+          "cost_usd"
+        ]
+      },
+      {
+        "table": "sessions",
+        "rows": 36221,
+        "columns": [
+          "session_id",
+          "customer_id",
+          "session_date",
+          "event_type"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "orders_clean": [
+        "session_id",
+        "session_date",
+        "device",
+        "channel",
+        "sku",
+        "category",
+        "discount_applied",
+        "order_value",
+        "units"
+      ],
+      "web_sessions_clean": [
+        "session_id",
+        "session_date",
+        "device",
+        "channel",
+        "added_to_cart",
+        "purchased"
+      ]
+    },
+    "zip_crc_pass": true,
+    "report_pages": [
+      {
+        "name": "Funnel",
+        "visual_count": 17
+      },
+      {
+        "name": "Revenue & Product Performance",
+        "visual_count": 14
+      },
+      {
+        "name": "Details Tooltip",
+        "visual_count": 4
+      }
+    ],
+    "dax_execution": "NOT_RUN: PBIXRay reads expressions; it is not the Analysis Services DAX engine.",
+    "canonical_schema_matches": {
+      "orders_clean": false,
+      "web_sessions_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "03_Ecommerce_Product_Analytics/Excel/03_Ecommerce_Product_Analytics_Model.xlsx",
+    "sha256": "839772a6628f38a410430bc6256ce698d0ce16b2627ecb0aec8b76e4d4ff5a4e",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUM('web_sessions_clean'!F2:F25001)/COUNTA('web_sessions_clean'!A2:A25001)",
+        "cached_value": null
+      },
+      {
+        "cell": "B5",
+        "formula": "=1 - (SUM('web_sessions_clean'!F2:F25001)/SUM('web_sessions_clean'!E2:E25001))",
+        "cached_value": null
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "orders_clean",
+        "rows": 3037,
+        "pass": true
+      },
+      {
+        "table": "web_sessions_clean",
+        "rows": 25000,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "04_Amazon_Marketplace_Analytics/Dashboard/Amazon_Marketplace_Analytics_Dashboard.pbix",
+    "sha256": "34c4e743f2b301ab7814baefcafd5518023aeb560e27ddcfd975564bf247ac4a",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "dim_calendar",
+        "rows": 1461,
+        "columns": [
+          "Date",
+          "Year",
+          "Month",
+          "MonthName",
+          "Quarter",
+          "YearMonth"
+        ]
+      },
+      {
+        "table": "dim_customer",
+        "rows": 5001,
+        "columns": [
+          "Column1",
+          "Column2",
+          "Column3",
+          "Column4"
+        ]
+      },
+      {
+        "table": "dim_product",
+        "rows": 2500,
+        "columns": [
+          "ProductID",
+          "Category",
+          "Price",
+          "Rating"
+        ]
+      },
+      {
+        "table": "dim_seller",
+        "rows": 1201,
+        "columns": [
+          "Column1",
+          "Column2",
+          "Column3"
+        ]
+      },
+      {
+        "table": "fact_orders",
+        "rows": 85000,
+        "columns": [
+          "OrderID",
+          "Date",
+          "CustomerID",
+          "SellerID",
+          "ProductID",
+          "Units",
+          "GrossRevenue",
+          "MarketplaceFee",
+          "FulfillmentCost",
+          "NetSellerRevenue"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "sales_clean": [
+        "sale_date",
+        "listing_id",
+        "units_sold",
+        "seller_id",
+        "price",
+        "rating",
+        "in_stock",
+        "category",
+        "revenue"
+      ],
+      "listings_clean": [
+        "listing_id",
+        "seller_id",
+        "category",
+        "price",
+        "rating",
+        "in_stock"
+      ]
+    },
+    "zip_crc_pass": true,
+    "report_pages": [
+      {
+        "name": "Page 1",
+        "visual_count": 18
+      }
+    ],
+    "dax_execution": "NOT_RUN: PBIXRay reads expressions; it is not the Analysis Services DAX engine.",
+    "canonical_schema_matches": {
+      "sales_clean": false,
+      "listings_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "04_Amazon_Marketplace_Analytics/Excel/04_Amazon_Marketplace_Analytics_Model.xlsx",
+    "sha256": "33c715cfbffafe19b5d7531987c3f82610408bc96f7e147b3bb3ac56437a1a89",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUM('sales_clean'!I2:I24001)",
+        "cached_value": null
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "sales_clean",
+        "rows": 24000,
+        "pass": true
+      },
+      {
+        "table": "listings_clean",
+        "rows": 1800,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "05_User_Journey_Analytics/Dashboard/User_Journey_Tableau_Dashboard.twbx",
+    "sha256": "7f29d4bce936e6c0ea68f99410be10c060fbee78b7b71e7c3605fd2bb07268be",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [],
+    "canonical_source_schemas": {
+      "users_clean": [
+        "user_id",
+        "first_seen_date",
+        "traffic_source",
+        "device",
+        "is_returning"
+      ],
+      "journey_events_clean": [
+        "user_id",
+        "event_date",
+        "journey_stage",
+        "stage_order"
+      ]
+    },
+    "zip_crc_pass": true,
+    "tableau_version": "18.1",
+    "worksheets": [
+      "Number Of Sessions",
+      "Sheet 12",
+      "Sheet 13",
+      "Stacked Bar",
+      "Table",
+      "Timeline",
+      "Weekdays",
+      "duration",
+      "events",
+      "hours",
+      "quantity",
+      "revenue",
+      "visits"
+    ],
+    "connection_types": [
+      "cloudfile:googledrive-excel-direct",
+      "cloudfile:googledrive-textscan",
+      "federated",
+      "hyper"
+    ],
+    "embedded_csvs": [],
+    "hyper_engine_read": "FAILED",
+    "hyper_error": "open: Operation not permitted [system:1 at external/+http_archive+boost/boost/asio/detail/reactive_socket_service.hpp:133:33 in function 'boost::system::error_code boost::asio::detail::reactive_socket_service<boost::asio::local::stream_protocol>::open(implementation_type &, const protocol_type &, boost::system::error_code &) [Protocol = boost::asio::local::stream_protocol]']\nContext: 0x627469d0",
+    "canonical_schema_matches": {
+      "users_clean": false,
+      "journey_events_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "05_User_Journey_Analytics/Excel/05_User_Journey_Analytics_Model.xlsx",
+    "sha256": "d0e0501316de980713258687b92f2b767bcba76129b21b950e308d9f6d34ac37",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=COUNTIF('journey_events_clean'!C2:C17355, \"Purchase\")",
+        "cached_value": null
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "users_clean",
+        "rows": 6000,
+        "pass": true
+      },
+      {
+        "table": "journey_events_clean",
+        "rows": 17354,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  }
+]

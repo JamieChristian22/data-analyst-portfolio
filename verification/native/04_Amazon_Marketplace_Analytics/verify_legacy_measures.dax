@@ -1,0 +1,14 @@
+// Execute in Power BI Desktop DAX Query View on this original PBIX.
+// This query was GENERATED, not executed in this environment.
+// Each calculation removes report filter context by running as a standalone query.
+EVALUATE
+UNION(
+    ROW("Metric", "GMV", "Actual", [GMV], "Expected", 58262965.51, "Tolerance", 0.01, "Passed", ABS([GMV] - 58262965.51) <= 0.01),
+    ROW("Metric", "Units Sold", "Actual", [Units Sold], "Expected", 254388, "Tolerance", 0.01, "Passed", ABS([Units Sold] - 254388) <= 0.01),
+    ROW("Metric", "Marketplace Revenue", "Actual", [Marketplace Revenue], "Expected", 7572862.96, "Tolerance", 0.01, "Passed", ABS([Marketplace Revenue] - 7572862.96) <= 0.01),
+    ROW("Metric", "Fulfillment Cost", "Actual", [Fulfillment Cost], "Expected", 595775.57, "Tolerance", 0.01, "Passed", ABS([Fulfillment Cost] - 595775.57) <= 0.01),
+    ROW("Metric", "Net Seller Revenue", "Actual", [Net Seller Revenue], "Expected", 50094326.98, "Tolerance", 0.01, "Passed", ABS([Net Seller Revenue] - 50094326.98) <= 0.01),
+    ROW("Metric", "Orders", "Actual", [Orders], "Expected", 85000, "Tolerance", 0.01, "Passed", ABS([Orders] - 85000) <= 0.01),
+    ROW("Metric", "AOV", "Actual", [AOV], "Expected", 685.446653059, "Tolerance", 0.01, "Passed", ABS([AOV] - 685.446653059) <= 0.01),
+    ROW("Metric", "Take Rate %", "Actual", [Take Rate %], "Expected", 0.129977300223, "Tolerance", 1e-08, "Passed", ABS([Take Rate %] - 0.129977300223) <= 1e-08)
+)

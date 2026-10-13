@@ -1,0 +1,17 @@
+// Execute in Power BI Desktop DAX Query View on this original PBIX.
+// This query was GENERATED, not executed in this environment.
+// Each calculation removes report filter context by running as a standalone query.
+EVALUATE
+UNION(
+    ROW("Metric", "Total Revenue", "Actual", [Total Revenue], "Expected", 4522872.28, "Tolerance", 0.01, "Passed", ABS([Total Revenue] - 4522872.28) <= 0.01),
+    ROW("Metric", "Total Orders", "Actual", [Total Orders], "Expected", 18073, "Tolerance", 0.01, "Passed", ABS([Total Orders] - 18073) <= 0.01),
+    ROW("Metric", "AOV", "Actual", [AOV], "Expected", 250.2557561, "Tolerance", 0.01, "Passed", ABS([AOV] - 250.2557561) <= 0.01),
+    ROW("Metric", "Product Views", "Actual", [Product Views], "Expected", 4512, "Tolerance", 0.01, "Passed", ABS([Product Views] - 4512) <= 0.01),
+    ROW("Metric", "Add To Cart", "Actual", [Add To Cart], "Expected", 4517, "Tolerance", 0.01, "Passed", ABS([Add To Cart] - 4517) <= 0.01),
+    ROW("Metric", "Checkouts", "Actual", [Checkouts], "Expected", 4418, "Tolerance", 0.01, "Passed", ABS([Checkouts] - 4418) <= 0.01),
+    ROW("Metric", "Purchases (Events)", "Actual", [Purchases (Events)], "Expected", 4501, "Tolerance", 0.01, "Passed", ABS([Purchases (Events)] - 4501) <= 0.01),
+    ROW("Metric", "Viewed Customers", "Actual", [Viewed Customers], "Expected", 3167, "Tolerance", 0.01, "Passed", ABS([Viewed Customers] - 3167) <= 0.01),
+    ROW("Metric", "Cart Customers", "Actual", [Cart Customers], "Expected", 1648, "Tolerance", 0.01, "Passed", ABS([Cart Customers] - 1648) <= 0.01),
+    ROW("Metric", "Checkout Customers", "Actual", [Checkout Customers], "Expected", 867, "Tolerance", 0.01, "Passed", ABS([Checkout Customers] - 867) <= 0.01),
+    ROW("Metric", "Purchased Customers", "Actual", [Purchased Customers], "Expected", 466, "Tolerance", 0.01, "Passed", ABS([Purchased Customers] - 466) <= 0.01)
+)

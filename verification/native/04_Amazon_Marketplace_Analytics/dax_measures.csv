@@ -1,0 +1,27 @@
+TableName,Name,Expression,DisplayFolder,Description
+dim_calendar,GMV,"SUM(fact_orders[GrossRevenue])
+",,
+dim_calendar,Orders,"DISTINCTCOUNT(fact_orders[OrderID])
+",,
+dim_calendar,Units Sold,"SUM(fact_orders[Units])
+",,
+dim_calendar,Marketplace Revenue,"SUM(fact_orders[MarketplaceFee])
+",,
+dim_calendar,Fulfillment Cost,"SUM(fact_orders[FulfillmentCost])
+",,
+dim_calendar,Net Seller Revenue,"SUM(fact_orders[NetSellerRevenue])
+",,
+dim_calendar,AOV,"DIVIDE([GMV], [Orders])
+",,
+dim_calendar,Take Rate %,"DIVIDE([Marketplace Revenue], [GMV])
+",,
+dim_calendar,GMV YoY %,"
+VAR CurrentYear = [GMV]
+VAR PriorYear =
+    CALCULATE(
+        [GMV],
+        SAMEPERIODLASTYEAR(dim_calendar[Date])
+    )
+RETURN
+DIVIDE(CurrentYear - PriorYear, PriorYear)
+",,

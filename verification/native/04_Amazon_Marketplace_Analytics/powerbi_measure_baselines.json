@@ -1,0 +1,16 @@
+{
+  "pbix": "04_Amazon_Marketplace_Analytics/Dashboard/Amazon_Marketplace_Analytics_Dashboard.pbix",
+  "pbix_sha256": "34c4e743f2b301ab7814baefcafd5518023aeb560e27ddcfd975564bf247ac4a",
+  "baseline_engine": "PBIXRay decode + independent Python aggregation",
+  "dax_execution": "NOT_RUN",
+  "expected_unfiltered_measures": {
+    "GMV": 58262965.510000005,
+    "Units Sold": 254388.0,
+    "Marketplace Revenue": 7572862.96,
+    "Fulfillment Cost": 595775.5700000001,
+    "Net Seller Revenue": 50094326.98,
+    "Orders": 85000,
+    "AOV": 685.4466530588236,
+    "Take Rate %": 0.12997730022341938
+  }
+}

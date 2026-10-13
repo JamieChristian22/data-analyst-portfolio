@@ -1,0 +1,123 @@
+TableName,Name,Expression,DisplayFolder,Description
+Date,Total Revenue,SUM(payments[revenue_usd]),,
+Date,Total Orders,DISTINCTCOUNT(orders[order_id]),,
+Date,AOV,"DIVIDE([Total Revenue], [Total Orders])",,
+Date,Product Views,"
+CALCULATE(
+    DISTINCTCOUNT(sessions[session_id]),
+    sessions[event_type] = ""view_product""
+)
+",,
+Date,Add To Cart,"
+CALCULATE(
+    DISTINCTCOUNT(sessions[session_id]),
+    sessions[event_type] = ""add_to_cart""
+)
+",,
+Date,Checkouts,"
+CALCULATE(
+    DISTINCTCOUNT(sessions[session_id]),
+    sessions[event_type] = ""checkout""
+)
+",,
+Date,Purchases (Events),"
+CALCULATE(
+    DISTINCTCOUNT(sessions[session_id]),
+    sessions[event_type] = ""purchase""
+)
+",,
+Date,Funnel Metric,"
+SWITCH(
+    SELECTEDVALUE(Funnel[Stage]),
+    ""Product Views"", [Viewed Customers],
+    ""Add To Cart"", [Cart Customers],
+    ""Checkouts"", [Checkout Customers],
+    ""Purchases"", [Purchased Customers]
+)
+",,
+Date,Viewed Customers,"
+COUNTROWS(
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""view_product""
+    )
+)
+",,
+Date,Cart Customers,"
+VAR ViewSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""view_product""
+    )
+VAR CartSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""add_to_cart""
+    )
+RETURN
+COUNTROWS(INTERSECT(ViewSet, CartSet))
+",,
+Date,Checkout Customers,"
+VAR ViewSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""view_product""
+    )
+VAR CartSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""add_to_cart""
+    )
+VAR CheckoutSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""checkout""
+    )
+RETURN
+COUNTROWS(INTERSECT(INTERSECT(ViewSet, CartSet), CheckoutSet))
+",,
+Date,Purchased Customers,"
+VAR ViewSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""view_product""
+    )
+VAR CartSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""add_to_cart""
+    )
+VAR CheckoutSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""checkout""
+    )
+VAR PurchaseSet =
+    CALCULATETABLE(
+        VALUES(sessions[customer_id]),
+        sessions[event_type] = ""purchase""
+    )
+RETURN
+COUNTROWS(INTERSECT(INTERSECT(INTERSECT(ViewSet, CartSet), CheckoutSet), PurchaseSet))
+",,
+Date,View → Cart %,"DIVIDE([Cart Customers], [Viewed Customers])",,
+Date,Cart → Checkout %,"DIVIDE([Checkout Customers], [Cart Customers])
+",,
+Date,Checkout → Purchase %,"DIVIDE([Purchased Customers], [Checkout Customers])
+",,
+Date,Drop-off (Views→Cart),[Viewed Customers] - [Cart Customers],,
+Date,Drop-off (Cart→Checkout),"[Cart Customers] - [Checkout Customers]
+",,
+Date,Drop-off (Checkout→Purchase),"[Checkout Customers] - [Purchased Customers]
+",,
+Date,Measure,,,
+Date,Total Cost,"
+SUMX(
+    orders,
+    orders[quantity] * RELATED(products[cost_usd])
+)
+",,
+Date,Profit,"[Total Revenue] - [Total Cost]
+",,
+Date,Profit Margin,"DIVIDE([Profit], [Total Revenue])
+",,

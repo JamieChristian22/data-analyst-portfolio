@@ -1,0 +1,843 @@
+[
+  {
+    "file": "01_SaaS_Product_Analytics_StreamFlow/Dashboard/Product Analytics Dashboard | StreamFlow (Simulated SaaS).twbx",
+    "sha256": "3ceae99aa7b814b88a9f06c913f748ba1d6a8eb2ba7ba2d1f294a0acde5be6c2",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "\"Extract\".\"Extract\"",
+        "rows": 25000,
+        "columns": [
+          "company",
+          "event_timestamp",
+          "event_date",
+          "user_id",
+          "session_id",
+          "event_name",
+          "feature_area",
+          "page_name",
+          "device_type",
+          "os",
+          "browser",
+          "country",
+          "region",
+          "segment",
+          "acquisition_channel",
+          "campaign",
+          "experiment_variant",
+          "plan_at_event",
+          "feature_flag_new_ui",
+          "video_length_sec",
+          "play_time_sec",
+          "load_time_ms",
+          "error_flag",
+          "error_code",
+          "order_id",
+          "billing_cycle",
+          "discount_pct",
+          "mrr_delta_usd",
+          "revenue_usd",
+          "churn_reason",
+          "nps_score",
+          "ticket_priority",
+          "ticket_topic"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "users_clean": [
+        "user_id",
+        "signup_date",
+        "country",
+        "acquisition_channel",
+        "plan_tier"
+      ],
+      "subscriptions_clean": [
+        "user_id",
+        "plan_tier",
+        "mrr",
+        "seats",
+        "completed_step2",
+        "churned_within_90d",
+        "first_payment_date"
+      ],
+      "events_clean": [
+        "user_id",
+        "event_date",
+        "event_group",
+        "event_name"
+      ]
+    },
+    "zip_crc_pass": true,
+    "tableau_version": "18.1",
+    "declared_fields": [
+      "Calculation_0014114761592941",
+      "Calculation_0014114762174574",
+      "Calculation_0014114762285167",
+      "Calculation_0014114762993776",
+      "Calculation_0014114765226097",
+      "Calculation_0014458289463346",
+      "Calculation_0014458290217011",
+      "Calculation_0014458290278452",
+      "Calculation_0014458291757111",
+      "Calculation_0014458292305976",
+      "Calculation_0014458292580409",
+      "Calculation_0014458293702714",
+      "__tableau_internal_object_id__].[streamflow_product_analytics_events.csv_78CA613586C747F885F5DCC54B467028",
+      "acquisition_channel",
+      "billing_cycle",
+      "browser",
+      "campaign",
+      "churn_reason",
+      "company",
+      "country",
+      "device_type",
+      "discount_pct",
+      "error_code",
+      "error_flag",
+      "event_date",
+      "event_name",
+      "event_timestamp",
+      "experiment_variant",
+      "feature_area",
+      "feature_flag_new_ui",
+      "load_time_ms",
+      "mrr_delta_usd",
+      "nps_score",
+      "order_id",
+      "os",
+      "page_name",
+      "plan_at_event",
+      "play_time_sec",
+      "region",
+      "revenue_usd",
+      "segment",
+      "session_id",
+      "ticket_priority",
+      "ticket_topic",
+      "user_id",
+      "video_length_sec"
+    ],
+    "worksheets": [
+      "Activation Funnel (User Conversion)",
+      "Current MRR",
+      "DAU",
+      "DAU Trend (StreamFlow)",
+      "MRR Trend",
+      "Paid Conversions",
+      "Paid Users (30d)",
+      "Revenue Over Time",
+      "Revenue by Channel",
+      "Revenue by Plan",
+      "Total Revenue"
+    ],
+    "connection_types": [
+      "federated",
+      "hyper",
+      "textscan"
+    ],
+    "embedded_csvs": [
+      {
+        "file": "Data/1rjcpe01y87juh10935id0qxfbdw/streamflow_product_analytics_events.csv",
+        "rows": 25000,
+        "columns": [
+          "company",
+          "event_timestamp",
+          "event_date",
+          "user_id",
+          "session_id",
+          "event_name",
+          "feature_area",
+          "page_name",
+          "device_type",
+          "os",
+          "browser",
+          "country",
+          "region",
+          "segment",
+          "acquisition_channel",
+          "campaign",
+          "experiment_variant",
+          "plan_at_event",
+          "feature_flag_new_ui",
+          "video_length_sec",
+          "play_time_sec",
+          "load_time_ms",
+          "error_flag",
+          "error_code",
+          "order_id",
+          "billing_cycle",
+          "discount_pct",
+          "mrr_delta_usd",
+          "revenue_usd",
+          "churn_reason",
+          "nps_score",
+          "ticket_priority",
+          "ticket_topic"
+        ]
+      }
+    ],
+    "hyper_engine_read": "PASS",
+    "canonical_schema_matches": {
+      "users_clean": false,
+      "subscriptions_clean": false,
+      "events_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "01_SaaS_Product_Analytics_StreamFlow/Excel/01_SaaS_Product_Analytics_StreamFlow_Model.xlsx",
+    "sha256": "d04ebb6d85dff782bc84fa7042c2d1c67903e0f6b13252ec625231c88a109ebb",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUM('subscriptions_clean'!C2:C1501)*12",
+        "cached_value": 2279700.0000000005
+      },
+      {
+        "cell": "B5",
+        "formula": "=COUNTIFS('subscriptions_clean'!C2:C1501,\">0\",'subscriptions_clean'!F2:F1501,1)/COUNTIF('subscriptions_clean'!C2:C1501,\">0\")",
+        "cached_value": 0.21060171919770773
+      },
+      {
+        "cell": "B6",
+        "formula": "=SUM('subscriptions_clean'!C2:C1501)",
+        "cached_value": 189975.00000000003
+      },
+      {
+        "cell": "B7",
+        "formula": "=COUNTA('users_clean'!A2:A1501)",
+        "cached_value": 1500
+      },
+      {
+        "cell": "B8",
+        "formula": "=COUNTIF('subscriptions_clean'!C2:C1501,\">0\")",
+        "cached_value": 698
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "users_clean",
+        "rows": 1500,
+        "pass": true
+      },
+      {
+        "table": "subscriptions_clean",
+        "rows": 1500,
+        "pass": true
+      },
+      {
+        "table": "events_clean",
+        "rows": 29175,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "02_AB_Test_Feature_Impact/Dashboard/Experiment _ A-B Test _ Feature Impact Dashboard.twbx",
+    "sha256": "1142007ac813e1feb8699ef976389921aa7747fdea5a2e49dab7c854b3770a2d",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "\"Extract\".\"Extract\"",
+        "rows": 12,
+        "columns": [
+          "Experiment_ID",
+          "Feature_Name",
+          "Variant",
+          "Date",
+          "Users_Exposed",
+          "Conversions",
+          "Revenue",
+          "Session_Time_Minutes",
+          "Bounce_Rate",
+          "Retention_7Day",
+          "Retention_30Day",
+          "Region",
+          "Device"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "ab_sessions_clean": [
+        "session_id",
+        "session_date",
+        "variant",
+        "device",
+        "source",
+        "converted",
+        "engagement_score",
+        "bounce",
+        "revenue"
+      ]
+    },
+    "zip_crc_pass": true,
+    "tableau_version": "18.1",
+    "declared_fields": [
+      "Bounce_Rate",
+      "Calculation_0001070693036108",
+      "Calculation_0001070693158989",
+      "Calculation_0001070693371982",
+      "Calculation_0001070693515343",
+      "Conversions",
+      "Date",
+      "Device",
+      "Experiment_ID",
+      "Feature_Name",
+      "Region",
+      "Retention_30Day",
+      "Retention_7Day",
+      "Revenue",
+      "Session_Time_Minutes",
+      "Users_Exposed",
+      "Variant",
+      "__tableau_internal_object_id__].[ab_feature_experiment_data.csv_922F46EF15A442EBA7C91915A039D932"
+    ],
+    "worksheets": [
+      "30-Day Retention",
+      "A/B Conversion Comparison",
+      "Avg Session Time (Min)",
+      "Conversion Rate",
+      "Retention by Region",
+      "Revenue Impact Over Time",
+      "Revenue per User",
+      "User Engagement Quality"
+    ],
+    "connection_types": [
+      "federated",
+      "hyper",
+      "textscan"
+    ],
+    "embedded_csvs": [
+      {
+        "file": "Data/1bn922d19tlcve11hnmtr0reuxnn/ab_feature_experiment_data.csv",
+        "rows": 12,
+        "columns": [
+          "Experiment_ID",
+          "Feature_Name",
+          "Variant",
+          "Date",
+          "Users_Exposed",
+          "Conversions",
+          "Revenue",
+          "Session_Time_Minutes",
+          "Bounce_Rate",
+          "Retention_7Day",
+          "Retention_30Day",
+          "Region",
+          "Device"
+        ]
+      }
+    ],
+    "hyper_engine_read": "PASS",
+    "canonical_schema_matches": {
+      "ab_sessions_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "02_AB_Test_Feature_Impact/Excel/02_AB_Test_Feature_Impact_Model.xlsx",
+    "sha256": "213f4492d8c875cfca17ab334e3b8b11e005b3c2b038cafc85e9a78aa787b36b",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUMIFS('ab_sessions_clean'!F2:F12001,'ab_sessions_clean'!C2:C12001,\"Control\")/COUNTIF('ab_sessions_clean'!C2:C12001,\"Control\")",
+        "cached_value": 0.19842993151828964
+      },
+      {
+        "cell": "B5",
+        "formula": "=SUMIFS('ab_sessions_clean'!F2:F12001,'ab_sessions_clean'!C2:C12001,\"Variant B\")/COUNTIF('ab_sessions_clean'!C2:C12001,\"Variant B\")",
+        "cached_value": 0.23083319474471978
+      },
+      {
+        "cell": "B6",
+        "formula": "=SUM('ab_sessions_clean'!I2:I12001)",
+        "cached_value": 108247.22000000006
+      },
+      {
+        "cell": "B7",
+        "formula": "=B5-B4",
+        "cached_value": 0.03240326322643014
+      },
+      {
+        "cell": "B8",
+        "formula": "=B7/B4",
+        "cached_value": 0.16329826341467782
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "ab_sessions_clean",
+        "rows": 12000,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "03_Ecommerce_Product_Analytics/Dashboard/Ecommerce_Product_Analytics.pbix",
+    "sha256": "c868648e23ec60e677c32342a8bc854aa9f3b99f8cb7f157f2079613c0d64f85",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "Date",
+        "rows": 1220,
+        "columns": [
+          "Date",
+          "Year",
+          "MonthNum",
+          "Month",
+          "YearMonth",
+          "Quarter"
+        ]
+      },
+      {
+        "table": "Funnel",
+        "rows": 4,
+        "columns": [
+          "Stage",
+          "Sort"
+        ]
+      },
+      {
+        "table": "customers",
+        "rows": 6000,
+        "columns": [
+          "customer_id",
+          "signup_date",
+          "country",
+          "acquisition_channel",
+          "device_type"
+        ]
+      },
+      {
+        "table": "orders",
+        "rows": 18073,
+        "columns": [
+          "order_id",
+          "customer_id",
+          "product_id",
+          "order_date",
+          "quantity"
+        ],
+        "direct_column_sums": {
+          "quantity": 36147.0
+        }
+      },
+      {
+        "table": "payments",
+        "rows": 18073,
+        "columns": [
+          "order_id",
+          "customer_id",
+          "payment_date",
+          "revenue_usd"
+        ],
+        "direct_column_sums": {
+          "revenue_usd": 4522872.28
+        }
+      },
+      {
+        "table": "products",
+        "rows": 200,
+        "columns": [
+          "product_id",
+          "category",
+          "price_usd",
+          "cost_usd"
+        ]
+      },
+      {
+        "table": "sessions",
+        "rows": 36221,
+        "columns": [
+          "session_id",
+          "customer_id",
+          "session_date",
+          "event_type"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "orders_clean": [
+        "session_id",
+        "session_date",
+        "device",
+        "channel",
+        "sku",
+        "category",
+        "discount_applied",
+        "order_value",
+        "units"
+      ],
+      "web_sessions_clean": [
+        "session_id",
+        "session_date",
+        "device",
+        "channel",
+        "added_to_cart",
+        "purchased"
+      ]
+    },
+    "zip_crc_pass": true,
+    "report_pages": [
+      {
+        "name": "Funnel",
+        "visual_count": 17
+      },
+      {
+        "name": "Revenue & Product Performance",
+        "visual_count": 14
+      },
+      {
+        "name": "Details Tooltip",
+        "visual_count": 4
+      }
+    ],
+    "dax_execution": "NOT_RUN: PBIXRay reads expressions; it is not the Analysis Services DAX engine.",
+    "canonical_schema_matches": {
+      "orders_clean": false,
+      "web_sessions_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "03_Ecommerce_Product_Analytics/Excel/03_Ecommerce_Product_Analytics_Model.xlsx",
+    "sha256": "93cb2d3efdf305483f4ae72d8e8eb25ef66d3ff1191fc489a5c2a9ad73416ea9",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUM('web_sessions_clean'!F2:F25001)/COUNTA('web_sessions_clean'!A2:A25001)",
+        "cached_value": 0.12148
+      },
+      {
+        "cell": "B5",
+        "formula": "=1-SUM('web_sessions_clean'!F2:F25001)/SUM('web_sessions_clean'!E2:E25001)",
+        "cached_value": 0.6423692887423458
+      },
+      {
+        "cell": "B6",
+        "formula": "=SUM('orders_clean'!H2:H3038)",
+        "cached_value": 198585.98000000013
+      },
+      {
+        "cell": "B7",
+        "formula": "=AVERAGE('orders_clean'!H2:H3038)",
+        "cached_value": 65.38886401053675
+      },
+      {
+        "cell": "B8",
+        "formula": "=COUNTA('web_sessions_clean'!A2:A25001)",
+        "cached_value": 25000
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "orders_clean",
+        "rows": 3037,
+        "pass": true
+      },
+      {
+        "table": "web_sessions_clean",
+        "rows": 25000,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "04_Amazon_Marketplace_Analytics/Dashboard/Amazon_Marketplace_Analytics_Dashboard.pbix",
+    "sha256": "34c4e743f2b301ab7814baefcafd5518023aeb560e27ddcfd975564bf247ac4a",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "dim_calendar",
+        "rows": 1461,
+        "columns": [
+          "Date",
+          "Year",
+          "Month",
+          "MonthName",
+          "Quarter",
+          "YearMonth"
+        ]
+      },
+      {
+        "table": "dim_customer",
+        "rows": 5001,
+        "columns": [
+          "Column1",
+          "Column2",
+          "Column3",
+          "Column4"
+        ]
+      },
+      {
+        "table": "dim_product",
+        "rows": 2500,
+        "columns": [
+          "ProductID",
+          "Category",
+          "Price",
+          "Rating"
+        ]
+      },
+      {
+        "table": "dim_seller",
+        "rows": 1201,
+        "columns": [
+          "Column1",
+          "Column2",
+          "Column3"
+        ]
+      },
+      {
+        "table": "fact_orders",
+        "rows": 85000,
+        "columns": [
+          "OrderID",
+          "Date",
+          "CustomerID",
+          "SellerID",
+          "ProductID",
+          "Units",
+          "GrossRevenue",
+          "MarketplaceFee",
+          "FulfillmentCost",
+          "NetSellerRevenue"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "sales_clean": [
+        "sale_date",
+        "listing_id",
+        "units_sold",
+        "seller_id",
+        "price",
+        "rating",
+        "in_stock",
+        "category",
+        "revenue"
+      ],
+      "listings_clean": [
+        "listing_id",
+        "seller_id",
+        "category",
+        "price",
+        "rating",
+        "in_stock"
+      ]
+    },
+    "zip_crc_pass": true,
+    "report_pages": [
+      {
+        "name": "Page 1",
+        "visual_count": 18
+      }
+    ],
+    "dax_execution": "NOT_RUN: PBIXRay reads expressions; it is not the Analysis Services DAX engine.",
+    "canonical_schema_matches": {
+      "sales_clean": false,
+      "listings_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "04_Amazon_Marketplace_Analytics/Excel/04_Amazon_Marketplace_Analytics_Model.xlsx",
+    "sha256": "2a1e625295d5eaf2381ff39dd2bc28c9c4011cb5d672d15d12a786d0ada59f34",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=SUM('sales_clean'!I2:I24001)",
+        "cached_value": 1830085.3600000092
+      },
+      {
+        "cell": "B5",
+        "formula": "=SUMPRODUCT('sales_clean'!C2:C24001,'sales_clean'!E2:E24001)",
+        "cached_value": 1901153.1900000118
+      },
+      {
+        "cell": "B6",
+        "formula": "=B4-B5",
+        "cached_value": -71067.83000000264
+      },
+      {
+        "cell": "B7",
+        "formula": "=COUNTA('sales_clean'!B2:B24001)",
+        "cached_value": 24000
+      },
+      {
+        "cell": "B8",
+        "formula": "=SUM('sales_clean'!C2:C24001)",
+        "cached_value": 48063
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "sales_clean",
+        "rows": 24000,
+        "pass": true
+      },
+      {
+        "table": "listings_clean",
+        "rows": 1800,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  },
+  {
+    "file": "05_User_Journey_Analytics/Dashboard/User_Journey_Tableau_Dashboard.twbx",
+    "sha256": "7f29d4bce936e6c0ea68f99410be10c060fbee78b7b71e7c3605fd2bb07268be",
+    "native_desktop_refresh": "NOT_RUN",
+    "native_visual_render": "NOT_RUN",
+    "embedded_tables": [
+      {
+        "table": "\"Extract\".\"Extract\"",
+        "rows": 4066,
+        "columns": [
+          "user_id",
+          "first_campaign",
+          "last_campaign",
+          "first_medium",
+          "last_medium",
+          "category",
+          "country",
+          "mobile_model_name",
+          "min_occurred_at",
+          "max_occurred_at",
+          "sessions",
+          "events",
+          "duration_sec",
+          "quantity",
+          "revenue",
+          "Region"
+        ]
+      }
+    ],
+    "canonical_source_schemas": {
+      "users_clean": [
+        "user_id",
+        "first_seen_date",
+        "traffic_source",
+        "device",
+        "is_returning"
+      ],
+      "journey_events_clean": [
+        "user_id",
+        "event_date",
+        "journey_stage",
+        "stage_order"
+      ]
+    },
+    "zip_crc_pass": true,
+    "tableau_version": "18.1",
+    "declared_fields": [
+      ":Measure Names",
+      "Calculation_671599305175306240",
+      "Calculation_671599305176952833",
+      "Calculation_671599305180692482",
+      "Calculation_906067961084424205",
+      "Choose Metric (copy)_906067961034268675",
+      "Choose Metric (copy)_906067961054429193",
+      "Country",
+      "Date",
+      "Days (group)",
+      "Duration Minutes (copy)_906067961052962822",
+      "Duration Minutes discrete (group)",
+      "Hours (copy)_906067961028284416",
+      "Hours (copy)_906067961374109710",
+      "Metric (copy)_906067961039765508",
+      "Metric (copy)_906067961058009098",
+      "Minutes between visits (bin)",
+      "Parameter 1",
+      "Region",
+      "Sessions (copy)_906067961031671809",
+      "Sessions discrete (group)",
+      "__tableau_internal_object_id__].[first_purchase_last.csv_EE0881E7A1C14F459EF7857BCFCBA38B",
+      "category",
+      "country",
+      "duration_sec",
+      "events",
+      "first_campaign",
+      "first_medium",
+      "last_campaign",
+      "last_medium",
+      "max_occurred_at",
+      "min_occurred_at",
+      "mobile_model_name",
+      "quantity",
+      "revenue",
+      "sessions",
+      "user_id"
+    ],
+    "worksheets": [
+      "Number Of Sessions",
+      "Sheet 12",
+      "Sheet 13",
+      "Stacked Bar",
+      "Table",
+      "Timeline",
+      "Weekdays",
+      "duration",
+      "events",
+      "hours",
+      "quantity",
+      "revenue",
+      "visits"
+    ],
+    "connection_types": [
+      "cloudfile:googledrive-excel-direct",
+      "cloudfile:googledrive-textscan",
+      "federated",
+      "hyper"
+    ],
+    "embedded_csvs": [],
+    "hyper_engine_read": "PASS",
+    "canonical_schema_matches": {
+      "users_clean": false,
+      "journey_events_clean": false
+    },
+    "source_reconciliation": "MISMATCH"
+  },
+  {
+    "file": "05_User_Journey_Analytics/Excel/05_User_Journey_Analytics_Model.xlsx",
+    "sha256": "e0c6708defb99ac21c8fd72c02103cdd575f62f91f5e68c05048ef595d675103",
+    "formula_cells": [
+      {
+        "cell": "B4",
+        "formula": "=COUNTIF('journey_events_clean'!C2:C17355,\"Purchase\")",
+        "cached_value": 627
+      },
+      {
+        "cell": "B5",
+        "formula": "=COUNTA('users_clean'!A2:A6001)",
+        "cached_value": 6000
+      },
+      {
+        "cell": "B6",
+        "formula": "=B4/B5",
+        "cached_value": 0.1045
+      }
+    ],
+    "source_checks": [
+      {
+        "table": "users_clean",
+        "rows": 6000,
+        "pass": true
+      },
+      {
+        "table": "journey_events_clean",
+        "rows": 17354,
+        "pass": true
+      }
+    ],
+    "engine": "OOXML inspection; application recalculation recorded separately"
+  }
+]

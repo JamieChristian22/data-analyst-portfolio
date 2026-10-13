@@ -1,0 +1,20 @@
+{
+  "Choose Category": "\"First Medium\"",
+  "Choose Metric Bins": "\"Days\"",
+  "Choose Metric": "\"Duration\"",
+  "Duration Minutes": "[duration_sec]/60",
+  "Hours": "DATEDIFF('hour', [min_occurred_at],[max_occurred_at])",
+  "Metric": "CASE [Parameters].[Parameter 1]\r\nWHEN 'Duration' THEN [Calculation_671599305175306240]\r\nWHEN 'Visits' THEN [sessions]\r\nWHEN 'Events' THEN [events]\r\nWHEN 'Hours' THEN [Calculation_671599305176952833]\r\nWHEN 'Revenue' THEN [revenue]\r\nWHEN 'Quantity' THEN [quantity]\r\nEND",
+  "Purchases/Sessions": "COUNT([user_id])/SUM([sessions])",
+  "Period": "[min_occurred_at]",
+  "[Days (group)]": null,
+  "Duration Minutes discrete": "ROUND([duration_sec]/60,0)",
+  "[Duration Minutes discrete (group)]": null,
+  "Days": "DATEDIFF('day', [min_occurred_at],[max_occurred_at])",
+  "Minutes between visits": "DATEDIFF('minute', [min_occurred_at],[max_occurred_at])",
+  "Category Chosen": "CASE [Parameters].[Choose Metric (copy)_906067961034268675]\r\nWHEN 'Country' THEN [country]\r\nWHEN 'Region' THEN [Region]\r\nWHEN 'Device' THEN [category]\r\nWHEN 'First Campaign' THEN [first_campaign]\r\nWHEN 'Last Campaign' THEN [last_campaign]\r\nWHEN 'First Medium' THEN [first_medium]\r\nWHEN 'Last Medium' THEN [last_medium]\r\nWHEN 'Mobile Model Name' THEN [mobile_model_name]\r\nWHEN 'All' THEN ''\r\nEND",
+  "Metric group": "CASE [Parameters].[Choose Metric (copy)_906067961054429193]\r\nWHEN 'Duration (Min)' THEN [Duration Minutes discrete (group)]\r\nWHEN 'Days' THEN [Days (group)]\r\nWHEN 'Visits' THEN [Sessions discrete (group)]\r\nEND",
+  "[Minutes between visits (bin)]": "[Hours (copy)_906067961374109710]",
+  "Sessions discrete": "[sessions]",
+  "[Sessions discrete (group)]": null
+}

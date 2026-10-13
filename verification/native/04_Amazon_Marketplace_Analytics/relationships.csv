@@ -1,0 +1,5 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+fact_orders,ProductID,dim_product,ProductID,1,M:1,Single,2503,,0
+fact_orders,Date,dim_calendar,Date,1,M:1,Single,1464,,0
+fact_orders,CustomerID,dim_customer,Column1,1,M:1,Single,5003,,0
+fact_orders,SellerID,dim_seller,Column1,1,M:1,Single,1203,,0

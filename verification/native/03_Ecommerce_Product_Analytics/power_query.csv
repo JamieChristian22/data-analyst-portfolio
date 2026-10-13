@@ -1,0 +1,31 @@
+TableName,Expression
+payments,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\ShopSphere_Product_Analytics_Project\payments.csv""),[Delimiter="","", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""order_id"", type text}, {""customer_id"", type text}, {""payment_date"", type date}, {""revenue_usd"", type number}})
+in
+    #""Changed Type"""
+customers,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\ShopSphere_Product_Analytics_Project\customers.csv""),[Delimiter="","", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""customer_id"", type text}, {""signup_date"", type date}, {""country"", type text}, {""acquisition_channel"", type text}, {""device_type"", type text}})
+in
+    #""Changed Type"""
+orders,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\ShopSphere_Product_Analytics_Project\orders.csv""),[Delimiter="","", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""order_id"", type text}, {""customer_id"", type text}, {""product_id"", type text}, {""order_date"", type date}, {""quantity"", Int64.Type}})
+in
+    #""Changed Type"""
+products,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\ShopSphere_Product_Analytics_Project\products.csv""),[Delimiter="","", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""product_id"", type text}, {""category"", type text}, {""price_usd"", type number}, {""cost_usd"", type number}})
+in
+    #""Changed Type"""
+sessions,"let
+    Source = Csv.Document(File.Contents(""\\Mac\Home\Downloads\ShopSphere_Product_Analytics_Project\sessions.csv""),[Delimiter="","", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""session_id"", type text}, {""customer_id"", type text}, {""session_date"", type date}, {""event_type"", type text}})
+in
+    #""Changed Type"""

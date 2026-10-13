@@ -1,0 +1,14 @@
+{
+  "Total Revenue": "SUM([revenue_usd])",
+  "Latest Date": "{ FIXED : MAX([event_date]) }",
+  "DAU (Latest)": "IF [event_date] = [Calculation_0014114762174574] THEN [user_id] END",
+  "Current MRR": "RUNNING_SUM(SUM([mrr_delta_usd]))",
+  "Last 30 Days Paid": "IF [event_name] = \"subscribe\"\nAND [event_date] >= DATEADD('day', -30, [Calculation_0014114762174574])\nTHEN [user_id] END",
+  "Funnel Stage": "IF [event_name] = \"app_open\" THEN \"1. App Open\"\nELSEIF [event_name] = \"create_project\" THEN \"2. Create Project\"\nELSEIF [event_name] = \"upload_video\" THEN \"3. Upload Video\"\nELSEIF [event_name] = \"share_link\" THEN \"4. Share Link\"\nELSEIF [event_name] = \"subscribe\" THEN \"5. Subscribe\"\nEND",
+  "Funnel Users": "COUNTD([user_id])",
+  "Funnel Conversion %": "[Calculation_0014458290217011] / LOOKUP([Calculation_0014458290217011], -1)",
+  "Funnel Conversion (Fixed)": "IF ISNULL(LOOKUP(COUNTD([user_id]), -1)) THEN 1\nELSE COUNTD([user_id]) / LOOKUP(COUNTD([user_id]), -1)\nEND",
+  "Funnel Qualified Users": "IF [Calculation_0014458289463346] = \"1. App Open\" THEN [user_id]\n\nELSEIF [Calculation_0014458289463346] = \"2. Create Project\"\nAND { FIXED [user_id] :\n    MAX(IIF([event_name] = \"app_open\", 1, 0))\n} = 1\nTHEN [user_id]\n\nELSEIF [Calculation_0014458289463346] = \"3. Upload Video\"\nAND { FIXED [user_id] :\n    MAX(IIF([event_name] = \"create_project\", 1, 0))\n} = 1\nTHEN [user_id]\n\nELSEIF [Calculation_0014458289463346] = \"4. Share Link\"\nAND { FIXED [user_id] :\n    MAX(IIF([event_name] = \"upload_video\", 1, 0))\n} = 1\nTHEN [user_id]\n\nELSEIF [Calculation_0014458289463346] = \"5. Subscribe\"\nAND { FIXED [user_id] :\n    MAX(IIF([event_name] = \"share_link\", 1, 0))\n} = 1\nTHEN [user_id]\nEND",
+  "Qualified Users (Distinct)": "COUNTD([Calculation_0014458292305976])",
+  "True Funnel Conversion %": "IF ISNULL(LOOKUP([Calculation_0014458292580409], -1)) THEN 1\nELSE [Calculation_0014458292580409] / LOOKUP([Calculation_0014458292580409], -1)\nEND"
+}

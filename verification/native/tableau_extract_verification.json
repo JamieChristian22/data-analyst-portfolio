@@ -1,0 +1,152 @@
+[
+  {
+    "file": "01_SaaS_Product_Analytics_StreamFlow/Dashboard/Validated_Analysis.hyper",
+    "sha256": "b9ec3004d6e1ac63583fdf9828ce0c2579fe81dfb81e814fc2af29df0466fdfc",
+    "engine": "Tableau Hyper API 0.0.26784",
+    "checks": [
+      {
+        "table": "\"Source\".\"events_clean\"",
+        "rows": 29175,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Data/clean/events_clean.csv",
+        "csv_sha256": "b849abce4339950e38daecaf5f44c9a4694e5e45038126a0cc4d7a9de79aa333"
+      },
+      {
+        "table": "\"Source\".\"subscriptions_clean\"",
+        "rows": 1500,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Data/clean/subscriptions_clean.csv",
+        "csv_sha256": "b6132bacd5c8acf6d0cfaa9b672222ec7061b70cb03ee58bc6dbfe67521a14e7"
+      },
+      {
+        "table": "\"Source\".\"users_clean\"",
+        "rows": 1500,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Data/clean/users_clean.csv",
+        "csv_sha256": "5ca6d5b172af0d774ce5c296590f1a3e548648106603c5a6cc6846642e0733fc"
+      },
+      {
+        "table": "\"Results\".\"onboarding_funnel\"",
+        "rows": 5,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Results/onboarding_funnel.csv",
+        "csv_sha256": "d980e39b764589d15137c7309836961b38a994f14ddb6810ed3919176876b131"
+      },
+      {
+        "table": "\"Results\".\"power_user_association\"",
+        "rows": 1,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Results/power_user_association.csv",
+        "csv_sha256": "1420468340e65aaef5788309c80bf7da19f3308638d49bea16c4e7cca712cf08"
+      },
+      {
+        "table": "\"Results\".\"revenue_by_tier\"",
+        "rows": 4,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Results/revenue_by_tier.csv",
+        "csv_sha256": "a195c4658a3266138ae59c561e17b459eaa4a4c268990f6514454a6f7862ab66"
+      },
+      {
+        "table": "\"Results\".\"summary\"",
+        "rows": 1,
+        "all_cells_match": true,
+        "csv": "01_SaaS_Product_Analytics_StreamFlow/Results/summary.csv",
+        "csv_sha256": "310055d537d699a09a9e1d6373176798ecf71c9217329988b068e6fc8a5ebe5d"
+      }
+    ],
+    "tableau_desktop_dashboard_refresh": "NOT_RUN"
+  },
+  {
+    "file": "02_AB_Test_Feature_Impact/Dashboard/Validated_Analysis.hyper",
+    "sha256": "914f8d38a493878115789bd83ac807ae59020a5fc5739312ae44099e349524f8",
+    "engine": "Tableau Hyper API 0.0.26784",
+    "checks": [
+      {
+        "table": "\"Source\".\"ab_sessions_clean\"",
+        "rows": 12000,
+        "all_cells_match": true,
+        "csv": "02_AB_Test_Feature_Impact/Data/clean/ab_sessions_clean.csv",
+        "csv_sha256": "8ecd8c08437426aab53e90bc7b46ae7803e2fd155d4dc390c584f46fa03b83fc"
+      },
+      {
+        "table": "\"Results\".\"daily_assignment\"",
+        "rows": 122,
+        "all_cells_match": true,
+        "csv": "02_AB_Test_Feature_Impact/Results/daily_assignment.csv",
+        "csv_sha256": "a18cbbe69eaa25ba265de0a0e0b113ab5a0896a3168bd2a33be78fb97c275948"
+      },
+      {
+        "table": "\"Results\".\"segment_conversion\"",
+        "rows": 24,
+        "all_cells_match": true,
+        "csv": "02_AB_Test_Feature_Impact/Results/segment_conversion.csv",
+        "csv_sha256": "aa351b5aeb826a5fc5e1859a2609a1a9435cf9324e882d41630f8cd4bca8ded3"
+      },
+      {
+        "table": "\"Results\".\"variant_summary\"",
+        "rows": 2,
+        "all_cells_match": true,
+        "csv": "02_AB_Test_Feature_Impact/Results/variant_summary.csv",
+        "csv_sha256": "0a64c4fcc5ffc9d2b3c8849b7c15ec8fc85e29391435f02a641e3c0a695d77fb"
+      }
+    ],
+    "tableau_desktop_dashboard_refresh": "NOT_RUN"
+  },
+  {
+    "file": "05_User_Journey_Analytics/Dashboard/Validated_Analysis.hyper",
+    "sha256": "51564bdc2402bb763c465fd8c66c942167379529fc5a62ef473ecb8ccf9d1b73",
+    "engine": "Tableau Hyper API 0.0.26784",
+    "checks": [
+      {
+        "table": "\"Source\".\"journey_events_clean\"",
+        "rows": 17354,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Data/clean/journey_events_clean.csv",
+        "csv_sha256": "6410d5cd4a277fc51eb5d13a5e5b53f376d99467cc652fbcf1d2037f70a0b681"
+      },
+      {
+        "table": "\"Source\".\"users_clean\"",
+        "rows": 6000,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Data/clean/users_clean.csv",
+        "csv_sha256": "617f4b105245b33b7f055f569f57476208e40a5d8388d0409d5dfce8be25d956"
+      },
+      {
+        "table": "\"Results\".\"ordered_funnel\"",
+        "rows": 6,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Results/ordered_funnel.csv",
+        "csv_sha256": "9cc2939bbf5d3c59af574ad42bb454d2afb8f16de5f2378a455585eca622ebc6"
+      },
+      {
+        "table": "\"Results\".\"returning_user_conversion\"",
+        "rows": 2,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Results/returning_user_conversion.csv",
+        "csv_sha256": "84af9255781ac115d411071dc9fbf4d645c9754a414dabe19c5067ac52471395"
+      },
+      {
+        "table": "\"Results\".\"stage_reach\"",
+        "rows": 7,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Results/stage_reach.csv",
+        "csv_sha256": "97dfc6232f4a730fa5780aaecee773a4d81de3f4af029fa67a8c68a31e15fa3c"
+      },
+      {
+        "table": "\"Results\".\"summary\"",
+        "rows": 1,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Results/summary.csv",
+        "csv_sha256": "62d4ea7852184ac19885687ffc888023c95232f85cf3d11f41bf4d6cd5b6baf5"
+      },
+      {
+        "table": "\"Results\".\"time_to_purchase\"",
+        "rows": 627,
+        "all_cells_match": true,
+        "csv": "05_User_Journey_Analytics/Results/time_to_purchase.csv",
+        "csv_sha256": "c186d7637bc28c9683aaac487cc5d24c8b5ad0edfb3b07283816ceae979bba91"
+      }
+    ],
+    "tableau_desktop_dashboard_refresh": "NOT_RUN"
+  }
+]

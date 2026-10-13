@@ -1,0 +1,7 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+payments,customer_id,customers,customer_id,1,M:1,Single,5706,,0
+orders,order_id,payments,order_id,1,1:1,Both,18076,18076.0,0
+orders,customer_id,customers,customer_id,0,M:1,Single,5706,,0
+orders,product_id,products,product_id,1,M:1,Single,203,,0
+sessions,customer_id,customers,customer_id,1,M:1,Single,5982,,0
+orders,order_id,products,product_id,0,M:1,Both,18076,,0

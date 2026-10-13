@@ -1,0 +1,19 @@
+{
+  "pbix": "03_Ecommerce_Product_Analytics/Dashboard/Ecommerce_Product_Analytics.pbix",
+  "pbix_sha256": "c868648e23ec60e677c32342a8bc854aa9f3b99f8cb7f157f2079613c0d64f85",
+  "baseline_engine": "PBIXRay decode + independent Python aggregation",
+  "dax_execution": "NOT_RUN",
+  "expected_unfiltered_measures": {
+    "Total Revenue": 4522872.28,
+    "Total Orders": 18073,
+    "AOV": 250.25575610026007,
+    "Product Views": 4512,
+    "Add To Cart": 4517,
+    "Checkouts": 4418,
+    "Purchases (Events)": 4501,
+    "Viewed Customers": 3167,
+    "Cart Customers": 1648,
+    "Checkout Customers": 867,
+    "Purchased Customers": 466
+  }
+}

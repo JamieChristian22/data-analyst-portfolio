@@ -1,0 +1,7 @@
+{
+  "source": "05_User_Journey_Analytics/Data/clean/journey_events_clean.csv",
+  "sha256": "6410d5cd4a277fc51eb5d13a5e5b53f376d99467cc652fbcf1d2037f70a0b681",
+  "check": "one event per user and stage, supporting COUNTIF purchase-stage users in Excel",
+  "duplicate_user_stage_rows": 0,
+  "passed": true
+}

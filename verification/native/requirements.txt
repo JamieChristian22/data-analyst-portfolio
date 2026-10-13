@@ -1,0 +1,4 @@
+# Optional read-only native-file inspectors. Core analysis requirements stay separate.
+pbixray==0.15.5
+tableauhyperapi==0.0.26784
+openpyxl==3.1.5

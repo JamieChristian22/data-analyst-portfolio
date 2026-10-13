@@ -1,0 +1,258 @@
+[
+  {
+    "project": "01_SaaS_Product_Analytics_StreamFlow",
+    "workbook": "01_SaaS_Product_Analytics_StreamFlow/Excel/01_SaaS_Product_Analytics_StreamFlow_Model.xlsx",
+    "engine": "Artifact Tool",
+    "summary_cells": [
+      {
+        "cell": "B4",
+        "metric": "Snapshot ARR",
+        "expected": 2279700,
+        "observed": 2279700.0000000005,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "metric": "Paying-user churn label rate",
+        "expected": 0.21060171919770773,
+        "observed": 0.21060171919770773,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "metric": "Snapshot MRR",
+        "expected": 189975,
+        "observed": 189975.00000000003,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "metric": "Users",
+        "expected": 1500,
+        "observed": 1500,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "metric": "Paying users",
+        "expected": 698,
+        "observed": 698,
+        "passed": true
+      }
+    ],
+    "mutation": {
+      "sheet": "subscriptions_clean",
+      "cell": "C2",
+      "original_value": 0,
+      "new_value": 10,
+      "result_cell": "B4",
+      "baseline": 2279700.0000000005,
+      "perturbed": 2279820.0000000005,
+      "expected_delta": 120,
+      "passed": true
+    },
+    "native_microsoft_excel": "NOT_RUN"
+  },
+  {
+    "project": "02_AB_Test_Feature_Impact",
+    "workbook": "02_AB_Test_Feature_Impact/Excel/02_AB_Test_Feature_Impact_Model.xlsx",
+    "engine": "Artifact Tool",
+    "summary_cells": [
+      {
+        "cell": "B4",
+        "metric": "Control conversion rate",
+        "expected": 0.19842993151828964,
+        "observed": 0.19842993151828964,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "metric": "Variant B conversion rate",
+        "expected": 0.23083319474471978,
+        "observed": 0.23083319474471978,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "metric": "Recorded revenue",
+        "expected": 108247.22,
+        "observed": 108247.22000000006,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "metric": "Absolute conversion lift",
+        "expected": 0.03240326322643014,
+        "observed": 0.03240326322643014,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "metric": "Relative conversion lift",
+        "expected": 0.16329826341467782,
+        "observed": 0.16329826341467782,
+        "passed": true
+      }
+    ],
+    "mutation": {
+      "sheet": "ab_sessions_clean",
+      "cell": "I2",
+      "original_value": 0,
+      "new_value": 10,
+      "result_cell": "B6",
+      "baseline": 108247.22000000006,
+      "perturbed": 108257.22000000006,
+      "expected_delta": 10,
+      "passed": true
+    },
+    "native_microsoft_excel": "NOT_RUN"
+  },
+  {
+    "project": "03_Ecommerce_Product_Analytics",
+    "workbook": "03_Ecommerce_Product_Analytics/Excel/03_Ecommerce_Product_Analytics_Model.xlsx",
+    "engine": "Artifact Tool",
+    "summary_cells": [
+      {
+        "cell": "B4",
+        "metric": "Session conversion rate",
+        "expected": 0.12148,
+        "observed": 0.12148,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "metric": "Cart abandonment rate",
+        "expected": 0.6423692887423458,
+        "observed": 0.6423692887423458,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "metric": "Recorded order revenue",
+        "expected": 198585.98,
+        "observed": 198585.98000000013,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "metric": "Average order value",
+        "expected": 65.38886401053672,
+        "observed": 65.38886401053675,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "metric": "Sessions",
+        "expected": 25000,
+        "observed": 25000,
+        "passed": true
+      }
+    ],
+    "mutation": {
+      "sheet": "orders_clean",
+      "cell": "H2",
+      "original_value": 38.82,
+      "new_value": 48.82,
+      "result_cell": "B6",
+      "baseline": 198585.98000000013,
+      "perturbed": 198595.98000000013,
+      "expected_delta": 10,
+      "passed": true
+    },
+    "native_microsoft_excel": "NOT_RUN"
+  },
+  {
+    "project": "04_Amazon_Marketplace_Analytics",
+    "workbook": "04_Amazon_Marketplace_Analytics/Excel/04_Amazon_Marketplace_Analytics_Model.xlsx",
+    "engine": "Artifact Tool",
+    "summary_cells": [
+      {
+        "cell": "B4",
+        "metric": "Recorded revenue",
+        "expected": 1830085.36,
+        "observed": 1830085.3600000092,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "metric": "Price times units",
+        "expected": 1901153.19,
+        "observed": 1901153.1900000118,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "metric": "Recorded less price times units",
+        "expected": -71067.82999999984,
+        "observed": -71067.83000000264,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "metric": "Sales rows",
+        "expected": 24000,
+        "observed": 24000,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "metric": "Units sold",
+        "expected": 48063,
+        "observed": 48063,
+        "passed": true
+      }
+    ],
+    "mutation": {
+      "sheet": "sales_clean",
+      "cell": "I2",
+      "original_value": 129.38,
+      "new_value": 139.38,
+      "result_cell": "B4",
+      "baseline": 1830085.3600000092,
+      "perturbed": 1830095.3600000092,
+      "expected_delta": 10,
+      "passed": true
+    },
+    "native_microsoft_excel": "NOT_RUN"
+  },
+  {
+    "project": "05_User_Journey_Analytics",
+    "workbook": "05_User_Journey_Analytics/Excel/05_User_Journey_Analytics_Model.xlsx",
+    "engine": "Artifact Tool",
+    "summary_cells": [
+      {
+        "cell": "B4",
+        "metric": "Purchase-stage users",
+        "expected": 627,
+        "observed": 627,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "metric": "Users",
+        "expected": 6000,
+        "observed": 6000,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "metric": "Observed purchase rate",
+        "expected": 0.1045,
+        "observed": 0.1045,
+        "passed": true
+      }
+    ],
+    "mutation": {
+      "sheet": "journey_events_clean",
+      "cell": "C2",
+      "original_value": "Landing",
+      "new_value": "Purchase",
+      "result_cell": "B4",
+      "baseline": 627,
+      "perturbed": 628,
+      "expected_delta": 1,
+      "passed": true
+    },
+    "native_microsoft_excel": "NOT_RUN"
+  }
+]

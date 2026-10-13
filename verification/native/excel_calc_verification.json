@@ -1,0 +1,280 @@
+[
+  {
+    "workbook": "01_SaaS_Product_Analytics_StreamFlow/Excel/01_SaaS_Product_Analytics_StreamFlow_Model.xlsx",
+    "sha256": "d04ebb6d85dff782bc84fa7042c2d1c67903e0f6b13252ec625231c88a109ebb",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": false,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 2279700,
+        "observed": 2279700,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "expected": 0.21060171919770773,
+        "observed": 0.210601719197708,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "expected": 189975,
+        "observed": 189975,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "expected": 1500,
+        "observed": 1500,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "expected": 698,
+        "observed": 698,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "01_SaaS_Product_Analytics_StreamFlow/Excel/01_SaaS_Product_Analytics_StreamFlow_Model.xlsx",
+    "sha256": "d04ebb6d85dff782bc84fa7042c2d1c67903e0f6b13252ec625231c88a109ebb",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": true,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 2279820.0000000005,
+        "observed": 2279820,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "02_AB_Test_Feature_Impact/Excel/02_AB_Test_Feature_Impact_Model.xlsx",
+    "sha256": "213f4492d8c875cfca17ab334e3b8b11e005b3c2b038cafc85e9a78aa787b36b",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": false,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 0.19842993151828964,
+        "observed": 0.19842993151829,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "expected": 0.23083319474471978,
+        "observed": 0.23083319474472,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "expected": 108247.22,
+        "observed": 108247.22,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "expected": 0.03240326322643014,
+        "observed": 0.0324032632264301,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "expected": 0.16329826341467782,
+        "observed": 0.163298263414678,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "02_AB_Test_Feature_Impact/Excel/02_AB_Test_Feature_Impact_Model.xlsx",
+    "sha256": "213f4492d8c875cfca17ab334e3b8b11e005b3c2b038cafc85e9a78aa787b36b",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": true,
+    "checks": [
+      {
+        "cell": "B6",
+        "expected": 108257.22000000006,
+        "observed": 108257.22,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "03_Ecommerce_Product_Analytics/Excel/03_Ecommerce_Product_Analytics_Model.xlsx",
+    "sha256": "93cb2d3efdf305483f4ae72d8e8eb25ef66d3ff1191fc489a5c2a9ad73416ea9",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": false,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 0.12148,
+        "observed": 0.12148,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "expected": 0.6423692887423458,
+        "observed": 0.642369288742346,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "expected": 198585.98,
+        "observed": 198585.98,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "expected": 65.38886401053672,
+        "observed": 65.3888640105367,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "expected": 25000,
+        "observed": 25000,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "03_Ecommerce_Product_Analytics/Excel/03_Ecommerce_Product_Analytics_Model.xlsx",
+    "sha256": "93cb2d3efdf305483f4ae72d8e8eb25ef66d3ff1191fc489a5c2a9ad73416ea9",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": true,
+    "checks": [
+      {
+        "cell": "B6",
+        "expected": 198595.98000000013,
+        "observed": 198595.98,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "04_Amazon_Marketplace_Analytics/Excel/04_Amazon_Marketplace_Analytics_Model.xlsx",
+    "sha256": "2a1e625295d5eaf2381ff39dd2bc28c9c4011cb5d672d15d12a786d0ada59f34",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": false,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 1830085.36,
+        "observed": 1830085.36,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "expected": 1901153.19,
+        "observed": 1901153.19,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "expected": -71067.82999999984,
+        "observed": -71067.8299999998,
+        "passed": true
+      },
+      {
+        "cell": "B7",
+        "expected": 24000,
+        "observed": 24000,
+        "passed": true
+      },
+      {
+        "cell": "B8",
+        "expected": 48063,
+        "observed": 48063,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "04_Amazon_Marketplace_Analytics/Excel/04_Amazon_Marketplace_Analytics_Model.xlsx",
+    "sha256": "2a1e625295d5eaf2381ff39dd2bc28c9c4011cb5d672d15d12a786d0ada59f34",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": true,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 1830095.3600000092,
+        "observed": 1830095.36,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "05_User_Journey_Analytics/Excel/05_User_Journey_Analytics_Model.xlsx",
+    "sha256": "e0c6708defb99ac21c8fd72c02103cdd575f62f91f5e68c05048ef595d675103",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": false,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 627,
+        "observed": 627,
+        "passed": true
+      },
+      {
+        "cell": "B5",
+        "expected": 6000,
+        "observed": 6000,
+        "passed": true
+      },
+      {
+        "cell": "B6",
+        "expected": 0.1045,
+        "observed": 0.1045,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  },
+  {
+    "workbook": "05_User_Journey_Analytics/Excel/05_User_Journey_Analytics_Model.xlsx",
+    "sha256": "e0c6708defb99ac21c8fd72c02103cdd575f62f91f5e68c05048ef595d675103",
+    "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "formula_caches_removed_before_open": true,
+    "source_perturbation_copy": true,
+    "checks": [
+      {
+        "cell": "B4",
+        "expected": 628,
+        "observed": 628,
+        "passed": true
+      }
+    ],
+    "formula_errors": [],
+    "passed": true
+  }
+]
