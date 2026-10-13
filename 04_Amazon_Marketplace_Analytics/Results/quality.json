@@ -1,0 +1,36 @@
+{
+  "semantic_issues": [
+    {
+      "affected_rows": 9019,
+      "interpretation": "Use recorded revenue as supplied. Discounts, fees, tax and source-generation rules are unknown; do not call the difference an error or lost revenue.",
+      "issue": "revenue_not_price_times_units"
+    },
+    {
+      "affected_rows": 2936,
+      "interpretation": "Stock flag is an undated snapshot; does not establish status at sale time or causal lost sales.",
+      "issue": "sales_on_out_of_stock_listings"
+    }
+  ],
+  "tables": {
+    "listings": {
+      "clean_sha256": "beafd0fe2675979b8c0c6311bb6929fec68057007ab393240f7655b9502f1d79",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 1800,
+      "null_cells": 0,
+      "output_rows": 1800,
+      "primary_key": "listing_id",
+      "source_sha256": "beafd0fe2675979b8c0c6311bb6929fec68057007ab393240f7655b9502f1d79"
+    },
+    "sales": {
+      "clean_sha256": "9dfb2244ada1ceb81cb91a8a5840c3ae7d6b2ba45b88f6b25f80d82718a7a6b6",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 140,
+      "input_rows": 24000,
+      "null_cells": 0,
+      "output_rows": 24000,
+      "primary_key": null,
+      "source_sha256": "9dfb2244ada1ceb81cb91a8a5840c3ae7d6b2ba45b88f6b25f80d82718a7a6b6"
+    }
+  }
+}

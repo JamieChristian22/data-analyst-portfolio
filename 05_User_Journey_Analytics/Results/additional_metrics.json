@@ -1,0 +1,6 @@
+{
+  "ordered_path_loss_after_checkout": 1.0,
+  "p50_days_to_purchase": 7.0,
+  "p90_days_to_purchase": 12.0,
+  "signup_handling": "Signup is reported separately; source ordinal 7 is not treated as a universal post-purchase requirement. Ordered-path loss is a tracking/sequence diagnostic, not validated checkout abandonment."
+}

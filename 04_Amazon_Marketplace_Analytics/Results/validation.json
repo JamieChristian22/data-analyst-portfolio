@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "check": "listings: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "sales: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "sale/listing seller_id agrees",
+      "passed": true
+    },
+    {
+      "check": "sale/listing category agrees",
+      "passed": true
+    },
+    {
+      "check": "sale/listing price agrees",
+      "passed": true
+    },
+    {
+      "check": "sale/listing rating agrees",
+      "passed": true
+    },
+    {
+      "check": "sale/listing in_stock agrees",
+      "passed": true
+    },
+    {
+      "check": "foreign key checks completed",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: summary",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: seller_concentration",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: category_performance",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: stock_status_association",
+      "passed": true
+    },
+    {
+      "check": "sales_rows",
+      "passed": true
+    },
+    {
+      "check": "units",
+      "passed": true
+    },
+    {
+      "check": "recorded_revenue",
+      "passed": true
+    },
+    {
+      "check": "price_times_units",
+      "passed": true
+    },
+    {
+      "check": "revenue_discrepancy_rows",
+      "passed": true
+    },
+    {
+      "check": "sellers",
+      "passed": true
+    },
+    {
+      "check": "top ten seller share",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

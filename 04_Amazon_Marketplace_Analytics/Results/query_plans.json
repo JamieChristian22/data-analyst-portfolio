@@ -1,0 +1,148 @@
+{
+  "category_performance": [
+    [
+      7,
+      0,
+      216,
+      "SCAN sales_clean"
+    ],
+    [
+      9,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ],
+    [
+      55,
+      0,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  ],
+  "seller_concentration": [
+    [
+      2,
+      0,
+      0,
+      "CO-ROUTINE ranked"
+    ],
+    [
+      5,
+      2,
+      0,
+      "CO-ROUTINE (subquery-4)"
+    ],
+    [
+      8,
+      5,
+      0,
+      "CO-ROUTINE (subquery-5)"
+    ],
+    [
+      10,
+      8,
+      0,
+      "CO-ROUTINE seller"
+    ],
+    [
+      16,
+      10,
+      216,
+      "SCAN sales_clean"
+    ],
+    [
+      18,
+      10,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ],
+    [
+      57,
+      8,
+      82,
+      "SCAN seller"
+    ],
+    [
+      72,
+      5,
+      82,
+      "SCAN (subquery-5)"
+    ],
+    [
+      122,
+      5,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    [
+      139,
+      2,
+      82,
+      "SCAN (subquery-4)"
+    ],
+    [
+      181,
+      0,
+      82,
+      "SCAN ranked"
+    ],
+    [
+      196,
+      0,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  ],
+  "stock_status_association": [
+    [
+      3,
+      0,
+      0,
+      "MATERIALIZE r"
+    ],
+    [
+      11,
+      3,
+      223,
+      "SCAN sales_clean USING INDEX ix_sales_listing_id"
+    ],
+    [
+      51,
+      0,
+      216,
+      "SCAN l"
+    ],
+    [
+      57,
+      0,
+      0,
+      "BLOOM FILTER ON r (listing_id=?)"
+    ],
+    [
+      67,
+      0,
+      47,
+      "SEARCH r USING AUTOMATIC COVERING INDEX (listing_id=?) LEFT-JOIN"
+    ],
+    [
+      76,
+      0,
+      0,
+      "USE TEMP B-TREE FOR GROUP BY"
+    ]
+  ],
+  "summary": [
+    [
+      3,
+      0,
+      0,
+      "USE TEMP B-TREE FOR count(DISTINCT)"
+    ],
+    [
+      5,
+      0,
+      216,
+      "SCAN sales_clean"
+    ]
+  ]
+}

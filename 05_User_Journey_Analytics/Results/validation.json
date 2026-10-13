@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "check": "users: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "journey_events: schema, types, ranges, required values and key",
+      "passed": true
+    },
+    {
+      "check": "known journey stages",
+      "passed": true
+    },
+    {
+      "check": "stage order agrees",
+      "passed": true
+    },
+    {
+      "check": "foreign key checks completed",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: summary",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: ordered_funnel",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: returning_user_conversion",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: time_to_purchase",
+      "passed": true
+    },
+    {
+      "check": "SQL executed: stage_reach",
+      "passed": true
+    },
+    {
+      "check": "users",
+      "passed": true
+    },
+    {
+      "check": "purchasers",
+      "passed": true
+    },
+    {
+      "check": "observed purchase rate",
+      "passed": true
+    },
+    {
+      "check": "ordered journey SQL/Python",
+      "passed": true
+    },
+    {
+      "check": "time to purchase",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

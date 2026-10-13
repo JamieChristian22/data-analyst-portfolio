@@ -1,0 +1,4 @@
+-- SQLite 3.25+ executable advanced analyses are consolidated in analysis.sql.
+-- CTEs, window functions, ordered funnels and segment analyses run through:
+-- python -m portfolio.run
+-- See Results/*.csv for query outputs; no placeholder query is executed here.

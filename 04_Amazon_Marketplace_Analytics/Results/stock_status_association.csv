@@ -1,0 +1,26 @@
+category,price_band,in_stock,listings,mean_recorded_revenue
+Beauty,50 to 99.99,0,17,0
+Beauty,50 to 99.99,1,91,1819.6843956
+Beauty,Under 50,0,25,0
+Beauty,Under 50,1,198,831.032929293
+Electronics,100+,1,1,4048.2
+Electronics,50 to 99.99,0,15,0
+Electronics,50 to 99.99,1,109,1951.91422018
+Electronics,Under 50,0,27,0
+Electronics,Under 50,1,253,786.613754941
+Home,100+,1,3,3879.18
+Home,50 to 99.99,0,12,0
+Home,50 to 99.99,1,106,1927.04018868
+Home,Under 50,0,35,0
+Home,Under 50,1,237,848.256075949
+Sports,100+,0,1,0
+Sports,100+,1,2,2596.575
+Sports,50 to 99.99,0,17,0
+Sports,50 to 99.99,1,95,1846.42336842
+Sports,Under 50,0,31,0
+Sports,Under 50,1,237,877.321054852
+Toys,100+,1,1,1339.92
+Toys,50 to 99.99,0,15,0
+Toys,50 to 99.99,1,74,1860.65027027
+Toys,Under 50,0,27,0
+Toys,Under 50,1,171,816.563976608

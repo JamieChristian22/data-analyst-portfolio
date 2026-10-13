@@ -1,0 +1,36 @@
+{
+  "semantic_issues": [
+    {
+      "affected_rows": 0,
+      "interpretation": "Retained; ordered funnel and time-to-purchase exclude invalid temporal paths.",
+      "issue": "events_before_first_seen"
+    },
+    {
+      "affected_rows": 3296,
+      "interpretation": "At least one later stage predates its preceding stage. Do not interpret strict ordered-path loss as business abandonment; investigate synthetic generation/tracking timestamps.",
+      "issue": "users_with_adjacent_stage_date_inversions"
+    }
+  ],
+  "tables": {
+    "journey_events": {
+      "clean_sha256": "6410d5cd4a277fc51eb5d13a5e5b53f376d99467cc652fbcf1d2037f70a0b681",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 17354,
+      "null_cells": 0,
+      "output_rows": 17354,
+      "primary_key": null,
+      "source_sha256": "6410d5cd4a277fc51eb5d13a5e5b53f376d99467cc652fbcf1d2037f70a0b681"
+    },
+    "users": {
+      "clean_sha256": "617f4b105245b33b7f055f569f57476208e40a5d8388d0409d5dfce8be25d956",
+      "duplicate_policy": "Primary key duplicates fail; repeated event/fact rows without stable event IDs are preserved.",
+      "exact_repeat_rows": 0,
+      "input_rows": 6000,
+      "null_cells": 0,
+      "output_rows": 6000,
+      "primary_key": "user_id",
+      "source_sha256": "617f4b105245b33b7f055f569f57476208e40a5d8388d0409d5dfce8be25d956"
+    }
+  }
+}

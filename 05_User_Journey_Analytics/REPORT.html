@@ -1,0 +1,233 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ordered user journey and conversion friction</title><style>
+body{margin:0;background:#f1f5f9;color:#17283d;font:16px/1.6 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:36px 24px}header{background:#102f47;color:white;padding:32px;border-radius:16px}h1{line-height:1.15;font-size:36px}h2{font-size:23px}section{background:white;padding:24px;margin:22px 0;border-radius:12px;border:1px solid #dce4ea}.tag{color:#8ee8d1;text-transform:uppercase;letter-spacing:.1em;font-size:13px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:right;border-bottom:1px solid #e2e8f0}th{background:#edf4f8}td:first-child,th:first-child{text-align:left}.scroll{overflow:auto}a{color:#075985}pre{overflow:auto;white-space:pre-wrap}.note{border-left:5px solid #b7791f}li{margin:10px 0}@media print{body{background:white}main{padding:0}section{break-inside:avoid}header{color:#102f47;background:white}}
+</style><main><header><div class="tag">Jamie Christian · Reproducible analysis</div><h1>Ordered user journey and conversion friction</h1><p>How many users complete an ordered commerce path, and how does observed conversion differ by returning status?</p><p>Simulated data · SQL + Python reconciliation · 15 passed checks</p></header><section><h2>What the data support</h2><p>There are 627 observed purchasers among 6,000 users (10.45%). No user satisfies the entire six-step date-ordered path in the supplied records. This conflicts with purchase reach and signals source sequencing problems; it is not evidence of zero actual purchases or 100% business checkout abandonment.</p><svg viewBox="0 0 1000 366" role="img" aria-labelledby="chartTitle"><title id="chartTitle">Unordered stage reach (users; not a sequential funnel)</title><text x="0" y="24" font-size="19" fill="#17283d">Unordered stage reach (users; not a sequential funnel)</text><text x="0" y="64" font-size="14" fill="#17283d">Landing</text><rect x="290" y="46" width="520.000" height="26" rx="3" fill="#087f8c"/><text x="820.000" y="64" font-size="14" fill="#17283d">6,000</text><text x="0" y="107" font-size="14" fill="#17283d">Browse</text><rect x="290" y="89" width="376.653" height="26" rx="3" fill="#087f8c"/><text x="676.653" y="107" font-size="14" fill="#17283d">4,346</text><text x="0" y="150" font-size="14" fill="#17283d">Product View</text><rect x="290" y="132" width="253.327" height="26" rx="3" fill="#087f8c"/><text x="553.327" y="150" font-size="14" fill="#17283d">2,923</text><text x="0" y="193" font-size="14" fill="#17283d">Add to Cart</text><rect x="290" y="175" width="163.193" height="26" rx="3" fill="#087f8c"/><text x="463.193" y="193" font-size="14" fill="#17283d">1,883</text><text x="0" y="236" font-size="14" fill="#17283d">Checkout</text><rect x="290" y="218" width="101.747" height="26" rx="3" fill="#087f8c"/><text x="401.747" y="236" font-size="14" fill="#17283d">1,174</text><text x="0" y="279" font-size="14" fill="#17283d">Purchase</text><rect x="290" y="261" width="54.340" height="26" rx="3" fill="#087f8c"/><text x="354.340" y="279" font-size="14" fill="#17283d">627</text><text x="0" y="322" font-size="14" fill="#17283d">Signup</text><rect x="290" y="304" width="34.753" height="26" rx="3" fill="#087f8c"/><text x="334.753" y="322" font-size="14" fill="#17283d">401</text></svg></section><section><h2>Summary</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>users</th>
+      <th>purchasers</th>
+      <th>observed_purchase_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6000</td>
+      <td>627</td>
+      <td>0.1045</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/summary.csv">Download complete result</a></p></section><section><h2>Ordered Funnel</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>step</th>
+      <th>stage</th>
+      <th>users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Landing</td>
+      <td>6000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Browse</td>
+      <td>2304</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Product View</td>
+      <td>590</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Add to Cart</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Checkout</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Purchase</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/ordered_funnel.csv">Download complete result</a></p></section><section><h2>Returning User Conversion</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>is_returning</th>
+      <th>users</th>
+      <th>purchasers</th>
+      <th>purchase_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>4346</td>
+      <td>359</td>
+      <td>0.0826</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1654</td>
+      <td>268</td>
+      <td>0.1620</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/returning_user_conversion.csv">Download complete result</a></p></section><section><h2>Time To Purchase</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>user_id</th>
+      <th>first_purchase_date</th>
+      <th>days_to_purchase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>17</td>
+      <td>2025-06-15</td>
+      <td>2.0000</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>2025-08-25</td>
+      <td>2.0000</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>2025-07-27</td>
+      <td>9.0000</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>2025-11-23</td>
+      <td>3.0000</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>2025-04-24</td>
+      <td>7.0000</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>2025-12-10</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>2025-05-16</td>
+      <td>12.0000</td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>2025-12-04</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>2025-03-29</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>2025-05-28</td>
+      <td>12.0000</td>
+    </tr>
+    <tr>
+      <td>123</td>
+      <td>2025-05-29</td>
+      <td>12.0000</td>
+    </tr>
+    <tr>
+      <td>124</td>
+      <td>2025-05-08</td>
+      <td>3.0000</td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>2025-11-07</td>
+      <td>4.0000</td>
+    </tr>
+    <tr>
+      <td>132</td>
+      <td>2025-04-11</td>
+      <td>10.0000</td>
+    </tr>
+    <tr>
+      <td>134</td>
+      <td>2025-07-07</td>
+      <td>7.0000</td>
+    </tr>
+    <tr>
+      <td>136</td>
+      <td>2025-11-06</td>
+      <td>9.0000</td>
+    </tr>
+    <tr>
+      <td>138</td>
+      <td>2025-10-31</td>
+      <td>10.0000</td>
+    </tr>
+    <tr>
+      <td>146</td>
+      <td>2025-06-20</td>
+      <td>13.0000</td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>2025-05-21</td>
+      <td>3.0000</td>
+    </tr>
+    <tr>
+      <td>153</td>
+      <td>2025-07-18</td>
+      <td>10.0000</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/time_to_purchase.csv">Download complete result</a></p></section><section><h2>Stage Reach</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>journey_stage</th>
+      <th>users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing</td>
+      <td>6000</td>
+    </tr>
+    <tr>
+      <td>Browse</td>
+      <td>4346</td>
+    </tr>
+    <tr>
+      <td>Product View</td>
+      <td>2923</td>
+    </tr>
+    <tr>
+      <td>Add to Cart</td>
+      <td>1883</td>
+    </tr>
+    <tr>
+      <td>Checkout</td>
+      <td>1174</td>
+    </tr>
+    <tr>
+      <td>Purchase</td>
+      <td>627</td>
+    </tr>
+    <tr>
+      <td>Signup</td>
+      <td>401</td>
+    </tr>
+  </tbody>
+</table></div><p><a href="Results/stage_reach.csv">Download complete result</a></p></section><section><h2>Statistical and supplementary results</h2><pre>{
+  &quot;p50_days_to_purchase&quot;: 7.0,
+  &quot;p90_days_to_purchase&quot;: 12.0,
+  &quot;ordered_path_loss_after_checkout&quot;: 1.0,
+  &quot;signup_handling&quot;: &quot;Signup is reported separately; source ordinal 7 is not treated as a universal post-purchase requirement. Ordered-path loss is a tracking/sequence diagnostic, not validated checkout abandonment.&quot;
+}</pre></section><section><h2>Recommended next decision</h2><p>Compare overall purchase reach with the stricter ordered funnel and investigate missing or out-of-order tracking. Diagnose the largest eligible transition drop before proposing a UX test.</p></section><section class="note"><h2>Interpretation limits</h2><p>Source dates have day granularity; same-day steps are allowed and cannot establish within-day order. Signup is separate from the six-step commerce funnel. First-seen cohorts have different follow-up durations, so conversion and time-to-purchase are descriptive, not censoring-adjusted causal measures.</p><ul><li><b>events_before_first_seen</b>: 0 rows. Retained; ordered funnel and time-to-purchase exclude invalid temporal paths.</li><li><b>users_with_adjacent_stage_date_inversions</b>: 3,296 rows. At least one later stage predates its preceding stage. Do not interpret strict ordered-path loss as business abandonment; investigate synthetic generation/tracking timestamps.</li></ul></section><p>Generated from supplied CSVs. Legacy BI source mismatch documented; corrected Excel and replacement Hyper sources have separate verification evidence. <a href="README.md">Full case study</a></p></main></html>
