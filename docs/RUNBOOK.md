@@ -41,6 +41,20 @@ For a single project, pass `--project 02_AB_Test_Feature_Impact`. For an alterna
 
 A nonzero run invalidates success evidence for the failed project and can leave partial outputs. Rerun successfully before consumption. To test determinism, hash result files, rerun with the same environment and compare the hashes. Software-version metadata can differ across environments; CSV metric comparisons are the CI drift gate.
 
+## Interactive browser demonstration
+
+Download [the offline explorer](../demo/analytics-explorer.html) and open it locally. Select a project, metric and filter. All embedded aggregate rows are compared to the corresponding committed result CSVs by `tests/test_explorer.py`; the view is not a native BI dashboard or a live feed. See [data lineage and limitations](INTERACTIVE_EXPLORER.md).
+
+## Local evidence parity
+
+```bash
+python -m unittest discover -s tests -v
+python -m portfolio.run
+python -m unittest discover -s tests -v
+```
+
+The first run verifies committed SHA-256 manifests before regeneration; the second verifies regenerated output and reconciliation evidence. When changes to analysis logic are deliberate, inspect differences rather than ignoring drift.
+
 ## CI
 
 The GitHub Actions workflow builds all projects, runs tests, checks numerical output drift and uploads evidence. Local test success is recorded separately from remote CI. Do not describe a remote workflow as passing until GitHub reports completion for the relevant commit.
