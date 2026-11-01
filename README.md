@@ -10,7 +10,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-4479A1)
 ![Projects](https://img.shields.io/badge/Analytics_Projects-5-success)
-![Testing](https://img.shields.io/badge/Automated_Tests-35-informational)
+![Testing](https://img.shields.io/badge/Automated_Tests-43-informational)
 
 🌐 [LinkedIn](https://www.linkedin.com/in/jamiechristian2/) | 💻 [GitHub](https://github.com/JamieChristian22) | 📧 [Email](mailto:Jamiechristian331@gmail.com)
 
@@ -54,7 +54,7 @@ The portfolio demonstrates hands-on work with:
 | End-to-end analytics projects | 5 |
 | Original source records | 121,366 rows across 10 CSV files |
 | Runtime validation checks | 93 |
-| Automated unit/integration tests | 35 |
+| Automated unit/integration tests | 43 |
 | Analytical approaches | SQL, Python, descriptive statistics, experiment inference |
 | Reporting | Offline HTML reports, CSV results, Excel summaries, BI verification artifacts |
 | Reproducibility | Python 3.12, SQLite, pinned dependencies |
