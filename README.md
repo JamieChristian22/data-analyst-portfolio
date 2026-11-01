@@ -16,6 +16,16 @@
 
 ---
 
+## 🖥️ Explore the Interactive Portfolio
+
+**[Open the offline Analytics Explorer](demo/analytics-explorer.html)** · [How the data is verified](docs/INTERACTIVE_EXPLORER.md)
+
+A self-contained five-project comparison tool with filters for KPI, segment and ranking. Every value in the demo is embedded from a committed aggregate SQL result CSV and checked by an automated source-parity test. Download the HTML and open it locally; GitHub's source viewer does not execute HTML. The demo uses synthetic datasets, makes no network requests, and is not a native Power BI or Tableau dashboard.
+
+**Automated verification:** [GitHub Actions](.github/workflows/validate.yml) now runs all existing Python unit/integration checks, refreshes SQL/Python analysis outputs, checks evidence manifests and source parity, and scans Git history for exposed secrets. A successful workflow is evidence of the tested scope, not a guarantee of live production correctness.
+
+---
+
 ## 👨‍💻 About This Portfolio
 
 Welcome to my Data Analyst Portfolio, a collection of five end-to-end analytical projects demonstrating my ability to transform raw datasets into reliable metrics, uncover business trends, investigate data-quality issues, and communicate findings that support informed decisions.
