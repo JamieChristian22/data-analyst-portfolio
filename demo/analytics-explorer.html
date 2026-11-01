@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Analytics Explorer | Data Analyst Portfolio</title>
+<style>
+:root{font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:#172b40;background:#edf3f7}
+*{box-sizing:border-box}body{margin:0}header{background:#112d43;color:white;padding:2.7rem max(1.25rem,calc((100vw - 1060px)/2));}
+header h1{font-size:clamp(1.9rem,4vw,2.75rem);margin:.25rem 0;letter-spacing:-.025em}
+header p{max-width:770px;color:#d7e8f3}main{max-width:1100px;margin:auto;padding:1.4rem 1.25rem 3rem}
+.eyebrow{font-size:.78rem;color:#89e3cf;letter-spacing:.13em;text-transform:uppercase;font-weight:700}
+.notice{background:#fff;border-left:4px solid #0d7793;padding:1rem 1.15rem;line-height:1.55;margin-bottom:1.5rem}
+.controls{display:grid;grid-template-columns:repeat(5,1fr);gap:.8rem;background:#fff;padding:1.1rem;border-radius:12px;border:1px solid #cedce7}
+label{display:block;font-size:.85rem;font-weight:700;margin-bottom:.3rem}
+input,select{font:inherit;min-width:0;width:100%;padding:.65rem;border:1px solid #8aa5b8;border-radius:7px;color:#19354e;background:white}
+input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #e4a536;outline-offset:2px}
+.chart{background:white;border:1px solid #cedce7;border-radius:12px;padding:1.35rem;margin-top:1rem}
+h2{font-size:1.25rem;margin:.15rem 0}.muted{color:#4e697e;font-size:.9rem}
+.bar-row{display:grid;grid-template-columns:minmax(125px,1.1fr) minmax(120px,3fr) minmax(85px,.8fr);gap:.7rem;align-items:center;margin:.8rem 0}
+.bar-row .cat{overflow-wrap:anywhere;font-size:.9rem}
+.track{background:#e7f0f6;border-radius:6px;height:22px;overflow:hidden}
+.fill{height:100%;background:linear-gradient(90deg,#087f8c,#0e699d);border-radius:5px;min-width:0}
+.value{text-align:right;font-variant-numeric:tabular-nums;font-size:.87rem}
+.foot{margin-top:1.1rem;border-top:1px solid #dbe5ec;padding-top:1rem}
+a{color:#075985}footer{color:#4e697e;font-size:.83rem;margin-top:2rem;line-height:1.6}
+@media(max-width:850px){.controls{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.controls{grid-template-columns:1fr}.bar-row{grid-template-columns:1fr 1fr}.bar-row .track{grid-column:1/3;grid-row:2}.bar-row .value{grid-row:1;grid-column:2}}
+</style></head><body>
+<header><div class="eyebrow">Jamie Christian II · Offline analytics</div>
+<h1>Interactive Analytics Explorer</h1>
+<p>Explore source-backed aggregate results from five simulated data analyst projects. Choose a project, compare numerical metrics, search segments and adjust the ranking.</p></header>
+<main><div class="notice"><strong>Evidence boundary:</strong> Figures are embedded from the repository's committed CSV aggregate reports; they are not live business metrics. Original SQL results and validation evidence remain available through the source links. Simulated findings do not establish causation or verified real-world impact.</div>
+<section class="controls" aria-label="Analytics filters">
+<div><label for="project">Project</label><select id="project"></select></div>
+<div><label for="metric">Measure</label><select id="metric"></select></div>
+<div><label for="search">Search segment</label><input id="search" type="search" placeholder="Filter displayed rows"></div>
+<div><label for="sort">Sort order</label><select id="sort"><option value="desc">Highest first</option><option value="asc">Lowest first</option><option value="source">Source order</option></select></div>
+<div><label for="limit">Rows shown</label><select id="limit"><option value="5">Top 5</option><option value="10">Top 10</option><option value="all">All</option></select></div>
+</section>
+<section class="chart" aria-labelledby="chartTitle">
+<h2 id="chartTitle">Aggregate results</h2>
+<p id="count" role="status" aria-live="polite" class="muted"></p>
+<div id="bars" role="group" aria-label="Interactive comparison bars"></div>
+<div class="foot"><p id="note" class="muted"></p><p class="muted"><strong>Verified source:</strong> <a id="source" href="#">View source aggregate CSV</a>. Results are an offline snapshot; the displayed output is not a native Power BI or Tableau dashboard.</p></div>
+</section>
+<footer>All bars use a zero baseline; heights are scaled to the largest currently displayed value. Value labels show unscaled results. This view is an exploration aid, not proof of experiment randomization, independent observations, or model performance. Source values may differ from older native BI project files.</footer>
+</main>
+<script id="portfolio-data" type="application/json">{"version":1,"scope":"Committed aggregate results from synthetic portfolio data. No live BI connection.","datasets":[{"path":"01_SaaS_Product_Analytics_StreamFlow/Results/onboarding_funnel.csv","title":"SaaS onboarding reach","category":"SaaS","label":"stage","metrics":["users"],"note":"Chronologically ordered onboarding reach; not an estimated intervention effect.","rows":[{"step":"1","stage":"Step 1: Account","users":"1088"},{"step":"2","stage":"Step 2: Workspace","users":"407"},{"step":"3","stage":"Step 3: Integration","users":"123"},{"step":"4","stage":"Step 4: First Workflow","users":"34"},{"step":"5","stage":"Step 5: Invite Team","users":"9"}]},{"path":"02_AB_Test_Feature_Impact/Results/variant_summary.csv","title":"A/B session-level experiment","category":"Experiment","label":"variant","metrics":["sessions","conversions","conversion_rate","revenue_per_session","bounce_rate"],"note":"Session-level independence and randomization are unverified; do not infer production causal impact.","rows":[{"variant":"Control","sessions":"5987","conversions":"1188","conversion_rate":"0.198429931518","bounce_rate":"0.433272089527","mean_engagement":"52.9965633303","revenue":"49719.74","revenue_per_session":"8.30461666945"},{"variant":"Variant B","sessions":"6013","conversions":"1388","conversion_rate":"0.230833194745","bounce_rate":"0.381839348079","mean_engagement":"60.2906094061","revenue":"58527.48","revenue_per_session":"9.73349077"}]},{"path":"03_Ecommerce_Product_Analytics/Results/funnel_by_segment.csv","title":"Ecommerce funnel by segment","category":"Ecommerce","label":["device","channel"],"metrics":["sessions","carts","purchases","conversion_rate","cart_abandonment_rate"],"note":"Observed session measures; customer-level retention and causation cannot be inferred.","rows":[{"device":"Desktop","channel":"Paid Social","sessions":"2247","carts":"807","purchases":"322","conversion_rate":"0.143302180685","cart_abandonment_rate":"0.600991325898"},{"device":"Desktop","channel":"Paid Search","sessions":"3448","carts":"1238","purchases":"475","conversion_rate":"0.137761020882","cart_abandonment_rate":"0.616316639742"},{"device":"Desktop","channel":"Email","sessions":"1739","carts":"616","purchases":"239","conversion_rate":"0.137435307648","cart_abandonment_rate":"0.612012987013"},{"device":"Desktop","channel":"Affiliate","sessions":"1201","carts":"466","purchases":"153","conversion_rate":"0.127393838468","cart_abandonment_rate":"0.671673819742"},{"device":"Desktop","channel":"Organic","sessions":"3452","carts":"1229","purchases":"431","conversion_rate":"0.124855156431","cart_abandonment_rate":"0.649308380797"},{"device":"Mobile","channel":"Affiliate","sessions":"1232","carts":"416","purchases":"153","conversion_rate":"0.124188311688","cart_abandonment_rate":"0.632211538462"},{"device":"Mobile","channel":"Paid Search","sessions":"3669","carts":"1190","purchases":"424","conversion_rate":"0.115562823658","cart_abandonment_rate":"0.643697478992"},{"device":"Mobile","channel":"Email","sessions":"1817","carts":"573","purchases":"199","conversion_rate":"0.109521188773","cart_abandonment_rate":"0.652705061082"},{"device":"Mobile","channel":"Organic","sessions":"3788","carts":"1221","purchases":"407","conversion_rate":"0.107444561774","cart_abandonment_rate":"0.666666666667"},{"device":"Mobile","channel":"Paid Social","sessions":"2407","carts":"736","purchases":"234","conversion_rate":"0.097216452015","cart_abandonment_rate":"0.682065217391"}]},{"path":"04_Amazon_Marketplace_Analytics/Results/category_performance.csv","title":"Marketplace category performance","category":"Marketplace","label":"category","metrics":["recorded_revenue","units","sales_rows"],"note":"Recorded revenue is not necessarily platform commission or GMV; sales rows are not order counts.","rows":[{"category":"Home","recorded_revenue":"416940.49","units":"10548","sales_rows":"5268"},{"category":"Electronics","recorded_revenue":"415820.13","units":"10891","sales_rows":"5404"},{"category":"Sports","recorded_revenue":"388528.46","units":"10387","sales_rows":"5203"},{"category":"Beauty","recorded_revenue":"330135.8","units":"8639","sales_rows":"4324"},{"category":"Toys","recorded_revenue":"278660.48","units":"7598","sales_rows":"3801"}]},{"path":"05_User_Journey_Analytics/Results/stage_reach.csv","title":"User journey stage reach","category":"Journey","label":"journey_stage","metrics":["users"],"note":"Unordered stage reach, not a strict sequential funnel. Source timestamps have known sequencing inconsistencies.","rows":[{"journey_stage":"Landing","users":"6000"},{"journey_stage":"Browse","users":"4346"},{"journey_stage":"Product View","users":"2923"},{"journey_stage":"Add to Cart","users":"1883"},{"journey_stage":"Checkout","users":"1174"},{"journey_stage":"Purchase","users":"627"},{"journey_stage":"Signup","users":"401"}]}]}</script>
+<script>
+"use strict";
+(function(){
+const data=JSON.parse(document.getElementById("portfolio-data").textContent).datasets;
+const el=id=>document.getElementById(id);
+const project=el("project"),metric=el("metric"),search=el("search"),sort=el("sort"),limit=el("limit");
+for(let i=0;i<data.length;i++){const opt=document.createElement("option");opt.value=String(i);opt.textContent=data[i].title;project.append(opt);}
+function labelOf(dataset,row){return (Array.isArray(dataset.label)?dataset.label:[dataset.label]).map(k=>row[k]).join(" / ");}
+function numeric(row,key){const val=Number(row[key]);return Number.isFinite(val)?val:0;}
+function pretty(v,key){if(key.endsWith("_rate"))return (v*100).toLocaleString(undefined,{maximumFractionDigits:2})+"%";return v.toLocaleString(undefined,{maximumFractionDigits:2});}
+function metricOptions(){const d=data[Number(project.value)||0];metric.replaceChildren();for(const key of d.metrics){const opt=document.createElement("option");opt.value=key;opt.textContent=key.replaceAll("_"," ");metric.append(opt);}render();}
+function render(){
+const d=data[Number(project.value)||0],key=metric.value||d.metrics[0],term=search.value.toLowerCase().trim();
+let rows=d.rows.filter(r=>labelOf(d,r).toLowerCase().includes(term));
+if(sort.value!=="source")rows.sort((a,b)=>sort.value==="asc"?numeric(a,key)-numeric(b,key):numeric(b,key)-numeric(a,key));
+const total=rows.length,cap=limit.value==="all"?total:Number(limit.value);rows=rows.slice(0,cap);
+el("chartTitle").textContent=d.title;el("count").textContent=rows.length+" of "+total+" matching groups shown · "+key.replaceAll("_"," ");
+el("note").textContent=d.note;el("source").href="../"+d.path;
+const bars=el("bars");bars.replaceChildren();const maximum=Math.max(0,...rows.map(r=>numeric(r,key)));
+if(!rows.length){const p=document.createElement("p");p.textContent="No rows match this search.";bars.append(p);return;}
+for(const row of rows){
+const val=numeric(row,key),wrapper=document.createElement("div");wrapper.className="bar-row";
+const name=document.createElement("div");name.className="cat";name.textContent=labelOf(d,row);
+const track=document.createElement("div");track.className="track";const fill=document.createElement("div");fill.className="fill";fill.style.width=(maximum?100*val/maximum:0).toFixed(2)+"%";track.append(fill);
+const value=document.createElement("div");value.className="value";value.textContent=pretty(val,key);
+wrapper.append(name,track,value);bars.append(wrapper);
+}}
+project.addEventListener("change",()=>{search.value="";metricOptions();});
+for(const control of [metric,search,sort,limit])control.addEventListener(control===search?"input":"change",render);
+metricOptions();
+})();
+</script>
+</body></html>
