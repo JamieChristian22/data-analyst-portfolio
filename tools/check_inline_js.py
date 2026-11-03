@@ -11,9 +11,9 @@ from pathlib import Path
 import re
 import subprocess
 
-SCRIPTS = re.compile(r"<script\\b([^>]*)>(.*?)</script\\s*>", re.I | re.S)
-JSON_SCRIPT = re.compile(r"""\\btype\\s*=\\s*(['"])application/json\\1""", re.I)
-SRC = re.compile(r"\\bsrc\\s*=", re.I)
+SCRIPTS = re.compile(r"<script\b([^>]*)>(.*?)</script\s*>", re.I | re.S)
+JSON_SCRIPT = re.compile(r"""\btype\s*=\s*(['"])application/json\1""", re.I)
+SRC = re.compile(r"\bsrc\s*=", re.I)
 
 
 def check(html_path: Path) -> None:
