@@ -51,7 +51,7 @@ const el=id=>document.getElementById(id);
 const project=el("project"),metric=el("metric"),search=el("search"),sort=el("sort"),limit=el("limit");
 for(let i=0;i<data.length;i++){const opt=document.createElement("option");opt.value=String(i);opt.textContent=data[i].title;project.append(opt);}
 function labelOf(dataset,row){return (Array.isArray(dataset.label)?dataset.label:[dataset.label]).map(k=>row[k]).join(" / ");}
-function numeric(row,key){const val=Number(row[key]);return Number.isFinite(val)?val:0;}
+function numeric(row,key){const raw=row[key],val=Number(raw);if(raw===undefined||raw===null||String(raw).trim()===""||!Number.isFinite(val))throw new Error("Invalid chart metric: "+key);return val;}
 function pretty(v,key){if(key.endsWith("_rate"))return (v*100).toLocaleString(undefined,{maximumFractionDigits:2})+"%";return v.toLocaleString(undefined,{maximumFractionDigits:2});}
 function metricOptions(){const d=data[Number(project.value)||0];metric.replaceChildren();for(const key of d.metrics){const opt=document.createElement("option");opt.value=key;opt.textContent=key.replaceAll("_"," ");metric.append(opt);}render();}
 function render(){
