@@ -31,5 +31,31 @@ class StatisticalTests(unittest.TestCase):
         self.assertEqual(experiment(0,100,0,100)['p_value'],1)
     def test_severe_sample_ratio_mismatch(self):
         self.assertLess(experiment(20,100,2,10)['srm_p_value_50_50'],.001)
+
+    def test_fractional_boolean_and_nonfinite_counts_are_rejected(self):
+        for value in (1.5, True, float('nan'), float('inf'), '1'):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                proportion_interval(value, 100)
+        for value in (10.5, False, float('nan')):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                experiment(2, 20, 2, value)
+
+    def test_invalid_confidence_levels_are_rejected(self):
+        for confidence in (0, 1, -0.1, 1.1, float('nan'), float('inf'), True):
+            with self.subTest(confidence=confidence), self.assertRaises(ValueError):
+                proportion_interval(5, 20, confidence)
+
+    def test_planned_unequal_allocation_distinguishes_srm_from_50_50(self):
+        result = experiment(20, 100, 40, 200, expected_treatment_share=2/3)
+        self.assertAlmostEqual(result['srm_p_value_expected_allocation'], 1)
+        self.assertLess(result['srm_p_value_50_50'], 0.001)
+        self.assertEqual(result['expected_treatment_share'], 2/3)
+        self.assertAlmostEqual(result['absolute_lift'], 0)
+
+    def test_invalid_planned_allocation_is_rejected(self):
+        for share in (0, 1, -0.1, float('nan'), float('inf'), True):
+            with self.subTest(share=share), self.assertRaises(ValueError):
+                experiment(5, 10, 5, 10, expected_treatment_share=share)
+
     def test_safe_ratio(self):
         self.assertIsNone(ratio(1,0));self.assertEqual(ratio(1,4),.25)
