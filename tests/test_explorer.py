@@ -59,6 +59,10 @@ class ExplorerEvidenceTests(unittest.TestCase):
         self.assertIsNone(re.search(r'<link[^>]+href=', self.page, flags=re.I))
         self.assertNotIn("fetch(", self.page)
 
+    def test_browser_does_not_silently_replace_invalid_metrics_with_zero(self):
+        self.assertIn('throw new Error("Invalid chart metric: "+key)', self.page)
+        self.assertNotIn('Number.isFinite(val)?val:0', self.page)
+
     def test_limitations_for_experiment_and_unordered_journey_are_explicit(self):
         datasets = {item["category"]: item for item in self.data["datasets"]}
         self.assertIn("independence", datasets["Experiment"]["note"])
