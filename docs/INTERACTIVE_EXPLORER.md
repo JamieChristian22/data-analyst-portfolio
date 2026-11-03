@@ -11,7 +11,7 @@ The explorer embeds aggregate results from these files:
 - [Marketplace categories](../04_Amazon_Marketplace_Analytics/Results/category_performance.csv) — recorded category revenue and units
 - [User journey reach](../05_User_Journey_Analytics/Results/stage_reach.csv) — *unordered* event-stage reach, not the strict chronological funnel
 
-These CSVs are themselves derived from supplied simulated portfolio datasets, with independently checked Python/SQL reconciliations. **The explorer is a snapshot of repository results, not a live data feed or a native BI product.** It does not show raw user/session records.
+These CSVs are themselves derived from supplied simulated portfolio datasets, with independently checked Python/SQL reconciliations. **The explorer is a snapshot of repository results, not a live data feed or a native BI product. Invalid, missing, or non-finite chart values now stop rendering rather than silently appearing as zero.** It does not show raw user/session records.
 
 ## How to use
 
