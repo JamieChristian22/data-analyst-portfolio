@@ -57,16 +57,20 @@ def experiment(control_success, control_n, treatment_success, treatment_n,
         [control_n, treatment_n],
         f_exp=[n*(1-expected_treatment_share), n*expected_treatment_share]
     ).pvalue)
-    return dict(control_n=control_n, treatment_n=treatment_n,
-                control_rate=a, treatment_rate=b, absolute_lift=delta,
-                relative_lift=delta/a if a else None,
-                difference_ci_low=delta-sqrt((b-lo_b)**2+(hi_a-a)**2),
-                difference_ci_high=delta+sqrt((hi_b-b)**2+(a-lo_a)**2),
-                p_value=pvalue,
-                srm_p_value_50_50=float(chisquare([control_n, treatment_n]).pvalue),
-                srm_p_value_expected_allocation=srm_expected,
-                expected_treatment_share=expected_treatment_share,
-                confidence_level=0.95)
+    result = dict(control_n=control_n, treatment_n=treatment_n,
+                  control_rate=a, treatment_rate=b, absolute_lift=delta,
+                  relative_lift=delta/a if a else None,
+                  difference_ci_low=delta-sqrt((b-lo_b)**2+(hi_a-a)**2),
+                  difference_ci_high=delta+sqrt((hi_b-b)**2+(a-lo_a)**2),
+                  p_value=pvalue,
+                  srm_p_value_50_50=float(chisquare([control_n, treatment_n]).pvalue),
+                  confidence_level=0.95)
+    # Preserve committed default-allocation report schemas, while supporting
+    # an explicit alternative assignment ratio for new experiments.
+    if expected_treatment_share != 0.5:
+        result['srm_p_value_expected_allocation'] = srm_expected
+        result['expected_treatment_share'] = expected_treatment_share
+    return result
 
 
 def ratio(numerator, denominator):
