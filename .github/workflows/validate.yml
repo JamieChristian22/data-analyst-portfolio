@@ -1,0 +1,100 @@
+name: Validate analytics and source-backed explorer
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analytics:
+    name: Reconcile SQL, Python and portfolio evidence
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out source without persisted credentials
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install pinned numerical dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check Python syntax
+        run: python -m compileall -q portfolio scripts tests
+      - name: Parse offline dashboard JavaScript without executing it
+        run: python tools/check_inline_js.py demo/analytics-explorer.html
+      - name: Verify committed manifest integrity and explorer parity
+        run: python -m unittest discover -s tests -v
+      - name: Rebuild all five source-backed SQL analyses
+        run: python -m portfolio.run
+      - name: Verify regenerated manifest integrity and explorer parity
+        run: python -m unittest discover -s tests -v
+      - name: Upload reproducibility evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: analytics-reconciliation-evidence
+          if-no-files-found: warn
+          retention-days: 14
+          path: |
+            build/run_summary.json
+            */Results/validation.json
+            */Results/quality.json
+            */Results/manifest.json
+            */Results/additional_metrics.json
+            demo/analytics-explorer.html
+
+  browser-smoke:
+    name: Headless browser interaction and mobile smoke test
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install pinned Chromium smoke dependencies
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Verify browser interactions, keyboard and mobile layout
+        run: python tools/smoke_demo.py
+      - name: Upload browser screenshots
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: analytics-browser-smoke
+          if-no-files-found: warn
+          retention-days: 14
+          path: reports/analytics-*.png
+
+  secrets:
+    name: Scan Git history for exposed secrets
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out complete history
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Download and verify Gitleaks binary
+        run: |
+          curl --fail --location --retry 3 --silent --show-error \
+            https://github.com/gitleaks/gitleaks/releases/download/v8.24.2/gitleaks_8.24.2_linux_x64.tar.gz \
+            -o /tmp/gitleaks.tar.gz
+          echo 'fa0500f6b7e41d28791ebc680f5dd9899cd42b58629218a5f041efa899151a8e  /tmp/gitleaks.tar.gz' | sha256sum --check
+          tar -xzf /tmp/gitleaks.tar.gz -C /tmp gitleaks
+          chmod +x /tmp/gitleaks
+      - name: Scan all reachable Git history
+        run: /tmp/gitleaks git --no-banner --redact .

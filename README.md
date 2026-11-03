@@ -10,9 +10,19 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-4479A1)
 ![Projects](https://img.shields.io/badge/Analytics_Projects-5-success)
-![Testing](https://img.shields.io/badge/Automated_Tests-35-informational)
+![Testing](https://img.shields.io/badge/Automated_Tests-43-informational)
 
 🌐 [LinkedIn](https://www.linkedin.com/in/jamiechristian2/) | 💻 [GitHub](https://github.com/JamieChristian22) | 📧 [Email](mailto:Jamiechristian331@gmail.com)
+
+---
+
+## 🖥️ Explore the Interactive Portfolio
+
+**[Open the offline Analytics Explorer](demo/analytics-explorer.html)** · [How the data is verified](docs/INTERACTIVE_EXPLORER.md)
+
+A self-contained five-project comparison tool with filters for KPI, segment and ranking. Every value in the demo is embedded from a committed aggregate SQL result CSV and checked by an automated source-parity test. Download the HTML and open it locally; GitHub's source viewer does not execute HTML. The demo uses synthetic datasets, makes no network requests, and is not a native Power BI or Tableau dashboard.
+
+**Automated verification:** [GitHub Actions](.github/workflows/validate.yml) now runs all existing Python unit/integration checks, refreshes SQL/Python analysis outputs, checks evidence manifests and source parity, and scans Git history for exposed secrets. A successful workflow is evidence of the tested scope, not a guarantee of live production correctness.
 
 ---
 
@@ -44,7 +54,7 @@ The portfolio demonstrates hands-on work with:
 | End-to-end analytics projects | 5 |
 | Original source records | 121,366 rows across 10 CSV files |
 | Runtime validation checks | 93 |
-| Automated unit/integration tests | 35 |
+| Automated unit/integration tests | 43 |
 | Analytical approaches | SQL, Python, descriptive statistics, experiment inference |
 | Reporting | Offline HTML reports, CSV results, Excel summaries, BI verification artifacts |
 | Reproducibility | Python 3.12, SQLite, pinned dependencies |

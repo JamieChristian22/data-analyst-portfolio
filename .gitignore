@@ -1,0 +1,22 @@
+# Local development and reproducible build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Do not commit real customer records or cloud credentials
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example

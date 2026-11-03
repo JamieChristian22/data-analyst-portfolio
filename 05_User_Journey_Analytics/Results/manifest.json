@@ -13,7 +13,7 @@
   "outputs": {
     "05_User_Journey_Analytics/Data/clean/journey_events_clean.csv": "6410d5cd4a277fc51eb5d13a5e5b53f376d99467cc652fbcf1d2037f70a0b681",
     "05_User_Journey_Analytics/Data/clean/users_clean.csv": "617f4b105245b33b7f055f569f57476208e40a5d8388d0409d5dfce8be25d956",
-    "05_User_Journey_Analytics/README.md": "5d38cbbfa5ec07ccec94a00131a18758801d02ec527d4a9c532ba5eb894dc35e",
+    "05_User_Journey_Analytics/README.md": "36b90fd53b106a407ff81953c7dcd48d00ffaddf1a47b2c76ceca373d9ec749c",
     "05_User_Journey_Analytics/REPORT.html": "7063d85cd93bdd54db0e8c1ea19b7ce982c1d5065b70f42ac0449dbcc804c726",
     "05_User_Journey_Analytics/Results/additional_metrics.json": "9de1ad9643c86e5338348c86f25767d38428fd1c70d249b451bf3463849a6e3f",
     "05_User_Journey_Analytics/Results/ordered_funnel.csv": "9cc2939bbf5d3c59af574ad42bb454d2afb8f16de5f2378a455585eca622ebc6",
