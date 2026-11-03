@@ -682,3 +682,7 @@ I value analytical accuracy, continuous learning, practical problem-solving, and
 This portfolio demonstrates not just how to calculate metrics, but how to validate, interpret, explain, and responsibly use them.
 
 **Built and maintained by Jamie Christian.**
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
