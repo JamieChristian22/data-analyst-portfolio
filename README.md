@@ -690,3 +690,9 @@ See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, i
 ## Reviewer guide and asset provenance
 
 For project evidence navigation and an asset-rights review checklist, see [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md). Sample asset entries still require independent origin and permission verification.
+
+## Hardened A/B statistical inference
+
+`portfolio/metrics.py` now checks that experiment arm sizes and successes are valid integer counts. Wilson intervals reject invalid confidence levels. For 70:30 or other non-50:50 experiments, supply the *planned* assignment ratio with `experiment(..., expected_treatment_share=0.3)` and read `srm_p_value_expected_allocation`. The original `srm_p_value_50_50` remains available as a separate diagnostic. User-level independence and assignment design still require original experiment metadata.
+
+The [statistics regression tests](tests/test_metrics.py) and five source-manifest integrity checks run in the [analytics validation workflow](.github/workflows/validate.yml).
