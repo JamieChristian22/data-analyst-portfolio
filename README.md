@@ -16,6 +16,20 @@
 
 ---
 
+## 🌍 Start here — try, verify, contribute
+
+| Your goal | Best entry point |
+| --- | --- |
+| **Explore analysis without a BI license** | [Offline interactive analytics explorer](demo/analytics-explorer.html) — download the HTML file and open it locally |
+| **Check where a number came from** | [Source-to-result verification guide](docs/INTERACTIVE_EXPLORER.md) |
+| **Reproduce the projects with Python** | [Local reproduction steps](#-reproduce-the-portfolio) (Python 3.12; follow the documented dependencies) |
+| **Propose a fix or improvement** | [Contributing guide](CONTRIBUTING.md) · [Open issues](https://github.com/JamieChristian22/data-analyst-portfolio/issues) |
+
+New to analytics? Start with one question: **Which customer or product KPI would you trust, and what source evidence supports it?** Trace a value from the explorer to its CSV, then review the documented validation and limitations.
+
+**Community welcome:** Reproducible test cases, accessible explanations, documentation corrections, and clearly sourced synthetic examples. The datasets represent simulated business scenarios, not real customer results.
+
+---
 ## 🖥️ Explore the Interactive Portfolio
 
 **[Open the offline Analytics Explorer](demo/analytics-explorer.html)** · [How the data is verified](docs/INTERACTIVE_EXPLORER.md)
