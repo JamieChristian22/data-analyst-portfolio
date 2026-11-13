@@ -1,0 +1,40 @@
+name: "Analytics example or reproducibility issue"
+description: "Report a problem with a sample analysis, offline explorer, documentation, or reproducibility steps."
+title: "[Analytics] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for improving these educational analytics examples. Please do not attach private customer data, secrets, or unlicensed files."
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Area"
+      options:
+        - "Python/SQL analysis"
+        - "Data quality or KPI reconciliation"
+        - "Offline analytics explorer"
+        - "Setup, testing, or documentation"
+        - "Accessibility"
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: "Public file, project, or link"
+      placeholder: "02_AB_Test_Feature_Impact or docs/INTERACTIVE_EXPLORER.md"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce or understand"
+      description: "Include relevant commands and synthetic input examples when possible."
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Observed behavior and expected behavior"
+      description: "If a check failed, include the error text with secrets removed."
+    validations:
+      required: true
